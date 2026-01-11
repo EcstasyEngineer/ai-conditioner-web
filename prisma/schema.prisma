@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
@@ -16,12 +16,12 @@ model Account {
   type              String
   provider          String
   providerAccountId String
-  refresh_token     String? @db.Text
-  access_token      String? @db.Text
+  refresh_token     String?
+  access_token      String?
   expires_at        Int?
   token_type        String?
   scope             String?
-  id_token          String? @db.Text
+  id_token          String?
   session_state     String?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -76,10 +76,10 @@ model Theme {
   description String
   appeal      String   // Psychological appeal text
   
-  // Hierarchical tagging
-  categories  String[] // High-level: ["Hypnosis", "Experience", "Identity", "Personality", "Behavior", "Ds"]
-  relatedThemes String[] // Cross-references to other theme names
-  keywords    String[]
+  // Hierarchical tagging (JSON arrays for SQLite compatibility)
+  categories  String @default("[]") // High-level: ["Hypnosis", "Experience", "Identity", "Personality", "Behavior", "Ds"]
+  relatedThemes String @default("[]") // Cross-references to other theme names
+  keywords    String @default("[]")
   
   cnc         Boolean  @default(false)
   
@@ -104,8 +104,8 @@ model Mantra {
   hasDominant Boolean   // Whether template includes dominant references
   lineType   LineType?  // INDUCTION, DEEPENER, etc.
   
-  // Cross-theme tagging
-  crossThemes String[]  // Other theme names this mantra relates to
+  // Cross-theme tagging (JSON array for SQLite compatibility)
+  crossThemes String @default("[]") // Other theme names this mantra relates to
   
   // Relations
   renderedMantras RenderedMantra[]

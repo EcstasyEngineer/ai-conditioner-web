@@ -9,7 +9,7 @@ interface Theme {
   name: string;
   description: string;
   keywords: string[];
-  tags: string[];
+  categories: string[];
   mantras: Array<{
     id: string;
     text: string;
@@ -56,7 +56,8 @@ export default function SessionBuilder() {
 
   const loadThemes = async () => {
     try {
-      const response = await fetch('/api/themes');
+      // Only fetch themes that have mantras
+      const response = await fetch('/api/themes?withMantras=true');
       if (response.ok) {
         const themesData = await response.json();
         setThemes(themesData);
@@ -104,20 +105,49 @@ export default function SessionBuilder() {
       alert('Please enter a session name');
       return;
     }
-    
+
     if (phases.length === 0) {
       alert('Please add at least one phase');
       return;
     }
 
+    // Check that each phase has at least one theme
+    const emptyPhase = phases.find(p => p.themes.length === 0);
+    if (emptyPhase) {
+      alert(`Phase "${emptyPhase.name}" has no themes selected`);
+      return;
+    }
+
     setSaving(true);
     try {
-      // This will be implemented later
-      console.log('Saving session:', { sessionName, phases });
+      const response = await fetch('/api/sessions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: sessionName,
+          phases: phases.map(p => ({
+            name: p.name,
+            duration: p.duration,
+            player: p.player,
+            cycler: p.cycler,
+            themes: p.themes,
+          })),
+        }),
+      });
+
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(data.error || 'Failed to save session');
+      }
+
+      const savedSession = await response.json();
       alert('Session saved successfully!');
+
+      // Redirect to the player or dashboard
+      window.location.href = `/session/player/${savedSession.id}`;
     } catch (error) {
       console.error('Error saving session:', error);
-      alert('Error saving session');
+      alert(error instanceof Error ? error.message : 'Error saving session');
     } finally {
       setSaving(false);
     }

@@ -18,11 +18,8 @@ export function Header() {
             <Link href="/dashboard" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
               Dashboard
             </Link>
-            <Link href="/themes" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-              Themes
-            </Link>
-            <Link href="/sessions" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-              Sessions
+            <Link href="/session/builder" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+              New Session
             </Link>
           </nav>
 

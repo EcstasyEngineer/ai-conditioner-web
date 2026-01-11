@@ -42,7 +42,20 @@ export function validateVerbConjugation(verbPattern: string): boolean {
 }
 
 export function getVerbSuggestions(partial: string): string[] {
-  return VERB_CONJUGATIONS.filter(pattern => 
+  return VERB_CONJUGATIONS.filter(pattern =>
     pattern.toLowerCase().includes(partial.toLowerCase())
   ).slice(0, 10);
+}
+
+// Load verb conjugations as a Map for template rendering
+export function loadVerbConjugations(): Map<string, string[]> {
+  const conjugations = new Map<string, string[]>();
+
+  for (const pattern of VERB_CONJUGATIONS) {
+    const forms = pattern.split('|');
+    const base = forms[0];
+    conjugations.set(base, forms);
+  }
+
+  return conjugations;
 }

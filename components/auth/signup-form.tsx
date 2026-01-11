@@ -1,28 +1,29 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { useRouter } from "next/navigation"
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { Input } from "@/components/ui/input";
 
 export function SignUpForm() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     password: "",
-    confirmPassword: ""
-  })
-  const [isLoading, setIsLoading] = useState(false)
-  const [error, setError] = useState("")
-  const router = useRouter()
+    confirmPassword: "",
+  });
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+  const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
-    setError("")
+    e.preventDefault();
+    setIsLoading(true);
+    setError("");
 
     if (formData.password !== formData.confirmPassword) {
-      setError("Passwords don't match")
-      setIsLoading(false)
-      return
+      setError("Passwords don't match");
+      setIsLoading(false);
+      return;
     }
 
     try {
@@ -36,33 +37,35 @@ export function SignUpForm() {
           email: formData.email,
           password: formData.password,
         }),
-      })
+      });
 
       if (response.ok) {
-        router.push("/auth/signin?message=Account created successfully")
+        router.push("/auth/signin?message=Account created successfully");
       } else {
-        const data = await response.json()
-        setError(data.error || "An error occurred")
+        const data = await response.json();
+        setError(data.error || "An error occurred");
       }
     } catch {
-      setError("An error occurred. Please try again.")
+      setError("An error occurred. Please try again.");
     } finally {
-      setIsLoading(false)
+      setIsLoading(false);
     }
-  }
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
-    }))
-  }
+      [e.target.name]: e.target.value,
+    }));
+  };
 
   return (
     <div className="w-full max-w-md mx-auto">
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <h2 className="text-2xl font-bold text-center mb-6">Create Account</h2>
+          <h2 className="text-2xl font-bold text-center mb-6 text-gray-900">
+            Create Account
+          </h2>
         </div>
 
         {error && (
@@ -71,69 +74,49 @@ export function SignUpForm() {
           </div>
         )}
 
-        <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-            Name
-          </label>
-          <input
-            id="name"
-            name="name"
-            type="text"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Your name"
-          />
-        </div>
+        <Input
+          id="name"
+          name="name"
+          type="text"
+          label="Name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+          placeholder="Your name"
+        />
 
-        <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-            Email
-          </label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-            placeholder="your@email.com"
-          />
-        </div>
+        <Input
+          id="email"
+          name="email"
+          type="email"
+          label="Email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+          placeholder="your@email.com"
+        />
 
-        <div>
-          <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-            Password
-          </label>
-          <input
-            id="password"
-            name="password"
-            type="password"
-            value={formData.password}
-            onChange={handleChange}
-            required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Password"
-          />
-        </div>
+        <Input
+          id="password"
+          name="password"
+          type="password"
+          label="Password"
+          value={formData.password}
+          onChange={handleChange}
+          required
+          placeholder="Password"
+        />
 
-        <div>
-          <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">
-            Confirm Password
-          </label>
-          <input
-            id="confirmPassword"
-            name="confirmPassword"
-            type="password"
-            value={formData.confirmPassword}
-            onChange={handleChange}
-            required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Confirm password"
-          />
-        </div>
+        <Input
+          id="confirmPassword"
+          name="confirmPassword"
+          type="password"
+          label="Confirm Password"
+          value={formData.confirmPassword}
+          onChange={handleChange}
+          required
+          placeholder="Confirm password"
+        />
 
         <button
           type="submit"
@@ -144,7 +127,7 @@ export function SignUpForm() {
         </button>
 
         <div className="text-center">
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-700">
             Already have an account?{" "}
             <a href="/auth/signin" className="text-blue-600 hover:text-blue-500">
               Sign in
@@ -153,5 +136,5 @@ export function SignUpForm() {
         </div>
       </form>
     </div>
-  )
+  );
 }

@@ -11,7 +11,7 @@ interface Theme {
   name: string;
   description: string;
   keywords: string[];
-  tags: string[];
+  categories: string[];
   mantras: Array<{
     id: string;
     text: string;
@@ -74,8 +74,11 @@ export default function Dashboard() {
 
   const loadSessions = async () => {
     try {
-      // This will be implemented later
-      setSessions([]);
+      const response = await fetch('/api/sessions');
+      if (response.ok) {
+        const sessionsData = await response.json();
+        setSessions(sessionsData);
+      }
     } catch (error) {
       console.error('Error loading sessions:', error);
     } finally {
@@ -94,10 +97,10 @@ export default function Dashboard() {
     }
   };
 
-  const categories = ['All', ...new Set(themes.flatMap(theme => theme.tags))];
-  const filteredThemes = selectedCategory === 'All' 
-    ? themes 
-    : themes.filter(theme => theme.tags.includes(selectedCategory));
+  const categoriesList = ['All', ...new Set(themes.flatMap(theme => theme.categories))];
+  const filteredThemes = selectedCategory === 'All'
+    ? themes
+    : themes.filter(theme => theme.categories.includes(selectedCategory));
 
   // Loading state for authentication
   if (status === "loading") {
@@ -223,7 +226,7 @@ export default function Dashboard() {
                   onChange={(e) => setSelectedCategory(e.target.value)}
                   className="w-full p-2 border border-gray-300 rounded-lg text-sm"
                 >
-                  {categories.map(category => (
+                  {categoriesList.map(category => (
                     <option key={category} value={category}>{category}</option>
                   ))}
                 </select>
@@ -251,9 +254,9 @@ export default function Dashboard() {
                           {theme.mantras.length} mantras
                         </span>
                         <div className="flex gap-1">
-                          {theme.tags.slice(0, 2).map(tag => (
-                            <span key={tag} className="bg-pink-100 text-pink-700 px-2 py-1 rounded text-xs">
-                              {tag}
+                          {theme.categories.slice(0, 2).map(cat => (
+                            <span key={cat} className="bg-pink-100 text-pink-700 px-2 py-1 rounded text-xs">
+                              {cat}
                             </span>
                           ))}
                         </div>

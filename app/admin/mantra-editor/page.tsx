@@ -45,12 +45,6 @@ export default function MantraEditor() {
     'Salli', 'Joanna', 'Kendra', 'Kimberly', 'Amy', 'Emma', 'Brian', 'Justin'
   ];
 
-  useEffect(() => {
-    if (currentTemplate) {
-      generateVariants();
-    }
-  }, [currentTemplate, generateVariants]);
-
   const generateVariants = useCallback(() => {
     if (!currentTemplate.trim()) {
       setVariants([]);
@@ -58,7 +52,7 @@ export default function MantraEditor() {
     }
 
     const newVariants: ProcessedVariant[] = [];
-    
+
     // Generate variants for different POV and dominant combinations
     const povVariants = [
       { name: 'First Person', vars: TEMPLATE_VARIABLES.FIRST_PERSON },
@@ -76,7 +70,7 @@ export default function MantraEditor() {
         };
 
         const processedText = TemplateProcessor.processTemplate(currentTemplate, variables);
-        
+
         newVariants.push({
           text: processedText,
           variables: `${pov.name} + ${dominant}`
@@ -86,6 +80,12 @@ export default function MantraEditor() {
 
     setVariants(newVariants);
   }, [currentTemplate]);
+
+  useEffect(() => {
+    if (currentTemplate) {
+      generateVariants();
+    }
+  }, [currentTemplate, generateVariants]);
 
   const generateAudioForVariants = async () => {
     setIsGeneratingAudio(true);

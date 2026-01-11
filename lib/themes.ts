@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import { prisma } from './prisma';
+import { prisma } from './db';
+import { Difficulty } from '@prisma/client';
 
 export interface ThemeOntology {
   description: string;
@@ -10,10 +11,13 @@ export interface ThemeOntology {
   tags?: string[];
 }
 
-export interface MantraData {
-  text: string;
-  difficulty: 'BASIC' | 'LIGHT' | 'MODERATE' | 'DEEP' | 'EXTREME';
-  points: number;
+export interface MantraEntry {
+  type: string;
+  line: string;
+  theme: string;
+  dominant: string | null;
+  subject: string | null;
+  difficulty: string;
 }
 
 export class ThemeLoader {
@@ -43,14 +47,18 @@ export class ThemeLoader {
         where: { name: themeName }
       });
 
+      const tags = ontologyData.tags || this.categorizeTheme(themeName);
+
       if (!theme) {
-        // Create theme
+        // Create theme with JSON-stringified arrays for SQLite
         theme = await prisma.theme.create({
           data: {
             name: themeName,
             description: ontologyData.description,
-            keywords: ontologyData.keywords,
-            tags: ontologyData.tags || this.categorizeTheme(themeName),
+            appeal: ontologyData.appeal || '',
+            keywords: JSON.stringify(ontologyData.keywords || []),
+            categories: JSON.stringify(tags),
+            relatedThemes: JSON.stringify([]),
             cnc: ontologyData.cnc || false
           }
         });
@@ -69,115 +77,107 @@ export class ThemeLoader {
   private async loadMantras(themeId: string, themeName: string) {
     // Look for mantra files in different category folders
     const categories = ['Behavior', 'Ds', 'Experience', 'Hypnosis', 'Identity', 'Personality'];
-    
+
     for (const category of categories) {
-      const mantraPath = path.join(this.mantrasPath, category, `${themeName}.txt`);
       const jsonPath = path.join(this.mantrasPath, category, `${themeName}.json`);
-      
-      // Try JSON first (normalized), then TXT
+
       if (fs.existsSync(jsonPath)) {
-        await this.loadNormalizedMantras(themeId, jsonPath);
-      } else if (fs.existsSync(mantraPath)) {
-        await this.loadTextMantras(themeId, mantraPath);
+        await this.loadMantraFile(themeId, jsonPath);
+        return; // Found mantras, stop looking
       }
     }
   }
 
-  private async loadNormalizedMantras(themeId: string, filePath: string) {
+  private async loadMantraFile(themeId: string, filePath: string) {
     try {
-      const mantras: MantraData[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-      
-      for (const mantra of mantras) {
-        await prisma.mantra.upsert({
-          where: {
-            themeId_text: {
-              themeId,
-              text: mantra.text
-            }
-          },
-          update: {
-            difficulty: mantra.difficulty,
-            points: mantra.points
-          },
-          create: {
-            themeId,
-            text: mantra.text,
-            difficulty: mantra.difficulty,
-            points: mantra.points
+      const entries: MantraEntry[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
+      // Group by template pattern - we want unique templates
+      const templates = new Map<string, MantraEntry>();
+
+      for (const entry of entries) {
+        // Skip entries with specific subjects/dominants - we want templates
+        // OR take the first occurrence as the template
+        if (!entry.subject && !entry.dominant) {
+          const key = entry.line;
+          if (!templates.has(key)) {
+            templates.set(key, entry);
           }
-        });
+        }
+      }
+
+      // If no generic templates found, use first 100 unique lines as-is
+      if (templates.size === 0) {
+        const seen = new Set<string>();
+        for (const entry of entries.slice(0, 400)) {
+          if (!seen.has(entry.line)) {
+            seen.add(entry.line);
+            templates.set(entry.line, entry);
+            if (templates.size >= 100) break;
+          }
+        }
+      }
+
+      for (const [template, entry] of templates) {
+        const difficulty = this.mapDifficulty(entry.difficulty);
+        const hasDominant = entry.dominant !== null || template.toLowerCase().includes('master') || template.toLowerCase().includes('mistress');
+
+        try {
+          await prisma.mantra.upsert({
+            where: {
+              themeId_template: {
+                themeId,
+                template
+              }
+            },
+            update: {
+              difficulty,
+              points: this.getPoints(difficulty),
+              hasDominant
+            },
+            create: {
+              themeId,
+              template,
+              difficulty,
+              points: this.getPoints(difficulty),
+              hasDominant,
+              crossThemes: JSON.stringify([])
+            }
+          });
+        } catch {
+          // Skip duplicates silently
+        }
       }
     } catch (error) {
-      console.error(`Error loading normalized mantras from ${filePath}:`, error);
+      console.error(`Error loading mantras from ${filePath}:`, error);
     }
   }
 
-  private async loadTextMantras(themeId: string, filePath: string) {
-    try {
-      const content = fs.readFileSync(filePath, 'utf-8');
-      const lines = content.split('\n').filter(line => line.trim());
-      
-      for (const line of lines) {
-        const { difficulty, points } = this.estimateDifficulty(line);
-        
-        await prisma.mantra.upsert({
-          where: {
-            themeId_text: {
-              themeId,
-              text: line.trim()
-            }
-          },
-          update: {
-            difficulty,
-            points
-          },
-          create: {
-            themeId,
-            text: line.trim(),
-            difficulty,
-            points
-          }
-        });
-      }
-    } catch (error) {
-      console.error(`Error loading text mantras from ${filePath}:`, error);
-    }
+  private mapDifficulty(diff: string): Difficulty {
+    const map: Record<string, Difficulty> = {
+      'BASIC': 'BASIC',
+      'LIGHT': 'LIGHT',
+      'MODERATE': 'MODERATE',
+      'DEEP': 'DEEP',
+      'EXTREME': 'EXTREME'
+    };
+    return map[diff.toUpperCase()] || 'BASIC';
   }
 
-  private estimateDifficulty(text: string): { difficulty: 'BASIC' | 'LIGHT' | 'MODERATE' | 'DEEP' | 'EXTREME', points: number } {
-    const lowerText = text.toLowerCase();
-    
-    // Extreme keywords (Discord bot learnings)
-    if (lowerText.includes('forever') || lowerText.includes('permanent') || 
-        lowerText.includes('irreversible') || lowerText.includes('completely')) {
-      return { difficulty: 'EXTREME', points: 110 };
-    }
-    
-    // Deep keywords
-    if (lowerText.includes('deep') || lowerText.includes('mindless') || 
-        lowerText.includes('empty') || lowerText.includes('blank')) {
-      return { difficulty: 'DEEP', points: 70 };
-    }
-    
-    // Moderate keywords
-    if (lowerText.includes('obey') || lowerText.includes('submit') || 
-        lowerText.includes('surrender') || lowerText.includes('focus')) {
-      return { difficulty: 'MODERATE', points: 40 };
-    }
-    
-    // Light keywords
-    if (lowerText.includes('relax') || lowerText.includes('calm') || 
-        lowerText.includes('comfortable') || lowerText.includes('safe')) {
-      return { difficulty: 'LIGHT', points: 25 };
-    }
-    
-    // Default to basic
-    return { difficulty: 'BASIC', points: 12 };
+  private getPoints(difficulty: Difficulty): number {
+    const points: Record<Difficulty, number> = {
+      'BASIC': 12,
+      'LIGHT': 25,
+      'MODERATE': 40,
+      'DEEP': 70,
+      'EXTREME': 110
+    };
+    return points[difficulty];
   }
 
   private categorizeTheme(themeName: string): string[] {
     const categories: Record<string, string[]> = {
-      'Experience': ['Dreaming', 'Ego_Loss', 'Emotion_Joy', 'Emotion_Love', 'Emptiness', 'Fear', 'Pleasure', 'Safety'],
+      'Experience': ['Dreaming', 'Ego_Loss', 'Emotion_Joy', 'Emotion_Love', 'Emptiness', 'Fear', 'Pleasure', 'Safety', 'Bliss'],
       'Personality': ['Addiction', 'Brattiness', 'Confidence', 'Dependency', 'Devotion', 'Feminine', 'Neediness', 'Sluttiness', 'Vanity'],
       'Hypnosis': ['Acceptance', 'Brainwashing', 'Confusion', 'Focus', 'Mindbreak', 'Relaxation', 'Suggestibility'],
       'Identity': ['Bimbo', 'Doll', 'Drone', 'Maid', 'Slave', 'Cheerleader', 'Cultist'],
@@ -190,7 +190,7 @@ export class ThemeLoader {
         return [category];
       }
     }
-    
+
     return ['Uncategorized'];
   }
 }

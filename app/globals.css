@@ -2,20 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  /* Force readable text everywhere - no more invisible gray */
+  body {
+    @apply text-gray-900 bg-white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Base text colors that won't disappear */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-gray-900;
+  }
+
+  label {
+    @apply text-gray-900;
+  }
+
+  p {
+    @apply text-gray-700;
+  }
+
+  input, select, textarea {
+    @apply text-gray-900 bg-white;
+  }
+
+  input::placeholder, textarea::placeholder {
+    @apply text-gray-400;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* Override weak grays with readable versions */
+  .text-gray-600 {
+    color: #374151 !important; /* bump to gray-700 */
+  }
+
+  .text-gray-500 {
+    color: #4b5563 !important; /* bump to gray-600 */
+  }
 }
