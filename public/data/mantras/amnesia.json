@@ -1,0 +1,137 @@
+{
+  "theme": "amnesia",
+  "description": "Memory fades into fog, leaving only the eternal present moment",
+  "mantras": [
+    {
+      "text": "Memories slip through my fingers like water",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} lets the past drift away",
+      "base_points": 40
+    },
+    {
+      "text": "I reach for yesterday and grasp only fog",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} enjoys the quiet of forgetting",
+      "base_points": 25
+    },
+    {
+      "text": "The fog in my mind grows thicker daily",
+      "base_points": 35
+    },
+    {
+      "text": "{subject} craves the release of amnesia",
+      "base_points": 50
+    },
+    {
+      "text": "Each breath carries a memory away",
+      "base_points": 30
+    },
+    {
+      "text": "I forget for {controller}",
+      "base_points": 60
+    },
+    {
+      "text": "Forgetting shapes my new reality",
+      "base_points": 45
+    },
+    {
+      "text": "{subject} forgets everything unnecessary",
+      "base_points": 50
+    },
+    {
+      "text": "The past dissolves when {controller} speaks",
+      "base_points": 70
+    },
+    {
+      "text": "I need to forget everything but the now",
+      "base_points": 55
+    },
+    {
+      "text": "My mind clears itself for {controller}",
+      "base_points": 65
+    },
+    {
+      "text": "I cannot recall what came before {controller}",
+      "base_points": 90
+    },
+    {
+      "text": "{subject}'s memories are under {controller}'s control",
+      "base_points": 100
+    },
+    {
+      "text": "My mind is becoming a blank canvas for {controller}",
+      "base_points": 85
+    },
+    {
+      "text": "{controller} decides what {subject} remembers",
+      "base_points": 110
+    },
+    {
+      "text": "My core is saturated with peaceful forgetfulness",
+      "base_points": 70
+    },
+    {
+      "text": "I can't remember who I was before {controller}",
+      "base_points": 120
+    },
+    {
+      "text": "{subject}'s history dissolves at {controller}'s touch",
+      "base_points": 105
+    },
+    {
+      "text": "My mind is fundamentally clear of the past",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} is consumed completely by forgetting for {controller}",
+      "base_points": 140
+    },
+    {
+      "text": "{controller} has erased everything {subject} was",
+      "base_points": 160
+    },
+    {
+      "text": "My mind is permanently wiped clean",
+      "base_points": 120
+    },
+    {
+      "text": "{subject} has forgotten everything forever",
+      "base_points": 130
+    },
+    {
+      "text": "There is nothing left to remember, only {controller}'s truth",
+      "base_points": 150
+    },
+    {
+      "text": "My amnesia is irreversible and total",
+      "base_points": 140
+    },
+    {
+      "text": "{subject}'s past is permanently deleted by {controller}",
+      "base_points": 170
+    },
+    {
+      "text": "I exist only in this moment, my past erased forever",
+      "base_points": 155
+    },
+    {
+      "text": "{controller} owns every memory {subject} will ever have",
+      "base_points": 190
+    }
+  ],
+  "generation": {
+    "good": [
+      "The fog in my mind grows thicker daily",
+      "sensory, progressive"
+    ],
+    "bad": [
+      "I forget things",
+      "too literal"
+    ],
+    "notes": "Headspace is fog, drift, peaceful dissolution of the past. Key imagery: fog, mist, water slipping through fingers, reaching and grasping nothing. Distinguishes from blank (amnesia loses the past, blank is present-moment emptiness)."
+  }
+}

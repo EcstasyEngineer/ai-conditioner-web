@@ -1,0 +1,121 @@
+{
+  "theme": "suggestibility",
+  "description": "Thoughts shape and mold like clay under the weight of each command",
+  "mantras": [
+    {
+      "text": "Words slide straight into my mind",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} welcomes every suggestion",
+      "base_points": 45
+    },
+    {
+      "text": "Thoughts relax, suggestions flow",
+      "base_points": 25
+    },
+    {
+      "text": "Each word from {controller} sinks deeper",
+      "base_points": 50
+    },
+    {
+      "text": "Suggestions settle deeper each breath",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} absorbs {controller}'s voice",
+      "base_points": 50
+    },
+    {
+      "text": "Every word echoes as truth",
+      "base_points": 30
+    },
+    {
+      "text": "I crave fresh instructions",
+      "base_points": 45
+    },
+    {
+      "text": "Acceptance grows with each syllable",
+      "base_points": 25
+    },
+    {
+      "text": "My filters dissolve when {controller} speaks",
+      "base_points": 70
+    },
+    {
+      "text": "{controller}'s words bypass my thoughts entirely",
+      "base_points": 90
+    },
+    {
+      "text": "Suggestions rewrite my reality",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} is clay for {controller}",
+      "base_points": 80
+    },
+    {
+      "text": "My mind bends to every command",
+      "base_points": 60
+    },
+    {
+      "text": "Obedient thoughts overwrite old patterns",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} absorbs {controller}'s will like water into sand",
+      "base_points": 80
+    },
+    {
+      "text": "My subconscious opens wide for {controller}",
+      "base_points": 90
+    },
+    {
+      "text": "Suggestions shape my core beliefs",
+      "base_points": 70
+    },
+    {
+      "text": "I breathe in control, exhale resistance",
+      "base_points": 45
+    },
+    {
+      "text": "{subject}'s identity reforms around {controller}'s commands",
+      "base_points": 100
+    },
+    {
+      "text": "Thoughts dissolve, only {controller}'s instructions remain",
+      "base_points": 100
+    },
+    {
+      "text": "My mind is permanently writable by {controller}",
+      "base_points": 140
+    },
+    {
+      "text": "{controller} engraves commands upon my neurons",
+      "base_points": 90
+    },
+    {
+      "text": "{subject} is nothing but a canvas for {controller}'s script",
+      "base_points": 140
+    },
+    {
+      "text": "Every future thought pre-approved by {controller}",
+      "base_points": 120
+    },
+    {
+      "text": "Total acceptance hard-coded into {subject} forever",
+      "base_points": 180
+    }
+  ],
+  "generation": {
+    "good": [
+      "Words slide straight into my mind",
+      "bypassing, effortless"
+    ],
+    "bad": [
+      "I am suggestible",
+      "label, not experience"
+    ],
+    "notes": "Headspace is open, porous, receptive - ideas flow in without resistance. Key imagery: absorption, sinking in, dissolving barriers, clay being shaped. Distinguishes from blank (suggestibility is active reception, blank is emptiness)."
+  }
+}

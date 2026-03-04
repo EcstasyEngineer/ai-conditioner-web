@@ -1,46 +1,32 @@
-.venv
+# dependencies
+node_modules
 
-__pycache__
-*.pyc
+# build output
+dist
+*.tsbuildinfo
+
+# env files
 .env
-*.db
-.vscode/settings.json
+.env.local
+.env*.local
+
+# audio files (generated, stored externally)
 audio/*
 *.mp3
 
-
-node_modules
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+# editor
+.vscode/settings.json
 .DS_Store
-*.pem
 
-# debug
+# debug logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+*.pem
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-/app/generated/prisma
-
+# claude
 .claude/
+
+# python (legacy)
+.venv
+__pycache__
+*.pyc

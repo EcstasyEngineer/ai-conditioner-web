@@ -1,0 +1,93 @@
+{
+  "theme": "focus",
+  "description": "Attention narrows to a single point, sharp and unwavering",
+  "generation": {
+    "good": [
+      "Everything else fades to static",
+      "sensory narrowing"
+    ],
+    "bad": [
+      "I focus well",
+      "too casual, no intensity"
+    ],
+    "notes": "Headspace is tunnel vision, world narrowing to a single point of attention. Key imagery: laser focus, everything else fading to static, reality shrinking. Elevates into submission when that singular focus is on controller - their voice becomes the only reality. Distinguishes from blank (focus is sharp attention, blank is no attention)."
+  },
+  "mantras": [
+    {
+      "text": "{subject}'s thoughts are quiet and still",
+      "base_points": 20
+    },
+    {
+      "text": "{subject}'s focus is a sharp point",
+      "base_points": 30
+    },
+    {
+      "text": "Distractions fade away into nothing for {subject}",
+      "base_points": 30
+    },
+    {
+      "text": "{subject}'s world is only {controller}'s voice",
+      "base_points": 80
+    },
+    {
+      "text": "{subject}'s attention is a laser beam",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} follows {controller}'s guidance effortlessly",
+      "base_points": 70
+    },
+    {
+      "text": "{subject}'s mind zooms in, sharp and clear",
+      "base_points": 30
+    },
+    {
+      "text": "Time slips away unnoticed for {subject}",
+      "base_points": 30
+    },
+    {
+      "text": "Every word from {controller} is {subject}'s reality",
+      "base_points": 100
+    },
+    {
+      "text": "{subject}'s awareness is a single, perfect point of light",
+      "base_points": 40
+    },
+    {
+      "text": "{subject} only perceives what {controller} allows",
+      "base_points": 110
+    },
+    {
+      "text": "{subject}'s thoughts are {controller}'s thoughts",
+      "base_points": 120
+    },
+    {
+      "text": "{subject} is lost in the sound of {controller}'s voice",
+      "base_points": 70
+    },
+    {
+      "text": "There is nothing but this moment, this focus for {subject}",
+      "base_points": 50
+    },
+    {
+      "text": "{subject}'s mind is a lens, and {controller} directs the view",
+      "base_points": 90
+    },
+    {
+      "text": "{subject} has no thoughts of their own, only focus",
+      "base_points": 90
+    },
+    {
+      "text": "{subject}'s entire being is focused on {controller}",
+      "base_points": 80
+    },
+    {
+      "text": "{subject}'s reality is defined by their point of focus",
+      "base_points": 60
+    },
+    {
+      "text": "{subject}'s mind is permanently locked onto {controller}, nothing else will ever exist",
+      "base_points": 170
+    }
+  ]
+}

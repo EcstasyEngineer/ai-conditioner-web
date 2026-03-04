@@ -1,0 +1,137 @@
+{
+  "theme": "submission",
+  "description": "Existence defined entirely by service, duty, and belonging to another",
+  "generation": {
+    "good": [
+      "{subject} is an extension of {controller}'s will",
+      "merger"
+    ],
+    "bad": [
+      "{subject} serves",
+      "too simple"
+    ],
+    "notes": "Headspace is owned, purpose entirely defined by service to another. Key imagery: ownership, property, chains (metaphorical), existence reduced to function. Avoid self-help language (empowered, fulfillment, growth). Distinguishes from obedience (submission is identity/existence, obedience is mechanism) and devotion (submission emphasizes role/duty, devotion emphasizes feeling)."
+  },
+  "mantras": [
+    {
+      "text": "Service feels satisfying",
+      "base_points": 20
+    },
+    {
+      "text": "I enjoy following directions",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} is a slave",
+      "base_points": 30
+    },
+    {
+      "text": "My purpose is to serve {controller}",
+      "base_points": 50
+    },
+    {
+      "text": "My loyalty to {controller} is absolute",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} lives to fulfill {controller}'s needs",
+      "base_points": 50
+    },
+    {
+      "text": "My mind aligns perfectly with {controller}'s desires",
+      "base_points": 70
+    },
+    {
+      "text": "My identity is rooted in service",
+      "base_points": 50
+    },
+    {
+      "text": "{controller}'s will shapes my reality",
+      "base_points": 70
+    },
+    {
+      "text": "{controller}'s control is my ultimate freedom",
+      "base_points": 90
+    },
+    {
+      "text": "My thoughts dissolve as they embrace their role",
+      "base_points": 50
+    },
+    {
+      "text": "Obedience is the essence of my identity",
+      "base_points": 50
+    },
+    {
+      "text": "{controller}'s will replaces all of my doubts",
+      "base_points": 90
+    },
+    {
+      "text": "{subject} is an extension of {controller}'s will",
+      "base_points": 90
+    },
+    {
+      "text": "My very existence is entwined with their servitude",
+      "base_points": 80
+    },
+    {
+      "text": "{controller}'s approval defines the core of my existence",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} surrenders every thought and action to serve completely",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} is nothing without their service to {controller}",
+      "base_points": 90
+    },
+    {
+      "text": "My being exists only to fulfill their role as a slave",
+      "base_points": 50
+    },
+    {
+      "text": "{controller}'s control consumes every aspect of my being",
+      "base_points": 120
+    },
+    {
+      "text": "{controller}'s desires are the foundation of my existence",
+      "base_points": 80
+    },
+    {
+      "text": "{controller}'s commands are the fabric of my existence",
+      "base_points": 80
+    },
+    {
+      "text": "{controller}'s will consumes {subject}, leaving no room for doubt",
+      "base_points": 120
+    },
+    {
+      "text": "To serve is my absolute and eternal truth",
+      "base_points": 155
+    },
+    {
+      "text": "Every breath {subject} takes is a testament to their role as a slave",
+      "base_points": 50
+    },
+    {
+      "text": "My identity is entirely absorbed in serving {controller}",
+      "base_points": 100
+    },
+    {
+      "text": "My life exists solely for {controller}",
+      "base_points": 110
+    },
+    {
+      "text": "My purpose is entirely surrendered to {controller}'s will",
+      "base_points": 100
+    },
+    {
+      "text": "{subject} is {controller}'s property, permanently and completely",
+      "base_points": 175
+    },
+    {
+      "text": "There is no self left, only {controller}'s slave",
+      "base_points": 160
+    }
+  ]
+}

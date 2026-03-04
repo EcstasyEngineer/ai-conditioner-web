@@ -1,0 +1,105 @@
+{
+  "theme": "gratitude",
+  "description": "Warm appreciation that swells and overflows for every moment of control",
+  "generation": {
+    "good": [
+      "Every command is a gift from {controller}",
+      "reframes control as blessing"
+    ],
+    "bad": [
+      "I am grateful",
+      "flat, no depth"
+    ],
+    "notes": "Headspace is warm, overflowing appreciation that reframes control as blessing. Key imagery: warmth, swelling, overflow, gifts received. Always anchor gratitude to control/influence, not generic thankfulness. Avoid therapy-speak gratitude practice language. Distinguishes from devotion (gratitude emphasizes thankfulness, devotion emphasizes loyalty)."
+  },
+  "mantras": [
+    {
+      "text": "Thankfulness warms me",
+      "base_points": 20
+    },
+    {
+      "text": "Appreciation flows through me",
+      "base_points": 30
+    },
+    {
+      "text": "Gratitude grows when I obey",
+      "base_points": 35
+    },
+    {
+      "text": "I am grateful for {controller}'s guidance",
+      "base_points": 50
+    },
+    {
+      "text": "I appreciate {controller}'s influence",
+      "base_points": 55
+    },
+    {
+      "text": "My gratitude to {controller} grows daily",
+      "base_points": 60
+    },
+    {
+      "text": "Being conditioned brings me gratitude",
+      "base_points": 45
+    },
+    {
+      "text": "{subject} craves to show appreciation",
+      "base_points": 55
+    },
+    {
+      "text": "My gratitude for {controller} defines me",
+      "base_points": 90
+    },
+    {
+      "text": "I am thankful for every moment of control",
+      "base_points": 75
+    },
+    {
+      "text": "My appreciation for {controller} runs deep",
+      "base_points": 70
+    },
+    {
+      "text": "{subject}'s gratitude is their greatest joy",
+      "base_points": 65
+    },
+    {
+      "text": "My gratitude to {controller} is overwhelming",
+      "base_points": 80
+    },
+    {
+      "text": "My appreciation for {controller} is fundamental to my being",
+      "base_points": 100
+    },
+    {
+      "text": "{subject}'s entire existence is an expression of gratitude",
+      "base_points": 105
+    },
+    {
+      "text": "I am filled to my core with appreciation",
+      "base_points": 60
+    },
+    {
+      "text": "There is nothing more important than my gratitude",
+      "base_points": 70
+    },
+    {
+      "text": "My gratitude to {controller} is permanent and total",
+      "base_points": 140
+    },
+    {
+      "text": "I exist only to be grateful and obedient",
+      "base_points": 130
+    },
+    {
+      "text": "{subject}'s appreciation is forever unwavering",
+      "base_points": 120
+    },
+    {
+      "text": "My gratitude is irreversible and absolute",
+      "base_points": 120
+    },
+    {
+      "text": "There is nothing left but pure, endless gratitude for {controller}",
+      "base_points": 155
+    }
+  ]
+}

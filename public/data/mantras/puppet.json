@@ -1,0 +1,133 @@
+{
+  "theme": "puppet",
+  "description": "Controlled movement and speech through invisible strings and guidance",
+  "generation": {
+    "good": [
+      "{subject} dances on {controller}'s strings",
+      "vivid, specific"
+    ],
+    "bad": [
+      "{subject} is controlled",
+      "generic, loses puppet imagery"
+    ],
+    "notes": "Headspace is dissociated, watching yourself move without willing it. Key imagery: strings, marionette, wooden limbs, hollow body, being animated by another. Boundary dissolution between self and controller is the core psychological lever. Distinguishes from drone (puppet is external control via strings, drone is internal programming)."
+  },
+  "mantras": [
+    {
+      "text": "{subject} feels the strings moving their body",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} feels the strings pulling at their mind",
+      "base_points": 45
+    },
+    {
+      "text": "My mind hangs limp, waiting to be moved",
+      "base_points": 85
+    },
+    {
+      "text": "My thoughts only move when {controller} pulls",
+      "base_points": 100
+    },
+    {
+      "text": "My hands move without thinking",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} is a puppet",
+      "base_points": 30
+    },
+    {
+      "text": "{controller} pulls my strings",
+      "base_points": 60
+    },
+    {
+      "text": "My body moves on its own",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} has no will",
+      "base_points": 50
+    },
+    {
+      "text": "My limbs feel light and detached",
+      "base_points": 30
+    },
+    {
+      "text": "{controller}'s will moves {subject}",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} is an observer in their own body",
+      "base_points": 65
+    },
+    {
+      "text": "{subject} speaks the words {controller} provides",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} dances on {controller}'s strings",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} has no thoughts, only movements",
+      "base_points": 60
+    },
+    {
+      "text": "{subject} is a perfect marionette",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} feels no responsibility for their actions",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} loves being {controller}'s puppet",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} is hollowed out, waiting for {controller}'s command",
+      "base_points": 100
+    },
+    {
+      "text": "My body is a tool for {controller} to animate",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} cannot tell where they end and {controller} begins",
+      "base_points": 120
+    },
+    {
+      "text": "{subject} is a beautiful, mindless puppet",
+      "base_points": 60
+    },
+    {
+      "text": "My only purpose is to perform for {controller}",
+      "base_points": 100
+    },
+    {
+      "text": "{subject} is nothing more than wood and string",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} is completely inanimate without {controller}",
+      "base_points": 80
+    },
+    {
+      "text": "My strings are woven into my soul",
+      "base_points": 100
+    },
+    {
+      "text": "{subject} is a puppet even in their dreams",
+      "base_points": 65
+    },
+    {
+      "text": "{subject} is {controller}'s puppet, now and forever",
+      "base_points": 160
+    },
+    {
+      "text": "The strings are permanent, woven into {subject}'s soul",
+      "base_points": 170
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "theme": "blank",
+  "description": "Thoughts drift away into beautiful, peaceful emptiness",
+  "generation": {
+    "good": [
+      "My mind is a blank slate for {controller}",
+      "functional emptiness"
+    ],
+    "bad": [
+      "I am blank",
+      "static, not evocative"
+    ],
+    "notes": "Headspace is peaceful emptiness, thoughts dissolving into quiet void. Key imagery: drifting, floating, empty vessels, quiet stillness. Show the process of emptying, not just the state. Avoid clinical meditation language. Distinguishes from suggestibility (blank is emptiness, suggestibility is active absorption) and amnesia (blank is present emptiness, amnesia is losing the past)."
+  },
+  "mantras": [
+    {
+      "text": "{subject} enjoys feeling quiet inside",
+      "base_points": 45
+    },
+    {
+      "text": "It feels good to let my thoughts go",
+      "base_points": 25
+    },
+    {
+      "text": "{controller} helps my mind go blank",
+      "base_points": 70
+    },
+    {
+      "text": "Being blank is natural for {subject}",
+      "base_points": 60
+    },
+    {
+      "text": "I crave the feeling of a quiet mind",
+      "base_points": 30
+    },
+    {
+      "text": "My thoughts drift away more easily now",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} needs to be empty for {controller}",
+      "base_points": 90
+    },
+    {
+      "text": "My mind gets emptier every day",
+      "base_points": 45
+    },
+    {
+      "text": "My mind is a blank slate for {controller}",
+      "base_points": 85
+    },
+    {
+      "text": "Blank is perfect",
+      "base_points": 55
+    },
+    {
+      "text": "Being empty is better",
+      "base_points": 40
+    },
+    {
+      "text": "I just want to be empty",
+      "base_points": 55
+    },
+    {
+      "text": "Thinking is a choice {subject} no longer makes",
+      "base_points": 110
+    },
+    {
+      "text": "My nature is to be empty and receptive",
+      "base_points": 75
+    },
+    {
+      "text": "Being blank defines my purpose",
+      "base_points": 80
+    },
+    {
+      "text": "{controller} controls the quiet in my head",
+      "base_points": 95
+    },
+    {
+      "text": "My mind is a vessel for {controller}'s thoughts",
+      "base_points": 110
+    },
+    {
+      "text": "The absence of thought is my true state",
+      "base_points": 85
+    },
+    {
+      "text": "{subject}'s mind is fundamentally empty now",
+      "base_points": 95
+    },
+    {
+      "text": "I am consumed by a peaceful, thoughtless void",
+      "base_points": 90
+    },
+    {
+      "text": "My core identity is the absence of one",
+      "base_points": 120
+    },
+    {
+      "text": "There is nothing in my head but {controller}'s will",
+      "base_points": 140
+    },
+    {
+      "text": "My mind is permanently blank",
+      "base_points": 110
+    },
+    {
+      "text": "I exist only as an empty, receptive vessel",
+      "base_points": 130
+    },
+    {
+      "text": "{subject} is forever a blank slate for {controller}",
+      "base_points": 180
+    },
+    {
+      "text": "There is nothing left of me but beautiful, perfect emptiness",
+      "base_points": 145
+    },
+    {
+      "text": "My mind is irreversibly empty",
+      "base_points": 130
+    },
+    {
+      "text": "{subject} is blank and empty",
+      "base_points": 40
+    },
+    {
+      "text": "I am becoming part of {controller}'s consciousness",
+      "base_points": 110
+    },
+    {
+      "text": "There is no 'me', only the will of {controller}",
+      "base_points": 155
+    }
+  ]
+}

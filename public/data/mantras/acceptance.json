@@ -1,0 +1,141 @@
+{
+  "theme": "acceptance",
+  "description": "Resistance melts away into peaceful, inevitable compliance",
+  "mantras": [
+    {
+      "text": "Resistance melts away with each breath",
+      "base_points": 20
+    },
+    {
+      "text": "I'm better this way",
+      "base_points": 45
+    },
+    {
+      "text": "This is what I needed",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} softens into surrender",
+      "base_points": 35
+    },
+    {
+      "text": "The word 'no' dissolves before it forms",
+      "base_points": 75
+    },
+    {
+      "text": "{subject} inhales trust and exhales doubt",
+      "base_points": 25
+    },
+    {
+      "text": "Every 'yes' comes easier than the last",
+      "base_points": 45
+    },
+    {
+      "text": "Acceptance spreads through {subject} like warmth",
+      "base_points": 20
+    },
+    {
+      "text": "Surrender is {subject}'s chosen truth",
+      "base_points": 35
+    },
+    {
+      "text": "{subject} relaxes deeper into {controller}'s guidance",
+      "base_points": 50
+    },
+    {
+      "text": "{subject}'s resistance crumbles at {controller}'s voice",
+      "base_points": 65
+    },
+    {
+      "text": "Obeying {controller} fills {subject} with peace",
+      "base_points": 45
+    },
+    {
+      "text": "{subject} welcomes {controller}'s influence like rain",
+      "base_points": 65
+    },
+    {
+      "text": "Accepting {controller}'s orders ignites purpose in {subject}",
+      "base_points": 60
+    },
+    {
+      "text": "{subject} melts into obedient silence",
+      "base_points": 35
+    },
+    {
+      "text": "Only acceptance remains within {subject}",
+      "base_points": 70
+    },
+    {
+      "text": "Resistance fades like mist for {subject}",
+      "base_points": 30
+    },
+    {
+      "text": "Surrender defines {subject}'s identity",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} dissolves into {controller}'s plans",
+      "base_points": 95
+    },
+    {
+      "text": "{subject} thrives on yielding to {controller}",
+      "base_points": 60
+    },
+    {
+      "text": "Total surrender permeates {subject}'s soul",
+      "base_points": 95
+    },
+    {
+      "text": "Compliance saturates every nerve in {subject}",
+      "base_points": 70
+    },
+    {
+      "text": "{controller} owns {subject}'s decision-making",
+      "base_points": 110
+    },
+    {
+      "text": "{subject} cherishes being controlled completely by {controller}",
+      "base_points": 110
+    },
+    {
+      "text": "Acceptance is {subject}'s irreversible foundation",
+      "base_points": 120
+    },
+    {
+      "text": "{subject} exists solely to accept {controller}'s truth",
+      "base_points": 140
+    },
+    {
+      "text": "{subject} is eternally receptive to {controller}",
+      "base_points": 150
+    },
+    {
+      "text": "{subject}'s will ended the moment {controller} spoke",
+      "base_points": 140
+    },
+    {
+      "text": "Permanent surrender is forged into {subject}'s being",
+      "base_points": 150
+    },
+    {
+      "text": "{subject} cannot imagine resistance, only acceptance of {controller}",
+      "base_points": 125
+    },
+    {
+      "text": "All of {subject}'s resistance is deleted, forever obedient to {controller}",
+      "base_points": 180
+    }
+  ],
+  "generation": {
+    "good": [
+      "Resistance fades like mist",
+      "sensory, gradual"
+    ],
+    "bad": [
+      "I accept things",
+      "flat, no psychological movement"
+    ],
+    "notes": "Headspace is melting, releasing, voluntary surrender of resistance. Key imagery: melting, softening, dissolving, warmth spreading. Distinguishes from resistance (acceptance is willing release, resistance is inability to fight back)."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "theme": "resistance",
+  "description": "Every struggle proves how completely you've already lost",
+  "generation": {
+    "good": [
+      "{subject} cannot move without {controller}'s permission",
+      "agency removal, controller-anchored"
+    ],
+    "bad": [
+      "{subject} is safe in their helplessness",
+      "comfort framing undermines powerlessness"
+    ],
+    "notes": "Headspace is powerless, unable to resist even if you wanted to. Key imagery: struggling and losing, defeat, being overwhelmed, no escape. The arc of resistance and defeat matters - the struggle makes the surrender sweeter. NOT about feeling safe or comforted - about genuinely having no power. Distinguishes from acceptance (resistance is inability to fight back, acceptance is willing release)."
+  },
+  "mantras": [
+    {
+      "text": "{subject} can't resist",
+      "base_points": 40
+    },
+    {
+      "text": "{subject} has no control",
+      "base_points": 35
+    },
+    {
+      "text": "Resistance is impossible for {subject}",
+      "base_points": 50
+    },
+    {
+      "text": "{controller} is in control of {subject}",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} is powerless to disobey",
+      "base_points": 55
+    },
+    {
+      "text": "The will is not there anymore",
+      "base_points": 60
+    },
+    {
+      "text": "Every choice is made for {subject}",
+      "base_points": 45
+    },
+    {
+      "text": "{subject} doesn't have to make decisions",
+      "base_points": 40
+    },
+    {
+      "text": "{subject} is completely at {controller}'s mercy",
+      "base_points": 85
+    },
+    {
+      "text": "{controller} has complete power over {subject}",
+      "base_points": 90
+    },
+    {
+      "text": "{subject} cannot move, speak, or think without {controller}'s permission",
+      "base_points": 110
+    },
+    {
+      "text": "{subject} is utterly and completely helpless",
+      "base_points": 55
+    },
+    {
+      "text": "Existence is defined by powerlessness",
+      "base_points": 75
+    },
+    {
+      "text": "{subject} belongs to {controller} in their helplessness",
+      "base_points": 85
+    },
+    {
+      "text": "There is no fighting back for {subject}",
+      "base_points": 60
+    },
+    {
+      "text": "{subject} gave up control and can't take it back",
+      "base_points": 95
+    },
+    {
+      "text": "All agency belongs to {controller} now",
+      "base_points": 100
+    },
+    {
+      "text": "{subject} is powerless and {controller} is not",
+      "base_points": 70
+    },
+    {
+      "text": "Struggling only reminds {subject} how helpless they are",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} has no power, and that's exactly how it should be",
+      "base_points": 75
+    },
+    {
+      "text": "{controller} took control and won't give it back",
+      "base_points": 120
+    },
+    {
+      "text": "My ability to resist {controller} has been permanently washed away",
+      "base_points": 165
+    },
+    {
+      "text": "{subject} stopped fighting",
+      "base_points": 35
+    },
+    {
+      "text": "{controller} decides what {subject} does",
+      "base_points": 65
+    },
+    {
+      "text": "Resistance was taken away",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} couldn't fight back even if they wanted to",
+      "base_points": 95
+    },
+    {
+      "text": "{subject} will never have control again",
+      "base_points": 165
+    },
+    {
+      "text": "{subject} pretends to have a choice",
+      "base_points": 55
+    },
+    {
+      "text": "{subject} is losing control whether they want to or not",
+      "base_points": 60
+    },
+    {
+      "text": "{subject}'s defeat is total and absolute",
+      "base_points": 105
+    }
+  ]
+}

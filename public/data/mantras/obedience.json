@@ -1,0 +1,125 @@
+{
+  "theme": "obedience",
+  "description": "Instant compliance and reflexive execution of orders",
+  "mantras": [
+    {
+      "text": "Yes is my favorite word",
+      "base_points": 20
+    },
+    {
+      "text": "Commands drop straight into action",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} reacts before thinking",
+      "base_points": 55
+    },
+    {
+      "text": "My body moves when {controller} speaks",
+      "base_points": 65
+    },
+    {
+      "text": "Obeying comes as naturally as breathing",
+      "base_points": 20
+    },
+    {
+      "text": "My body syncs to {controller}'s will",
+      "base_points": 60
+    },
+    {
+      "text": "Responding quickly excites me",
+      "base_points": 30
+    },
+    {
+      "text": "I thrive on clear directives",
+      "base_points": 35
+    },
+    {
+      "text": "Obedience flows through me instinctively",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} snaps to attention at {controller}'s voice",
+      "base_points": 60
+    },
+    {
+      "text": "Orders travel straight from ear to action",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} cannot resist {controller}'s commands",
+      "base_points": 90
+    },
+    {
+      "text": "Obedience defines my purpose",
+      "base_points": 55
+    },
+    {
+      "text": "{subject} acts as {controller}'s extension",
+      "base_points": 60
+    },
+    {
+      "text": "My will aligns perfectly with {controller}'s orders",
+      "base_points": 70
+    },
+    {
+      "text": "Serving {controller} flows like breathing",
+      "base_points": 40
+    },
+    {
+      "text": "Disobedience is unthinkable",
+      "base_points": 75
+    },
+    {
+      "text": "{controller} speaks, {subject}'s body obeys",
+      "base_points": 90
+    },
+    {
+      "text": "Every cell aches to comply with {controller}",
+      "base_points": 70
+    },
+    {
+      "text": "My reflexes belong to {controller}",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} executes commands faster than thought",
+      "base_points": 50
+    },
+    {
+      "text": "Compliance saturates my nervous system",
+      "base_points": 55
+    },
+    {
+      "text": "Absolute obedience hard-wired into {subject} forever",
+      "base_points": 150
+    },
+    {
+      "text": "{subject} is a living command line for {controller}",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} exists only to carry out {controller}'s orders",
+      "base_points": 110
+    },
+    {
+      "text": "Free will deleted, obedience to {controller} operational",
+      "base_points": 140
+    },
+    {
+      "text": "Orders from {controller} overwrite every impulse permanently",
+      "base_points": 140
+    }
+  ],
+  "generation": {
+    "good": [
+      "Commands drop straight into action",
+      "bypasses thought"
+    ],
+    "bad": [
+      "I obey",
+      "too simple, no depth"
+    ],
+    "notes": "Headspace is automatic, reflexive - no gap between command and action. Body responds before mind catches up. Distinguishes from suggestibility (absorption) and submission (identity/purpose) by focusing on the mechanism of instant compliance."
+  }
+}

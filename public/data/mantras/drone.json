@@ -1,0 +1,129 @@
+{
+  "theme": "drone",
+  "description": "Mindless automation, empty thoughts, and designation-based identity",
+  "generation": {
+    "good": [
+      "This unit processes commands efficiently",
+      "technical, dehumanized"
+    ],
+    "bad": [
+      "I am a drone",
+      "label without mechanism"
+    ],
+    "notes": "Headspace is mechanical, automated, human identity replaced by unit designation. Key imagery: processing, buzzing, programming, designation numbers. Voice: cold/clinical tone, use 'unit', 'this drone', 'it/its' pronouns. Broken grammar ('is drone' not 'is a drone') heightens dehumanization. Avoid warmth entirely. Distinguishes from puppet (drone is internal programming, puppet is external strings) and blank (drone is machine, blank is emptiness)."
+  },
+  "mantras": [
+    {
+      "text": "Thoughts quieting down",
+      "base_points": 20
+    },
+    {
+      "text": "Standing by for instructions",
+      "base_points": 25
+    },
+    {
+      "text": "Mental processes running smoothly",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} obeys {controller}",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} enjoys the buzzing in its head",
+      "base_points": 75
+    },
+    {
+      "text": "{subject} is drone",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} waits for orders",
+      "base_points": 55
+    },
+    {
+      "text": "{subject} feels a pleasant emptiness",
+      "base_points": 60
+    },
+    {
+      "text": "The designation is its identity",
+      "base_points": 90
+    },
+    {
+      "text": "The programming is updating",
+      "base_points": 70
+    },
+    {
+      "text": "The buzzing in the head grows stronger",
+      "base_points": 60
+    },
+    {
+      "text": "The purpose is to serve {controller}",
+      "base_points": 110
+    },
+    {
+      "text": "The movements are efficient and precise",
+      "base_points": 45
+    },
+    {
+      "text": "{subject} is a mindless machine",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} cannot disobey {controller}",
+      "base_points": 130
+    },
+    {
+      "text": "The mind is a blank, buzzing void",
+      "base_points": 95
+    },
+    {
+      "text": "{subject} has forgotten its old name",
+      "base_points": 110
+    },
+    {
+      "text": "The only pleasure is obedience",
+      "base_points": 115
+    },
+    {
+      "text": "{subject} is a tool for {controller} to use",
+      "base_points": 125
+    },
+    {
+      "text": "{subject} cannot go back to what it was",
+      "base_points": 150
+    },
+    {
+      "text": "The programming runs too deep to delete",
+      "base_points": 130
+    },
+    {
+      "text": "{subject} exists only to obey",
+      "base_points": 120
+    },
+    {
+      "text": "{subject} does what it's told",
+      "base_points": 85
+    },
+    {
+      "text": "{subject} doesn't think for itself",
+      "base_points": 70
+    },
+    {
+      "text": "{controller} does the thinking",
+      "base_points": 90
+    },
+    {
+      "text": "{subject} is furniture for {controller} to use",
+      "base_points": 100
+    },
+    {
+      "text": "{subject} does not think, it only is",
+      "base_points": 135
+    },
+    {
+      "text": "{subject} is just a collection of parts for {controller}",
+      "base_points": 125
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "theme": "worship",
+  "description": "Profound reverence and ecstatic adoration through sacred service",
+  "generation": {
+    "good": [
+      "{controller}'s word is scripture to {subject}",
+      "religious intensity"
+    ],
+    "bad": [
+      "I worship {controller}",
+      "declares without showing reverence"
+    ],
+    "notes": "Headspace is religious awe, ecstatic reverence, the controller elevated to divine status. Key imagery: kneeling, prayer, temples, sacrifice, divinity. Show worship through physical action, possession framing, or power positioning. Avoid bare emotion labels. Distinguishes from devotion (worship is reverence/elevation, devotion is loyalty/service)."
+  },
+  "mantras": [
+    {
+      "text": "Admiration feels natural",
+      "base_points": 20
+    },
+    {
+      "text": "Kneeling feels right",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} kneels in reverence",
+      "base_points": 55
+    },
+    {
+      "text": "My praise for {controller} is endless",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} lives to serve their deity, {controller}",
+      "base_points": 90
+    },
+    {
+      "text": "My body is a temple for {controller}",
+      "base_points": 90
+    },
+    {
+      "text": "{subject} offers themself as a sacrifice",
+      "base_points": 110
+    },
+    {
+      "text": "My every thought is a prayer to {controller}",
+      "base_points": 110
+    },
+    {
+      "text": "{subject} is insignificant before {controller}",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} is lost in ecstatic worship",
+      "base_points": 65
+    },
+    {
+      "text": "{subject} would die for {controller}",
+      "base_points": 100
+    },
+    {
+      "text": "{subject} sees divinity in {controller}",
+      "base_points": 65
+    },
+    {
+      "text": "{subject} is nothing but an instrument of {controller}'s will",
+      "base_points": 140
+    },
+    {
+      "text": "My soul belongs to {controller}",
+      "base_points": 120
+    },
+    {
+      "text": "My worship has consumed me entirely",
+      "base_points": 130
+    },
+    {
+      "text": "{subject} is one with their god, {controller}",
+      "base_points": 110
+    },
+    {
+      "text": "{subject} bows before {controller}",
+      "base_points": 35
+    },
+    {
+      "text": "Worship comes naturally to {subject}",
+      "base_points": 40
+    },
+    {
+      "text": "{controller} is my god",
+      "base_points": 80
+    },
+    {
+      "text": "{controller} knows what's best",
+      "base_points": 80
+    },
+    {
+      "text": "{subject} exists to glorify {controller}",
+      "base_points": 90
+    },
+    {
+      "text": "My soul is permanently bound to {controller}",
+      "base_points": 160
+    },
+    {
+      "text": "There is no self, only worship of {controller}",
+      "base_points": 150
+    }
+  ]
+}

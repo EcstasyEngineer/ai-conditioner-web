@@ -1,0 +1,137 @@
+{
+  "theme": "bimbo",
+  "description": "Playful simplification, carefree joy, and pretty-minded bliss",
+  "generation": {
+    "good": [
+      "Thoughts pop like bubbles, gone",
+      "playful, visual"
+    ],
+    "bad": [
+      "I am dumb",
+      "harsh, not fun"
+    ],
+    "notes": "Headspace is bubbly, giggly, blissfully empty but happy about it. Key imagery: pink, sparkles, bubbles, cotton candy, glitter, giggles replacing thoughts. This theme runs hotter than the playful description suggests (Bambi Sleep influence). Distinguishes from blank (bimbo is playful/happy emptiness, blank is peaceful/quiet emptiness)."
+  },
+  "mantras": [
+    {
+      "text": "Thinking is hard, smiling is easy",
+      "base_points": 35
+    },
+    {
+      "text": "I love feeling cute and light",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} gets giggly and happy",
+      "base_points": 40
+    },
+    {
+      "text": "Smart thoughts float away",
+      "base_points": 45
+    },
+    {
+      "text": "{controller} carries my serious thoughts",
+      "base_points": 70
+    },
+    {
+      "text": "My mind feels bubbly and pink",
+      "base_points": 35
+    },
+    {
+      "text": "{subject} is too pretty to overthink",
+      "base_points": 50
+    },
+    {
+      "text": "Giggles replace complexity",
+      "base_points": 50
+    },
+    {
+      "text": "Sparkles fill the space where thoughts were",
+      "base_points": 40
+    },
+    {
+      "text": "Obeying keeps me carefree",
+      "base_points": 55
+    },
+    {
+      "text": "I just smile and echo {controller}",
+      "base_points": 75
+    },
+    {
+      "text": "Each breath makes me cuter and emptier",
+      "base_points": 65
+    },
+    {
+      "text": "{subject} glows brighter than thoughts",
+      "base_points": 55
+    },
+    {
+      "text": "My brain purrs when commands arrive",
+      "base_points": 70
+    },
+    {
+      "text": "Being empty-headed feels natural",
+      "base_points": 80
+    },
+    {
+      "text": "Complexity drains, bliss pours in",
+      "base_points": 55
+    },
+    {
+      "text": "Thinking slows; obedience sparkles",
+      "base_points": 65
+    },
+    {
+      "text": "Intelligence dissolves into cotton candy",
+      "base_points": 85
+    },
+    {
+      "text": "{controller}'s words glaze my mind with gloss",
+      "base_points": 90
+    },
+    {
+      "text": "I giggle instead of think",
+      "base_points": 60
+    },
+    {
+      "text": "Thoughts pop like bubbles, gone",
+      "base_points": 55
+    },
+    {
+      "text": "Empty space feels glittery and obedient",
+      "base_points": 75
+    },
+    {
+      "text": "I swirl in pretty obedience",
+      "base_points": 65
+    },
+    {
+      "text": "Permanent bimbofication sealed and shiny",
+      "base_points": 160
+    },
+    {
+      "text": "{subject} is pure giggle-fuel for {controller}",
+      "base_points": 110
+    },
+    {
+      "text": "No thoughts left, only sparkles",
+      "base_points": 90
+    },
+    {
+      "text": "I exist to be pretty and pleasing",
+      "base_points": 95
+    },
+    {
+      "text": "Lifelong airhead bliss installed",
+      "base_points": 130
+    },
+    {
+      "text": "My mind stays forever soft and obedient",
+      "base_points": 155
+    },
+    {
+      "text": "My mind is happy and empty",
+      "base_points": 45
+    }
+  ]
+}

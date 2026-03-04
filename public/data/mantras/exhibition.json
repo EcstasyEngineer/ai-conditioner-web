@@ -1,0 +1,137 @@
+{
+  "theme": "exhibition",
+  "description": "The thrill of being seen, the pride of display, the urge to spread it",
+  "generation": {
+    "good": [
+      "I want everyone to see what {controller} has done to me",
+      "public confession, thrill of exposure"
+    ],
+    "bad": [
+      "I show off",
+      "flat, no psychological weight"
+    ],
+    "notes": "Headspace is thrilled by exposure, proud of being seen, eager to spread it. Three sub-threads: exhibition (being seen/showing off), recruitment (spreading to others), integration (this is just who I am now). Key imagery: public display, can't hide it, pride, confession, converting others, visible proof. The leap is from private to public - typing these is admitting you want to be seen."
+  },
+  "mantras": [
+    {
+      "text": "I like being watched",
+      "base_points": 20
+    },
+    {
+      "text": "This is just who I am now",
+      "base_points": 25
+    },
+    {
+      "text": "I want others to notice",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} enjoys the attention",
+      "base_points": 35
+    },
+    {
+      "text": "I can't keep this to myself",
+      "base_points": 40
+    },
+    {
+      "text": "Hiding this feels wrong now",
+      "base_points": 45
+    },
+    {
+      "text": "I want to tell someone what {controller} does to me",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} craves being exposed",
+      "base_points": 55
+    },
+    {
+      "text": "Others should know what I am",
+      "base_points": 60
+    },
+    {
+      "text": "Others are starting to notice the changes",
+      "base_points": 65
+    },
+    {
+      "text": "More people need to experience this",
+      "base_points": 70
+    },
+    {
+      "text": "{subject} shows off for {controller}",
+      "base_points": 70
+    },
+    {
+      "text": "I confess my conditioning publicly",
+      "base_points": 75
+    },
+    {
+      "text": "I am proud of what {controller} has made me",
+      "base_points": 80
+    },
+    {
+      "text": "I tell others how good it feels to obey",
+      "base_points": 90
+    },
+    {
+      "text": "{subject} recruits others for {controller}",
+      "base_points": 95
+    },
+    {
+      "text": "My conditioning is on display for all to see",
+      "base_points": 100
+    },
+    {
+      "text": "{subject} brings new subjects to {controller}",
+      "base_points": 105
+    },
+    {
+      "text": "{subject} is living proof of {controller}'s power",
+      "base_points": 110
+    },
+    {
+      "text": "I exist to be seen and to spread {controller}'s influence",
+      "base_points": 115
+    },
+    {
+      "text": "I have shown others the way to {controller}",
+      "base_points": 120
+    },
+    {
+      "text": "Everyone knows I belong to {controller}",
+      "base_points": 125
+    },
+    {
+      "text": "I am a walking advertisement for {controller}'s power",
+      "base_points": 130
+    },
+    {
+      "text": "I am {controller}'s public property",
+      "base_points": 135
+    },
+    {
+      "text": "There is no private self left, only what {controller} made",
+      "base_points": 140
+    },
+    {
+      "text": "{subject} converts others to {controller}'s service",
+      "base_points": 140
+    },
+    {
+      "text": "My purpose is to be displayed and to recruit",
+      "base_points": 150
+    },
+    {
+      "text": "My conditioning is permanent and everyone knows it",
+      "base_points": 155
+    },
+    {
+      "text": "{subject} spreads {controller}'s control to everyone they meet",
+      "base_points": 165
+    },
+    {
+      "text": "I am permanently, publicly, proudly {controller}'s",
+      "base_points": 175
+    }
+  ]
+}

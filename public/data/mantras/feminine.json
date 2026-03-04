@@ -1,0 +1,141 @@
+{
+  "theme": "feminine",
+  "description": "Transformation into grace, elegance, softness, and beauty",
+  "generation": {
+    "good": [
+      "My thoughts grow softer, more gentle",
+      "internal change, shows process"
+    ],
+    "bad": [
+      "{subject} is pretty",
+      "flat label without transformation"
+    ],
+    "notes": "Headspace is soft, graceful, becoming more beautiful and delicate. Key imagery: softness, grace, elegance, flowers, beauty, delicacy. Focus on the transformation process, not just the end state. This theme is explicitly gendered by design. Distinguishes from bimbo (feminine is elegance/grace, bimbo is bubbly/ditzy)."
+  },
+  "mantras": [
+    {
+      "text": "I feel pretty",
+      "base_points": 25
+    },
+    {
+      "text": "{subject} wants to be beautiful for {controller}",
+      "base_points": 35
+    },
+    {
+      "text": "I have a soft, gentle voice",
+      "base_points": 30
+    },
+    {
+      "text": "{subject} enjoys feeling delicate",
+      "base_points": 25
+    },
+    {
+      "text": "It feels good to be pretty for {controller}",
+      "base_points": 40
+    },
+    {
+      "text": "{subject} explores their softer side",
+      "base_points": 25
+    },
+    {
+      "text": "My movements grow more elegant",
+      "base_points": 50
+    },
+    {
+      "text": "{subject} is a pretty thing for {controller}",
+      "base_points": 55
+    },
+    {
+      "text": "I love wearing soft, pretty clothes",
+      "base_points": 45
+    },
+    {
+      "text": "I need {controller} to feel beautiful",
+      "base_points": 60
+    },
+    {
+      "text": "{subject}'s smile is sweet and inviting",
+      "base_points": 45
+    },
+    {
+      "text": "{subject} learns to be more receptive",
+      "base_points": 50
+    },
+    {
+      "text": "My hands are soft and delicate",
+      "base_points": 45
+    },
+    {
+      "text": "{subject} grows more in tune with their emotions",
+      "base_points": 55
+    },
+    {
+      "text": "I become the perfect feminine ideal",
+      "base_points": 85
+    },
+    {
+      "text": "{subject}'s body is soft and yielding",
+      "base_points": 80
+    },
+    {
+      "text": "My thoughts grow softer, more gentle",
+      "base_points": 85
+    },
+    {
+      "text": "{subject} is defined by grace and beauty",
+      "base_points": 90
+    },
+    {
+      "text": "I am an object of beauty for {controller}",
+      "base_points": 95
+    },
+    {
+      "text": "{subject} finds pleasure in their own beauty",
+      "base_points": 80
+    },
+    {
+      "text": "My true self is feminine and beautiful",
+      "base_points": 100
+    },
+    {
+      "text": "Femininity is {subject}'s core identity",
+      "base_points": 115
+    },
+    {
+      "text": "I am a delicate flower for {controller}",
+      "base_points": 110
+    },
+    {
+      "text": "{subject} only thinks beautiful, pleasing thoughts",
+      "base_points": 120
+    },
+    {
+      "text": "I am consumed by the need to be pretty",
+      "base_points": 125
+    },
+    {
+      "text": "{subject}'s every movement flows with elegance",
+      "base_points": 115
+    },
+    {
+      "text": "My transformation into femininity is permanent",
+      "base_points": 155
+    },
+    {
+      "text": "{subject} exists to be beautiful for {controller}",
+      "base_points": 160
+    },
+    {
+      "text": "I am nothing but beauty and grace",
+      "base_points": 165
+    },
+    {
+      "text": "{subject} is {controller}'s perfect, pretty creation",
+      "base_points": 170
+    },
+    {
+      "text": "{controller} sculpted me into a work of art",
+      "base_points": 175
+    }
+  ]
+}

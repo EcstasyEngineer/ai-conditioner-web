@@ -1,86 +1,116 @@
-# AI Conditioner Web
+# Hypnoapp
 
-AI Conditioner Web is a greenfield Next.js 15 application for generating hypnotic suggestions with assistive AI. It blends an adaptive content engine—borrowing ideas from livecoding tools like TidalCycles and earlier internal prototypes—with a modern audio pipeline so users can assemble, render, and replay immersive sessions.
+A stateless Vite + React SPA for generating and playing hypnotic mantra sessions. Designed for GitHub Pages deployment with no backend dependencies.
 
-## Vision
-- **Dynamic session builder** that lets creators stitch together phases, pick themes, and preview timing before publishing.
-- **Cycler-driven content flow** that adapts mantra ordering, pacing, and emphasis based on user intent (focus, arousal, depth).
-- **AI-assisted voice work** through a TTS layer that caches rendered audio and keeps consistent voices across sessions.
-- **Persistent backend** so generated assets, templates, and telemetry survive across browser sessions and devices.
-
-## Stack Overview
-- **Framework**: Next.js 15 (App Router) with React Server Components and Tailwind CSS.
-- **Language & Tooling**: TypeScript, ESLint, Prettier, Turbopack for fast dev builds.
-- **State**: React Query for server cache, Zustand for client state, and session-state helpers in `lib/session-engine/`.
-- **Auth**: NextAuth.js configured for credentials + OAuth providers.
-- **Database**: Prisma ORM targeting PostgreSQL; SQLite is supported for local prototypes via connection string swap.
-- **Audio**: AWS Polly integration with SHA256-based caching stored alongside rendered mantra text.
+## Stack
+- **Framework**: Vite + React 19 + TypeScript
+- **Styling**: Tailwind CSS 4
+- **Routing**: React Router DOM
+- **Audio**: Web Audio API (isochronic drone generator)
+- **State**: React useState (no state management library needed for current scope)
 
 ## Getting Started
 ```bash
 npm install              # install deps
-npm run dev              # dev server
-npm run lint             # project linting
-npm run build            # production build
-npm start                # serve production build
+npm run dev              # dev server at localhost:5173
+npm run build            # production build to dist/
+npm run preview          # preview production build
 ```
 
-Prisma commands you will reach for often:
-- `npx prisma generate` – regenerate the client after schema tweaks.
-- `npx prisma migrate dev` – create and apply a migration while prototyping.
-- `npx prisma db push` – push schema to dev DB without migrations (useful early on).
-- `npx prisma studio` – inspect and edit records through Prisma Studio.
+## Project Structure
 
-## Key Subsystems
+```
+src/
+├── main.tsx                 # Entry point, providers
+├── App.tsx                  # React Router setup
+├── routes/
+│   ├── Builder.tsx          # Session configuration form
+│   └── Player.tsx           # Playback UI with spiral + drone
+├── components/
+│   ├── ThemeContext.tsx     # Visual theme provider
+│   ├── ThemeSwitcher.tsx    # Theme selector dots
+│   └── Spiral.tsx           # Animated spiral canvas
+└── lib/
+    └── themes.ts            # Theme definitions (clinical, bimbo, void, evil)
 
-### App Router (`app/`)
-- `app/page.tsx` acts as the marketing/landing shell.
-- Auth flows live under `app/auth/`, the dashboard under `app/dashboard/`, and the session builder/player under `app/session/`.
-- API routes (`app/api/.../route.ts`) power server-side session manipulation, theme lookup, and TTS rendering without leaving the App Router.
+lib/
+├── drone.ts                 # Web Audio isochronic drone (port of hypnocli binaural.py)
+├── theme-loader.ts          # Load mantra themes from JSON
+├── url-params.ts            # Shareable URL encoding/decoding
+├── pattern-compiler/        # TidalCycles-inspired pattern language (future use)
+├── session-engine/          # Cyclers and players (future use)
+├── mantras/
+│   └── template-renderer.ts # Variable substitution ({subject}, {controller})
+└── tts/
+    └── verb-conjugations.ts # Verb form data
 
-### Session Engine (`lib/session-engine/`)
-- **Cyclers** (`cyclers/*.ts`) control the ordering logic for mantra delivery: adaptive, weave, cluster, and more experimental behaviors.
-- **Players** (`players/*.ts`) define spatialization and timing (direct, tri-chamber, rotational, etc.).
-- `director.ts`, `session-parser.ts`, and `types.ts` wire cyclers, players, and telemetry together so phases can adapt mid-session.
+public/data/mantras/         # Theme JSON files (from conditioner repo)
+docs/                        # Architecture and design docs
+ontologies/                  # Theme metadata (legacy, may be removed)
+```
 
-### Audio & Templates (`lib/tts/` and `lib/mantras/`)
-- Template rendering handles variable substitution (`{subject_subjective}`), verb conjugation, and persona POV selection before hitting Polly.
-- Audio files are hashed by rendered text to avoid duplicate synthesis and to enable CDN migration later.
+## Current Features
 
-### Data Model (Prisma)
-- **User** – credentials, POV preferences, and telemetry aggregate.
-- **Theme** – curated hypnosis motifs with tagging and CNC flags.
-- **Mantra** – template text tied to themes, difficulty, and content flags.
-- **RenderedMantra** – concrete text/audio output keyed by hash.
-- **UserSession / Phase / PhaseItem / Effect** – builder output describing how a session plays back.
-- **Telemetry** – optional live measurements (arousal/focus/depth) for adaptive loops.
+### Session Builder (`/`)
+- Select mantra theme (obedience, submission, etc.)
+- Enter pet name (substitutes `{subject}`)
+- Enter dominant name (substitutes `{controller}`)
+- Set duration (5-60 minutes)
+- Generate shareable URL
 
-## Content Sources
-- Structured hypnosis content lives under `hypnosis/` (mantras and modular session pieces).
-- Ontology metadata and theme descriptors live in `ontologies/`.
-- Visuals, shaders, and audio assets reside in `assets/` (source) and `public/` (served).
+### Session Player (`/play?theme=...&pet=...&dom=...&dur=...`)
+- Displays rendered mantras with variable substitution
+- Auto-advances every 4 seconds when playing
+- Isochronic drone audio (4-tone, L/R ping-pong at 180°)
+- Animated spiral background (fades in when playing)
+- Play/pause, skip prev/next controls
+- Copy shareable link
 
-## Development Workflow
-- Favor incremental commits with Conventional Commit messages (`feat(session): add adaptive cycler strategy`).
-- Keep tests and lint passing (`npm run lint`). Add Playwright/jest coverage as the test story evolves.
-- When altering schema or session engine primitives, update related docs in `docs/` (e.g., `Session_Grammar.md`, `cyclers_and_players_overview.md`).
-- Use feature branches (`feature/new-session-phase`) and squash merge back into `main`.
+### Visual Themes
+Four color schemes, persisted to localStorage:
+- **Clinical** (default): Teal & gray
+- **Bimbo**: Pink & magenta
+- **Void**: Purple & black
+- **Evil**: Red & black
 
-## Issue & Task Tracking
-- Issue title pattern: `[Area] short description` (e.g., `[Session Engine] Adaptive loop stalls`).
-- Minimum labels: one type (`bug`, `enhancement`, `documentation`, `tech-debt`), one priority (`priority-high`, `priority-medium`, etc.), and the relevant feature label (`feature-session-engine`, `feature-tts`, `feature-ui`, ...).
-- When filing issues, include reproduction steps, environment info (`node -v`, `npm -v`, branch), and direct file references such as `lib/session-engine/cyclers/adaptive.ts:45`.
-- For GH CLI: `gh issue create --title "…" --body "…" --label "bug,feature-session-builder,priority-medium"`.
+## Audio System
 
-## Build Troubleshooting Checklist
-- [ ] Dependencies installed (`npm install`) and Node ≥ 18.
-- [ ] Prisma client regenerated after schema changes.
-- [ ] `npm run lint` and future `npm test` succeed locally.
-- [ ] `.next/` cache cleared if hot reload acts stale.
-- [ ] Environment variables (`DATABASE_URL`, AWS credentials for Polly) present in `.env.local`.
+The drone is a Web Audio API port of `hypnocli/audio/binaural.py --preset drone`:
+- High band: 310 Hz (L) / 314 Hz (R) pulsing at 5 Hz
+- Low band: 58 Hz (L) / 62 Hz (R) pulsing at 3.25 Hz, -6 dB
+- True 180° phase offset between L/R channels
+- 1.75s fade in/out
 
-## Open Questions / Next Up
-- Finalize how adaptive cyclers read telemetry in real time (web sockets vs polling).
-- Decide on default voice pack & fallback when Polly quota hits limits.
-- Align SQLite dev workflow with production Postgres migrations to avoid drift.
-- Document a happy-path user journey through the session builder once UI stabilizes.
+## Content
+
+Mantras are loaded from `public/data/mantras/*.json`, sourced from the `conditioner` repo. Each theme has:
+- `theme`: Theme name
+- `description`: What the theme does
+- `mantras`: Array of `{text, base_points}`
+
+Template variables:
+- `{subject}` → pet name
+- `{controller}` → dominant name
+
+## Future / Out of Scope
+
+These exist in `lib/` but aren't wired up yet:
+- **Pattern compiler**: TidalCycles-inspired session composition
+- **Session engine**: Cyclers (adaptive, weave, cluster) and players (rotational, tri-chamber)
+- **Full template system**: Gender/POV pronouns, verb conjugation
+
+Not planned for MVP:
+- User accounts / auth
+- Server-side persistence
+- TTS voice generation (would need external audio hosting)
+- Adaptive/dynamic content based on telemetry
+
+## Development Notes
+
+- Mantras use simplified placeholders (`{subject}`, `{controller}`) - full gender/POV support requires enhancing the mantra JSON files
+- No database - all state is URL params + localStorage
+- Designed for static hosting (GitHub Pages, Netlify, etc.)
+
+## Related Repos
+- `conditioner` - CLI tools, mantra content source
+- `hypnocli` - Audio generation (binaural.py)
