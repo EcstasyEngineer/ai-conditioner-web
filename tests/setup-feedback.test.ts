@@ -49,6 +49,26 @@ function loadRealCorpus(): Corpus {
 
 const corpus = loadRealCorpus();
 
+/** The real corpus, trimmed so `enroll` minus `exclude` leaves exactly `keep`
+ *  records — a starvation the picker must warn about, built rather than
+ *  borrowed so it survives the corpus growing. */
+function thinCorpus(enroll: string, exclude: string, keep: number): Corpus {
+  let kept = 0;
+  const entries = corpus.entries.filter((entry: CorpusEntry) => {
+    if (!entry.record.themes.includes(enroll)) return true;
+    if (entry.record.themes.includes(exclude)) return true;
+    kept += 1;
+    return kept <= keep;
+  });
+  const byTheme: Record<string, CorpusEntry[]> = {};
+  for (const entry of entries) {
+    for (const theme of entry.record.themes) {
+      (byTheme[theme] ??= []).push(entry);
+    }
+  }
+  return { ...corpus, entries, byTheme };
+}
+
 function config(overrides: Partial<UserConfig> = {}): UserConfig {
   return {
     themes: ['focus', 'submission', 'obedience', 'devotion'],
@@ -127,9 +147,13 @@ describe('D3 — the displayed counts equal what the plan contains', () => {
 
 describe('§6.2 — the per-tag breakdown warns near the floor', () => {
   it('flags an ENROLLED tag that an exclusion pushed below the floor', () => {
-    // `drone` − `machine_register` is a measured thin pair (vocabulary.ts).
+    // The warning is exercised against a corpus built to starve, not against
+    // whichever real pair happens to be thin this week: every previously thin
+    // pair recovered when the corpus grew, and a test that borrows one silently
+    // stops testing the warning the moment that happens.
+    const thin = thinCorpus('drone', 'machine_register', CORPUS_FLOOR - 1);
     const cfg = config({ themes: ['drone'], excludedThemes: ['machine_register'] });
-    const feedback = buildFeedback({ corpus, config: cfg, seed: 1 });
+    const feedback = buildFeedback({ corpus: thin, config: cfg, seed: 1 });
 
     expect(feedback.rows['drone'].available).toBeLessThan(CORPUS_FLOOR);
     expect(feedback.rows['drone'].thin).toBe(true);

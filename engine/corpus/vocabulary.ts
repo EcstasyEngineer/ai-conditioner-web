@@ -125,6 +125,8 @@ export const CORPUS_FLOOR = 54;
  * grows — the pairs should be re-swept and removed once they clear.
  */
 export const KNOWN_THIN_PAIRS: readonly { enroll: Tag; exclude: Tag; remaining: number }[] = [
-  { enroll: 'drone', exclude: 'machine_register', remaining: 53 },
-  { enroll: 'intense', exclude: 'submission', remaining: 51 },
+  // Empty as of the target-voice generation pass: both former exceptions
+  // recovered when the corpus grew (drone-machine_register 53 -> 118,
+  // intense-submission 51 -> 96), so they are removed rather than carried.
+  // A pair that starves again belongs here with its measured count.
 ];
