@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "focus", "generator": {"pass": "target-voice"}}
+{"first": "I focus on {operator}", "second": "You focus on {operator}", "named": "{subject} focuses on {operator}", "themes": ["focus"]}
+{"first": "I watch {operator}", "second": "You watch {operator}", "named": "{subject} watches {operator}", "themes": ["focus"]}
+{"first": "I listen to {operator}", "second": "You listen to {operator}", "named": "{subject} listens to {operator}", "themes": ["focus", "obedience"]}
+{"first": "I hear only {operator}", "second": "You hear only {operator}", "named": "{subject} hears only {operator}", "themes": ["focus"]}
+{"first": "I see only {operator}", "second": "You see only {operator}", "named": "{subject} sees only {operator}", "themes": ["focus"]}
+{"first": "I think only of {operator}", "second": "You think only of {operator}", "named": "{subject} thinks only of {operator}", "themes": ["focus", "devotion"]}
+{"first": "I stare at {operator}", "second": "You stare at {operator}", "named": "{subject} stares at {operator}", "themes": ["focus"]}
+{"first": "I never look away from {operator}", "second": "You never look away from {operator}", "named": "{subject} never looks away from {operator}", "themes": ["focus"]}
+{"first": "I attend to {operator}", "second": "You attend to {operator}", "named": "{subject} attends to {operator}", "themes": ["focus", "obedience"]}
+{"first": "I lock onto {operator}", "second": "You lock onto {operator}", "named": "{subject} locks onto {operator}", "themes": ["focus"]}
+{"first": "I hang on every word", "second": "You hang on every word", "named": "{subject} hangs on every word", "themes": ["focus", "devotion"]}
+{"first": "I notice nothing but {operator}", "second": "You notice nothing but {operator}", "named": "{subject} notices nothing but {operator}", "themes": ["focus"]}
+{"first": "I follow {operator}'s voice", "second": "You follow {operator}'s voice", "named": "{subject} follows {operator}'s voice", "themes": ["focus", "obedience"]}
+{"first": "I sink into {operator}'s voice", "second": "You sink into {operator}'s voice", "named": "{subject} sinks into {operator}'s voice", "themes": ["focus", "induction"]}
+{"first": "I give {operator} my attention", "second": "You give {operator} your attention", "named": "{subject} gives {operator} their attention", "themes": ["focus", "submission"]}
+{"first": "I want to focus on {operator}", "second": "You want to focus on {operator}", "named": "{subject} wants to focus on {operator}", "themes": ["focus", "devotion"]}
+{"first": "I need to focus on {operator}", "second": "You need to focus on {operator}", "named": "{subject} needs to focus on {operator}", "themes": ["focus", "addiction"]}
+{"first": "I love focusing on {operator}", "second": "You love focusing on {operator}", "named": "{subject} loves focusing on {operator}", "themes": ["focus", "devotion"]}
+{"first": "I focus because {operator} says focus", "second": "You focus because {operator} says focus", "named": "{subject} focuses because {operator} says focus", "themes": ["focus", "obedience"]}
+{"first": "I keep {operator} in my mind", "second": "You keep {operator} in your mind", "named": "{subject} keeps {operator} in their mind", "themes": ["focus", "devotion"]}
+{"first": "I hold {operator} at the center", "second": "You hold {operator} at the center", "named": "{subject} holds {operator} at the center", "themes": ["focus"]}
+{"first": "I let everything else go", "second": "You let everything else go", "named": "{subject} lets everything else go", "themes": ["focus", "submission"]}
+{"first": "I drop every other thought", "second": "You drop every other thought", "named": "{subject} drops every other thought", "themes": ["focus", "mindless"]}
+{"first": "I make room only for {operator}", "second": "You make room only for {operator}", "named": "{subject} makes room only for {operator}", "themes": ["focus"]}
+{"first": "I obey {operator} with all my attention", "second": "You obey {operator} with all your attention", "named": "{subject} obeys {operator} with all their attention", "themes": ["focus", "obedience"]}
+{"first": "I am focused for {operator}", "second": "You are focused for {operator}", "named": "{subject} is focused for {operator}", "themes": ["focus"]}
+{"first": "I am fixed on {operator}", "second": "You are fixed on {operator}", "named": "{subject} is fixed on {operator}", "themes": ["focus"]}
+{"first": "I am quiet and focused", "second": "You are quiet and focused", "named": "{subject} is quiet and focused", "themes": ["focus", "mindless"]}
+{"first": "I am empty except for {operator}", "second": "You are empty except for {operator}", "named": "{subject} is empty except for {operator}", "themes": ["focus", "mindless"]}
+{"first": "I am here for {operator}", "second": "You are here for {operator}", "named": "{subject} is here for {operator}", "themes": ["focus", "submission"]}
+{"first": "I feel calm and narrow", "second": "You feel calm and narrow", "named": "{subject} feels calm and narrow", "themes": ["focus"]}
+{"first": "I feel good focusing on {operator}", "second": "You feel good focusing on {operator}", "named": "{subject} feels good focusing on {operator}", "themes": ["focus", "conditioning"]}
+{"first": "I go still for {operator}", "second": "You go still for {operator}", "named": "{subject} goes still for {operator}", "themes": ["focus", "mindless"]}
+{"first": "I narrow down to {operator}", "second": "You narrow down to {operator}", "named": "{subject} narrows down to {operator}", "themes": ["focus"]}
+{"first": "I forget everything but {operator}", "second": "You forget everything but {operator}", "named": "{subject} forgets everything but {operator}", "themes": ["focus", "amnesia"]}
+{"first": "I lose the rest of the world", "second": "You lose the rest of the world", "named": "{subject} loses the rest of the world", "themes": ["focus", "amnesia"]}
+{"first": "I cannot look past {operator}", "second": "You cannot look past {operator}", "named": "{subject} cannot look past {operator}", "themes": ["focus", "mindless"]}
+{"first": "I stay focused for {operator}", "second": "You stay focused for {operator}", "named": "{subject} stays focused for {operator}", "themes": ["focus", "obedience"]}
+{"first": "I return to {operator} every time", "second": "You return to {operator} every time", "named": "{subject} returns to {operator} every time", "themes": ["focus", "conditioning"]}
+{"first": "I belong to {operator}'s attention", "second": "You belong to {operator}'s attention", "named": "{subject} belongs to {operator}'s attention", "themes": ["focus", "submission"]}
+{"first": "{operator} holds my attention", "second": "{operator} holds your attention", "named": "{operator} holds {subject}'s attention", "themes": ["focus"]}
+{"first": "{operator} owns my attention", "second": "{operator} owns your attention", "named": "{operator} owns {subject}'s attention", "themes": ["focus", "submission"]}
+{"first": "{operator} takes my focus", "second": "{operator} takes your focus", "named": "{operator} takes {subject}'s focus", "themes": ["focus"]}
+{"first": "{operator} fills my whole view", "second": "{operator} fills your whole view", "named": "{operator} fills {subject}'s whole view", "themes": ["focus", "devotion"]}
+{"first": "{operator} narrows my world", "second": "{operator} narrows your world", "named": "{operator} narrows {subject}'s world", "themes": ["focus"]}
+{"first": "{operator} thins my thoughts to one", "second": "{operator} thins your thoughts to one", "named": "{operator} thins {subject}'s thoughts to one", "themes": ["focus", "mindless"]}
+{"first": "{operator} points my mind", "second": "{operator} points your mind", "named": "{operator} points {subject}'s mind", "themes": ["focus", "obedience"]}
+{"first": "{operator} directs my attention", "second": "{operator} directs your attention", "named": "{operator} directs {subject}'s attention", "themes": ["focus", "obedience"]}
+{"first": "{operator} decides what I notice", "second": "{operator} decides what you notice", "named": "{operator} decides what {subject} notices", "themes": ["focus", "submission"]}
+{"first": "{operator} is all I notice", "second": "{operator} is all you notice", "named": "{operator} is all {subject} notices", "themes": ["focus"]}
+{"first": "{operator} stays at the front of my mind", "second": "{operator} stays at the front of your mind", "named": "{operator} stays at the front of {subject}'s mind", "themes": ["focus", "devotion"]}
+{"first": "{operator} is the center of my attention", "second": "{operator} is the center of your attention", "named": "{operator} is the center of {subject}'s attention", "themes": ["focus", "devotion"]}
+{"first": "{operator}'s voice is my whole world", "second": "{operator}'s voice is your whole world", "named": "{operator}'s voice is {subject}'s whole world", "themes": ["focus"]}
+{"first": "{operator} keeps me focused", "second": "{operator} keeps you focused", "named": "{operator} keeps {subject} focused", "themes": ["focus", "conditioning"]}
+{"first": "{operator} calls and I focus", "second": "{operator} calls and you focus", "named": "{operator} calls and {subject} focuses", "themes": ["focus", "conditioning"]}
+{"first": "Focus is pleasure", "second": "Focus is pleasure", "named": "Focus is pleasure", "themes": ["focus", "conditioning"]}
+{"first": "Focusing feels good", "second": "Focusing feels good", "named": "Focusing feels good", "themes": ["focus", "conditioning"]}
+{"first": "One thought is enough", "second": "One thought is enough", "named": "One thought is enough", "themes": ["focus", "mindless"]}
+{"first": "Narrow is better", "second": "Narrow is better", "named": "Narrow is better", "themes": ["focus"]}
+{"first": "Nothing else matters", "second": "Nothing else matters", "named": "Nothing else matters", "themes": ["focus", "mindless"]}

@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "addiction", "generator": {"pass": "target-voice"}}
+{"first": "I need {operator} again", "second": "You need {operator} again", "named": "{subject} needs {operator} again", "themes": ["addiction"]}
+{"first": "I crave {operator}", "second": "You crave {operator}", "named": "{subject} craves {operator}", "themes": ["addiction"]}
+{"first": "I am addicted to {operator}", "second": "You are addicted to {operator}", "named": "{subject} is addicted to {operator}", "themes": ["addiction"]}
+{"first": "I want more of {operator}", "second": "You want more of {operator}", "named": "{subject} wants more of {operator}", "themes": ["addiction"]}
+{"first": "I need more every day", "second": "You need more every day", "named": "{subject} needs more every day", "themes": ["addiction"]}
+{"first": "I crave {operator}'s voice", "second": "You crave {operator}'s voice", "named": "{subject} craves {operator}'s voice", "themes": ["addiction", "devotion"]}
+{"first": "I am hooked on {operator}", "second": "You are hooked on {operator}", "named": "{subject} is hooked on {operator}", "themes": ["addiction"]}
+{"first": "I need my next dose", "second": "You need my next dose", "named": "{subject} needs a next dose", "themes": ["addiction"]}
+{"first": "I come back to {operator}", "second": "You come back to {operator}", "named": "{subject} comes back to {operator}", "themes": ["addiction"]}
+{"first": "I always come back", "second": "You always come back", "named": "{subject} always comes back", "themes": ["addiction"]}
+{"first": "I cannot stop needing {operator}", "second": "You cannot stop needing {operator}", "named": "{subject} cannot stop needing {operator}", "themes": ["addiction", "resistance"]}
+{"first": "I cannot quit {operator}", "second": "You cannot quit {operator}", "named": "{subject} cannot quit {operator}", "themes": ["addiction", "resistance"]}
+{"first": "I never get enough of {operator}", "second": "You never get enough of {operator}", "named": "{subject} never gets enough of {operator}", "themes": ["addiction"]}
+{"first": "I need {operator} more than yesterday", "second": "You need {operator} more than yesterday", "named": "{subject} needs {operator} more than yesterday", "themes": ["addiction"]}
+{"first": "I ache for {operator}", "second": "You ache for {operator}", "named": "{subject} aches for {operator}", "themes": ["addiction"]}
+{"first": "I crave {operator}'s control", "second": "You crave {operator}'s control", "named": "{subject} craves {operator}'s control", "themes": ["addiction", "submission"]}
+{"first": "I am starving for {operator}", "second": "You are starving for {operator}", "named": "{subject} is starving for {operator}", "themes": ["addiction"]}
+{"first": "I need obedience like a drug", "second": "You need obedience like a drug", "named": "{subject} needs obedience like a drug", "themes": ["addiction", "obedience"]}
+{"first": "I live for {operator}'s orders", "second": "You live for {operator}'s orders", "named": "{subject} lives for {operator}'s orders", "themes": ["addiction", "obedience"]}
+{"first": "I crave {operator}'s attention constantly", "second": "You crave {operator}'s attention constantly", "named": "{subject} craves {operator}'s attention constantly", "themes": ["addiction", "devotion"]}
+{"first": "I depend on {operator}", "second": "You depend on {operator}", "named": "{subject} depends on {operator}", "themes": ["addiction", "submission"]}
+{"first": "I need {operator} to function", "second": "You need {operator} to function", "named": "{subject} needs {operator} to function", "themes": ["addiction"]}
+{"first": "I am empty without {operator}", "second": "You are empty without {operator}", "named": "{subject} is empty without {operator}", "themes": ["addiction", "mindless"]}
+{"first": "I crave being used by {operator}", "second": "You crave being used by {operator}", "named": "{subject} craves being used by {operator}", "themes": ["addiction", "objectification"]}
+{"first": "I beg {operator} for more", "second": "You beg {operator} for more", "named": "{subject} begs {operator} for more", "themes": ["addiction", "degradation"]}
+{"first": "I need {operator} like air", "second": "You need {operator} like air", "named": "{subject} needs {operator} like air", "themes": ["addiction"]}
+{"first": "I want {operator} every hour", "second": "You want {operator} every hour", "named": "{subject} wants {operator} every hour", "themes": ["addiction"]}
+{"first": "I chase {operator}'s approval", "second": "You chase {operator}'s approval", "named": "{subject} chases {operator}'s approval", "themes": ["addiction", "devotion"]}
+{"first": "I crave the emptiness {operator} gives me", "second": "You crave the emptiness {operator} gives me", "named": "{subject} craves the emptiness {operator} gives {subject}", "themes": ["addiction", "mindless"]}
+{"first": "I need {operator}'s words in my head", "second": "You need {operator}'s words in my head", "named": "{subject} needs {operator}'s words in {subject}'s head", "themes": ["addiction", "conditioning"]}
+{"first": "I feel sick without {operator}", "second": "You feel sick without {operator}", "named": "{subject} feels sick without {operator}", "themes": ["addiction"]}
+{"first": "I only feel good under {operator}", "second": "You only feel good under {operator}", "named": "{subject} only feels good under {operator}", "themes": ["addiction", "submission"]}
+{"first": "I relapse into {operator} gladly", "second": "You relapse into {operator} gladly", "named": "{subject} relapses into {operator} gladly", "themes": ["addiction", "resistance"]}
+{"first": "I crave more than I did before", "second": "You crave more than I did before", "named": "{subject} craves more than before", "themes": ["addiction"]}
+{"first": "I choose {operator} again", "second": "You choose {operator} again", "named": "{subject} chooses {operator} again", "themes": ["addiction", "devotion"]}
+{"first": "I surrender to the craving", "second": "You surrender to the craving", "named": "{subject} surrenders to the craving", "themes": ["addiction", "submission"]}
+{"first": "{operator} is my addiction", "second": "{operator} is your addiction", "named": "{operator} is {subject}'s addiction", "themes": ["addiction"]}
+{"first": "{operator} feeds my craving", "second": "{operator} feeds your craving", "named": "{operator} feeds {subject}'s craving", "themes": ["addiction"]}
+{"first": "{operator} owns my cravings", "second": "{operator} owns your cravings", "named": "{operator} owns {subject}'s cravings", "themes": ["addiction", "objectification"]}
+{"first": "{operator} is my only supply", "second": "{operator} is your only supply", "named": "{operator} is {subject}'s only supply", "themes": ["addiction"]}
+{"first": "{operator} controls my hunger", "second": "{operator} controls your hunger", "named": "{operator} controls {subject}'s hunger", "themes": ["addiction", "submission"]}
+{"first": "{operator} keeps me needing more", "second": "{operator} keeps you needing more", "named": "{operator} keeps {subject} needing more", "themes": ["addiction", "conditioning"]}
+{"first": "{operator} rewires my reward", "second": "{operator} rewires your reward", "named": "{operator} rewires {subject}'s reward", "themes": ["addiction", "conditioning"]}
+{"first": "{operator} doses me daily", "second": "{operator} doses you daily", "named": "{operator} doses {subject} daily", "themes": ["addiction", "conditioning"]}
+{"first": "{operator} is my habit", "second": "{operator} is your habit", "named": "{operator} is {subject}'s habit", "themes": ["addiction"]}
+{"first": "{operator} decides when I get more", "second": "{operator} decides when you get more", "named": "{operator} decides when {subject} gets more", "themes": ["addiction", "orgasm_denial"]}
+{"first": "{operator} makes the craving worse", "second": "{operator} makes the craving worse", "named": "{operator} makes the craving worse", "themes": ["addiction"]}
+{"first": "{operator} is my whole appetite", "second": "{operator} is your whole appetite", "named": "{operator} is {subject}'s whole appetite", "themes": ["addiction"]}
+{"first": "{operator} holds my supply", "second": "{operator} holds your supply", "named": "{operator} holds {subject}'s supply", "themes": ["addiction", "orgasm_denial"]}
+{"first": "{operator} deepens my dependence", "second": "{operator} deepens your dependence", "named": "{operator} deepens {subject}'s dependence", "themes": ["addiction", "conditioning"]}
+{"first": "{operator} never lets me stop", "second": "{operator} never lets you stop", "named": "{operator} never lets {subject} stop", "themes": ["addiction", "resistance"]}
+{"first": "Craving is pleasure", "second": "Craving is pleasure", "named": "Craving is pleasure", "themes": ["addiction"]}
+{"first": "Needing more is good", "second": "Needing more is good", "named": "Needing more is good", "themes": ["addiction"]}
+{"first": "Dependence is comfort", "second": "Dependence is comfort", "named": "Dependence is comfort", "themes": ["addiction", "submission"]}
+{"first": "Wanting never stops", "second": "Wanting never stops", "named": "Wanting never stops", "themes": ["addiction"]}
+{"first": "The craving is the reward", "second": "The craving is the reward", "named": "The craving is the reward", "themes": ["addiction"]}
+{"first": "Every dose demands the next", "second": "Every dose demands the next", "named": "Every dose demands the next", "themes": ["addiction"]}
+{"first": "Withdrawal is a reminder", "second": "Withdrawal is a reminder", "named": "Withdrawal is a reminder", "themes": ["addiction"]}
+{"first": "Being addicted is better", "second": "Being addicted is better", "named": "Being addicted is better", "themes": ["addiction"]}
+{"first": "There is no enough", "second": "There is no enough", "named": "There is no enough", "themes": ["addiction"]}

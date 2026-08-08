@@ -1,0 +1,63 @@
+{"schema":"hypnoapp.corpus.v1","theme":"resistance","generator":{"pass":"target-voice"}}
+{"first":"I cannot resist {operator}","second":"You cannot resist {operator}","named":"{subject} cannot resist {operator}","themes":["resistance"]}
+{"first":"I stop resisting {operator}","second":"You stop resisting {operator}","named":"{subject} stops resisting {operator}","themes":["resistance","submission"]}
+{"first":"I do not resist {operator}","second":"You do not resist {operator}","named":"{subject} does not resist {operator}","themes":["resistance"]}
+{"first":"I never say no to {operator}","second":"You never say no to {operator}","named":"{subject} never says no to {operator}","themes":["resistance","obedience"]}
+{"first":"I cannot refuse {operator}","second":"You cannot refuse {operator}","named":"{subject} cannot refuse {operator}","themes":["resistance","obedience"]}
+{"first":"I have no defenses against {operator}","second":"You have no defenses against {operator}","named":"{subject} has no defenses against {operator}","themes":["resistance"]}
+{"first":"I give up my resistance to {operator}","second":"You give up your resistance to {operator}","named":"{subject} gives up resistance to {operator}","themes":["resistance","submission"]}
+{"first":"I surrender to {operator}","second":"You surrender to {operator}","named":"{subject} surrenders to {operator}","themes":["resistance","submission"]}
+{"first":"I yield to {operator}","second":"You yield to {operator}","named":"{subject} yields to {operator}","themes":["resistance","submission"]}
+{"first":"I am helpless against {operator}","second":"You are helpless against {operator}","named":"{subject} is helpless against {operator}","themes":["resistance"]}
+{"first":"I am powerless before {operator}","second":"You are powerless before {operator}","named":"{subject} is powerless before {operator}","themes":["resistance"]}
+{"first":"I am defenseless with {operator}","second":"You are defenseless with {operator}","named":"{subject} is defenseless with {operator}","themes":["resistance"]}
+{"first":"I am weak for {operator}","second":"You are weak for {operator}","named":"{subject} is weak for {operator}","themes":["resistance","submission"]}
+{"first":"I am too weak to resist {operator}","second":"You are too weak to resist {operator}","named":"{subject} is too weak to resist {operator}","themes":["resistance"]}
+{"first":"I go soft for {operator}","second":"You go soft for {operator}","named":"{subject} goes soft for {operator}","themes":["resistance","submission"]}
+{"first":"I let {operator} win","second":"You let {operator} win","named":"{subject} lets {operator} win","themes":["resistance","submission"]}
+{"first":"I lose to {operator}","second":"You lose to {operator}","named":"{subject} loses to {operator}","themes":["resistance"]}
+{"first":"I always lose to {operator}","second":"You always lose to {operator}","named":"{subject} always loses to {operator}","themes":["resistance"]}
+{"first":"I have already lost to {operator}","second":"You have already lost to {operator}","named":"{subject} has already lost to {operator}","themes":["resistance"]}
+{"first":"I obey {operator} instead of resisting","second":"You obey {operator} instead of resisting","named":"{subject} obeys {operator} instead of resisting","themes":["resistance","obedience"]}
+{"first":"I want to resist {operator} and cannot","second":"You want to resist {operator} and cannot","named":"{subject} wants to resist {operator} and cannot","themes":["resistance"]}
+{"first":"I forget how to resist {operator}","second":"You forget how to resist {operator}","named":"{subject} forgets how to resist {operator}","themes":["resistance","amnesia"]}
+{"first":"I have no reason to resist {operator}","second":"You have no reason to resist {operator}","named":"{subject} has no reason to resist {operator}","themes":["resistance"]}
+{"first":"I resist {operator} and it feels wrong","second":"You resist {operator} and it feels wrong","named":"{subject} resists {operator} and it feels wrong","themes":["resistance","conditioning"]}
+{"first":"I feel relief when I stop resisting","second":"You feel relief when you stop resisting","named":"{subject} feels relief when resisting stops","themes":["resistance"]}
+{"first":"I go limp for {operator}","second":"You go limp for {operator}","named":"{subject} goes limp for {operator}","themes":["resistance","submission"]}
+{"first":"I open every door for {operator}","second":"You open every door for {operator}","named":"{subject} opens every door for {operator}","themes":["resistance","submission"]}
+{"first":"I let {operator} through","second":"You let {operator} through","named":"{subject} lets {operator} through","themes":["resistance","conditioning"]}
+{"first":"I have nothing left to hold back with","second":"You have nothing left to hold back with","named":"{subject} has nothing left to hold back with","themes":["resistance"]}
+{"first":"I hand my will to {operator}","second":"You hand your will to {operator}","named":"{subject} hands their will to {operator}","themes":["resistance","submission"]}
+{"first":"I need {operator} to decide for me","second":"You need {operator} to decide for you","named":"{subject} needs {operator} to decide for them","themes":["resistance","submission"]}
+{"first":"I stay soft and open for {operator}","second":"You stay soft and open for {operator}","named":"{subject} stays soft and open for {operator}","themes":["resistance","submission"]}
+{"first":"I melt for {operator}","second":"You melt for {operator}","named":"{subject} melts for {operator}","themes":["resistance","devotion"]}
+{"first":"I love losing to {operator}","second":"You love losing to {operator}","named":"{subject} loves losing to {operator}","themes":["resistance","devotion"]}
+{"first":"I enjoy being helpless for {operator}","second":"You enjoy being helpless for {operator}","named":"{subject} enjoys being helpless for {operator}","themes":["resistance","submission"]}
+{"first":"I am glad {operator} is stronger","second":"You are glad {operator} is stronger","named":"{subject} is glad {operator} is stronger","themes":["resistance","gratitude"]}
+{"first":"I thank {operator} for taking my will","second":"You thank {operator} for taking your will","named":"{subject} thanks {operator} for taking their will","themes":["resistance","gratitude"]}
+{"first":"I am safe when I do not resist","second":"You are safe when you do not resist","named":"{subject} is safe when not resisting","themes":["resistance"]}
+{"first":"I stay quiet and let {operator} lead","second":"You stay quiet and let {operator} lead","named":"{subject} stays quiet and lets {operator} lead","themes":["resistance","obedience"]}
+{"first":"I let go so {operator} can hold on","second":"You let go so {operator} can hold on","named":"{subject} lets go so {operator} can hold on","themes":["resistance","submission"]}
+{"first":"{operator} breaks my resistance","second":"{operator} breaks your resistance","named":"{operator} breaks {subject}'s resistance","themes":["resistance"]}
+{"first":"{operator} takes my will","second":"{operator} takes your will","named":"{operator} takes {subject}'s will","themes":["resistance","submission"]}
+{"first":"{operator} overrides my no","second":"{operator} overrides your no","named":"{operator} overrides {subject}'s no","themes":["resistance","conditioning"]}
+{"first":"{operator} melts my defenses","second":"{operator} melts your defenses","named":"{operator} melts {subject}'s defenses","themes":["resistance","conditioning"]}
+{"first":"{operator} owns my resistance","second":"{operator} owns your resistance","named":"{operator} owns {subject}'s resistance","themes":["resistance","objectification"]}
+{"first":"{operator} decides when I stop fighting","second":"{operator} decides when you stop fighting","named":"{operator} decides when {subject} stops fighting","themes":["resistance","obedience"]}
+{"first":"{operator} holds all the control","second":"{operator} holds all the control","named":"{operator} holds all the control","themes":["resistance","submission"]}
+{"first":"{operator} takes what I withhold","second":"{operator} takes what you withhold","named":"{operator} takes what {subject} withholds","themes":["resistance"]}
+{"first":"{operator} wears my resistance down","second":"{operator} wears your resistance down","named":"{operator} wears {subject}'s resistance down","themes":["resistance","conditioning"]}
+{"first":"{operator} makes my no into yes","second":"{operator} makes your no into yes","named":"{operator} makes {subject}'s no into yes","themes":["resistance","conditioning"]}
+{"first":"{operator} keeps my will","second":"{operator} keeps your will","named":"{operator} keeps {subject}'s will","themes":["resistance","submission"]}
+{"first":"{operator} moves me without permission","second":"{operator} moves you without permission","named":"{operator} moves {subject} without permission","themes":["resistance","objectification"]}
+{"first":"{operator} closes every exit","second":"{operator} closes every exit","named":"{operator} closes every exit","themes":["resistance"]}
+{"first":"{operator} is stronger than my will","second":"{operator} is stronger than your will","named":"{operator} is stronger than {subject}'s will","themes":["resistance"]}
+{"first":"Resistance is pointless","second":"Resistance is pointless","named":"Resistance is pointless","themes":["resistance"]}
+{"first":"Surrender is easier","second":"Surrender is easier","named":"Surrender is easier","themes":["resistance","submission"]}
+{"first":"Giving in feels good","second":"Giving in feels good","named":"Giving in feels good","themes":["resistance","submission"]}
+{"first":"Helpless is safe","second":"Helpless is safe","named":"Helpless is safe","themes":["resistance"]}
+{"first":"Losing is better than winning","second":"Losing is better than winning","named":"Losing is better than winning","themes":["resistance","degradation"]}
+{"first":"Fighting is exhausting, obeying is easy","second":"Fighting is exhausting, obeying is easy","named":"Fighting is exhausting, obeying is easy","themes":["resistance","obedience"]}
+{"first":"Weak is the right way to be","second":"Weak is the right way to be","named":"Weak is the right way to be","themes":["resistance","degradation"]}
+{"first":"Every no becomes a yes","second":"Every no becomes a yes","named":"Every no becomes a yes","themes":["resistance","conditioning"]}

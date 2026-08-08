@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"devotion","generator":{"pass":"target-voice"}}
+{"first":"I love {operator}","second":"You love {operator}","named":"{subject} loves {operator}","themes":["devotion"]}
+{"first":"I adore {operator}","second":"You adore {operator}","named":"{subject} adores {operator}","themes":["devotion","worship"]}
+{"first":"I belong to {operator}","second":"You belong to {operator}","named":"{subject} belongs to {operator}","themes":["devotion","submission"]}
+{"first":"I am devoted to {operator}","second":"You are devoted to {operator}","named":"{subject} is devoted to {operator}","themes":["devotion"]}
+{"first":"I live for {operator}","second":"You live for {operator}","named":"{subject} lives for {operator}","themes":["devotion"]}
+{"first":"I am loyal to {operator}","second":"You are loyal to {operator}","named":"{subject} is loyal to {operator}","themes":["devotion"]}
+{"first":"I serve {operator} gladly","second":"You serve {operator} gladly","named":"{subject} serves {operator} gladly","themes":["devotion","submission"]}
+{"first":"I think about {operator} all day","second":"You think about {operator} all day","named":"{subject} thinks about {operator} all day","themes":["devotion","focus"]}
+{"first":"I need {operator}","second":"You need {operator}","named":"{subject} needs {operator}","themes":["devotion","addiction"]}
+{"first":"I want to please {operator}","second":"You want to please {operator}","named":"{subject} wants to please {operator}","themes":["devotion","obedience"]}
+{"first":"I trust {operator} completely","second":"You trust {operator} completely","named":"{subject} trusts {operator} completely","themes":["devotion","submission"]}
+{"first":"I am happy to be {operator}'s","second":"You are happy to be {operator}'s","named":"{subject} is happy to be {operator}'s","themes":["devotion","objectification"]}
+{"first":"I give my heart to {operator}","second":"You give your heart to {operator}","named":"{subject} gives {subject}'s heart to {operator}","themes":["devotion"]}
+{"first":"I am {operator}'s and only {operator}'s","second":"You are {operator}'s and only {operator}'s","named":"{subject} is {operator}'s and only {operator}'s","themes":["devotion","objectification"]}
+{"first":"I say {operator}'s name and go soft","second":"You say {operator}'s name and go soft","named":"{subject} says {operator}'s name and goes soft","themes":["devotion","induction"]}
+{"first":"I feel warm when {operator} is near","second":"You feel warm when {operator} is near","named":"{subject} feels warm when {operator} is near","themes":["devotion"]}
+{"first":"I am grateful for {operator}","second":"You are grateful for {operator}","named":"{subject} is grateful for {operator}","themes":["devotion","gratitude"]}
+{"first":"I thank {operator} for keeping me","second":"You thank {operator} for keeping you","named":"{subject} thanks {operator} for keeping {subject}","themes":["devotion","gratitude"]}
+{"first":"I am proud to be {operator}'s","second":"You are proud to be {operator}'s","named":"{subject} is proud to be {operator}'s","themes":["devotion"]}
+{"first":"I am safe with {operator}","second":"You are safe with {operator}","named":"{subject} is safe with {operator}","themes":["devotion","submission"]}
+{"first":"I am home when I serve {operator}","second":"You are home when you serve {operator}","named":"{subject} is home when {subject} serves {operator}","themes":["devotion"]}
+{"first":"I obey {operator} because I love {operator}","second":"You obey {operator} because you love {operator}","named":"{subject} obeys {operator} because {subject} loves {operator}","themes":["devotion","obedience"]}
+{"first":"I want nothing {operator} does not want","second":"You want nothing {operator} does not want","named":"{subject} wants nothing {operator} does not want","themes":["devotion","obedience"]}
+{"first":"I have no one but {operator}","second":"You have no one but {operator}","named":"{subject} has no one but {operator}","themes":["devotion"]}
+{"first":"I cannot stop loving {operator}","second":"You cannot stop loving {operator}","named":"{subject} cannot stop loving {operator}","themes":["devotion","addiction"]}
+{"first":"I melt for {operator}","second":"You melt for {operator}","named":"{subject} melts for {operator}","themes":["devotion","submission"]}
+{"first":"I ache when {operator} is away","second":"You ache when {operator} is away","named":"{subject} aches when {operator} is away","themes":["devotion","addiction"]}
+{"first":"I would give {operator} anything","second":"You would give {operator} anything","named":"{subject} would give {operator} anything","themes":["devotion","submission"]}
+{"first":"I keep no secrets from {operator}","second":"You keep no secrets from {operator}","named":"{subject} keeps no secrets from {operator}","themes":["devotion","submission"]}
+{"first":"I am devoted and I am glad","second":"You are devoted and you are glad","named":"{subject} is devoted and {subject} is glad","themes":["devotion"]}
+{"first":"I love being useful to {operator}","second":"You love being useful to {operator}","named":"{subject} loves being useful to {operator}","themes":["devotion","objectification"]}
+{"first":"I am {operator}'s good one","second":"You are {operator}'s good one","named":"{subject} is {operator}'s good one","themes":["devotion","obedience"]}
+{"first":"I wait for {operator} happily","second":"You wait for {operator} happily","named":"{subject} waits for {operator} happily","themes":["devotion","orgasm_denial"]}
+{"first":"I devote my body to {operator}","second":"You devote your body to {operator}","named":"{subject} devotes {subject}'s body to {operator}","themes":["devotion","objectification"]}
+{"first":"I devote my mind to {operator}","second":"You devote your mind to {operator}","named":"{subject} devotes {subject}'s mind to {operator}","themes":["devotion","conditioning"]}
+{"first":"I feel good loving {operator}","second":"You feel good loving {operator}","named":"{subject} feels good loving {operator}","themes":["devotion"]}
+{"first":"I am {operator}'s forever","second":"You are {operator}'s forever","named":"{subject} is {operator}'s forever","themes":["devotion"]}
+{"first":"{operator} owns my heart","second":"{operator} owns your heart","named":"{operator} owns {subject}'s heart","themes":["devotion"]}
+{"first":"{operator} owns my devotion","second":"{operator} owns your devotion","named":"{operator} owns {subject}'s devotion","themes":["devotion"]}
+{"first":"{operator} keeps me","second":"{operator} keeps you","named":"{operator} keeps {subject}","themes":["devotion","objectification"]}
+{"first":"{operator} is my whole world","second":"{operator} is your whole world","named":"{operator} is {subject}'s whole world","themes":["devotion","focus"]}
+{"first":"{operator} is the center of my life","second":"{operator} is the center of your life","named":"{operator} is the center of {subject}'s life","themes":["devotion","focus"]}
+{"first":"{operator} fills my thoughts","second":"{operator} fills your thoughts","named":"{operator} fills {subject}'s thoughts","themes":["devotion","focus"]}
+{"first":"{operator} decides what I want","second":"{operator} decides what you want","named":"{operator} decides what {subject} wants","themes":["devotion","conditioning"]}
+{"first":"{operator} comes first, always","second":"{operator} comes first, always","named":"{operator} comes first, always","themes":["devotion"]}
+{"first":"{operator} deserves everything I have","second":"{operator} deserves everything you have","named":"{operator} deserves everything {subject} has","themes":["devotion","worship"]}
+{"first":"{operator} makes me warm and willing","second":"{operator} makes you warm and willing","named":"{operator} makes {subject} warm and willing","themes":["devotion","submission"]}
+{"first":"{operator} holds my leash and my love","second":"{operator} holds your leash and your love","named":"{operator} holds {subject}'s leash and {subject}'s love","themes":["devotion","submission"]}
+{"first":"{operator} is worth all of me","second":"{operator} is worth all of you","named":"{operator} is worth all of {subject}","themes":["devotion","worship"]}
+{"first":"{operator} chose me and I am glad","second":"{operator} chose you and you are glad","named":"{operator} chose {subject} and {subject} is glad","themes":["devotion","gratitude"]}
+{"first":"{operator} never has to ask twice","second":"{operator} never has to ask twice","named":"{operator} never has to ask twice","themes":["devotion","obedience"]}
+{"first":"{operator} is my only loyalty","second":"{operator} is your only loyalty","named":"{operator} is {subject}'s only loyalty","themes":["devotion"]}
+{"first":"Devotion feels good","second":"Devotion feels good","named":"Devotion feels good","themes":["devotion"]}
+{"first":"Loving is easier than deciding","second":"Loving is easier than deciding","named":"Loving is easier than deciding","themes":["devotion","submission"]}
+{"first":"Loyalty is its own reward","second":"Loyalty is its own reward","named":"Loyalty is its own reward","themes":["devotion"]}
+{"first":"Belonging is better than choosing","second":"Belonging is better than choosing","named":"Belonging is better than choosing","themes":["devotion","submission"]}
+{"first":"Devotion is simple and warm","second":"Devotion is simple and warm","named":"Devotion is simple and warm","themes":["devotion"]}
+{"first":"Being owned is being loved","second":"Being owned is being loved","named":"Being owned is being loved","themes":["devotion","objectification"]}
+{"first":"Love and obedience are the same thing","second":"Love and obedience are the same thing","named":"Love and obedience are the same thing","themes":["devotion","obedience"]}
+{"first":"There is only one name that matters","second":"There is only one name that matters","named":"There is only one name that matters","themes":["devotion","focus"]}

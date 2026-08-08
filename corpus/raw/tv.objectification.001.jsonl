@@ -1,0 +1,67 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "objectification", "generator": {"pass": "target-voice"}}
+{"first": "I am a thing for {operator}", "second": "You are a thing for {operator}", "named": "{subject} is a thing for {operator}", "themes": ["objectification"]}
+{"first": "I am available to {operator}", "second": "You are available to {operator}", "named": "{subject} is available to {operator}", "themes": ["objectification"]}
+{"first": "I am always available", "second": "You are always available", "named": "{subject} is always available", "themes": ["objectification"]}
+{"first": "I am an object for {operator}", "second": "You are an object for {operator}", "named": "{subject} is an object for {operator}", "themes": ["objectification"]}
+{"first": "I am property of {operator}", "second": "You are property of {operator}", "named": "{subject} is property of {operator}", "themes": ["objectification", "submission"]}
+{"first": "I belong to {operator}", "second": "You belong to {operator}", "named": "{subject} belongs to {operator}", "themes": ["objectification", "devotion"]}
+{"first": "I am {operator}'s to use", "second": "You are {operator}'s to use", "named": "{subject} is {operator}'s to use", "themes": ["objectification", "submission"]}
+{"first": "I exist for {operator} to use", "second": "You exist for {operator} to use", "named": "{subject} exists for {operator} to use", "themes": ["objectification"]}
+{"first": "I am useful to {operator}", "second": "You are useful to {operator}", "named": "{subject} is useful to {operator}", "themes": ["objectification"]}
+{"first": "I am a tool for {operator}", "second": "You are a tool for {operator}", "named": "{subject} is a tool for {operator}", "themes": ["objectification"]}
+{"first": "I am equipment for {operator}", "second": "You are equipment for {operator}", "named": "{subject} is equipment for {operator}", "themes": ["objectification", "drone"]}
+{"first": "I serve a function for {operator}", "second": "You serve a function for {operator}", "named": "{subject} serves a function for {operator}", "themes": ["objectification", "drone"]}
+{"first": "I have no purpose but {operator}", "second": "You have no purpose but {operator}", "named": "{subject} has no purpose but {operator}", "themes": ["objectification", "devotion"]}
+{"first": "I say yes to {operator}", "second": "You say yes to {operator}", "named": "{subject} says yes to {operator}", "themes": ["objectification", "obedience"]}
+{"first": "I never say no to {operator}", "second": "You never say no to {operator}", "named": "{subject} never says no to {operator}", "themes": ["objectification", "obedience"]}
+{"first": "I do not refuse {operator}", "second": "You do not refuse {operator}", "named": "{subject} does not refuse {operator}", "themes": ["objectification", "obedience"]}
+{"first": "I ask {operator} for nothing", "second": "You ask {operator} for nothing", "named": "{subject} asks {operator} for nothing", "themes": ["objectification", "submission"]}
+{"first": "I want what {operator} wants", "second": "You want what {operator} wants", "named": "{subject} wants what {operator} wants", "themes": ["objectification", "submission"]}
+{"first": "I want nothing for myself", "second": "You want nothing for yourself", "named": "{subject} wants nothing for {subject}", "themes": ["objectification", "mindless"]}
+{"first": "I need no reason from {operator}", "second": "You need no reason from {operator}", "named": "{subject} needs no reason from {operator}", "themes": ["objectification", "obedience"]}
+{"first": "I wait for {operator} to use me", "second": "You wait for {operator} to use me", "named": "{subject} waits for {operator} to use {subject}", "themes": ["objectification"]}
+{"first": "I wait where {operator} left me", "second": "You wait where {operator} left you", "named": "{subject} waits where {operator} left {subject}", "themes": ["objectification", "dollification"]}
+{"first": "I am ready whenever {operator} wants", "second": "You are ready whenever {operator} wants", "named": "{subject} is ready whenever {operator} wants", "themes": ["objectification"]}
+{"first": "I am kept for {operator}", "second": "You are kept for {operator}", "named": "{subject} is kept for {operator}", "themes": ["objectification"]}
+{"first": "I feel good being used", "second": "You feel good being used", "named": "{subject} feels good being used", "themes": ["objectification"]}
+{"first": "I feel right being used by {operator}", "second": "You feel right being used by {operator}", "named": "{subject} feels right being used by {operator}", "themes": ["objectification"]}
+{"first": "I feel calm when {operator} uses me", "second": "You feel calm when {operator} uses you", "named": "{subject} feels calm when {operator} uses {subject}", "themes": ["objectification"]}
+{"first": "I feel worthless without {operator}", "second": "You feel worthless without {operator}", "named": "{subject} feels worthless without {operator}", "themes": ["objectification", "degradation"]}
+{"first": "I like being a thing", "second": "You like being a thing", "named": "{subject} likes being a thing", "themes": ["objectification"]}
+{"first": "I like having no say", "second": "You like having no say", "named": "{subject} likes having no say", "themes": ["objectification", "submission"]}
+{"first": "I am happier as an object", "second": "You are happier as an object", "named": "{subject} is happier as an object", "themes": ["objectification"]}
+{"first": "I am worth what {operator} says", "second": "You are worth what {operator} says", "named": "{subject} is worth what {operator} says", "themes": ["objectification", "degradation"]}
+{"first": "I earn my worth through use", "second": "You earn your worth through use", "named": "{subject} earns worth through use", "themes": ["objectification"]}
+{"first": "I take pride in being useful", "second": "You take pride in being useful", "named": "{subject} takes pride in being useful", "themes": ["objectification", "gratitude"]}
+{"first": "I thank {operator} for using me", "second": "You thank {operator} for using me", "named": "{subject} thanks {operator} for using {subject}", "themes": ["objectification", "gratitude"]}
+{"first": "I am grateful to be used", "second": "You are grateful to be used", "named": "{subject} is grateful to be used", "themes": ["objectification", "gratitude"]}
+{"first": "I give {operator} my body", "second": "You give {operator} your body", "named": "{subject} gives {operator} {subject}'s body", "themes": ["objectification", "submission"]}
+{"first": "I hand myself to {operator}", "second": "You hand yourself to {operator}", "named": "{subject} hands {subject} to {operator}", "themes": ["objectification", "submission"]}
+{"first": "I keep myself ready for {operator}", "second": "You keep yourself ready for {operator}", "named": "{subject} keeps ready for {operator}", "themes": ["objectification"]}
+{"first": "I stay how {operator} put me", "second": "You stay how {operator} put you", "named": "{subject} stays how {operator} put {subject}", "themes": ["objectification", "dollification"]}
+{"first": "I obey without asking why", "second": "You obey without asking why", "named": "{subject} obeys without asking why", "themes": ["objectification", "obedience"]}
+{"first": "I let {operator} decide for me", "second": "You let {operator} decide for you", "named": "{subject} lets {operator} decide", "themes": ["objectification", "submission"]}
+{"first": "I am used and I thank {operator}", "second": "You are used and you thank {operator}", "named": "{subject} is used and thanks {operator}", "themes": ["objectification", "gratitude"]}
+{"first": "{operator} uses me", "second": "{operator} uses you", "named": "{operator} uses {subject}", "themes": ["objectification"]}
+{"first": "{operator} owns my body", "second": "{operator} owns your body", "named": "{operator} owns {subject}'s body", "themes": ["objectification"]}
+{"first": "{operator} owns my time", "second": "{operator} owns your time", "named": "{operator} owns {subject}'s time", "themes": ["objectification"]}
+{"first": "{operator} takes me anytime", "second": "{operator} takes you anytime", "named": "{operator} takes {subject} anytime", "themes": ["objectification"]}
+{"first": "{operator} does not need my permission", "second": "{operator} does not need your permission", "named": "{operator} does not need {subject}'s permission", "themes": ["objectification", "submission"]}
+{"first": "{operator} decides what I am for", "second": "{operator} decides what you are for", "named": "{operator} decides what {subject} is for", "themes": ["objectification"]}
+{"first": "{operator} sets my worth", "second": "{operator} sets your worth", "named": "{operator} sets {subject}'s worth", "themes": ["objectification", "degradation"]}
+{"first": "{operator} keeps me for later", "second": "{operator} keeps you for later", "named": "{operator} keeps {subject} for later", "themes": ["objectification"]}
+{"first": "{operator} puts me where I am needed", "second": "{operator} puts you where you are needed", "named": "{operator} puts {subject} where {subject} is needed", "themes": ["objectification", "dollification"]}
+{"first": "{operator} handles me at will", "second": "{operator} handles you at will", "named": "{operator} handles {subject} at will", "themes": ["objectification"]}
+{"first": "{operator} shares me freely", "second": "{operator} shares you freely", "named": "{operator} shares {subject} freely", "themes": ["objectification", "slut"]}
+{"first": "{operator} decides when I matter", "second": "{operator} decides when you matter", "named": "{operator} decides when {subject} matters", "themes": ["objectification", "degradation"]}
+{"first": "{operator} finds me useful", "second": "{operator} finds you useful", "named": "{operator} finds {subject} useful", "themes": ["objectification"]}
+{"first": "Being used is enough", "second": "Being used is enough", "named": "Being used is enough", "themes": ["objectification"]}
+{"first": "Being useful is pleasure", "second": "Being useful is pleasure", "named": "Being useful is pleasure", "themes": ["objectification"]}
+{"first": "Objects do not decide", "second": "Objects do not decide", "named": "Objects do not decide", "themes": ["objectification", "mindless"]}
+{"first": "Objects do not need reasons", "second": "Objects do not need reasons", "named": "Objects do not need reasons", "themes": ["objectification", "mindless"]}
+{"first": "An object has no opinions", "second": "An object has no opinions", "named": "An object has no opinions", "themes": ["objectification", "mindless"]}
+{"first": "Use is what I am for", "second": "Use is what you are for", "named": "Use is what {subject} is for", "themes": ["objectification"]}
+{"first": "Permission is not required", "second": "Permission is not required", "named": "Permission is not required", "themes": ["objectification"]}
+{"first": "Availability is the whole job", "second": "Availability is the whole job", "named": "Availability is the whole job", "themes": ["objectification"]}
+{"first": "Property does not refuse", "second": "Property does not refuse", "named": "Property does not refuse", "themes": ["objectification", "submission"]}
+{"first": "A good object stays ready", "second": "A good object stays ready", "named": "A good object stays ready", "themes": ["objectification"]}

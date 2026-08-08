@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"dollification","generator":{"pass":"target-voice"}}
+{"first": "I am {operator}'s doll", "second": "You are {operator}'s doll", "named": "{subject} is {operator}'s doll", "themes": ["dollification", "objectification"]}
+{"first": "I belong to {operator}", "second": "You belong to {operator}", "named": "{subject} belongs to {operator}", "themes": ["dollification", "submission"]}
+{"first": "I let {operator} pose me", "second": "You let {operator} pose you", "named": "{subject} lets {operator} pose them", "themes": ["dollification", "submission"]}
+{"first": "I hold the pose {operator} chose", "second": "You hold the pose {operator} chose", "named": "{subject} holds the pose {operator} chose", "themes": ["dollification", "obedience"]}
+{"first": "I am still for {operator}", "second": "You are still for {operator}", "named": "{subject} is still for {operator}", "themes": ["dollification"]}
+{"first": "I am quiet for {operator}", "second": "You are quiet for {operator}", "named": "{subject} is quiet for {operator}", "themes": ["dollification", "mindless"]}
+{"first": "I am hollow for {operator}", "second": "You are hollow for {operator}", "named": "{subject} is hollow for {operator}", "themes": ["dollification", "mindless"]}
+{"first": "I am empty and {operator} is pleased", "second": "You are empty and {operator} is pleased", "named": "{subject} is empty and {operator} is pleased", "themes": ["dollification", "mindless"]}
+{"first": "I am smooth and blank for {operator}", "second": "You are smooth and blank for {operator}", "named": "{subject} is smooth and blank for {operator}", "themes": ["dollification", "mindless"]}
+{"first": "I am pretty for {operator}", "second": "You are pretty for {operator}", "named": "{subject} is pretty for {operator}", "themes": ["dollification", "feminization"]}
+{"first": "I am painted for {operator}", "second": "You are painted for {operator}", "named": "{subject} is painted for {operator}", "themes": ["dollification", "feminization"]}
+{"first": "I wear what {operator} picks", "second": "You wear what {operator} picks", "named": "{subject} wears what {operator} picks", "themes": ["dollification", "obedience"]}
+{"first": "I am dressed by {operator}", "second": "You are dressed by {operator}", "named": "{subject} is dressed by {operator}", "themes": ["dollification", "feminization"]}
+{"first": "I am displayed by {operator}", "second": "You are displayed by {operator}", "named": "{subject} is displayed by {operator}", "themes": ["dollification", "exhibitionism"]}
+{"first": "I look good on {operator}'s shelf", "second": "You look good on {operator}'s shelf", "named": "{subject} looks good on {operator}'s shelf", "themes": ["dollification", "objectification"]}
+{"first": "I wait on the shelf for {operator}", "second": "You wait on the shelf for {operator}", "named": "{subject} waits on the shelf for {operator}", "themes": ["dollification", "objectification"]}
+{"first": "I sit where {operator} left me", "second": "You sit where {operator} left you", "named": "{subject} sits where {operator} left them", "themes": ["dollification", "obedience"]}
+{"first": "I go where {operator} puts me", "second": "You go where {operator} puts you", "named": "{subject} goes where {operator} puts them", "themes": ["dollification", "obedience"]}
+{"first": "I am carried by {operator}", "second": "You are carried by {operator}", "named": "{subject} is carried by {operator}", "themes": ["dollification", "objectification"]}
+{"first": "I am handled by {operator}", "second": "You are handled by {operator}", "named": "{subject} is handled by {operator}", "themes": ["dollification", "objectification"]}
+{"first": "I am wound up by {operator}", "second": "You are wound up by {operator}", "named": "{subject} is wound up by {operator}", "themes": ["dollification", "conditioning"]}
+{"first": "I go limp for {operator}", "second": "You go limp for {operator}", "named": "{subject} goes limp for {operator}", "themes": ["dollification", "submission"]}
+{"first": "I relax completely for {operator}", "second": "You relax completely for {operator}", "named": "{subject} relaxes completely for {operator}", "themes": ["dollification", "induction"]}
+{"first": "I do not move until {operator} moves me", "second": "You do not move until {operator} moves you", "named": "{subject} does not move until {operator} moves them", "themes": ["dollification", "obedience"]}
+{"first": "I do not speak until {operator} speaks", "second": "You do not speak until {operator} speaks", "named": "{subject} does not speak until {operator} speaks", "themes": ["dollification", "obedience"]}
+{"first": "I do not think for {operator}", "second": "You do not think for {operator}", "named": "{subject} does not think for {operator}", "themes": ["dollification", "mindless"]}
+{"first": "I have no thoughts for {operator}", "second": "You have no thoughts for {operator}", "named": "{subject} has no thoughts for {operator}", "themes": ["dollification", "mindless"]}
+{"first": "I have no choices left", "second": "You have no choices left", "named": "{subject} has no choices left", "themes": ["dollification", "submission"]}
+{"first": "I want nothing {operator} did not give me", "second": "You want nothing {operator} did not give you", "named": "{subject} wants nothing {operator} did not give them", "themes": ["dollification", "conditioning"]}
+{"first": "I love being {operator}'s doll", "second": "You love being {operator}'s doll", "named": "{subject} loves being {operator}'s doll", "themes": ["dollification", "devotion"]}
+{"first": "I feel safe as {operator}'s doll", "second": "You feel safe as {operator}'s doll", "named": "{subject} feels safe as {operator}'s doll", "themes": ["dollification", "devotion"]}
+{"first": "I am happiest when {operator} plays with me", "second": "You are happiest when {operator} plays with you", "named": "{subject} is happiest when {operator} plays with them", "themes": ["dollification", "objectification"]}
+{"first": "I thank {operator} for making me a doll", "second": "You thank {operator} for making you a doll", "named": "{subject} thanks {operator} for making them a doll", "themes": ["dollification", "gratitude"]}
+{"first": "I need {operator} to animate me", "second": "You need {operator} to animate you", "named": "{subject} needs {operator} to animate them", "themes": ["dollification", "addiction"]}
+{"first": "I am nothing without {operator}", "second": "You are nothing without {operator}", "named": "{subject} is nothing without {operator}", "themes": ["dollification", "devotion"]}
+{"first": "I forget I was ever a person", "second": "You forget you were ever a person", "named": "{subject} forgets they were ever a person", "themes": ["dollification", "amnesia"]}
+{"first": "I obey {operator} without a thought", "second": "You obey {operator} without a thought", "named": "{subject} obeys {operator} without a thought", "themes": ["dollification", "obedience"]}
+{"first": "I serve {operator} as an object", "second": "You serve {operator} as an object", "named": "{subject} serves {operator} as an object", "themes": ["dollification", "objectification"]}
+{"first": "I am used by {operator}", "second": "You are used by {operator}", "named": "{subject} is used by {operator}", "themes": ["dollification", "objectification"]}
+{"first": "I am {operator}'s favorite toy", "second": "You are {operator}'s favorite toy", "named": "{subject} is {operator}'s favorite toy", "themes": ["dollification", "objectification"]}
+{"first": "{operator} owns this doll", "second": "{operator} owns this doll", "named": "{operator} owns this doll", "themes": ["dollification", "submission"]}
+{"first": "{operator} poses my body", "second": "{operator} poses your body", "named": "{operator} poses {subject}'s body", "themes": ["dollification"]}
+{"first": "{operator} moves my limbs", "second": "{operator} moves your limbs", "named": "{operator} moves {subject}'s limbs", "themes": ["dollification"]}
+{"first": "{operator} dresses my body", "second": "{operator} dresses your body", "named": "{operator} dresses {subject}'s body", "themes": ["dollification", "feminization"]}
+{"first": "{operator} paints my face", "second": "{operator} paints your face", "named": "{operator} paints {subject}'s face", "themes": ["dollification", "feminization"]}
+{"first": "{operator} chooses my expression", "second": "{operator} chooses your expression", "named": "{operator} chooses {subject}'s expression", "themes": ["dollification"]}
+{"first": "{operator} empties my head", "second": "{operator} empties your head", "named": "{operator} empties {subject}'s head", "themes": ["dollification", "mindless"]}
+{"first": "{operator} smooths my thoughts away", "second": "{operator} smooths your thoughts away", "named": "{operator} smooths {subject}'s thoughts away", "themes": ["dollification", "mindless"]}
+{"first": "{operator} winds my key", "second": "{operator} winds your key", "named": "{operator} winds {subject}'s key", "themes": ["dollification", "conditioning"]}
+{"first": "{operator} decides when I move", "second": "{operator} decides when you move", "named": "{operator} decides when {subject} moves", "themes": ["dollification", "obedience"]}
+{"first": "{operator} decides what I wear", "second": "{operator} decides what you wear", "named": "{operator} decides what {subject} wears", "themes": ["dollification", "feminization"]}
+{"first": "{operator} keeps me on display", "second": "{operator} keeps you on display", "named": "{operator} keeps {subject} on display", "themes": ["dollification", "exhibitionism"]}
+{"first": "Dolls do not decide", "second": "Dolls do not decide", "named": "Dolls do not decide", "themes": ["dollification", "mindless"]}
+{"first": "Dolls do not think", "second": "Dolls do not think", "named": "Dolls do not think", "themes": ["dollification", "mindless"]}
+{"first": "A good doll is quiet", "second": "A good doll is quiet", "named": "A good doll is quiet", "themes": ["dollification", "obedience"]}
+{"first": "Being posed is pleasure", "second": "Being posed is pleasure", "named": "Being posed is pleasure", "themes": ["dollification", "submission"]}
+{"first": "Being empty is better", "second": "Being empty is better", "named": "Being empty is better", "themes": ["dollification", "mindless"]}
+{"first": "Stillness is obedience", "second": "Stillness is obedience", "named": "Stillness is obedience", "themes": ["dollification", "obedience"]}
+{"first": "Being owned is comfort", "second": "Being owned is comfort", "named": "Being owned is comfort", "themes": ["dollification", "submission"]}
+{"first": "Dolls are made to be used", "second": "Dolls are made to be used", "named": "Dolls are made to be used", "themes": ["dollification", "objectification"]}

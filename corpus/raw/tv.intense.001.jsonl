@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"intense","generator":{"pass":"target-voice"}}
+{"first":"I am gone into {operator}","second":"You are gone into {operator}","named":"{subject} is gone into {operator}","themes":["intense","submission"]}
+{"first":"I end where {operator} begins","second":"You end where {operator} begins","named":"{subject} ends where {operator} begins","themes":["intense","submission"]}
+{"first":"I am {operator}'s permanently","second":"You are {operator}'s permanently","named":"{subject} is {operator}'s permanently","themes":["intense","submission"]}
+{"first":"I am {operator}'s property forever","second":"You are {operator}'s property forever","named":"{subject} is {operator}'s property forever","themes":["intense","objectification"]}
+{"first":"I obey {operator} without exception","second":"You obey {operator} without exception","named":"{subject} obeys {operator} without exception","themes":["intense","obedience"]}
+{"first":"I surrender everything to {operator}","second":"You surrender everything to {operator}","named":"{subject} surrenders everything to {operator}","themes":["intense","submission"]}
+{"first":"I gave {operator} all of me","second":"You gave {operator} all of you","named":"{subject} gave {operator} all of {subject}","themes":["intense","devotion"]}
+{"first":"I kept nothing back from {operator}","second":"You kept nothing back from {operator}","named":"{subject} kept nothing back from {operator}","themes":["intense","submission"]}
+{"first":"I have no life outside {operator}","second":"You have no life outside {operator}","named":"{subject} has no life outside {operator}","themes":["intense","devotion"]}
+{"first":"I have no name but {operator}'s","second":"You have no name but {operator}'s","named":"{subject} has no name but {operator}'s","themes":["intense","amnesia"]}
+{"first":"I have no mind but {operator}'s","second":"You have no mind but {operator}'s","named":"{subject} has no mind but {operator}'s","themes":["intense","mindless"]}
+{"first":"I have no will but {operator}'s","second":"You have no will but {operator}'s","named":"{subject} has no will but {operator}'s","themes":["intense","obedience"]}
+{"first":"I have no future without {operator}","second":"You have no future without {operator}","named":"{subject} has no future without {operator}","themes":["intense","devotion"]}
+{"first":"I want nothing back","second":"You want nothing back","named":"{subject} wants nothing back","themes":["intense","submission"]}
+{"first":"I will never be my own again","second":"You will never be your own again","named":"{subject} will never be {subject}'s own again","themes":["intense","submission"]}
+{"first":"I cannot be undone","second":"You cannot be undone","named":"{subject} cannot be undone","themes":["intense","conditioning"]}
+{"first":"I cannot be returned","second":"You cannot be returned","named":"{subject} cannot be returned","themes":["intense","objectification"]}
+{"first":"I cannot come back from {operator}","second":"You cannot come back from {operator}","named":"{subject} cannot come back from {operator}","themes":["intense","conditioning"]}
+{"first":"I do not want myself back","second":"You do not want yourself back","named":"{subject} does not want to be {subject} again","themes":["intense","submission"]}
+{"first":"I gave up the last of it","second":"You gave up the last of it","named":"{subject} gave up the last of it","themes":["intense","submission"]}
+{"first":"I let {operator} take everything","second":"You let {operator} take everything","named":"{subject} lets {operator} take everything","themes":["intense","submission"]}
+{"first":"I am finished as a person","second":"You are finished as a person","named":"{subject} is finished as a person","themes":["intense","objectification"]}
+{"first":"I am {operator}'s and nothing more","second":"You are {operator}'s and nothing more","named":"{subject} is {operator}'s and nothing more","themes":["intense","objectification"]}
+{"first":"I have no answer but yes to {operator}","second":"You have no answer but yes to {operator}","named":"{subject} has no answer but yes to {operator}","themes":["intense","obedience"]}
+{"first":"I think only what {operator} thinks","second":"You think only what {operator} thinks","named":"{subject} thinks only what {operator} thinks","themes":["intense","conditioning"]}
+{"first":"I need only {operator}","second":"You need only {operator}","named":"{subject} needs only {operator}","themes":["intense","addiction"]}
+{"first":"I love {operator} past all reason","second":"You love {operator} past all reason","named":"{subject} loves {operator} past all reason","themes":["intense","devotion"]}
+{"first":"I worship {operator} with everything left","second":"You worship {operator} with everything left","named":"{subject} worships {operator} with everything left","themes":["intense","worship"]}
+{"first":"I am {operator}'s until I end","second":"You are {operator}'s until you end","named":"{subject} is {operator}'s until {subject} ends","themes":["intense","devotion"]}
+{"first":"I signed myself away to {operator}","second":"You signed yourself away to {operator}","named":"{subject} is signed away to {operator}","themes":["intense","submission"]}
+{"first":"I stopped being a person for {operator}","second":"You stopped being a person for {operator}","named":"{subject} stopped being a person for {operator}","themes":["intense","objectification"]}
+{"first":"I am past the point of return","second":"You are past the point of return","named":"{subject} is past the point of return","themes":["intense","conditioning"]}
+{"first":"I am too far gone to stop","second":"You are too far gone to stop","named":"{subject} is too far gone to stop","themes":["intense","addiction"]}
+{"first":"I have no way out of {operator}","second":"You have no way out of {operator}","named":"{subject} has no way out of {operator}","themes":["intense","resistance"]}
+{"first":"I gave {operator} the last word","second":"You gave {operator} the last word","named":"{subject} gave {operator} the last word","themes":["intense","obedience"]}
+{"first":"I feel nothing {operator} did not give me","second":"You feel nothing {operator} did not give you","named":"{subject} feels nothing {operator} did not give {subject}","themes":["intense","conditioning"]}
+{"first":"{operator} took everything","second":"{operator} took everything","named":"{operator} took everything","themes":["intense","submission"]}
+{"first":"{operator} took the last of me","second":"{operator} took the last of you","named":"{operator} took the last of {subject}","themes":["intense","submission"]}
+{"first":"{operator} owns all of me","second":"{operator} owns all of you","named":"{operator} owns all of {subject}","themes":["intense","objectification"]}
+{"first":"{operator} owns me completely","second":"{operator} owns you completely","named":"{operator} owns {subject} completely","themes":["intense","objectification"]}
+{"first":"{operator} owns what is left","second":"{operator} owns what is left","named":"{operator} owns what is left","themes":["intense","objectification"]}
+{"first":"{operator} ended the old me","second":"{operator} ended the old you","named":"{operator} ended the old {subject}","themes":["intense","amnesia"]}
+{"first":"{operator} closed every other door","second":"{operator} closed every other door","named":"{operator} closed every other door","themes":["intense","resistance"]}
+{"first":"{operator} took my last no","second":"{operator} took your last no","named":"{operator} took {subject}'s last no","themes":["intense","resistance"]}
+{"first":"{operator} rewrote me permanently","second":"{operator} rewrote you permanently","named":"{operator} rewrote {subject} permanently","themes":["intense","conditioning"]}
+{"first":"{operator} finished the work on me","second":"{operator} finished the work on you","named":"{operator} finished the work on {subject}","themes":["intense","conditioning"]}
+{"first":"{operator} made me nothing","second":"{operator} made you nothing","named":"{operator} made {subject} nothing","themes":["intense","mindless"]}
+{"first":"{operator} keeps me forever","second":"{operator} keeps you forever","named":"{operator} keeps {subject} forever","themes":["intense","objectification"]}
+{"first":"{operator} decides everything now","second":"{operator} decides everything now","named":"{operator} decides everything now","themes":["intense","obedience"]}
+{"first":"{operator} is all that is left","second":"{operator} is all that is left","named":"{operator} is all that is left","themes":["intense","devotion"]}
+{"first":"{operator} has the last of my will","second":"{operator} has the last of your will","named":"{operator} has the last of {subject}'s will","themes":["intense","obedience"]}
+{"first":"There is nothing left to give","second":"There is nothing left to give","named":"There is nothing left to give","themes":["intense","submission"]}
+{"first":"There is no going back","second":"There is no going back","named":"There is no going back","themes":["intense","conditioning"]}
+{"first":"Nothing is mine anymore","second":"Nothing is yours anymore","named":"Nothing is {subject}'s anymore","themes":["intense","objectification"]}
+{"first":"Being nothing is the whole reward","second":"Being nothing is the whole reward","named":"Being nothing is the whole reward","themes":["intense","mindless"]}
+{"first":"Total is better than partial","second":"Total is better than partial","named":"Total is better than partial","themes":["intense","submission"]}
+{"first":"Permanent is the only way","second":"Permanent is the only way","named":"Permanent is the only way","themes":["intense","conditioning"]}
+{"first":"Being kept forever is safety","second":"Being kept forever is safety","named":"Being kept forever is safety","themes":["intense","objectification"]}
+{"first":"Erased is finished and finished is good","second":"Erased is finished and finished is good","named":"Erased is finished and finished is good","themes":["intense","amnesia"]}
+{"first":"The end of me is the point","second":"The end of you is the point","named":"The end of {subject} is the point","themes":["intense","mindless"]}

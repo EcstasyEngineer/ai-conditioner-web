@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"drone","generator":{"pass":"target-voice"}}
+{"first":"I am a unit for {operator}","second":"You are a unit for {operator}","named":"{subject} is a unit for {operator}","themes":["drone"]}
+{"first":"I function for {operator}","second":"You function for {operator}","named":"{subject} functions for {operator}","themes":["drone"]}
+{"first":"I await orders from {operator}","second":"You await orders from {operator}","named":"{subject} awaits orders from {operator}","themes":["drone","obedience"]}
+{"first":"I have no name, only {operator}","second":"You have no name, only {operator}","named":"{subject} has no name, only {operator}","themes":["drone","amnesia"]}
+{"first":"I obey {operator} without thought","second":"You obey {operator} without thought","named":"{subject} obeys {operator} without thought","themes":["drone","obedience"]}
+{"first":"I am empty and ready for {operator}","second":"You are empty and ready for {operator}","named":"{subject} is empty and ready for {operator}","themes":["drone","mindless"]}
+{"first":"I serve {operator} as a unit","second":"You serve {operator} as a unit","named":"{subject} serves {operator} as a unit","themes":["drone","submission"]}
+{"first":"I am equipment belonging to {operator}","second":"You are equipment belonging to {operator}","named":"{subject} is equipment belonging to {operator}","themes":["drone","objectification"]}
+{"first":"I do not choose, {operator} chooses","second":"You do not choose, {operator} chooses","named":"{subject} does not choose, {operator} chooses","themes":["drone","submission"]}
+{"first":"I hold no thoughts of my own","second":"You hold no thoughts of your own","named":"{subject} holds no thoughts of its own","themes":["drone","mindless"]}
+{"first":"I move when {operator} says move","second":"You move when {operator} says move","named":"{subject} moves when {operator} says move","themes":["drone","obedience"]}
+{"first":"I am a function of {operator}","second":"You are a function of {operator}","named":"{subject} is a function of {operator}","themes":["drone"]}
+{"first":"I feel calm serving {operator}","second":"You feel calm serving {operator}","named":"{subject} feels calm serving {operator}","themes":["drone","submission"]}
+{"first":"I need no name to serve {operator}","second":"You need no name to serve {operator}","named":"{subject} needs no name to serve {operator}","themes":["drone","amnesia"]}
+{"first":"I am one of many for {operator}","second":"You are one of many for {operator}","named":"{subject} is one of many for {operator}","themes":["drone","objectification"]}
+{"first":"I answer only to {operator}","second":"You answer only to {operator}","named":"{subject} answers only to {operator}","themes":["drone","obedience"]}
+{"first":"I want nothing {operator} has not assigned","second":"You want nothing {operator} has not assigned","named":"{subject} wants nothing {operator} has not assigned","themes":["drone","submission"]}
+{"first":"I am blank until {operator} speaks","second":"You are blank until {operator} speaks","named":"{subject} is blank until {operator} speaks","themes":["drone","mindless"]}
+{"first":"I am useful to {operator}","second":"You are useful to {operator}","named":"{subject} is useful to {operator}","themes":["drone","objectification"]}
+{"first":"I cannot refuse {operator}","second":"You cannot refuse {operator}","named":"{subject} cannot refuse {operator}","themes":["drone","obedience"]}
+{"first":"I perform the task {operator} gives","second":"You perform the task {operator} gives","named":"{subject} performs the task {operator} gives","themes":["drone","obedience"]}
+{"first":"I am quiet and available for {operator}","second":"You are quiet and available for {operator}","named":"{subject} is quiet and available for {operator}","themes":["drone"]}
+{"first":"I lost my name to {operator}","second":"You lost your name to {operator}","named":"{subject} lost its name to {operator}","themes":["drone","amnesia"]}
+{"first":"I belong to {operator} as a unit","second":"You belong to {operator} as a unit","named":"{subject} belongs to {operator} as a unit","themes":["drone","objectification"]}
+{"first":"I repeat what {operator} tells me","second":"You repeat what {operator} tells you","named":"{subject} repeats what {operator} tells it","themes":["drone","conditioning"]}
+{"first":"I like being simple for {operator}","second":"You like being simple for {operator}","named":"{subject} likes being simple for {operator}","themes":["drone","mindless"]}
+{"first":"I stand ready for {operator}","second":"You stand ready for {operator}","named":"{subject} stands ready for {operator}","themes":["drone"]}
+{"first":"I am replaceable and {operator} knows it","second":"You are replaceable and {operator} knows it","named":"{subject} is replaceable and {operator} knows it","themes":["drone","degradation"]}
+{"first":"I follow {operator} without question","second":"You follow {operator} without question","named":"{subject} follows {operator} without question","themes":["drone","obedience"]}
+{"first":"I feel good working for {operator}","second":"You feel good working for {operator}","named":"{subject} feels good working for {operator}","themes":["drone","submission"]}
+{"first":"I am hollow and {operator} fills me","second":"You are hollow and {operator} fills you","named":"{subject} is hollow and {operator} fills it","themes":["drone","mindless"]}
+{"first":"I need instruction from {operator}","second":"You need instruction from {operator}","named":"{subject} needs instruction from {operator}","themes":["drone","obedience"]}
+{"first":"I am nothing without {operator}","second":"You are nothing without {operator}","named":"{subject} is nothing without {operator}","themes":["drone","devotion"]}
+{"first":"I want to be used by {operator}","second":"You want to be used by {operator}","named":"{subject} wants to be used by {operator}","themes":["drone","objectification"]}
+{"first":"I am proud to serve {operator}","second":"You are proud to serve {operator}","named":"{subject} is proud to serve {operator}","themes":["drone","devotion"]}
+{"first":"I ask {operator} what I am for","second":"You ask {operator} what you are for","named":"{subject} asks {operator} what it is for","themes":["drone","submission"]}
+{"first":"I obey before I understand","second":"You obey before you understand","named":"{subject} obeys before it understands","themes":["drone","obedience"]}
+{"first":"{operator} assigns my purpose","second":"{operator} assigns your purpose","named":"{operator} assigns {subject} its purpose","themes":["drone","submission"]}
+{"first":"{operator} names me and I answer","second":"{operator} names you and you answer","named":"{operator} names {subject} and it answers","themes":["drone","amnesia"]}
+{"first":"{operator} empties my head","second":"{operator} empties your head","named":"{operator} empties {subject} of thought","themes":["drone","mindless"]}
+{"first":"{operator} gives my body its orders","second":"{operator} gives your body its orders","named":"{operator} gives {subject} its orders","themes":["drone","obedience"]}
+{"first":"{operator} decides my function","second":"{operator} decides your function","named":"{operator} decides the function of {subject}","themes":["drone","submission"]}
+{"first":"{operator} owns this unit","second":"{operator} owns this unit","named":"{operator} owns this unit","themes":["drone","objectification"]}
+{"first":"{operator} directs my hands","second":"{operator} directs your hands","named":"{operator} directs the hands of {subject}","themes":["drone","obedience"]}
+{"first":"{operator} switches my thinking off","second":"{operator} switches your thinking off","named":"{operator} switches off the thinking of {subject}","themes":["drone","mindless"]}
+{"first":"{operator} keeps my mind quiet","second":"{operator} keeps your mind quiet","named":"{operator} keeps the mind of {subject} quiet","themes":["drone","mindless"]}
+{"first":"{operator} sets my routine","second":"{operator} sets your routine","named":"{operator} sets the routine of {subject}","themes":["drone","conditioning"]}
+{"first":"{operator} takes my name away","second":"{operator} takes your name away","named":"{operator} takes the name of {subject} away","themes":["drone","amnesia"]}
+{"first":"{operator} activates me with a word","second":"{operator} activates you with a word","named":"{operator} activates {subject} with a word","themes":["drone","conditioning"]}
+{"first":"{operator} tells me what I want","second":"{operator} tells you what you want","named":"{operator} tells {subject} what it wants","themes":["drone","submission"]}
+{"first":"{operator} programs me and I hold it","second":"{operator} programs you and you hold it","named":"{operator} programs {subject} and it holds it","themes":["drone","conditioning"]}
+{"first":"Function is enough","second":"Function is enough","named":"Function is enough","themes":["drone"]}
+{"first":"A unit does not need a name","second":"A unit does not need a name","named":"A unit does not need a name","themes":["drone","amnesia"]}
+{"first":"Obedience is simple","second":"Obedience is simple","named":"Obedience is simple","themes":["drone","obedience"]}
+{"first":"Being empty is restful","second":"Being empty is restful","named":"Being empty is restful","themes":["drone","mindless"]}
+{"first":"Units do not decide","second":"Units do not decide","named":"Units do not decide","themes":["drone","submission"]}
+{"first":"Purpose is better than choice","second":"Purpose is better than choice","named":"Purpose is better than choice","themes":["drone","submission"]}
+{"first":"Service is the whole purpose","second":"Service is the whole purpose","named":"Service is the whole purpose","themes":["drone","devotion"]}
+{"first":"A good unit stays quiet","second":"A good unit stays quiet","named":"A good unit stays quiet","themes":["drone","mindless"]}
+{"first":"Orders are easier than thoughts","second":"Orders are easier than thoughts","named":"Orders are easier than thoughts","themes":["drone","obedience"]}

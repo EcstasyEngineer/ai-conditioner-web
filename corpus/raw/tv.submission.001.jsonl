@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"submission","generator":{"pass":"target-voice"}}
+{"first":"I obey {operator}","second":"You obey {operator}","named":"{subject} obeys {operator}","themes":["submission","obedience"]}
+{"first":"I serve {operator}","second":"You serve {operator}","named":"{subject} serves {operator}","themes":["submission"]}
+{"first":"I belong to {operator}","second":"You belong to {operator}","named":"{subject} belongs to {operator}","themes":["submission","objectification"]}
+{"first":"I kneel for {operator}","second":"You kneel for {operator}","named":"{subject} kneels for {operator}","themes":["submission","worship"]}
+{"first":"I yield to {operator}","second":"You yield to {operator}","named":"{subject} yields to {operator}","themes":["submission"]}
+{"first":"I submit to {operator}","second":"You submit to {operator}","named":"{subject} submits to {operator}","themes":["submission"]}
+{"first":"I answer to {operator}","second":"You answer to {operator}","named":"{subject} answers to {operator}","themes":["submission","obedience"]}
+{"first":"I bow to {operator}","second":"You bow to {operator}","named":"{subject} bows to {operator}","themes":["submission","worship"]}
+{"first":"I please {operator}","second":"You please {operator}","named":"{subject} pleases {operator}","themes":["submission","devotion"]}
+{"first":"I obey without asking why","second":"You obey without asking why","named":"{subject} obeys without asking why","themes":["submission","obedience"]}
+{"first":"I say yes to {operator}","second":"You say yes to {operator}","named":"{subject} says yes to {operator}","themes":["submission","obedience"]}
+{"first":"I give {operator} everything","second":"You give {operator} everything","named":"{subject} gives {operator} everything","themes":["submission","devotion"]}
+{"first":"I live to serve {operator}","second":"You live to serve {operator}","named":"{subject} lives to serve {operator}","themes":["submission","devotion"]}
+{"first":"I exist for {operator}","second":"You exist for {operator}","named":"{subject} exists for {operator}","themes":["submission","objectification"]}
+{"first":"I lower myself for {operator}","second":"You lower yourself for {operator}","named":"{subject} lowers themself for {operator}","themes":["submission","degradation"]}
+{"first":"I cannot resist {operator}","second":"You cannot resist {operator}","named":"{subject} cannot resist {operator}","themes":["submission","resistance"]}
+{"first":"I never say no to {operator}","second":"You never say no to {operator}","named":"{subject} never says no to {operator}","themes":["submission","obedience"]}
+{"first":"I stopped arguing with {operator}","second":"You stopped arguing with {operator}","named":"{subject} stopped arguing with {operator}","themes":["submission","resistance"]}
+{"first":"I have no will against {operator}","second":"You have no will against {operator}","named":"{subject} has no will against {operator}","themes":["submission","resistance"]}
+{"first":"I gave up choosing for {operator}","second":"You gave up choosing for {operator}","named":"{subject} gave up choosing for {operator}","themes":["submission","mindless"]}
+{"first":"I obey before I understand","second":"You obey before you understand","named":"{subject} obeys before understanding","themes":["submission","obedience"]}
+{"first":"I do not decide anymore","second":"You do not decide anymore","named":"{subject} does not decide anymore","themes":["submission","mindless"]}
+{"first":"I want what {operator} wants","second":"You want what {operator} wants","named":"{subject} wants what {operator} wants","themes":["submission","conditioning"]}
+{"first":"I wait for {operator} to decide","second":"You wait for {operator} to decide","named":"{subject} waits for {operator} to decide","themes":["submission","addiction"]}
+{"first":"I trust {operator} over myself","second":"You trust {operator} over yourself","named":"{subject} trusts {operator} over themself","themes":["submission","devotion"]}
+{"first":"I feel safe obeying {operator}","second":"You feel safe obeying {operator}","named":"{subject} feels safe obeying {operator}","themes":["submission","obedience"]}
+{"first":"I feel good serving {operator}","second":"You feel good serving {operator}","named":"{subject} feels good serving {operator}","themes":["submission","gratitude"]}
+{"first":"I am happiest under {operator}","second":"You are happiest under {operator}","named":"{subject} is happiest under {operator}","themes":["submission","gratitude"]}
+{"first":"I am calm when {operator} decides","second":"You are calm when {operator} decides","named":"{subject} is calm when {operator} decides","themes":["submission"]}
+{"first":"I am proud to obey {operator}","second":"You are proud to obey {operator}","named":"{subject} is proud to obey {operator}","themes":["submission","obedience"]}
+{"first":"I am useful to {operator}","second":"You are useful to {operator}","named":"{subject} is useful to {operator}","themes":["submission","objectification"]}
+{"first":"I am {operator}'s to command","second":"You are {operator}'s to command","named":"{subject} is {operator}'s to command","themes":["submission","obedience"]}
+{"first":"I am small before {operator}","second":"You are small before {operator}","named":"{subject} is small before {operator}","themes":["submission","degradation"]}
+{"first":"I am nothing without {operator}","second":"You are nothing without {operator}","named":"{subject} is nothing without {operator}","themes":["submission","devotion"]}
+{"first":"I am fit to serve {operator}","second":"You are fit to serve {operator}","named":"{subject} is fit to serve {operator}","themes":["submission"]}
+{"first":"I am good for {operator}","second":"You are good for {operator}","named":"{subject} is good for {operator}","themes":["submission","gratitude"]}
+{"first":"I am {operator}'s and nothing else","second":"You are {operator}'s and nothing else","named":"{subject} is {operator}'s and nothing else","themes":["submission","objectification"]}
+{"first":"I thank {operator} for every order","second":"You thank {operator} for every order","named":"{subject} thanks {operator} for every order","themes":["submission","gratitude"]}
+{"first":"I obey {operator} in everything","second":"You obey {operator} in everything","named":"{subject} obeys {operator} in everything","themes":["submission","obedience"]}
+{"first":"I serve {operator} without limits","second":"You serve {operator} without limits","named":"{subject} serves {operator} without limits","themes":["submission","intense"]}
+{"first":"I obey {operator} more each day","second":"You obey {operator} more each day","named":"{subject} obeys {operator} more each day","themes":["submission","conditioning"]}
+{"first":"I sink deeper into serving {operator}","second":"You sink deeper into serving {operator}","named":"{subject} sinks deeper into serving {operator}","themes":["submission","conditioning"]}
+{"first":"{operator} owns me","second":"{operator} owns me","named":"{operator} owns {subject}","themes":["submission","objectification"]}
+{"first":"{operator} owns my will","second":"{operator} owns my will","named":"{operator} owns {subject}'s will","themes":["submission","resistance"]}
+{"first":"{operator} controls my mind","second":"{operator} controls my mind","named":"{operator} controls {subject}'s mind","themes":["submission","conditioning"]}
+{"first":"{operator} decides for me","second":"{operator} decides for me","named":"{operator} decides for {subject}","themes":["submission","mindless"]}
+{"first":"{operator} commands and I move","second":"{operator} commands and you move","named":"{operator} commands and {subject} moves","themes":["submission","obedience"]}
+{"first":"{operator} shapes what I want","second":"{operator} shapes what you want","named":"{operator} shapes what {subject} wants","themes":["submission","conditioning"]}
+{"first":"{operator} holds my leash","second":"{operator} holds my leash","named":"{operator} holds {subject}'s leash","themes":["submission","objectification"]}
+{"first":"{operator} takes what {operator} wants","second":"{operator} takes what {operator} wants","named":"{operator} takes what {operator} wants","themes":["submission","objectification"]}
+{"first":"{operator} is always right","second":"{operator} is always right","named":"{operator} is always right","themes":["submission","devotion"]}
+{"first":"{operator} outranks every thought I have","second":"{operator} outranks every thought you have","named":"{operator} outranks every thought {subject} has","themes":["submission","devotion"]}
+{"first":"{operator} speaks and I agree","second":"{operator} speaks and you agree","named":"{operator} speaks and {subject} agrees","themes":["submission","obedience"]}
+{"first":"Obedience is pleasure","second":"Obedience is pleasure","named":"Obedience is pleasure","themes":["submission","obedience"]}
+{"first":"Serving is easier than deciding","second":"Serving is easier than deciding","named":"Serving is easier than deciding","themes":["submission","mindless"]}
+{"first":"Submission is comfort","second":"Submission is comfort","named":"Submission is comfort","themes":["submission"]}
+{"first":"Being owned is better","second":"Being owned is better","named":"Being owned is better","themes":["submission","objectification"]}
+{"first":"Obeying is the easy way","second":"Obeying is the easy way","named":"Obeying is the easy way","themes":["submission","obedience"]}
+{"first":"Kneeling is where I fit","second":"Kneeling is where you fit","named":"Kneeling is where {subject} fits","themes":["submission","worship"]}
+{"first":"Good things follow obedience","second":"Good things follow obedience","named":"Good things follow obedience","themes":["submission","conditioning"]}

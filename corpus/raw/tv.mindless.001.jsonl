@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"mindless","generator":{"pass":"target-voice"}}
+{"first": "I go blank for {operator}", "second": "You go blank for {operator}", "named": "{subject} goes blank for {operator}", "themes": ["mindless"]}
+{"first": "I am empty for {operator}", "second": "You are empty for {operator}", "named": "{subject} is empty for {operator}", "themes": ["mindless"]}
+{"first": "I stop thinking for {operator}", "second": "You stop thinking for {operator}", "named": "{subject} stops thinking for {operator}", "themes": ["mindless", "obedience"]}
+{"first": "I do not think around {operator}", "second": "You do not think around {operator}", "named": "{subject} does not think around {operator}", "themes": ["mindless"]}
+{"first": "I need to be blank for {operator}", "second": "You need to be blank for {operator}", "named": "{subject} needs to be blank for {operator}", "themes": ["mindless", "addiction"]}
+{"first": "I want to be empty for {operator}", "second": "You want to be empty for {operator}", "named": "{subject} wants to be empty for {operator}", "themes": ["mindless", "devotion"]}
+{"first": "I love being blank for {operator}", "second": "You love being blank for {operator}", "named": "{subject} loves being blank for {operator}", "themes": ["mindless", "devotion"]}
+{"first": "I feel good empty", "second": "You feel good empty", "named": "{subject} feels good empty", "themes": ["mindless"]}
+{"first": "I am blank and happy", "second": "You are blank and happy", "named": "{subject} is blank and happy", "themes": ["mindless"]}
+{"first": "I am quiet inside for {operator}", "second": "You are quiet inside for {operator}", "named": "{subject} is quiet inside for {operator}", "themes": ["mindless"]}
+{"first": "I stay empty for {operator}", "second": "You stay empty for {operator}", "named": "{subject} stays empty for {operator}", "themes": ["mindless", "obedience"]}
+{"first": "I keep my mind blank for {operator}", "second": "You keep your mind blank for {operator}", "named": "{subject} keeps {subject}'s mind blank for {operator}", "themes": ["mindless", "obedience"]}
+{"first": "I give my thoughts to {operator}", "second": "You give your thoughts to {operator}", "named": "{subject} gives {subject}'s thoughts to {operator}", "themes": ["mindless", "submission"]}
+{"first": "I surrender my thinking to {operator}", "second": "You surrender your thinking to {operator}", "named": "{subject} surrenders {subject}'s thinking to {operator}", "themes": ["mindless", "submission"]}
+{"first": "I let {operator} think for me", "second": "You let {operator} think for you", "named": "{subject} lets {operator} think for {subject}", "themes": ["mindless", "submission"]}
+{"first": "I do not need my thoughts", "second": "You do not need your thoughts", "named": "{subject} does not need {subject}'s thoughts", "themes": ["mindless"]}
+{"first": "I have no thoughts of my own", "second": "You have no thoughts of your own", "named": "{subject} has no thoughts of {subject}'s own", "themes": ["mindless", "intense"]}
+{"first": "I am mindless for {operator}", "second": "You are mindless for {operator}", "named": "{subject} is mindless for {operator}", "themes": ["mindless"]}
+{"first": "I am useful empty", "second": "You are useful empty", "named": "{subject} is useful empty", "themes": ["mindless", "objectification"]}
+{"first": "I am better blank", "second": "You are better blank", "named": "{subject} is better blank", "themes": ["mindless"]}
+{"first": "I obey best when blank", "second": "You obey best when blank", "named": "{subject} obeys best when blank", "themes": ["mindless", "obedience"]}
+{"first": "I serve {operator} with an empty mind", "second": "You serve {operator} with an empty mind", "named": "{subject} serves {operator} with an empty mind", "themes": ["mindless", "submission"]}
+{"first": "I open my mind to {operator}", "second": "You open your mind to {operator}", "named": "{subject} opens {subject}'s mind to {operator}", "themes": ["mindless", "conditioning"]}
+{"first": "I hold nothing back from {operator}", "second": "You hold nothing back from {operator}", "named": "{subject} holds nothing back from {operator}", "themes": ["mindless", "submission"]}
+{"first": "I make room for {operator}", "second": "You make room for {operator}", "named": "{subject} makes room for {operator}", "themes": ["mindless", "conditioning"]}
+{"first": "I forget what I was thinking", "second": "You forget what you were thinking", "named": "{subject} forgets what {subject} was thinking", "themes": ["mindless", "amnesia"]}
+{"first": "I lose my thoughts for {operator}", "second": "You lose your thoughts for {operator}", "named": "{subject} loses {subject}'s thoughts for {operator}", "themes": ["mindless", "amnesia"]}
+{"first": "I cannot think near {operator}", "second": "You cannot think near {operator}", "named": "{subject} cannot think near {operator}", "themes": ["mindless", "focus"]}
+{"first": "I cannot hold a thought for {operator}", "second": "You cannot hold a thought for {operator}", "named": "{subject} cannot hold a thought for {operator}", "themes": ["mindless", "resistance"]}
+{"first": "I do not question {operator}", "second": "You do not question {operator}", "named": "{subject} does not question {operator}", "themes": ["mindless", "obedience"]}
+{"first": "I think only what {operator} says", "second": "You think only what {operator} says", "named": "{subject} thinks only what {operator} says", "themes": ["mindless", "conditioning"]}
+{"first": "I repeat what {operator} gives me", "second": "You repeat what {operator} gives you", "named": "{subject} repeats what {operator} gives {subject}", "themes": ["mindless", "conditioning"]}
+{"first": "I thank {operator} for the quiet", "second": "You thank {operator} for the quiet", "named": "{subject} thanks {operator} for the quiet", "themes": ["mindless", "gratitude"]}
+{"first": "I am grateful to be empty", "second": "You are grateful to be empty", "named": "{subject} is grateful to be empty", "themes": ["mindless", "gratitude"]}
+{"first": "I sink and stop thinking", "second": "You sink and stop thinking", "named": "{subject} sinks and stops thinking", "themes": ["mindless", "induction"]}
+{"first": "I go down and go blank", "second": "You go down and go blank", "named": "{subject} goes down and goes blank", "themes": ["mindless", "induction"]}
+{"first": "I am a blank tool for {operator}", "second": "You are a blank tool for {operator}", "named": "{subject} is a blank tool for {operator}", "themes": ["mindless", "objectification"]}
+{"first": "I function without thinking", "second": "You function without thinking", "named": "{subject} functions without thinking", "themes": ["mindless", "drone"]}
+{"first": "I am too empty to think", "second": "You are too empty to think", "named": "{subject} is too empty to think", "themes": ["mindless", "intense"]}
+{"first": "I am nothing without {operator}", "second": "You are nothing without {operator}", "named": "{subject} is nothing without {operator}", "themes": ["mindless", "intense"]}
+{"first": "{operator} empties my mind", "second": "{operator} empties your mind", "named": "{operator} empties {subject}'s mind", "themes": ["mindless"]}
+{"first": "{operator} takes my thoughts", "second": "{operator} takes your thoughts", "named": "{operator} takes {subject}'s thoughts", "themes": ["mindless"]}
+{"first": "{operator} owns my thoughts", "second": "{operator} owns your thoughts", "named": "{operator} owns {subject}'s thoughts", "themes": ["mindless", "submission"]}
+{"first": "{operator} thinks for me", "second": "{operator} thinks for you", "named": "{operator} thinks for {subject}", "themes": ["mindless", "submission"]}
+{"first": "{operator} keeps my mind blank", "second": "{operator} keeps your mind blank", "named": "{operator} keeps {subject}'s mind blank", "themes": ["mindless", "conditioning"]}
+{"first": "{operator} fills my empty head", "second": "{operator} fills your empty head", "named": "{operator} fills {subject}'s empty head", "themes": ["mindless", "conditioning"]}
+{"first": "{operator} quiets my mind", "second": "{operator} quiets your mind", "named": "{operator} quiets {subject}'s mind", "themes": ["mindless"]}
+{"first": "{operator} switches my mind off", "second": "{operator} switches your mind off", "named": "{operator} switches {subject}'s mind off", "themes": ["mindless", "drone"]}
+{"first": "{operator} decides what I think", "second": "{operator} decides what you think", "named": "{operator} decides what {subject} thinks", "themes": ["mindless", "obedience"]}
+{"first": "{operator} does my thinking now", "second": "{operator} does your thinking now", "named": "{operator} does {subject}'s thinking now", "themes": ["mindless", "submission"]}
+{"first": "{operator} made me mindless", "second": "{operator} made you mindless", "named": "{operator} made {subject} mindless", "themes": ["mindless", "conditioning"]}
+{"first": "{operator} erased my thinking", "second": "{operator} erased your thinking", "named": "{operator} erased {subject}'s thinking", "themes": ["mindless", "intense"]}
+{"first": "{operator} left nothing in my head", "second": "{operator} left nothing in your head", "named": "{operator} left nothing in {subject}'s head", "themes": ["mindless", "intense"]}
+{"first": "Empty is better", "second": "Empty is better", "named": "Empty is better", "themes": ["mindless"]}
+{"first": "Blank feels good", "second": "Blank feels good", "named": "Blank feels good", "themes": ["mindless"]}
+{"first": "Thinking is not required", "second": "Thinking is not required", "named": "Thinking is not required", "themes": ["mindless", "obedience"]}
+{"first": "Emptiness is easier", "second": "Emptiness is easier", "named": "Emptiness is easier", "themes": ["mindless"]}
+{"first": "An empty mind is a good mind", "second": "An empty mind is a good mind", "named": "An empty mind is a good mind", "themes": ["mindless"]}
+{"first": "Blankness is the reward", "second": "Blankness is the reward", "named": "Blankness is the reward", "themes": ["mindless", "conditioning"]}
+{"first": "Thoughts are not needed here", "second": "Thoughts are not needed here", "named": "Thoughts are not needed here", "themes": ["mindless"]}

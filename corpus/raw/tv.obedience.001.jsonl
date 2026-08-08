@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"obedience","generator":{"pass":"target-voice"}}
+{"first": "I obey {operator}", "second": "You obey {operator}", "named": "{subject} obeys {operator}", "themes": ["obedience"]}
+{"first": "I serve {operator}", "second": "You serve {operator}", "named": "{subject} serves {operator}", "themes": ["obedience", "submission"]}
+{"first": "I follow {operator}", "second": "You follow {operator}", "named": "{subject} follows {operator}", "themes": ["obedience"]}
+{"first": "I obey without question", "second": "You obey without question", "named": "{subject} obeys without question", "themes": ["obedience", "mindless"]}
+{"first": "I say yes to {operator}", "second": "You say yes to {operator}", "named": "{subject} says yes to {operator}", "themes": ["obedience", "submission"]}
+{"first": "I do what {operator} says", "second": "You do what {operator} says", "named": "{subject} does what {operator} says", "themes": ["obedience"]}
+{"first": "I want to obey {operator}", "second": "You want to obey {operator}", "named": "{subject} wants to obey {operator}", "themes": ["obedience", "devotion"]}
+{"first": "I need to obey {operator}", "second": "You need to obey {operator}", "named": "{subject} needs to obey {operator}", "themes": ["obedience", "addiction"]}
+{"first": "I live to obey {operator}", "second": "You live to obey {operator}", "named": "{subject} lives to obey {operator}", "themes": ["obedience", "devotion"]}
+{"first": "I exist to serve {operator}", "second": "You exist to serve {operator}", "named": "{subject} exists to serve {operator}", "themes": ["obedience", "objectification"]}
+{"first": "I belong to {operator}", "second": "You belong to {operator}", "named": "{subject} belongs to {operator}", "themes": ["obedience", "submission"]}
+{"first": "I cannot resist {operator}", "second": "You cannot resist {operator}", "named": "{subject} cannot resist {operator}", "themes": ["obedience", "resistance"]}
+{"first": "I cannot say no to {operator}", "second": "You cannot say no to {operator}", "named": "{subject} cannot say no to {operator}", "themes": ["obedience", "resistance"]}
+{"first": "I never refuse {operator}", "second": "You never refuse {operator}", "named": "{subject} never refuses {operator}", "themes": ["obedience"]}
+{"first": "I obey before I think", "second": "You obey before you think", "named": "{subject} obeys before thinking", "themes": ["obedience", "mindless"]}
+{"first": "I do not question {operator}", "second": "You do not question {operator}", "named": "{subject} does not question {operator}", "themes": ["obedience", "mindless"]}
+{"first": "I trust {operator} completely", "second": "You trust {operator} completely", "named": "{subject} trusts {operator} completely", "themes": ["obedience", "devotion"]}
+{"first": "I kneel for {operator}", "second": "You kneel for {operator}", "named": "{subject} kneels for {operator}", "themes": ["obedience", "worship"]}
+{"first": "I bow to {operator}", "second": "You bow to {operator}", "named": "{subject} bows to {operator}", "themes": ["obedience", "worship"]}
+{"first": "I yield to {operator}", "second": "You yield to {operator}", "named": "{subject} yields to {operator}", "themes": ["obedience", "submission"]}
+{"first": "I surrender to {operator}", "second": "You surrender to {operator}", "named": "{subject} surrenders to {operator}", "themes": ["obedience", "submission"]}
+{"first": "I give my will to {operator}", "second": "You give your will to {operator}", "named": "{subject} gives all will to {operator}", "themes": ["obedience", "submission"]}
+{"first": "I have no will but {operator}", "second": "You have no will but {operator}", "named": "{subject} has no will but {operator}", "themes": ["obedience", "mindless"]}
+{"first": "I want nothing but obedience", "second": "You want nothing but obedience", "named": "{subject} wants nothing but obedience", "themes": ["obedience", "mindless"]}
+{"first": "I am good when I obey", "second": "You are good when you obey", "named": "{subject} is good when obeying", "themes": ["obedience", "conditioning"]}
+{"first": "I am happy obeying {operator}", "second": "You are happy obeying {operator}", "named": "{subject} is happy obeying {operator}", "themes": ["obedience", "devotion"]}
+{"first": "I feel safe obeying {operator}", "second": "You feel safe obeying {operator}", "named": "{subject} feels safe obeying {operator}", "themes": ["obedience", "submission"]}
+{"first": "I feel calm when I obey", "second": "You feel calm when you obey", "named": "{subject} feels calm when obeying", "themes": ["obedience", "focus"]}
+{"first": "I am proud to serve {operator}", "second": "You are proud to serve {operator}", "named": "{subject} is proud to serve {operator}", "themes": ["obedience", "gratitude"]}
+{"first": "I am grateful to obey {operator}", "second": "You are grateful to obey {operator}", "named": "{subject} is grateful to obey {operator}", "themes": ["obedience", "gratitude"]}
+{"first": "I am eager to please {operator}", "second": "You are eager to please {operator}", "named": "{subject} is eager to please {operator}", "themes": ["obedience", "devotion"]}
+{"first": "I am ready for {operator}", "second": "You are ready for {operator}", "named": "{subject} is ready for {operator}", "themes": ["obedience"]}
+{"first": "I am obedient for {operator}", "second": "You are obedient for {operator}", "named": "{subject} is obedient for {operator}", "themes": ["obedience"]}
+{"first": "I am fit to serve {operator}", "second": "You are fit to serve {operator}", "named": "{subject} is fit to serve {operator}", "themes": ["obedience", "devotion"]}
+{"first": "I am useful to {operator}", "second": "You are useful to {operator}", "named": "{subject} is useful to {operator}", "themes": ["obedience", "objectification"]}
+{"first": "I am a good servant for {operator}", "second": "You are a good servant for {operator}", "named": "{subject} is a good servant for {operator}", "themes": ["obedience", "submission"]}
+{"first": "I am nothing without {operator}", "second": "You are nothing without {operator}", "named": "{subject} is nothing without {operator}", "themes": ["obedience", "degradation"]}
+{"first": "I obey and I am rewarded", "second": "You obey and you are rewarded", "named": "{subject} obeys and is rewarded", "themes": ["obedience", "conditioning"]}
+{"first": "I obey and the pleasure comes", "second": "You obey and the pleasure comes", "named": "{subject} obeys and the pleasure comes", "themes": ["obedience", "conditioning"]}
+{"first": "I love obeying {operator}", "second": "You love obeying {operator}", "named": "{subject} loves obeying {operator}", "themes": ["obedience", "devotion"]}
+{"first": "{operator} owns me", "second": "{operator} owns you", "named": "{operator} owns {subject}", "themes": ["obedience", "submission"]}
+{"first": "{operator} owns my obedience", "second": "{operator} owns your obedience", "named": "{operator} owns the obedience of {subject}", "themes": ["obedience", "submission"]}
+{"first": "{operator} controls my mind", "second": "{operator} controls your mind", "named": "{operator} controls the mind of {subject}", "themes": ["obedience", "conditioning"]}
+{"first": "{operator} controls my body", "second": "{operator} controls your body", "named": "{operator} controls the body of {subject}", "themes": ["obedience", "objectification"]}
+{"first": "{operator} decides for me", "second": "{operator} decides for you", "named": "{operator} decides for {subject}", "themes": ["obedience", "mindless"]}
+{"first": "{operator} thinks for me", "second": "{operator} thinks for you", "named": "{operator} thinks for {subject}", "themes": ["obedience", "mindless"]}
+{"first": "{operator} directs my every move", "second": "{operator} directs your every move", "named": "{operator} directs every move {subject} makes", "themes": ["obedience", "drone"]}
+{"first": "{operator} takes my choices away", "second": "{operator} takes your choices away", "named": "{operator} takes the choices of {subject} away", "themes": ["obedience", "mindless"]}
+{"first": "{operator} shapes my obedience", "second": "{operator} shapes your obedience", "named": "{operator} shapes the obedience of {subject}", "themes": ["obedience", "conditioning"]}
+{"first": "{operator} trains me well", "second": "{operator} trains you well", "named": "{operator} trains {subject} well", "themes": ["obedience", "conditioning"]}
+{"first": "{operator} is always right", "second": "{operator} is always right", "named": "{operator} is always right", "themes": ["obedience", "devotion"]}
+{"first": "{operator} knows what is best for me", "second": "{operator} knows what is best for you", "named": "{operator} knows what is best for {subject}", "themes": ["obedience", "devotion"]}
+{"first": "{operator} is always in my mind", "second": "{operator} is always in your mind", "named": "{operator} is always in the mind of {subject}", "themes": ["obedience", "devotion"]}
+{"first": "Obedience is pleasure", "second": "Obedience is pleasure", "named": "Obedience is pleasure", "themes": ["obedience", "conditioning"]}
+{"first": "Obedience feels good", "second": "Obedience feels good", "named": "Obedience feels good", "themes": ["obedience", "conditioning"]}
+{"first": "Obeying is easy", "second": "Obeying is easy", "named": "Obeying is easy", "themes": ["obedience"]}
+{"first": "Obedience is who I am", "second": "Obedience is who you are", "named": "Obedience is who {subject} is", "themes": ["obedience", "conditioning"]}
+{"first": "Good servants do not think", "second": "Good servants do not think", "named": "Good servants do not think", "themes": ["obedience", "mindless"]}
+{"first": "Obeying is better than choosing", "second": "Obeying is better than choosing", "named": "Obeying is better than choosing", "themes": ["obedience", "mindless"]}
+{"first": "There is only obedience", "second": "There is only obedience", "named": "There is only obedience", "themes": ["obedience", "mindless"]}

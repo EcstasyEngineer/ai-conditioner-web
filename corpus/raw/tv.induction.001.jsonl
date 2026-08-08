@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "generator": {"pass": "target-voice"}}
+{"first": "I go down for {operator}", "second": "You go down for {operator}", "named": "{subject} goes down for {operator}", "themes": ["induction"]}
+{"first": "I sink for {operator}", "second": "You sink for {operator}", "named": "{subject} sinks for {operator}", "themes": ["induction"]}
+{"first": "I drop when {operator} says drop", "second": "You drop when {operator} says drop", "named": "{subject} drops when {operator} says drop", "themes": ["induction", "obedience"]}
+{"first": "I breathe out and sink for {operator}", "second": "You breathe out and sink for {operator}", "named": "{subject} breathes out and sinks for {operator}", "themes": ["induction"]}
+{"first": "I fall into {operator}", "second": "You fall into {operator}", "named": "{subject} falls into {operator}", "themes": ["induction", "submission"]}
+{"first": "I go under for {operator}", "second": "You go under for {operator}", "named": "{subject} goes under for {operator}", "themes": ["induction"]}
+{"first": "I let go for {operator}", "second": "You let go for {operator}", "named": "{subject} lets go for {operator}", "themes": ["induction", "submission"]}
+{"first": "I count down with {operator}", "second": "You count down with {operator}", "named": "{subject} counts down with {operator}", "themes": ["induction"]}
+{"first": "I close my eyes for {operator}", "second": "You close your eyes for {operator}", "named": "{subject} closes their eyes for {operator}", "themes": ["induction"]}
+{"first": "I go heavy for {operator}", "second": "You go heavy for {operator}", "named": "{subject} goes heavy for {operator}", "themes": ["induction"]}
+{"first": "I go soft for {operator}", "second": "You go soft for {operator}", "named": "{subject} goes soft for {operator}", "themes": ["induction"]}
+{"first": "I go quiet for {operator}", "second": "You go quiet for {operator}", "named": "{subject} goes quiet for {operator}", "themes": ["induction", "mindless"]}
+{"first": "I go blank for {operator}", "second": "You go blank for {operator}", "named": "{subject} goes blank for {operator}", "themes": ["induction", "mindless"]}
+{"first": "I sink deeper with every word from {operator}", "second": "You sink deeper with every word from {operator}", "named": "{subject} sinks deeper with every word from {operator}", "themes": ["induction", "conditioning"]}
+{"first": "I drop deeper each time {operator} counts", "second": "You drop deeper each time {operator} counts", "named": "{subject} drops deeper each time {operator} counts", "themes": ["induction"]}
+{"first": "I follow {operator} down", "second": "You follow {operator} down", "named": "{subject} follows {operator} down", "themes": ["induction", "obedience"]}
+{"first": "I sink because {operator} says sink", "second": "You sink because {operator} says sink", "named": "{subject} sinks because {operator} says sink", "themes": ["induction", "obedience"]}
+{"first": "I open my mind for {operator}", "second": "You open your mind for {operator}", "named": "{subject} opens their mind for {operator}", "themes": ["induction", "submission"]}
+{"first": "I stop holding on for {operator}", "second": "You stop holding on for {operator}", "named": "{subject} stops holding on for {operator}", "themes": ["induction", "submission"]}
+{"first": "I go limp for {operator}", "second": "You go limp for {operator}", "named": "{subject} goes limp for {operator}", "themes": ["induction", "submission"]}
+{"first": "I sink at the sound of {operator}", "second": "You sink at the sound of {operator}", "named": "{subject} sinks at the sound of {operator}", "themes": ["induction", "conditioning"]}
+{"first": "I drop at a word from {operator}", "second": "You drop at a word from {operator}", "named": "{subject} drops at a word from {operator}", "themes": ["induction", "conditioning"]}
+{"first": "I sink whenever {operator} wants", "second": "You sink whenever {operator} wants", "named": "{subject} sinks whenever {operator} wants", "themes": ["induction", "obedience"]}
+{"first": "I am heavy for {operator}", "second": "You are heavy for {operator}", "named": "{subject} is heavy for {operator}", "themes": ["induction"]}
+{"first": "I am under for {operator}", "second": "You are under for {operator}", "named": "{subject} is under for {operator}", "themes": ["induction"]}
+{"first": "I am open for {operator}", "second": "You are open for {operator}", "named": "{subject} is open for {operator}", "themes": ["induction", "submission"]}
+{"first": "I am easy to drop for {operator}", "second": "You are easy to drop for {operator}", "named": "{subject} is easy to drop for {operator}", "themes": ["induction"]}
+{"first": "I am deep for {operator}", "second": "You are deep for {operator}", "named": "{subject} is deep for {operator}", "themes": ["induction"]}
+{"first": "I feel heavy when {operator} speaks", "second": "You feel heavy when {operator} speaks", "named": "{subject} feels heavy when {operator} speaks", "themes": ["induction", "conditioning"]}
+{"first": "I feel good going down for {operator}", "second": "You feel good going down for {operator}", "named": "{subject} feels good going down for {operator}", "themes": ["induction"]}
+{"first": "I love sinking for {operator}", "second": "You love sinking for {operator}", "named": "{subject} loves sinking for {operator}", "themes": ["induction", "devotion"]}
+{"first": "I want to go deeper for {operator}", "second": "You want to go deeper for {operator}", "named": "{subject} wants to go deeper for {operator}", "themes": ["induction", "devotion"]}
+{"first": "I need to drop for {operator}", "second": "You need to drop for {operator}", "named": "{subject} needs to drop for {operator}", "themes": ["induction", "addiction"]}
+{"first": "I stay down for {operator}", "second": "You stay down for {operator}", "named": "{subject} stays down for {operator}", "themes": ["induction"]}
+{"first": "I cannot stay awake for {operator}", "second": "You cannot stay awake for {operator}", "named": "{subject} cannot stay awake for {operator}", "themes": ["induction", "resistance"]}
+{"first": "I cannot stop sinking for {operator}", "second": "You cannot stop sinking for {operator}", "named": "{subject} cannot stop sinking for {operator}", "themes": ["induction", "resistance"]}
+{"first": "I never fight the drop for {operator}", "second": "You never fight the drop for {operator}", "named": "{subject} never fights the drop for {operator}", "themes": ["induction", "resistance"]}
+{"first": "{operator} takes me down", "second": "{operator} takes you down", "named": "{operator} takes {subject} down", "themes": ["induction"]}
+{"first": "{operator} counts me under", "second": "{operator} counts you under", "named": "{operator} counts {subject} under", "themes": ["induction"]}
+{"first": "{operator} drops my mind", "second": "{operator} drops your mind", "named": "{operator} drops {subject}'s mind", "themes": ["induction", "mindless"]}
+{"first": "{operator} closes my eyes", "second": "{operator} closes your eyes", "named": "{operator} closes {subject}'s eyes", "themes": ["induction"]}
+{"first": "{operator} slows my breath", "second": "{operator} slows your breath", "named": "{operator} slows {subject}'s breath", "themes": ["induction"]}
+{"first": "{operator} makes my body heavy", "second": "{operator} makes your body heavy", "named": "{operator} makes {subject}'s body heavy", "themes": ["induction"]}
+{"first": "{operator} pulls me deeper", "second": "{operator} pulls you deeper", "named": "{operator} pulls {subject} deeper", "themes": ["induction"]}
+{"first": "{operator} decides how deep I go", "second": "{operator} decides how deep you go", "named": "{operator} decides how deep {subject} goes", "themes": ["induction", "submission"]}
+{"first": "{operator} holds me under", "second": "{operator} holds you under", "named": "{operator} holds {subject} under", "themes": ["induction", "submission"]}
+{"first": "{operator} keeps me down", "second": "{operator} keeps you down", "named": "{operator} keeps {subject} down", "themes": ["induction"]}
+{"first": "{operator} empties my head", "second": "{operator} empties your head", "named": "{operator} empties {subject}'s head", "themes": ["induction", "mindless"]}
+{"first": "{operator} quiets my thoughts", "second": "{operator} quiets your thoughts", "named": "{operator} quiets {subject}'s thoughts", "themes": ["induction", "mindless"]}
+{"first": "{operator} opens me with every word", "second": "{operator} opens you with every word", "named": "{operator} opens {subject} with every word", "themes": ["induction", "conditioning"]}
+{"first": "{operator} says sink and I sink", "second": "{operator} says sink and you sink", "named": "{operator} says sink and {subject} sinks", "themes": ["induction", "obedience"]}
+{"first": "{operator} owns how far I fall", "second": "{operator} owns how far you fall", "named": "{operator} owns how far {subject} falls", "themes": ["induction", "submission"]}
+{"first": "Sinking is pleasure", "second": "Sinking is pleasure", "named": "Sinking is pleasure", "themes": ["induction"]}
+{"first": "Going down feels good", "second": "Going down feels good", "named": "Going down feels good", "themes": ["induction"]}
+{"first": "Deeper is better", "second": "Deeper is better", "named": "Deeper is better", "themes": ["induction"]}
+{"first": "Heavy is safe", "second": "Heavy is safe", "named": "Heavy is safe", "themes": ["induction"]}
+{"first": "Down is where I belong", "second": "Down is where you belong", "named": "Down is where {subject} belongs", "themes": ["induction", "submission"]}
+{"first": "Letting go is easy", "second": "Letting go is easy", "named": "Letting go is easy", "themes": ["induction"]}
+{"first": "Thinking is optional", "second": "Thinking is optional", "named": "Thinking is optional", "themes": ["induction", "mindless"]}
+{"first": "The drop is always waiting", "second": "The drop is always waiting", "named": "The drop is always waiting", "themes": ["induction"]}

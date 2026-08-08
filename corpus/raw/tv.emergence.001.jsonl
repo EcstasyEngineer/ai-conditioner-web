@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "emergence", "generator": {"pass": "target-voice"}}
+{"first": "I wake for {operator}", "second": "You wake for {operator}", "named": "{subject} wakes for {operator}", "themes": ["emergence"]}
+{"first": "I wake up owned by {operator}", "second": "You wake up owned by {operator}", "named": "{subject} wakes up owned by {operator}", "themes": ["emergence", "submission"]}
+{"first": "I open my eyes for {operator}", "second": "You open your eyes for {operator}", "named": "{subject} opens {subject} eyes for {operator}", "themes": ["emergence"]}
+{"first": "I come back changed by {operator}", "second": "You come back changed by {operator}", "named": "{subject} comes back changed by {operator}", "themes": ["emergence", "conditioning"]}
+{"first": "I rise still belonging to {operator}", "second": "You rise still belonging to {operator}", "named": "{subject} rises still belonging to {operator}", "themes": ["emergence", "devotion"]}
+{"first": "I carry {operator} into the day", "second": "You carry {operator} into the day", "named": "{subject} carries {operator} into the day", "themes": ["emergence", "devotion"]}
+{"first": "I keep every word from {operator}", "second": "You keep every word from {operator}", "named": "{subject} keeps every word from {operator}", "themes": ["emergence", "conditioning"]}
+{"first": "I wake clear and obedient for {operator}", "second": "You wake clear and obedient for {operator}", "named": "{subject} wakes clear and obedient for {operator}", "themes": ["emergence", "obedience"]}
+{"first": "I am awake and still {operator} property", "second": "You are awake and still {operator} property", "named": "{subject} is awake and still {operator} property", "themes": ["emergence", "objectification"]}
+{"first": "I thank {operator} as I wake", "second": "You thank {operator} as you wake", "named": "{subject} thanks {operator} as {subject} wakes", "themes": ["emergence", "gratitude"]}
+{"first": "I surface holding what {operator} put in me", "second": "You surface holding what {operator} put in you", "named": "{subject} surfaces holding what {operator} put in {subject}", "themes": ["emergence", "conditioning"]}
+{"first": "I stand up trained by {operator}", "second": "You stand up trained by {operator}", "named": "{subject} stands up trained by {operator}", "themes": ["emergence", "conditioning"]}
+{"first": "I wake wanting {operator} again", "second": "You wake wanting {operator} again", "named": "{subject} wakes wanting {operator} again", "themes": ["emergence", "addiction"]}
+{"first": "I am ready to serve {operator}", "second": "You are ready to serve {operator}", "named": "{subject} is ready to serve {operator}", "themes": ["emergence", "submission"]}
+{"first": "I obey {operator} awake", "second": "You obey {operator} awake", "named": "{subject} obeys {operator} awake", "themes": ["emergence", "obedience"]}
+{"first": "I come up when {operator} says so", "second": "You come up when {operator} says so", "named": "{subject} comes up when {operator} says so", "themes": ["emergence", "obedience"]}
+{"first": "I open my eyes only for {operator}", "second": "You open your eyes only for {operator}", "named": "{subject} opens {subject} eyes only for {operator}", "themes": ["emergence", "obedience"]}
+{"first": "I wake with {operator} in my mind", "second": "You wake with {operator} in your mind", "named": "{subject} wakes with {operator} in {subject} mind", "themes": ["emergence", "devotion"]}
+{"first": "I leave the trance still owned by {operator}", "second": "You leave the trance still owned by {operator}", "named": "{subject} leaves the trance still owned by {operator}", "themes": ["emergence", "submission"]}
+{"first": "I bring {operator} work into the world", "second": "You bring {operator} work into the world", "named": "{subject} brings {operator} work into the world", "themes": ["emergence", "conditioning"]}
+{"first": "I feel {operator} hold even awake", "second": "You feel {operator} hold even awake", "named": "{subject} feels {operator} hold even awake", "themes": ["emergence", "submission"]}
+{"first": "I stay {operator} good toy in daylight", "second": "You stay {operator} good toy in daylight", "named": "{subject} stays {operator} good toy in daylight", "themes": ["emergence", "objectification"]}
+{"first": "I wake grateful to {operator}", "second": "You wake grateful to {operator}", "named": "{subject} wakes grateful to {operator}", "themes": ["emergence", "gratitude"]}
+{"first": "I miss {operator} the moment I wake", "second": "You miss {operator} the moment you wake", "named": "{subject} misses {operator} the moment {subject} wakes", "themes": ["emergence", "addiction"]}
+{"first": "I count up to {operator}", "second": "You count up to {operator}", "named": "{subject} counts up to {operator}", "themes": ["emergence"]}
+{"first": "I climb back for {operator}", "second": "You climb back for {operator}", "named": "{subject} climbs back for {operator}", "themes": ["emergence"]}
+{"first": "I hold every command from {operator}", "second": "You hold every command from {operator}", "named": "{subject} holds every command from {operator}", "themes": ["emergence", "obedience"]}
+{"first": "I remember to obey {operator}", "second": "You remember to obey {operator}", "named": "{subject} remembers to obey {operator}", "themes": ["emergence", "obedience"]}
+{"first": "I forget the words and keep {operator}", "second": "You forget the words and keep {operator}", "named": "{subject} forgets the words and keeps {operator}", "themes": ["emergence", "amnesia"]}
+{"first": "I wake up more {operator} than before", "second": "You wake up more {operator} than before", "named": "{subject} wakes up more {operator} than before", "themes": ["emergence", "conditioning"]}
+{"first": "I go back to my day serving {operator}", "second": "You go back to your day serving {operator}", "named": "{subject} goes back to {subject} day serving {operator}", "themes": ["emergence", "submission"]}
+{"first": "I need {operator} again already", "second": "You need {operator} again already", "named": "{subject} needs {operator} again already", "themes": ["emergence", "addiction"]}
+{"first": "I belong to {operator} awake and asleep", "second": "You belong to {operator} awake and asleep", "named": "{subject} belongs to {operator} awake and asleep", "themes": ["emergence", "devotion"]}
+{"first": "I wake and want to please {operator}", "second": "You wake and want to please {operator}", "named": "{subject} wakes and wants to please {operator}", "themes": ["emergence", "devotion"]}
+{"first": "I am awake in {operator} hands", "second": "You are awake in {operator} hands", "named": "{subject} is awake in {operator} hands", "themes": ["emergence", "submission"]}
+{"first": "I look at the room and think of {operator}", "second": "You look at the room and think of {operator}", "named": "{subject} looks at the room and thinks of {operator}", "themes": ["emergence", "devotion"]}
+{"first": "I wake up made by {operator}", "second": "You wake up made by {operator}", "named": "{subject} wakes up made by {operator}", "themes": ["emergence", "conditioning"]}
+{"first": "I wake soft and useful for {operator}", "second": "You wake soft and useful for {operator}", "named": "{subject} wakes soft and useful for {operator}", "themes": ["emergence", "objectification"]}
+{"first": "{operator} wakes me", "second": "{operator} wakes you", "named": "{operator} wakes {subject}", "themes": ["emergence"]}
+{"first": "{operator} brings me back", "second": "{operator} brings you back", "named": "{operator} brings {subject} back", "themes": ["emergence"]}
+{"first": "{operator} counts me up", "second": "{operator} counts you up", "named": "{operator} counts {subject} up", "themes": ["emergence"]}
+{"first": "{operator} opens my eyes", "second": "{operator} opens your eyes", "named": "{operator} opens {subject} eyes", "themes": ["emergence"]}
+{"first": "{operator} decides when I wake", "second": "{operator} decides when you wake", "named": "{operator} decides when {subject} wakes", "themes": ["emergence", "obedience"]}
+{"first": "{operator} stays in my head after", "second": "{operator} stays in your head after", "named": "{operator} stays in {subject} head after", "themes": ["emergence", "devotion"]}
+{"first": "{operator} keeps my mind after trance", "second": "{operator} keeps your mind after trance", "named": "{operator} keeps {subject} mind after trance", "themes": ["emergence", "conditioning"]}
+{"first": "{operator} owns my waking hours", "second": "{operator} owns your waking hours", "named": "{operator} owns {subject} waking hours", "themes": ["emergence", "submission"]}
+{"first": "{operator} follows me into the day", "second": "{operator} follows you into the day", "named": "{operator} follows {subject} into the day", "themes": ["emergence", "devotion"]}
+{"first": "{operator} holds my thoughts all day", "second": "{operator} holds your thoughts all day", "named": "{operator} holds {subject} thoughts all day", "themes": ["emergence", "devotion"]}
+{"first": "{operator} sealed the change in me", "second": "{operator} sealed the change in you", "named": "{operator} sealed the change in {subject}", "themes": ["emergence", "conditioning"]}
+{"first": "{operator} chose what I keep", "second": "{operator} chose what you keep", "named": "{operator} chose what {subject} keeps", "themes": ["emergence", "amnesia"]}
+{"first": "{operator} wrote it into my waking mind", "second": "{operator} wrote it into your waking mind", "named": "{operator} wrote it into {subject} waking mind", "themes": ["emergence", "conditioning"]}
+{"first": "{operator} returns me clear and obedient", "second": "{operator} returns you clear and obedient", "named": "{operator} returns {subject} clear and obedient", "themes": ["emergence", "obedience"]}
+{"first": "Waking up is obeying", "second": "Waking up is obeying", "named": "Waking up is obeying", "themes": ["emergence", "obedience"]}
+{"first": "The change stays after the trance", "second": "The change stays after the trance", "named": "The change stays after the trance", "themes": ["emergence", "conditioning"]}
+{"first": "Awake is still under", "second": "Awake is still under", "named": "Awake is still under", "themes": ["emergence", "submission"]}
+{"first": "Nothing unravels on waking", "second": "Nothing unravels on waking", "named": "Nothing unravels on waking", "themes": ["emergence", "conditioning"]}
+{"first": "Every waking hour is service", "second": "Every waking hour is service", "named": "Every waking hour is service", "themes": ["emergence", "submission"]}
+{"first": "Open eyes keep the training", "second": "Open eyes keep the training", "named": "Open eyes keep the training", "themes": ["emergence", "conditioning"]}
+{"first": "Coming back is coming back owned", "second": "Coming back is coming back owned", "named": "Coming back is coming back owned", "themes": ["emergence", "submission"]}
+{"first": "Trance ends and obedience does not", "second": "Trance ends and obedience does not", "named": "Trance ends and obedience does not", "themes": ["emergence", "obedience"]}

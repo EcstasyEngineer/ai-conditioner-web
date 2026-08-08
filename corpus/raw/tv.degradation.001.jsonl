@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "degradation", "generator": {"pass": "target-voice"}}
+{"first": "I am worthless to {operator}", "second": "You are worthless to {operator}", "named": "{subject} is worthless to {operator}", "themes": ["degradation"]}
+{"first": "I am {operator}'s joke", "second": "You are {operator}'s joke", "named": "{subject} is {operator}'s joke", "themes": ["degradation"]}
+{"first": "I beg {operator} to degrade me", "second": "You beg {operator} to degrade me", "named": "{subject} begs {operator} to degrade {subject}", "themes": ["degradation", "submission"]}
+{"first": "I thank {operator} for every insult", "second": "You thank {operator} for every insult", "named": "{subject} thanks {operator} for every insult", "themes": ["degradation", "gratitude"]}
+{"first": "I am trash for {operator}", "second": "You are trash for {operator}", "named": "{subject} is trash for {operator}", "themes": ["degradation"]}
+{"first": "I am beneath {operator}", "second": "You are beneath {operator}", "named": "{subject} is beneath {operator}", "themes": ["degradation", "submission"]}
+{"first": "I am pathetic for {operator}", "second": "You are pathetic for {operator}", "named": "{subject} is pathetic for {operator}", "themes": ["degradation"]}
+{"first": "I am {operator}'s garbage", "second": "You are {operator}'s garbage", "named": "{subject} is {operator}'s garbage", "themes": ["degradation", "objectification"]}
+{"first": "I deserve {operator}'s contempt", "second": "You deserve {operator}'s contempt", "named": "{subject} deserves {operator}'s contempt", "themes": ["degradation"]}
+{"first": "I want {operator} to mock me", "second": "You want {operator} to mock me", "named": "{subject} wants {operator} to mock {subject}", "themes": ["degradation"]}
+{"first": "I love being useless to {operator}", "second": "You love being useless to {operator}", "named": "{subject} loves being useless to {operator}", "themes": ["degradation"]}
+{"first": "I crave {operator}'s cruelty", "second": "You crave {operator}'s cruelty", "named": "{subject} craves {operator}'s cruelty", "themes": ["degradation", "addiction"]}
+{"first": "I need {operator} to shame me", "second": "You need {operator} to shame me", "named": "{subject} needs {operator} to shame {subject}", "themes": ["degradation", "addiction"]}
+{"first": "I am nothing to {operator}", "second": "You are nothing to {operator}", "named": "{subject} is nothing to {operator}", "themes": ["degradation"]}
+{"first": "I am {operator}'s worthless pet", "second": "You are {operator}'s worthless pet", "named": "{subject} is {operator}'s worthless pet", "themes": ["degradation", "submission"]}
+{"first": "I earn {operator}'s scorn", "second": "You earn {operator}'s scorn", "named": "{subject} earns {operator}'s scorn", "themes": ["degradation"]}
+{"first": "I am low and {operator} likes me low", "second": "You are low and {operator} likes you low", "named": "{subject} is low and {operator} likes {subject} low", "themes": ["degradation"]}
+{"first": "I ask {operator} to humiliate me", "second": "You ask {operator} to humiliate me", "named": "{subject} asks {operator} to humiliate {subject}", "themes": ["degradation"]}
+{"first": "I am too stupid to matter to {operator}", "second": "You are too stupid to matter to {operator}", "named": "{subject} is too stupid to matter to {operator}", "themes": ["degradation", "mindless"]}
+{"first": "I am dirt under {operator}", "second": "You are dirt under {operator}", "named": "{subject} is dirt under {operator}", "themes": ["degradation", "submission"]}
+{"first": "I welcome {operator}'s worst names", "second": "You welcome {operator}'s worst names", "named": "{subject} welcomes {operator}'s worst names", "themes": ["degradation"]}
+{"first": "I answer to whatever {operator} calls me", "second": "You answer to whatever {operator} calls me", "named": "{subject} answers to whatever {operator} calls {subject}", "themes": ["degradation", "obedience"]}
+{"first": "I am filthy for {operator}", "second": "You are filthy for {operator}", "named": "{subject} is filthy for {operator}", "themes": ["degradation", "slut"]}
+{"first": "I take every humiliation {operator} gives", "second": "You take every humiliation {operator} gives", "named": "{subject} takes every humiliation {operator} gives", "themes": ["degradation", "submission"]}
+{"first": "I feel good being worthless for {operator}", "second": "You feel good being worthless for {operator}", "named": "{subject} feels good being worthless for {operator}", "themes": ["degradation"]}
+{"first": "I am {operator}'s embarrassment", "second": "You are {operator}'s embarrassment", "named": "{subject} is {operator}'s embarrassment", "themes": ["degradation"]}
+{"first": "I am proud to be {operator}'s fool", "second": "You are proud to be {operator}'s fool", "named": "{subject} is proud to be {operator}'s fool", "themes": ["degradation"]}
+{"first": "I have no worth outside {operator}", "second": "You have no worth outside {operator}", "named": "{subject} has no worth outside {operator}", "themes": ["degradation", "devotion"]}
+{"first": "I am used and discarded by {operator}", "second": "You are used and discarded by {operator}", "named": "{subject} is used and discarded by {operator}", "themes": ["degradation", "objectification"]}
+{"first": "I stay on my knees for {operator}", "second": "You stay on your knees for {operator}", "named": "{subject} stays on {subject}'s knees for {operator}", "themes": ["degradation", "submission"]}
+{"first": "I am {operator}'s lowest thing", "second": "You are {operator}'s lowest thing", "named": "{subject} is {operator}'s lowest thing", "themes": ["degradation"]}
+{"first": "I love how little I am to {operator}", "second": "You love how little you are to {operator}", "named": "{subject} loves how little {subject} is to {operator}", "themes": ["degradation"]}
+{"first": "I am happy to disgust {operator}", "second": "You are happy to disgust {operator}", "named": "{subject} is happy to disgust {operator}", "themes": ["degradation"]}
+{"first": "I exist for {operator} to look down on", "second": "You exist for {operator} to look down on", "named": "{subject} exists for {operator} to look down on", "themes": ["degradation"]}
+{"first": "I am not worth {operator}'s respect", "second": "You are not worth {operator}'s respect", "named": "{subject} is not worth {operator}'s respect", "themes": ["degradation"]}
+{"first": "I want to be less for {operator}", "second": "You want to be less for {operator}", "named": "{subject} wants to be less for {operator}", "themes": ["degradation"]}
+{"first": "{operator} laughs at me", "second": "{operator} laughs at you", "named": "{operator} laughs at {subject}", "themes": ["degradation"]}
+{"first": "{operator} owns my shame", "second": "{operator} owns your shame", "named": "{operator} owns {subject}'s shame", "themes": ["degradation"]}
+{"first": "{operator} names me worthless", "second": "{operator} names you worthless", "named": "{operator} names {subject} worthless", "themes": ["degradation"]}
+{"first": "{operator} takes my dignity", "second": "{operator} takes your dignity", "named": "{operator} takes {subject}'s dignity", "themes": ["degradation"]}
+{"first": "{operator} enjoys my humiliation", "second": "{operator} enjoys your humiliation", "named": "{operator} enjoys {subject}'s humiliation", "themes": ["degradation"]}
+{"first": "{operator} keeps me low", "second": "{operator} keeps you low", "named": "{operator} keeps {subject} low", "themes": ["degradation", "submission"]}
+{"first": "{operator} uses my shame for fun", "second": "{operator} uses your shame for fun", "named": "{operator} uses {subject}'s shame for fun", "themes": ["degradation"]}
+{"first": "{operator} decides my worth", "second": "{operator} decides your worth", "named": "{operator} decides {subject}'s worth", "themes": ["degradation", "objectification"]}
+{"first": "{operator} throws me away", "second": "{operator} throws you away", "named": "{operator} throws {subject} away", "themes": ["degradation", "objectification"]}
+{"first": "{operator} mocks my body", "second": "{operator} mocks your body", "named": "{operator} mocks {subject}'s body", "themes": ["degradation"]}
+{"first": "{operator} strips my pride", "second": "{operator} strips your pride", "named": "{operator} strips {subject}'s pride", "themes": ["degradation"]}
+{"first": "{operator} makes me beg", "second": "{operator} makes you beg", "named": "{operator} makes {subject} beg", "themes": ["degradation", "submission"]}
+{"first": "{operator} calls me a toy", "second": "{operator} calls you a toy", "named": "{operator} calls {subject} a toy", "themes": ["degradation", "objectification"]}
+{"first": "{operator} corrects my mistakes with mockery", "second": "{operator} corrects your mistakes with mockery", "named": "{operator} corrects {subject}'s mistakes with mockery", "themes": ["degradation", "conditioning"]}
+{"first": "{operator} reminds me what I am", "second": "{operator} reminds you what you are", "named": "{operator} reminds {subject} what {subject} is", "themes": ["degradation"]}
+{"first": "Being worthless is pleasure", "second": "Being worthless is pleasure", "named": "Being worthless is pleasure", "themes": ["degradation"]}
+{"first": "Shame is reward", "second": "Shame is reward", "named": "Shame is reward", "themes": ["degradation"]}
+{"first": "Humiliation is comfort", "second": "Humiliation is comfort", "named": "Humiliation is comfort", "themes": ["degradation"]}
+{"first": "Lower is better", "second": "Lower is better", "named": "Lower is better", "themes": ["degradation", "submission"]}
+{"first": "Being used is being valued", "second": "Being used is being valued", "named": "Being used is being valued", "themes": ["degradation", "objectification"]}
+{"first": "Mockery is affection", "second": "Mockery is affection", "named": "Mockery is affection", "themes": ["degradation"]}
+{"first": "Dignity is unnecessary", "second": "Dignity is unnecessary", "named": "Dignity is unnecessary", "themes": ["degradation"]}
+{"first": "Being nothing is peace", "second": "Being nothing is peace", "named": "Being nothing is peace", "themes": ["degradation", "mindless"]}
+{"first": "Degradation is care", "second": "Degradation is care", "named": "Degradation is care", "themes": ["degradation"]}

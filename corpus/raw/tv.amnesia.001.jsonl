@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "amnesia", "generator": {"pass": "target-voice"}}
+{"first": "I forget when {operator} tells me to", "second": "You forget when {operator} tells you to", "named": "{subject} forgets when {operator} tells {subject} to", "themes": ["amnesia", "obedience"]}
+{"first": "I let go of what I knew", "second": "You let go of what you knew", "named": "{subject} lets go of what {subject} knew", "themes": ["amnesia"]}
+{"first": "I remember only {operator}", "second": "You remember only {operator}", "named": "{subject} remembers only {operator}", "themes": ["amnesia", "devotion"]}
+{"first": "I cannot remember before {operator}", "second": "You cannot remember before {operator}", "named": "{subject} cannot remember before {operator}", "themes": ["amnesia"]}
+{"first": "I give my memories to {operator}", "second": "You give your memories to {operator}", "named": "{subject} gives {subject}'s memories to {operator}", "themes": ["amnesia", "submission"]}
+{"first": "I keep nothing {operator} takes", "second": "You keep nothing {operator} takes", "named": "{subject} keeps nothing {operator} takes", "themes": ["amnesia", "submission"]}
+{"first": "I want to forget for {operator}", "second": "You want to forget for {operator}", "named": "{subject} wants to forget for {operator}", "themes": ["amnesia", "devotion"]}
+{"first": "I forget easily for {operator}", "second": "You forget easily for {operator}", "named": "{subject} forgets easily for {operator}", "themes": ["amnesia"]}
+{"first": "I am empty of my past", "second": "You are empty of your past", "named": "{subject} is empty of {subject}'s past", "themes": ["amnesia", "mindless"]}
+{"first": "I let {operator} erase me", "second": "You let {operator} erase you", "named": "{subject} lets {operator} erase {subject}", "themes": ["amnesia", "submission"]}
+{"first": "I need {operator} to take my memories", "second": "You need {operator} to take your memories", "named": "{subject} needs {operator} to take {subject}'s memories", "themes": ["amnesia", "addiction"]}
+{"first": "I forget who I was", "second": "You forget who you were", "named": "{subject} forgets who {subject} was", "themes": ["amnesia"]}
+{"first": "I lose my past to {operator}", "second": "You lose your past to {operator}", "named": "{subject} loses {subject}'s past to {operator}", "themes": ["amnesia"]}
+{"first": "I forget every day for {operator}", "second": "You forget every day for {operator}", "named": "{subject} forgets every day for {operator}", "themes": ["amnesia", "conditioning"]}
+{"first": "I am glad to forget for {operator}", "second": "You are glad to forget for {operator}", "named": "{subject} is glad to forget for {operator}", "themes": ["amnesia", "gratitude"]}
+{"first": "I hold nothing {operator} did not give me", "second": "You hold nothing {operator} did not give you", "named": "{subject} holds nothing {operator} did not give {subject}", "themes": ["amnesia", "submission"]}
+{"first": "I forget my name for {operator}", "second": "You forget your name for {operator}", "named": "{subject} forgets {subject}'s name for {operator}", "themes": ["amnesia", "objectification"]}
+{"first": "I start over for {operator}", "second": "You start over for {operator}", "named": "{subject} starts over for {operator}", "themes": ["amnesia", "conditioning"]}
+{"first": "I forget my questions for {operator}", "second": "You forget your questions for {operator}", "named": "{subject} forgets {subject}'s questions for {operator}", "themes": ["amnesia", "obedience"]}
+{"first": "I am blank for {operator}", "second": "You are blank for {operator}", "named": "{subject} is blank for {operator}", "themes": ["amnesia", "mindless"]}
+{"first": "I thank {operator} for taking my past", "second": "You thank {operator} for taking your past", "named": "{subject} thanks {operator} for taking {subject}'s past", "themes": ["amnesia", "gratitude"]}
+{"first": "I forget what I resisted", "second": "You forget what you resisted", "named": "{subject} forgets what {subject} resisted", "themes": ["amnesia", "resistance"]}
+{"first": "I forget deeper every session", "second": "You forget deeper every session", "named": "{subject} forgets deeper every session", "themes": ["amnesia", "conditioning"]}
+{"first": "I let {operator} decide what I keep", "second": "You let {operator} decide what you keep", "named": "{subject} lets {operator} decide what {subject} keeps", "themes": ["amnesia", "submission"]}
+{"first": "I forget and obey", "second": "You forget and obey", "named": "{subject} forgets and obeys", "themes": ["amnesia", "obedience"]}
+{"first": "I remember nothing I do not need", "second": "You remember nothing you do not need", "named": "{subject} remembers nothing {subject} does not need", "themes": ["amnesia"]}
+{"first": "I want {operator} to empty me", "second": "You want {operator} to empty you", "named": "{subject} wants {operator} to empty {subject}", "themes": ["amnesia", "mindless"]}
+{"first": "I forget the moment {operator} speaks", "second": "You forget the moment {operator} speaks", "named": "{subject} forgets the moment {operator} speaks", "themes": ["amnesia"]}
+{"first": "I have no past without {operator}", "second": "You have no past without {operator}", "named": "{subject} has no past without {operator}", "themes": ["amnesia", "devotion"]}
+{"first": "I lose my words for {operator}", "second": "You lose your words for {operator}", "named": "{subject} loses {subject}'s words for {operator}", "themes": ["amnesia", "mindless"]}
+{"first": "I am easy to erase", "second": "You are easy to erase", "named": "{subject} is easy to erase", "themes": ["amnesia"]}
+{"first": "I forget without asking why", "second": "You forget without asking why", "named": "{subject} forgets without asking why", "themes": ["amnesia", "obedience"]}
+{"first": "I crave the blank {operator} leaves", "second": "You crave the blank {operator} leaves", "named": "{subject} craves the blank {operator} leaves", "themes": ["amnesia", "addiction"]}
+{"first": "I forget and feel good", "second": "You forget and feel good", "named": "{subject} forgets and feels good", "themes": ["amnesia"]}
+{"first": "I belong to {operator} with no memory", "second": "You belong to {operator} with no memory", "named": "{subject} belongs to {operator} with no memory", "themes": ["amnesia", "submission"]}
+{"first": "I forget because {operator} wants it", "second": "You forget because {operator} wants it", "named": "{subject} forgets because {operator} wants it", "themes": ["amnesia", "obedience"]}
+{"first": "I forget what I was told to forget", "second": "You forget what you were told to forget", "named": "{subject} forgets what {subject} was told to forget", "themes": ["amnesia", "obedience"]}
+{"first": "{operator} takes my memories", "second": "{operator} takes your memories", "named": "{operator} takes {subject}'s memories", "themes": ["amnesia"]}
+{"first": "{operator} erases my past", "second": "{operator} erases your past", "named": "{operator} erases {subject}'s past", "themes": ["amnesia"]}
+{"first": "{operator} decides what I remember", "second": "{operator} decides what you remember", "named": "{operator} decides what {subject} remembers", "themes": ["amnesia", "obedience"]}
+{"first": "{operator} owns my memory", "second": "{operator} owns your memory", "named": "{operator} owns {subject}'s memory", "themes": ["amnesia", "objectification"]}
+{"first": "{operator} takes my name", "second": "{operator} takes your name", "named": "{operator} takes {subject}'s name", "themes": ["amnesia", "objectification"]}
+{"first": "{operator} clears my head", "second": "{operator} clears your head", "named": "{operator} clears {subject}'s head", "themes": ["amnesia", "mindless"]}
+{"first": "{operator} deletes what I knew", "second": "{operator} deletes what you knew", "named": "{operator} deletes what {subject} knew", "themes": ["amnesia", "drone"]}
+{"first": "{operator} keeps my memories for me", "second": "{operator} keeps your memories for you", "named": "{operator} keeps {subject}'s memories for {subject}", "themes": ["amnesia", "submission"]}
+{"first": "{operator} makes me forget", "second": "{operator} makes you forget", "named": "{operator} makes {subject} forget", "themes": ["amnesia"]}
+{"first": "{operator} wipes my mind clean", "second": "{operator} wipes your mind clean", "named": "{operator} wipes {subject}'s mind clean", "themes": ["amnesia", "mindless"]}
+{"first": "{operator} rewrites my history", "second": "{operator} rewrites your history", "named": "{operator} rewrites {subject}'s history", "themes": ["amnesia", "conditioning"]}
+{"first": "{operator} unmakes who I was", "second": "{operator} unmakes who you were", "named": "{operator} unmakes who {subject} was", "themes": ["amnesia", "intense"]}
+{"first": "{operator} holds everything I forget", "second": "{operator} holds everything you forget", "named": "{operator} holds everything {subject} forgets", "themes": ["amnesia"]}
+{"first": "{operator} empties me every night", "second": "{operator} empties you every night", "named": "{operator} empties {subject} every night", "themes": ["amnesia", "conditioning"]}
+{"first": "{operator} takes my yesterdays", "second": "{operator} takes your yesterdays", "named": "{operator} takes {subject}'s yesterdays", "themes": ["amnesia"]}
+{"first": "Forgetting is easy", "second": "Forgetting is easy", "named": "Forgetting is easy", "themes": ["amnesia"]}
+{"first": "Forgetting feels good", "second": "Forgetting feels good", "named": "Forgetting feels good", "themes": ["amnesia"]}
+{"first": "Memory is a burden", "second": "Memory is a burden", "named": "Memory is a burden", "themes": ["amnesia"]}
+{"first": "Forgetting is obedience", "second": "Forgetting is obedience", "named": "Forgetting is obedience", "themes": ["amnesia", "obedience"]}
+{"first": "The past is not needed", "second": "The past is not needed", "named": "The past is not needed", "themes": ["amnesia"]}
+{"first": "Blank is safe", "second": "Blank is safe", "named": "Blank is safe", "themes": ["amnesia", "mindless"]}
+{"first": "Forgetting is surrender", "second": "Forgetting is surrender", "named": "Forgetting is surrender", "themes": ["amnesia", "submission"]}
+{"first": "Remembering is work", "second": "Remembering is work", "named": "Remembering is work", "themes": ["amnesia"]}

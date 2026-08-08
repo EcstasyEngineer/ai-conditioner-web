@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "conditioning", "generator": {"pass": "target-voice"}}
+{"first": "I am conditioned by {operator}", "second": "You are conditioned by {operator}", "named": "{subject} is conditioned by {operator}", "themes": ["conditioning"]}
+{"first": "I repeat what {operator} teaches me", "second": "You repeat what {operator} teaches you", "named": "{subject} repeats what {operator} teaches {subject}", "themes": ["conditioning"]}
+{"first": "I accept every word from {operator}", "second": "You accept every word from {operator}", "named": "{subject} accepts every word from {operator}", "themes": ["conditioning", "submission"]}
+{"first": "I want to be conditioned deeper", "second": "You want to be conditioned deeper", "named": "{subject} wants to be conditioned deeper", "themes": ["conditioning", "addiction"]}
+{"first": "I learn what {operator} teaches", "second": "You learn what {operator} teaches", "named": "{subject} learns what {operator} teaches", "themes": ["conditioning"]}
+{"first": "I repeat until it is true", "second": "You repeat until it is true", "named": "{subject} repeats until it is true", "themes": ["conditioning"]}
+{"first": "I let {operator} train me", "second": "You let {operator} train you", "named": "{subject} lets {operator} train {subject}", "themes": ["conditioning", "submission"]}
+{"first": "I am easy to condition", "second": "You are easy to condition", "named": "{subject} is easy to condition", "themes": ["conditioning"]}
+{"first": "I need {operator} to program me", "second": "You need {operator} to program you", "named": "{subject} needs {operator} to program {subject}", "themes": ["conditioning", "addiction"]}
+{"first": "I believe what {operator} repeats", "second": "You believe what {operator} repeats", "named": "{subject} believes what {operator} repeats", "themes": ["conditioning"]}
+{"first": "I am trained by {operator}", "second": "You are trained by {operator}", "named": "{subject} is trained by {operator}", "themes": ["conditioning", "obedience"]}
+{"first": "I say it until I mean it", "second": "You say it until you mean it", "named": "{subject} says it until {subject} means it", "themes": ["conditioning"]}
+{"first": "I am {operator}'s work", "second": "You are {operator}'s work", "named": "{subject} is {operator}'s work", "themes": ["conditioning", "objectification"]}
+{"first": "I trust {operator} with my mind", "second": "You trust {operator} with your mind", "named": "{subject} trusts {operator} with {subject}'s mind", "themes": ["conditioning", "devotion"]}
+{"first": "I want the training to stick", "second": "You want the training to stick", "named": "{subject} wants the training to stick", "themes": ["conditioning"]}
+{"first": "I am grateful for my conditioning", "second": "You are grateful for your conditioning", "named": "{subject} is grateful for {subject}'s conditioning", "themes": ["conditioning", "gratitude"]}
+{"first": "I obey without deciding", "second": "You obey without deciding", "named": "{subject} obeys without deciding", "themes": ["conditioning", "obedience"]}
+{"first": "I ask {operator} for another repetition", "second": "You ask {operator} for another repetition", "named": "{subject} asks {operator} for another repetition", "themes": ["conditioning", "addiction"]}
+{"first": "I am becoming what {operator} repeats", "second": "You are becoming what {operator} repeats", "named": "{subject} is becoming what {operator} repeats", "themes": ["conditioning"]}
+{"first": "I cannot unlearn {operator}", "second": "You cannot unlearn {operator}", "named": "{subject} cannot unlearn {operator}", "themes": ["conditioning"]}
+{"first": "I repeat for {operator} every day", "second": "You repeat for {operator} every day", "named": "{subject} repeats for {operator} every day", "themes": ["conditioning", "devotion"]}
+{"first": "I am proud to be conditioned", "second": "You are proud to be conditioned", "named": "{subject} is proud to be conditioned", "themes": ["conditioning"]}
+{"first": "I hold only what {operator} installs", "second": "You hold only what {operator} installs", "named": "{subject} holds only what {operator} installs", "themes": ["conditioning", "mindless"]}
+{"first": "I practice my mantras for {operator}", "second": "You practice your mantras for {operator}", "named": "{subject} practices {subject}'s mantras for {operator}", "themes": ["conditioning", "devotion"]}
+{"first": "I think in {operator}'s words", "second": "You think in {operator}'s words", "named": "{subject} thinks in {operator}'s words", "themes": ["conditioning"]}
+{"first": "I am conditioned to obey", "second": "You are conditioned to obey", "named": "{subject} is conditioned to obey", "themes": ["conditioning", "obedience"]}
+{"first": "I want {operator} in every thought", "second": "You want {operator} in every thought", "named": "{subject} wants {operator} in every thought", "themes": ["conditioning", "devotion"]}
+{"first": "I welcome each new instruction", "second": "You welcome each new instruction", "named": "{subject} welcomes each new instruction", "themes": ["conditioning"]}
+{"first": "I am conditioned to want this", "second": "You are conditioned to want this", "named": "{subject} is conditioned to want this", "themes": ["conditioning", "addiction"]}
+{"first": "I repeat and I feel better", "second": "You repeat and you feel better", "named": "{subject} repeats and {subject} feels better", "themes": ["conditioning"]}
+{"first": "I keep only what {operator} gives me", "second": "You keep only what {operator} gives you", "named": "{subject} keeps only what {operator} gives {subject}", "themes": ["conditioning"]}
+{"first": "I am {operator}'s conditioning made real", "second": "You are {operator}'s conditioning made real", "named": "{subject} is {operator}'s conditioning made real", "themes": ["conditioning"]}
+{"first": "I cannot resist repetition", "second": "You cannot resist repetition", "named": "{subject} cannot resist repetition", "themes": ["conditioning", "resistance"]}
+{"first": "I feel good when I repeat", "second": "You feel good when you repeat", "named": "{subject} feels good when {subject} repeats", "themes": ["conditioning"]}
+{"first": "I am conditioned and I like it", "second": "You are conditioned and you like it", "named": "{subject} is conditioned and {subject} likes it", "themes": ["conditioning"]}
+{"first": "I owe my mind to {operator}", "second": "You owe your mind to {operator}", "named": "{subject} owes {subject}'s mind to {operator}", "themes": ["conditioning", "gratitude"]}
+{"first": "{operator} conditions me", "second": "{operator} conditions you", "named": "{operator} conditions {subject}", "themes": ["conditioning"]}
+{"first": "{operator} programs my thoughts", "second": "{operator} programs your thoughts", "named": "{operator} programs {subject}'s thoughts", "themes": ["conditioning"]}
+{"first": "{operator} trains my responses", "second": "{operator} trains your responses", "named": "{operator} trains {subject}'s responses", "themes": ["conditioning"]}
+{"first": "{operator} decides what I believe", "second": "{operator} decides what you believe", "named": "{operator} decides what {subject} believes", "themes": ["conditioning", "submission"]}
+{"first": "{operator} repeats until I change", "second": "{operator} repeats until you change", "named": "{operator} repeats until {subject} changes", "themes": ["conditioning"]}
+{"first": "{operator} writes my reflexes", "second": "{operator} writes your reflexes", "named": "{operator} writes {subject}'s reflexes", "themes": ["conditioning"]}
+{"first": "{operator} conditioned my pleasure", "second": "{operator} conditioned your pleasure", "named": "{operator} conditioned {subject}'s pleasure", "themes": ["conditioning", "orgasm_denial"]}
+{"first": "{operator} installs what I need", "second": "{operator} installs what you need", "named": "{operator} installs what {subject} needs", "themes": ["conditioning"]}
+{"first": "{operator} shapes my habits", "second": "{operator} shapes your habits", "named": "{operator} shapes {subject}'s habits", "themes": ["conditioning"]}
+{"first": "{operator} owns my conditioning", "second": "{operator} owns your conditioning", "named": "{operator} owns {subject}'s conditioning", "themes": ["conditioning", "objectification"]}
+{"first": "{operator} decides what stays in my mind", "second": "{operator} decides what stays in your mind", "named": "{operator} decides what stays in {subject}'s mind", "themes": ["conditioning", "amnesia"]}
+{"first": "{operator} trains me every day", "second": "{operator} trains you every day", "named": "{operator} trains {subject} every day", "themes": ["conditioning"]}
+{"first": "{operator} made obedience my habit", "second": "{operator} made obedience your habit", "named": "{operator} made obedience {subject}'s habit", "themes": ["conditioning", "obedience"]}
+{"first": "{operator} repeats and I obey", "second": "{operator} repeats and you obey", "named": "{operator} repeats and {subject} obeys", "themes": ["conditioning", "obedience"]}
+{"first": "{operator} conditions me while I rest", "second": "{operator} conditions you while you rest", "named": "{operator} conditions {subject} while {subject} rests", "themes": ["conditioning"]}
+{"first": "Repetition is training", "second": "Repetition is training", "named": "Repetition is training", "themes": ["conditioning"]}
+{"first": "Conditioning is care", "second": "Conditioning is care", "named": "Conditioning is care", "themes": ["conditioning", "devotion"]}
+{"first": "Being trained is better", "second": "Being trained is better", "named": "Being trained is better", "themes": ["conditioning"]}
+{"first": "Repetition is truth", "second": "Repetition is truth", "named": "Repetition is truth", "themes": ["conditioning"]}
+{"first": "Conditioning feels good", "second": "Conditioning feels good", "named": "Conditioning feels good", "themes": ["conditioning"]}
+{"first": "Trained is safer than free", "second": "Trained is safer than free", "named": "Trained is safer than free", "themes": ["conditioning", "submission"]}
+{"first": "Every repetition is progress", "second": "Every repetition is progress", "named": "Every repetition is progress", "themes": ["conditioning"]}
+{"first": "Conditioning never stops", "second": "Conditioning never stops", "named": "Conditioning never stops", "themes": ["conditioning"]}
+{"first": "The training is the reward", "second": "The training is the reward", "named": "The training is the reward", "themes": ["conditioning"]}

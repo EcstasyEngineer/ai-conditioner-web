@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"bimbo","generator":{"pass":"target-voice"}}
+{"first": "I am a bimbo for {operator}", "second": "You are a bimbo for {operator}", "named": "{subject} is a bimbo for {operator}", "themes": ["bimbo"]}
+{"first": "I am dumb for {operator}", "second": "You are dumb for {operator}", "named": "{subject} is dumb for {operator}", "themes": ["bimbo"]}
+{"first": "I giggle for {operator}", "second": "You giggle for {operator}", "named": "{subject} giggles for {operator}", "themes": ["bimbo"]}
+{"first": "I am pretty for {operator}", "second": "You are pretty for {operator}", "named": "{subject} is pretty for {operator}", "themes": ["bimbo"]}
+{"first": "I am cute for {operator}", "second": "You are cute for {operator}", "named": "{subject} is cute for {operator}", "themes": ["bimbo"]}
+{"first": "I am silly for {operator}", "second": "You are silly for {operator}", "named": "{subject} is silly for {operator}", "themes": ["bimbo"]}
+{"first": "I am soft for {operator}", "second": "You are soft for {operator}", "named": "{subject} is soft for {operator}", "themes": ["bimbo"]}
+{"first": "I am sweet for {operator}", "second": "You are sweet for {operator}", "named": "{subject} is sweet for {operator}", "themes": ["bimbo"]}
+{"first": "I am empty for {operator}", "second": "You are empty for {operator}", "named": "{subject} is empty for {operator}", "themes": ["bimbo", "mindless"]}
+{"first": "I am simple for {operator}", "second": "You are simple for {operator}", "named": "{subject} is simple for {operator}", "themes": ["bimbo"]}
+{"first": "I do not think for {operator}", "second": "You do not think for {operator}", "named": "{subject} does not think for {operator}", "themes": ["bimbo", "mindless"]}
+{"first": "I stop thinking for {operator}", "second": "You stop thinking for {operator}", "named": "{subject} stops thinking for {operator}", "themes": ["bimbo", "mindless"]}
+{"first": "I smile for {operator}", "second": "You smile for {operator}", "named": "{subject} smiles for {operator}", "themes": ["bimbo"]}
+{"first": "I obey {operator} without thinking", "second": "You obey {operator} without thinking", "named": "{subject} obeys {operator} without thinking", "themes": ["bimbo", "obedience"]}
+{"first": "I love being dumb for {operator}", "second": "You love being dumb for {operator}", "named": "{subject} loves being dumb for {operator}", "themes": ["bimbo", "devotion"]}
+{"first": "I love being pretty for {operator}", "second": "You love being pretty for {operator}", "named": "{subject} loves being pretty for {operator}", "themes": ["bimbo", "devotion"]}
+{"first": "I want to be dumber for {operator}", "second": "You want to be dumber for {operator}", "named": "{subject} wants to be dumber for {operator}", "themes": ["bimbo"]}
+{"first": "I need to be pretty for {operator}", "second": "You need to be pretty for {operator}", "named": "{subject} needs to be pretty for {operator}", "themes": ["bimbo", "addiction"]}
+{"first": "I get dumber for {operator}", "second": "You get dumber for {operator}", "named": "{subject} gets dumber for {operator}", "themes": ["bimbo", "conditioning"]}
+{"first": "I get prettier for {operator}", "second": "You get prettier for {operator}", "named": "{subject} gets prettier for {operator}", "themes": ["bimbo", "feminization"]}
+{"first": "I feel good dumb", "second": "You feel good dumb", "named": "{subject} feels good dumb", "themes": ["bimbo"]}
+{"first": "I feel good pretty", "second": "You feel good pretty", "named": "{subject} feels good pretty", "themes": ["bimbo"]}
+{"first": "I feel pretty for {operator}", "second": "You feel pretty for {operator}", "named": "{subject} feels pretty for {operator}", "themes": ["bimbo", "feminization"]}
+{"first": "I am happy and empty for {operator}", "second": "You are happy and empty for {operator}", "named": "{subject} is happy and empty for {operator}", "themes": ["bimbo", "mindless"]}
+{"first": "I am too pretty to think", "second": "You are too pretty to think", "named": "{subject} is too pretty to think", "themes": ["bimbo"]}
+{"first": "I am too dumb to argue", "second": "You are too dumb to argue", "named": "{subject} is too dumb to argue", "themes": ["bimbo", "obedience"]}
+{"first": "I am too silly to worry", "second": "You are too silly to worry", "named": "{subject} is too silly to worry", "themes": ["bimbo"]}
+{"first": "I say yes to {operator}", "second": "You say yes to {operator}", "named": "{subject} says yes to {operator}", "themes": ["bimbo", "obedience"]}
+{"first": "I repeat what {operator} says", "second": "You repeat what {operator} says", "named": "{subject} repeats what {operator} says", "themes": ["bimbo", "conditioning"]}
+{"first": "I nod for {operator}", "second": "You nod for {operator}", "named": "{subject} nods for {operator}", "themes": ["bimbo", "obedience"]}
+{"first": "I look good for {operator}", "second": "You look good for {operator}", "named": "{subject} looks good for {operator}", "themes": ["bimbo", "objectification"]}
+{"first": "I dress up for {operator}", "second": "You dress up for {operator}", "named": "{subject} dresses up for {operator}", "themes": ["bimbo", "feminization"]}
+{"first": "I am decoration for {operator}", "second": "You are decoration for {operator}", "named": "{subject} is decoration for {operator}", "themes": ["bimbo", "objectification"]}
+{"first": "I am a pretty toy for {operator}", "second": "You are a pretty toy for {operator}", "named": "{subject} is a pretty toy for {operator}", "themes": ["bimbo", "objectification"]}
+{"first": "I cannot think around {operator}", "second": "You cannot think around {operator}", "named": "{subject} cannot think around {operator}", "themes": ["bimbo", "mindless"]}
+{"first": "I forget what I was thinking", "second": "You forget what you were thinking", "named": "{subject} forgets what {subject} was thinking", "themes": ["bimbo", "amnesia"]}
+{"first": "I let {operator} do the thinking", "second": "You let {operator} do the thinking", "named": "{subject} lets {operator} do the thinking", "themes": ["bimbo", "submission"]}
+{"first": "I obey {operator} and giggle", "second": "You obey {operator} and giggle", "named": "{subject} obeys {operator} and giggles", "themes": ["bimbo", "obedience"]}
+{"first": "I belong to {operator} dumb and happy", "second": "You belong to {operator} dumb and happy", "named": "{subject} belongs to {operator} dumb and happy", "themes": ["bimbo", "submission"]}
+{"first": "I stay dumb for {operator}", "second": "You stay dumb for {operator}", "named": "{subject} stays dumb for {operator}", "themes": ["bimbo", "conditioning"]}
+{"first": "I stay pretty for {operator}", "second": "You stay pretty for {operator}", "named": "{subject} stays pretty for {operator}", "themes": ["bimbo"]}
+{"first": "I thank {operator} for making me dumb", "second": "You thank {operator} for making you dumb", "named": "{subject} thanks {operator} for making {subject} dumb", "themes": ["bimbo", "gratitude"]}
+{"first": "{operator} makes me dumb", "second": "{operator} makes you dumb", "named": "{operator} makes {subject} dumb", "themes": ["bimbo", "conditioning"]}
+{"first": "{operator} makes me pretty", "second": "{operator} makes you pretty", "named": "{operator} makes {subject} pretty", "themes": ["bimbo", "feminization"]}
+{"first": "{operator} empties my head", "second": "{operator} empties your head", "named": "{operator} empties {subject}'s head", "themes": ["bimbo", "mindless"]}
+{"first": "{operator} takes my smart thoughts", "second": "{operator} takes your smart thoughts", "named": "{operator} takes {subject}'s smart thoughts", "themes": ["bimbo"]}
+{"first": "{operator} does my thinking", "second": "{operator} does your thinking", "named": "{operator} does {subject}'s thinking", "themes": ["bimbo", "submission"]}
+{"first": "{operator} likes me dumb", "second": "{operator} likes you dumb", "named": "{operator} likes {subject} dumb", "themes": ["bimbo"]}
+{"first": "{operator} owns my pretty head", "second": "{operator} owns your pretty head", "named": "{operator} owns {subject}'s pretty head", "themes": ["bimbo", "submission"]}
+{"first": "{operator} keeps my head empty", "second": "{operator} keeps your head empty", "named": "{operator} keeps {subject}'s head empty", "themes": ["bimbo", "mindless"]}
+{"first": "{operator} dresses me up", "second": "{operator} dresses you up", "named": "{operator} dresses {subject} up", "themes": ["bimbo", "feminization"]}
+{"first": "{operator} decides how I look", "second": "{operator} decides how you look", "named": "{operator} decides how {subject} looks", "themes": ["bimbo", "objectification"]}
+{"first": "{operator} turns my brain off", "second": "{operator} turns your brain off", "named": "{operator} turns {subject}'s brain off", "themes": ["bimbo", "mindless"]}
+{"first": "Dumb feels good", "second": "Dumb feels good", "named": "Dumb feels good", "themes": ["bimbo"]}
+{"first": "Pretty is enough", "second": "Pretty is enough", "named": "Pretty is enough", "themes": ["bimbo"]}
+{"first": "Thinking is not my job", "second": "Thinking is not your job", "named": "Thinking is not {subject}'s job", "themes": ["bimbo", "mindless"]}
+{"first": "Empty heads are happy heads", "second": "Empty heads are happy heads", "named": "Empty heads are happy heads", "themes": ["bimbo", "mindless"]}
+{"first": "Giggling is better than thinking", "second": "Giggling is better than thinking", "named": "Giggling is better than thinking", "themes": ["bimbo"]}
+{"first": "Being dumb is being good", "second": "Being dumb is being good", "named": "Being dumb is being good", "themes": ["bimbo", "obedience"]}
+{"first": "Pretty and dumb is the goal", "second": "Pretty and dumb is the goal", "named": "Pretty and dumb is the goal", "themes": ["bimbo"]}

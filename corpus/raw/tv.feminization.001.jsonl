@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "feminization", "generator": {"pass": "target-voice"}}
+{"first": "I am a girl for {operator}", "second": "You are a girl for {operator}", "named": "{subject} is a girl for {operator}", "themes": ["feminization"]}
+{"first": "I am {operator}'s girl", "second": "You are {operator}'s girl", "named": "{subject} is {operator}'s girl", "themes": ["feminization", "submission"]}
+{"first": "I am feminine for {operator}", "second": "You are feminine for {operator}", "named": "{subject} is feminine for {operator}", "themes": ["feminization"]}
+{"first": "I am delicate for {operator}", "second": "You are delicate for {operator}", "named": "{subject} is delicate for {operator}", "themes": ["feminization"]}
+{"first": "I am {operator}'s good girl", "second": "You are {operator}'s good girl", "named": "{subject} is {operator}'s good girl", "themes": ["feminization", "obedience"]}
+{"first": "I am a woman for {operator}", "second": "You are a woman for {operator}", "named": "{subject} is a woman for {operator}", "themes": ["feminization"]}
+{"first": "I am the girl {operator} wanted", "second": "You are the girl {operator} wanted", "named": "{subject} is the girl {operator} wanted", "themes": ["feminization", "devotion"]}
+{"first": "I become more feminine for {operator}", "second": "You become more feminine for {operator}", "named": "{subject} becomes more feminine for {operator}", "themes": ["feminization", "conditioning"]}
+{"first": "I get girlier for {operator}", "second": "You get girlier for {operator}", "named": "{subject} gets girlier for {operator}", "themes": ["feminization"]}
+{"first": "I soften for {operator}", "second": "You soften for {operator}", "named": "{subject} softens for {operator}", "themes": ["feminization", "submission"]}
+{"first": "I obey {operator} as a girl", "second": "You obey {operator} as a girl", "named": "{subject} obeys {operator} as a girl", "themes": ["feminization", "obedience"]}
+{"first": "I serve {operator} as a woman", "second": "You serve {operator} as a woman", "named": "{subject} serves {operator} as a woman", "themes": ["feminization", "submission"]}
+{"first": "I dress for {operator}", "second": "You dress for {operator}", "named": "{subject} dresses for {operator}", "themes": ["feminization"]}
+{"first": "I wear what {operator} chose", "second": "You wear what {operator} chose", "named": "{subject} wears what {operator} chose", "themes": ["feminization", "obedience"]}
+{"first": "I wear lace for {operator}", "second": "You wear lace for {operator}", "named": "{subject} wears lace for {operator}", "themes": ["feminization"]}
+{"first": "I wear skirts for {operator}", "second": "You wear skirts for {operator}", "named": "{subject} wears skirts for {operator}", "themes": ["feminization"]}
+{"first": "I sit like a lady for {operator}", "second": "You sit like a lady for {operator}", "named": "{subject} sits like a lady for {operator}", "themes": ["feminization"]}
+{"first": "I walk like a girl for {operator}", "second": "You walk like a girl for {operator}", "named": "{subject} walks like a girl for {operator}", "themes": ["feminization"]}
+{"first": "I speak softly for {operator}", "second": "You speak softly for {operator}", "named": "{subject} speaks softly for {operator}", "themes": ["feminization"]}
+{"first": "I keep my voice light for {operator}", "second": "You keep your voice light for {operator}", "named": "{subject} keeps their voice light for {operator}", "themes": ["feminization"]}
+{"first": "I answer {operator} sweetly", "second": "You answer {operator} sweetly", "named": "{subject} answers {operator} sweetly", "themes": ["feminization", "obedience"]}
+{"first": "I say yes sir to {operator}", "second": "You say yes sir to {operator}", "named": "{subject} says yes sir to {operator}", "themes": ["feminization", "obedience"]}
+{"first": "I curtsy for {operator}", "second": "You curtsy for {operator}", "named": "{subject} curtsies for {operator}", "themes": ["feminization", "submission"]}
+{"first": "I kneel like a girl for {operator}", "second": "You kneel like a girl for {operator}", "named": "{subject} kneels like a girl for {operator}", "themes": ["feminization", "submission"]}
+{"first": "I blush for {operator}", "second": "You blush for {operator}", "named": "{subject} blushes for {operator}", "themes": ["feminization"]}
+{"first": "I want to be pretty for {operator}", "second": "You want to be pretty for {operator}", "named": "{subject} wants to be pretty for {operator}", "themes": ["feminization", "devotion"]}
+{"first": "I want to be a girl for {operator}", "second": "You want to be a girl for {operator}", "named": "{subject} wants to be a girl for {operator}", "themes": ["feminization"]}
+{"first": "I need {operator} to make me a girl", "second": "You need {operator} to make you a girl", "named": "{subject} needs {operator} to make them a girl", "themes": ["feminization", "devotion"]}
+{"first": "I love being a girl for {operator}", "second": "You love being a girl for {operator}", "named": "{subject} loves being a girl for {operator}", "themes": ["feminization"]}
+{"first": "I feel right as {operator}'s girl", "second": "You feel right as {operator}'s girl", "named": "{subject} feels right as {operator}'s girl", "themes": ["feminization"]}
+{"first": "I thank {operator} for my curves", "second": "You thank {operator} for your curves", "named": "{subject} thanks {operator} for their curves", "themes": ["feminization", "gratitude"]}
+{"first": "I thank {operator} for making me a girl", "second": "You thank {operator} for making you a girl", "named": "{subject} thanks {operator} for making them a girl", "themes": ["feminization", "gratitude"]}
+{"first": "I stay a girl for {operator}", "second": "You stay a girl for {operator}", "named": "{subject} stays a girl for {operator}", "themes": ["feminization"]}
+{"first": "I let the man in me go", "second": "You let the man in you go", "named": "{subject} lets the man in them go", "themes": ["feminization", "resistance"]}
+{"first": "I gave up being a man for {operator}", "second": "You gave up being a man for {operator}", "named": "{subject} gave up being a man for {operator}", "themes": ["feminization", "submission"]}
+{"first": "I forget how a man stands", "second": "You forget how a man stands", "named": "{subject} forgets how a man stands", "themes": ["feminization", "amnesia"]}
+{"first": "I answer to a girl's name now", "second": "You answer to a girl's name now", "named": "{subject} answers to a girl's name now", "themes": ["feminization", "conditioning"]}
+{"first": "I belong to {operator} as a girl", "second": "You belong to {operator} as a girl", "named": "{subject} belongs to {operator} as a girl", "themes": ["feminization", "submission"]}
+{"first": "I am {operator}'s pretty thing", "second": "You are {operator}'s pretty thing", "named": "{subject} is {operator}'s pretty thing", "themes": ["feminization", "objectification"]}
+{"first": "I cannot go back to being a man", "second": "You cannot go back to being a man", "named": "{subject} cannot go back to being a man", "themes": ["feminization", "resistance"]}
+{"first": "{operator} makes me a girl", "second": "{operator} makes you a girl", "named": "{operator} makes {subject} a girl", "themes": ["feminization"]}
+{"first": "{operator} chose my name", "second": "{operator} chose your name", "named": "{operator} chose {subject}'s name", "themes": ["feminization", "conditioning"]}
+{"first": "{operator} picks my clothes", "second": "{operator} picks your clothes", "named": "{operator} picks {subject}'s clothes", "themes": ["feminization", "obedience"]}
+{"first": "{operator} shapes my body", "second": "{operator} shapes your body", "named": "{operator} shapes {subject}'s body", "themes": ["feminization"]}
+{"first": "{operator} softens my voice", "second": "{operator} softens your voice", "named": "{operator} softens {subject}'s voice", "themes": ["feminization"]}
+{"first": "{operator} took my manhood", "second": "{operator} took your manhood", "named": "{operator} took {subject}'s manhood", "themes": ["feminization", "degradation"]}
+{"first": "{operator} taught me to be a lady", "second": "{operator} taught you to be a lady", "named": "{operator} taught {subject} to be a lady", "themes": ["feminization", "conditioning"]}
+{"first": "{operator} calls me a good girl", "second": "{operator} calls you a good girl", "named": "{operator} calls {subject} a good girl", "themes": ["feminization", "devotion"]}
+{"first": "{operator} keeps me feminine", "second": "{operator} keeps you feminine", "named": "{operator} keeps {subject} feminine", "themes": ["feminization", "conditioning"]}
+{"first": "{operator} owns this girl", "second": "{operator} owns this girl", "named": "{operator} owns this girl", "themes": ["feminization", "submission"]}
+{"first": "{operator} made me who I am", "second": "{operator} made you who you are", "named": "{operator} made {subject} who they are", "themes": ["feminization", "devotion"]}
+{"first": "Being a girl feels good", "second": "Being a girl feels good", "named": "Being a girl feels good", "themes": ["feminization"]}
+{"first": "Soft is better than hard", "second": "Soft is better than hard", "named": "Soft is better than hard", "themes": ["feminization"]}
+{"first": "Girls obey and girls are happy", "second": "Girls obey and girls are happy", "named": "Girls obey and girls are happy", "themes": ["feminization", "obedience"]}
+{"first": "Good girls do as they are told", "second": "Good girls do as they are told", "named": "Good girls do as they are told", "themes": ["feminization", "obedience"]}
+{"first": "Pretty is a duty", "second": "Pretty is a duty", "named": "Pretty is a duty", "themes": ["feminization"]}
+{"first": "Femininity is obedience", "second": "Femininity is obedience", "named": "Femininity is obedience", "themes": ["feminization", "submission"]}
+{"first": "There is no man left here", "second": "There is no man left here", "named": "There is no man left here", "themes": ["feminization", "amnesia"]}
+{"first": "Becoming her is the reward", "second": "Becoming her is the reward", "named": "Becoming her is the reward", "themes": ["feminization"]}
+{"first": "A girl does not argue", "second": "A girl does not argue", "named": "A girl does not argue", "themes": ["feminization", "obedience"]}

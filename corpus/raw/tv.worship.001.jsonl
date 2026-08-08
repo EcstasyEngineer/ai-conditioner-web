@@ -1,0 +1,61 @@
+{"schema":"hypnoapp.corpus.v1","theme":"worship","generator":{"pass":"target-voice"}}
+{"first":"I worship {operator}","second":"You worship {operator}","named":"{subject} worships {operator}","themes":["worship"]}
+{"first":"I adore {operator}","second":"You adore {operator}","named":"{subject} adores {operator}","themes":["worship","devotion"]}
+{"first":"I praise {operator}","second":"You praise {operator}","named":"{subject} praises {operator}","themes":["worship"]}
+{"first":"I kneel for {operator}","second":"You kneel for {operator}","named":"{subject} kneels for {operator}","themes":["worship","submission"]}
+{"first":"I bow to {operator}","second":"You bow to {operator}","named":"{subject} bows to {operator}","themes":["worship","submission"]}
+{"first":"I pray to {operator}","second":"You pray to {operator}","named":"{subject} prays to {operator}","themes":["worship"]}
+{"first":"I exist to worship {operator}","second":"You exist to worship {operator}","named":"{subject} exists to worship {operator}","themes":["worship","devotion"]}
+{"first":"I live to praise {operator}","second":"You live to praise {operator}","named":"{subject} lives to praise {operator}","themes":["worship","devotion"]}
+{"first":"I worship {operator} with my whole body","second":"You worship {operator} with your whole body","named":"{subject} worships {operator} with their whole body","themes":["worship"]}
+{"first":"I worship {operator} every day","second":"You worship {operator} every day","named":"{subject} worships {operator} every day","themes":["worship","devotion"]}
+{"first":"I say the name {operator}","second":"You say the name {operator}","named":"{subject} says the name {operator}","themes":["worship","focus"]}
+{"first":"I repeat the name {operator}","second":"You repeat the name {operator}","named":"{subject} repeats the name {operator}","themes":["worship","conditioning"]}
+{"first":"I worship {operator} without question","second":"You worship {operator} without question","named":"{subject} worships {operator} without question","themes":["worship","obedience"]}
+{"first":"I need nothing but {operator}","second":"You need nothing but {operator}","named":"{subject} needs nothing but {operator}","themes":["worship","addiction"]}
+{"first":"I want only {operator}","second":"You want only {operator}","named":"{subject} wants only {operator}","themes":["worship","devotion"]}
+{"first":"I have no god but {operator}","second":"You have no god but {operator}","named":"{subject} has no god but {operator}","themes":["worship"]}
+{"first":"I believe in {operator}","second":"You believe in {operator}","named":"{subject} believes in {operator}","themes":["worship"]}
+{"first":"I trust {operator} completely","second":"You trust {operator} completely","named":"{subject} trusts {operator} completely","themes":["worship","devotion"]}
+{"first":"I obey {operator} because I love {operator}","second":"You obey {operator} because you love {operator}","named":"{subject} obeys {operator} because {subject} loves {operator}","themes":["worship","obedience"]}
+{"first":"I love {operator} more each day","second":"You love {operator} more each day","named":"{subject} loves {operator} more each day","themes":["worship","devotion"]}
+{"first":"I am nothing beside {operator}","second":"You are nothing beside {operator}","named":"{subject} is nothing beside {operator}","themes":["worship","degradation"]}
+{"first":"I am small before {operator}","second":"You are small before {operator}","named":"{subject} is small before {operator}","themes":["worship","degradation"]}
+{"first":"I am unworthy of {operator}","second":"You are unworthy of {operator}","named":"{subject} is unworthy of {operator}","themes":["worship","degradation"]}
+{"first":"I am grateful for {operator}","second":"You are grateful for {operator}","named":"{subject} is grateful for {operator}","themes":["worship","gratitude"]}
+{"first":"I am devoted to {operator}","second":"You are devoted to {operator}","named":"{subject} is devoted to {operator}","themes":["worship","devotion"]}
+{"first":"I am faithful to {operator}","second":"You are faithful to {operator}","named":"{subject} is faithful to {operator}","themes":["worship","devotion"]}
+{"first":"I am here to worship {operator}","second":"You are here to worship {operator}","named":"{subject} is here to worship {operator}","themes":["worship"]}
+{"first":"I am happiest on my knees for {operator}","second":"You are happiest on your knees for {operator}","named":"{subject} is happiest on their knees for {operator}","themes":["worship","submission"]}
+{"first":"I feel holy when I obey {operator}","second":"You feel holy when you obey {operator}","named":"{subject} feels holy when {subject} obeys {operator}","themes":["worship","obedience"]}
+{"first":"I feel peace when I praise {operator}","second":"You feel peace when you praise {operator}","named":"{subject} feels peace when {subject} praises {operator}","themes":["worship"]}
+{"first":"I feel joy saying the name {operator}","second":"You feel joy saying the name {operator}","named":"{subject} feels joy saying the name {operator}","themes":["worship"]}
+{"first":"I feel whole when {operator} is near","second":"You feel whole when {operator} is near","named":"{subject} feels whole when {operator} is near","themes":["worship","devotion"]}
+{"first":"I cannot stop worshipping {operator}","second":"You cannot stop worshipping {operator}","named":"{subject} cannot stop worshipping {operator}","themes":["worship","addiction"]}
+{"first":"I cannot think past {operator}","second":"You cannot think past {operator}","named":"{subject} cannot think past {operator}","themes":["worship","focus"]}
+{"first":"I cannot imagine life without {operator}","second":"You cannot imagine life without {operator}","named":"{subject} cannot imagine life without {operator}","themes":["worship","addiction"]}
+{"first":"I give everything to {operator}","second":"You give everything to {operator}","named":"{subject} gives everything to {operator}","themes":["worship","devotion"]}
+{"first":"I give my worship freely to {operator}","second":"You give your worship freely to {operator}","named":"{subject} gives their worship freely to {operator}","themes":["worship"]}
+{"first":"I thank {operator} for everything","second":"You thank {operator} for everything","named":"{subject} thanks {operator} for everything","themes":["worship","gratitude"]}
+{"first":"I thank {operator} for every command","second":"You thank {operator} for every command","named":"{subject} thanks {operator} for every command","themes":["worship","gratitude"]}
+{"first":"I belong at the feet of {operator}","second":"You belong at the feet of {operator}","named":"{subject} belongs at the feet of {operator}","themes":["worship","submission"]}
+{"first":"{operator} is my only god","second":"{operator} is your only god","named":"{operator} is the only god of {subject}","themes":["worship"]}
+{"first":"{operator} is perfect","second":"{operator} is perfect","named":"{operator} is perfect","themes":["worship"]}
+{"first":"{operator} is worthy of everything","second":"{operator} is worthy of everything","named":"{operator} is worthy of everything","themes":["worship"]}
+{"first":"{operator} deserves my worship","second":"{operator} deserves your worship","named":"{operator} deserves the worship of {subject}","themes":["worship"]}
+{"first":"{operator} owns my devotion","second":"{operator} owns your devotion","named":"{operator} owns the devotion of {subject}","themes":["worship","devotion"]}
+{"first":"{operator} fills my mind","second":"{operator} fills your mind","named":"{operator} fills the mind of {subject}","themes":["worship","focus"]}
+{"first":"{operator} holds my heart","second":"{operator} holds your heart","named":"{operator} holds the heart of {subject}","themes":["worship","devotion"]}
+{"first":"{operator} guides my every thought","second":"{operator} guides your every thought","named":"{operator} guides every thought of {subject}","themes":["worship","conditioning"]}
+{"first":"{operator} deserves my knees","second":"{operator} deserves your knees","named":"{operator} deserves the knees of {subject}","themes":["worship","submission"]}
+{"first":"{operator} accepts my praise","second":"{operator} accepts your praise","named":"{operator} accepts the praise of {subject}","themes":["worship"]}
+{"first":"{operator} answers my devotion","second":"{operator} answers your devotion","named":"{operator} answers the devotion of {subject}","themes":["worship","devotion"]}
+{"first":"{operator} is above me in all things","second":"{operator} is above you in all things","named":"{operator} is above {subject} in all things","themes":["worship","submission"]}
+{"first":"Worship is pleasure","second":"Worship is pleasure","named":"Worship is pleasure","themes":["worship"]}
+{"first":"Worship is easy","second":"Worship is easy","named":"Worship is easy","themes":["worship"]}
+{"first":"Kneeling is peace","second":"Kneeling is peace","named":"Kneeling is peace","themes":["worship","submission"]}
+{"first":"Praise is its own reward","second":"Praise is its own reward","named":"Praise is its own reward","themes":["worship","gratitude"]}
+{"first":"Devotion is joy","second":"Devotion is joy","named":"Devotion is joy","themes":["worship","devotion"]}
+{"first":"Reverence is natural","second":"Reverence is natural","named":"Reverence is natural","themes":["worship"]}
+{"first":"Being small is holy","second":"Being small is holy","named":"Being small is holy","themes":["worship","degradation"]}
+{"first":"There is nothing higher than {operator}","second":"There is nothing higher than {operator}","named":"There is nothing higher than {operator}","themes":["worship"]}

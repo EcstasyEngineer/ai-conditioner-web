@@ -1,0 +1,61 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "gratitude", "generator": {"pass": "target-voice"}}
+{"first": "I thank {operator}", "second": "You thank {operator}", "named": "{subject} thanks {operator}", "themes": ["gratitude"]}
+{"first": "I am grateful to {operator}", "second": "You are grateful to {operator}", "named": "{subject} is grateful to {operator}", "themes": ["gratitude"]}
+{"first": "I thank {operator} for every order", "second": "You thank {operator} for every order", "named": "{subject} thanks {operator} for every order", "themes": ["gratitude", "obedience"]}
+{"first": "I thank {operator} for taking my will", "second": "You thank {operator} for taking your will", "named": "{subject} thanks {operator} for taking {subject}'s will", "themes": ["gratitude", "submission"]}
+{"first": "I am thankful to be used", "second": "You are thankful to be used", "named": "{subject} is thankful to be used", "themes": ["gratitude", "objectification"]}
+{"first": "I thank {operator} for my emptiness", "second": "You thank {operator} for your emptiness", "named": "{subject} thanks {operator} for {subject}'s emptiness", "themes": ["gratitude", "mindless"]}
+{"first": "I am grateful to belong to {operator}", "second": "You are grateful to belong to {operator}", "named": "{subject} is grateful to belong to {operator}", "themes": ["gratitude", "devotion"]}
+{"first": "I thank {operator} with my obedience", "second": "You thank {operator} with your obedience", "named": "{subject} thanks {operator} with {subject}'s obedience", "themes": ["gratitude", "obedience"]}
+{"first": "I owe everything to {operator}", "second": "You owe everything to {operator}", "named": "{subject} owes everything to {operator}", "themes": ["gratitude", "devotion"]}
+{"first": "I am grateful for {operator}'s control", "second": "You are grateful for {operator}'s control", "named": "{subject} is grateful for {operator}'s control", "themes": ["gratitude", "submission"]}
+{"first": "I thank {operator} on my knees", "second": "You thank {operator} on your knees", "named": "{subject} thanks {operator} on {subject}'s knees", "themes": ["gratitude", "worship"]}
+{"first": "I thank {operator} for every command", "second": "You thank {operator} for every command", "named": "{subject} thanks {operator} for every command", "themes": ["gratitude", "obedience"]}
+{"first": "I am grateful {operator} owns me", "second": "You are grateful {operator} owns you", "named": "{subject} is grateful {operator} owns {subject}", "themes": ["gratitude", "submission"]}
+{"first": "I thank {operator} for my training", "second": "You thank {operator} for your training", "named": "{subject} thanks {operator} for {subject}'s training", "themes": ["gratitude", "conditioning"]}
+{"first": "I thank {operator} for every denial", "second": "You thank {operator} for every denial", "named": "{subject} thanks {operator} for every denial", "themes": ["gratitude", "orgasm_denial"]}
+{"first": "I thank {operator} for what I forget", "second": "You thank {operator} for what you forget", "named": "{subject} thanks {operator} for what {subject} forgets", "themes": ["gratitude", "amnesia"]}
+{"first": "I am grateful for a quiet mind", "second": "You are grateful for a quiet mind", "named": "{subject} is grateful for a quiet mind", "themes": ["gratitude", "mindless"]}
+{"first": "I am grateful to serve {operator}", "second": "You are grateful to serve {operator}", "named": "{subject} is grateful to serve {operator}", "themes": ["gratitude", "devotion"]}
+{"first": "I thank {operator} for my leash", "second": "You thank {operator} for your leash", "named": "{subject} thanks {operator} for {subject}'s leash", "themes": ["gratitude", "submission"]}
+{"first": "I thank {operator} before I obey", "second": "You thank {operator} before you obey", "named": "{subject} thanks {operator} before {subject} obeys", "themes": ["gratitude", "obedience"]}
+{"first": "I am grateful {operator} decides", "second": "You are grateful {operator} decides", "named": "{subject} is grateful {operator} decides", "themes": ["gratitude", "submission"]}
+{"first": "I thank {operator} for my purpose", "second": "You thank {operator} for your purpose", "named": "{subject} thanks {operator} for {subject}'s purpose", "themes": ["gratitude", "devotion"]}
+{"first": "I thank {operator} for every trigger", "second": "You thank {operator} for every trigger", "named": "{subject} thanks {operator} for every trigger", "themes": ["gratitude", "conditioning"]}
+{"first": "I am grateful I stopped resisting", "second": "You are grateful you stopped resisting", "named": "{subject} is grateful {subject} stopped resisting", "themes": ["gratitude", "resistance"]}
+{"first": "I thank {operator} for my collar", "second": "You thank {operator} for your collar", "named": "{subject} thanks {operator} for {subject}'s collar", "themes": ["gratitude", "submission"]}
+{"first": "I am grateful to be shaped", "second": "You are grateful to be shaped", "named": "{subject} is grateful to be shaped", "themes": ["gratitude", "conditioning"]}
+{"first": "I thank {operator} for every ache", "second": "You thank {operator} for every ache", "named": "{subject} thanks {operator} for every ache", "themes": ["gratitude", "orgasm_denial"]}
+{"first": "I need to thank {operator}", "second": "You need to thank {operator}", "named": "{subject} needs to thank {operator}", "themes": ["gratitude", "addiction"]}
+{"first": "I thank {operator} for keeping me hungry", "second": "You thank {operator} for keeping you hungry", "named": "{subject} thanks {operator} for keeping {subject} hungry", "themes": ["gratitude", "addiction"]}
+{"first": "I am grateful for the emptiness", "second": "You are grateful for the emptiness", "named": "{subject} is grateful for the emptiness", "themes": ["gratitude", "mindless"]}
+{"first": "I thank {operator} for my orders", "second": "You thank {operator} for your orders", "named": "{subject} thanks {operator} for {subject}'s orders", "themes": ["gratitude", "obedience"]}
+{"first": "I am grateful to kneel for {operator}", "second": "You are grateful to kneel for {operator}", "named": "{subject} is grateful to kneel for {operator}", "themes": ["gratitude", "worship"]}
+{"first": "I thank {operator} in every breath", "second": "You thank {operator} in every breath", "named": "{subject} thanks {operator} in every breath", "themes": ["gratitude", "worship"]}
+{"first": "I live to thank {operator}", "second": "You live to thank {operator}", "named": "{subject} lives to thank {operator}", "themes": ["gratitude", "devotion"]}
+{"first": "I am grateful I have no choice", "second": "You are grateful you have no choice", "named": "{subject} is grateful {subject} has no choice", "themes": ["gratitude", "submission"]}
+{"first": "I thank {operator} for making me simple", "second": "You thank {operator} for making you simple", "named": "{subject} thanks {operator} for making {subject} simple", "themes": ["gratitude", "bimbo"]}
+{"first": "{operator} deserves my thanks", "second": "{operator} deserves your thanks", "named": "{operator} deserves {subject}'s thanks", "themes": ["gratitude"]}
+{"first": "{operator} earns my gratitude", "second": "{operator} earns your gratitude", "named": "{operator} earns {subject}'s gratitude", "themes": ["gratitude"]}
+{"first": "{operator} gave me my purpose", "second": "{operator} gave you your purpose", "named": "{operator} gave {subject} a purpose", "themes": ["gratitude", "devotion"]}
+{"first": "{operator} owns my gratitude", "second": "{operator} owns your gratitude", "named": "{operator} owns {subject}'s gratitude", "themes": ["gratitude", "submission"]}
+{"first": "{operator} takes and I thank", "second": "{operator} takes and you thank", "named": "{operator} takes and {subject} thanks", "themes": ["gratitude", "submission"]}
+{"first": "{operator} made me grateful", "second": "{operator} made you grateful", "named": "{operator} made {subject} grateful", "themes": ["gratitude", "conditioning"]}
+{"first": "{operator} keeps my gratitude fed", "second": "{operator} keeps your gratitude fed", "named": "{operator} keeps {subject}'s gratitude fed", "themes": ["gratitude", "addiction"]}
+{"first": "{operator} teaches me to thank", "second": "{operator} teaches you to thank", "named": "{operator} teaches {subject} to thank", "themes": ["gratitude", "conditioning"]}
+{"first": "{operator} holds my thanks", "second": "{operator} holds your thanks", "named": "{operator} holds {subject}'s thanks", "themes": ["gratitude"]}
+{"first": "{operator} answers my thanks with orders", "second": "{operator} answers your thanks with orders", "named": "{operator} answers {subject}'s thanks with orders", "themes": ["gratitude", "obedience"]}
+{"first": "{operator} is why I say thank you", "second": "{operator} is why you say thank you", "named": "{operator} is why {subject} says thank you", "themes": ["gratitude"]}
+{"first": "{operator} takes my choices and I thank", "second": "{operator} takes your choices and you thank", "named": "{operator} takes {subject}'s choices and {subject} thanks", "themes": ["gratitude", "submission"]}
+{"first": "{operator} gave me my emptiness", "second": "{operator} gave you your emptiness", "named": "{operator} gave {subject} an emptiness", "themes": ["gratitude", "mindless"]}
+{"first": "{operator} deserves everything I have", "second": "{operator} deserves everything you have", "named": "{operator} deserves everything {subject} has", "themes": ["gratitude", "devotion"]}
+{"first": "{operator} makes gratitude easy", "second": "{operator} makes gratitude easy", "named": "{operator} makes gratitude easy", "themes": ["gratitude"]}
+{"first": "Gratitude is obedience", "second": "Gratitude is obedience", "named": "Gratitude is obedience", "themes": ["gratitude", "obedience"]}
+{"first": "Thanking is easier than thinking", "second": "Thanking is easier than thinking", "named": "Thanking is easier than thinking", "themes": ["gratitude", "mindless"]}
+{"first": "Being owned is a gift", "second": "Being owned is a gift", "named": "Being owned is a gift", "themes": ["gratitude", "submission"]}
+{"first": "Gratitude is pleasure", "second": "Gratitude is pleasure", "named": "Gratitude is pleasure", "themes": ["gratitude"]}
+{"first": "Being used is a privilege", "second": "Being used is a privilege", "named": "Being used is a privilege", "themes": ["gratitude", "objectification"]}
+{"first": "Thank you is the whole answer", "second": "Thank you is the whole answer", "named": "Thank you is the whole answer", "themes": ["gratitude", "obedience"]}
+{"first": "Gratitude needs no thoughts", "second": "Gratitude needs no thoughts", "named": "Gratitude needs no thoughts", "themes": ["gratitude", "mindless"]}
+{"first": "Obedience is the best thanks", "second": "Obedience is the best thanks", "named": "Obedience is the best thanks", "themes": ["gratitude", "obedience"]}
+{"first": "Gratitude is the only correct feeling", "second": "Gratitude is the only correct feeling", "named": "Gratitude is the only correct feeling", "themes": ["gratitude", "conditioning"]}
