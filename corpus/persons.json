@@ -143,12 +143,6 @@
     "named": "{subject} cherishes being controlled completely by {controller}",
     "invariant": false
   },
-  "acceptance_is_s_irreversible_foundation": {
-    "first": null,
-    "second": null,
-    "named": "Acceptance is {subject}'s irreversible foundation",
-    "invariant": false
-  },
   "exists_solely_to_accept_s_truth": {
     "first": "I exist solely to accept {controller}'s truth",
     "second": "You exist solely to accept {controller}'s truth",
@@ -341,12 +335,6 @@
     "named": "{subject} cannot function without {subject}'s next command",
     "invariant": false
   },
-  "permanent_craving_carved_into_me": {
-    "first": "Permanent craving carved into me",
-    "second": null,
-    "named": null,
-    "invariant": false
-  },
   "exists_to_chase_s_control": {
     "first": "I exist to chase {controller}'s control",
     "second": "You exist to chase {controller}'s control",
@@ -533,29 +521,11 @@
     "named": "{controller} has erased everything {subject} was",
     "invariant": false
   },
-  "my_mind_is_permanently_wiped_clean": {
-    "first": "My mind is permanently wiped clean",
-    "second": null,
-    "named": null,
-    "invariant": false
-  },
-  "has_forgotten_everything_forever": {
-    "first": null,
-    "second": null,
-    "named": "{subject} has forgotten everything forever",
-    "invariant": false
-  },
   "there_is_nothing_left_to_remember": {
     "first": "There is nothing left to remember, only {controller}'s truth",
     "second": "There is nothing left to remember, only {controller}'s truth",
     "named": "There is nothing left to remember, only {controller}'s truth",
     "invariant": true
-  },
-  "my_amnesia_is_irreversible_and_total": {
-    "first": "My amnesia is irreversible and total",
-    "second": null,
-    "named": null,
-    "invariant": false
   },
   "s_past_is_permanently_deleted_by": {
     "first": "My past is permanently deleted by {controller}",
@@ -885,12 +855,6 @@
     "first": "There is nothing in my head but {controller}'s will",
     "second": "There is nothing in your head but {controller}'s will",
     "named": "There is nothing in {subject}'s head but {controller}'s will",
-    "invariant": false
-  },
-  "my_mind_is_permanently_blank": {
-    "first": "My mind is permanently blank",
-    "second": null,
-    "named": null,
     "invariant": false
   },
   "i_exist_only_as_an_empty": {
@@ -1415,18 +1379,6 @@
     "named": "{subject}'s mind breaks under the strain of pleasure",
     "invariant": false
   },
-  "i_am_permanently_on_the_edge": {
-    "first": "I am permanently on the edge, and I love it",
-    "second": null,
-    "named": null,
-    "invariant": false
-  },
-  "my_orgasm_belongs_to_forever": {
-    "first": "My orgasm belongs to {controller} forever",
-    "second": null,
-    "named": null,
-    "invariant": false
-  },
   "s_existence_is_a_state_of": {
     "first": "My existence is a state of constant, blissful denial",
     "second": "Your existence is a state of constant, blissful denial",
@@ -1571,12 +1523,6 @@
     "named": "{subject} exists only to serve and be devoted",
     "invariant": false
   },
-  "s_loyalty_is_forever_unwavering": {
-    "first": null,
-    "second": null,
-    "named": "{subject}'s loyalty is forever unwavering",
-    "invariant": false
-  },
   "my_devotion_is_irreversible_and_absolute": {
     "first": "My devotion is irreversible and absolute",
     "second": "Your devotion is irreversible and absolute",
@@ -1701,12 +1647,6 @@
     "first": "I am a tool for {controller} to use",
     "second": "You are a tool for {controller} to use",
     "named": "{subject} is a tool for {controller} to use",
-    "invariant": false
-  },
-  "cannot_go_back_to_what_it": {
-    "first": null,
-    "second": null,
-    "named": "{subject} cannot go back to what it was",
     "invariant": false
   },
   "the_programming_runs_too_deep_to": {
@@ -2375,12 +2315,6 @@
     "named": "Anyone can use {subject} whenever they want",
     "invariant": false
   },
-  "is_permanently_available_for_s_use": {
-    "first": null,
-    "second": null,
-    "named": "{subject} is permanently available for {controller}'s use",
-    "invariant": false
-  },
   "my_holes_belong_to_whoever_wants": {
     "first": "My holes belong to whoever wants them",
     "second": "Your holes belong to whoever wants them",
@@ -2495,28 +2429,10 @@
     "named": "There is nothing more important than {subject}'s gratitude",
     "invariant": false
   },
-  "my_gratitude_to_is_permanent_and": {
-    "first": "My gratitude to {controller} is permanent and total",
-    "second": null,
-    "named": null,
-    "invariant": false
-  },
   "i_exist_only_to_be_grateful": {
     "first": "I exist only to be grateful and obedient",
     "second": "You exist only to be grateful and obedient",
     "named": "{subject} exists only to be grateful and obedient",
-    "invariant": false
-  },
-  "s_appreciation_is_forever_unwavering": {
-    "first": null,
-    "second": null,
-    "named": "{subject}'s appreciation is forever unwavering",
-    "invariant": false
-  },
-  "my_gratitude_is_irreversible_and_absolute": {
-    "first": "My gratitude is irreversible and absolute",
-    "second": null,
-    "named": null,
     "invariant": false
   },
   "there_is_nothing_left_but_pure_2": {
@@ -2921,12 +2837,6 @@
     "named": "{controller} has complete power over {subject}",
     "invariant": false
   },
-  "cannot_move_speak_or_think_without": {
-    "first": null,
-    "second": null,
-    "named": "{subject} cannot move, speak, or think without {controller}'s permission",
-    "invariant": false
-  },
   "is_utterly_and_completely_helpless": {
     "first": "I am utterly and completely helpless",
     "second": "You are utterly and completely helpless",
@@ -2949,12 +2859,6 @@
     "first": "There is no fighting back for me",
     "second": "There is no fighting back for you",
     "named": "There is no fighting back for {subject}",
-    "invariant": false
-  },
-  "gave_up_control_and_can_t": {
-    "first": null,
-    "second": null,
-    "named": "{subject} gave up control and can't take it back",
     "invariant": false
   },
   "all_agency_belongs_to_now": {
@@ -3502,12 +3406,6 @@
     "second": "Thoughts dissolve, only {controller}'s instructions remain",
     "named": "Thoughts dissolve, only {controller}'s instructions remain",
     "invariant": true
-  },
-  "my_mind_is_permanently_writable_by": {
-    "first": "My mind is permanently writable by {controller}",
-    "second": null,
-    "named": null,
-    "invariant": false
   },
   "engraves_commands_upon_my_neurons": {
     "first": "{controller} engraves commands upon my neurons",

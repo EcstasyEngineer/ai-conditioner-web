@@ -361,21 +361,6 @@
       }
     },
     {
-      "id": "acceptance_is_s_irreversible_foundation",
-      "text": "Acceptance is {subject}'s irreversible foundation",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 120,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "exists_solely_to_accept_s_truth",
       "text": "{subject} exists solely to accept {controller}'s truth",
       "themes": [
@@ -856,21 +841,6 @@
       }
     },
     {
-      "id": "permanent_craving_carved_into_me",
-      "text": "Permanent craving carved into me",
-      "themes": [
-        "addiction"
-      ],
-      "base_points": 110,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "exists_to_chase_s_control",
       "text": "{subject} exists to chase {controller}'s control",
       "themes": [
@@ -1336,36 +1306,6 @@
       }
     },
     {
-      "id": "my_mind_is_permanently_wiped_clean",
-      "text": "My mind is permanently wiped clean",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 120,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "has_forgotten_everything_forever",
-      "text": "{subject} has forgotten everything forever",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 130,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "there_is_nothing_left_to_remember",
       "text": "There is nothing left to remember, only {controller}'s truth",
       "themes": [
@@ -1378,21 +1318,6 @@
         "permanence": false,
         "identity": false,
         "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_amnesia_is_irreversible_and_total",
-      "text": "My amnesia is irreversible and total",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 140,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
       }
     },
     {
@@ -2214,21 +2139,6 @@
       "base_points": 140,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_mind_is_permanently_blank",
-      "text": "My mind is permanently blank",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 110,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -3541,36 +3451,6 @@
       }
     },
     {
-      "id": "i_am_permanently_on_the_edge",
-      "text": "I am permanently on the edge, and I love it",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 120,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_orgasm_belongs_to_forever",
-      "text": "My orgasm belongs to {controller} forever",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 135,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "s_existence_is_a_state_of",
       "text": "{subject}'s existence is a state of constant, blissful denial",
       "themes": [
@@ -3931,21 +3811,6 @@
       }
     },
     {
-      "id": "s_loyalty_is_forever_unwavering",
-      "text": "{subject}'s loyalty is forever unwavering",
-      "themes": [
-        "devotion"
-      ],
-      "base_points": 120,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "my_devotion_is_irreversible_and_absolute",
       "text": "My devotion is irreversible and absolute",
       "themes": [
@@ -4254,21 +4119,6 @@
       "base_points": 125,
       "markers": {
         "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
-      "id": "cannot_go_back_to_what_it",
-      "text": "{subject} cannot go back to what it was",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
         "has_subject": true,
         "permanence": false,
         "identity": false,
@@ -5941,21 +5791,6 @@
       }
     },
     {
-      "id": "is_permanently_available_for_s_use",
-      "text": "{subject} is permanently available for {controller}'s use",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 140,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "my_holes_belong_to_whoever_wants",
       "text": "My holes belong to whoever wants them",
       "themes": [
@@ -6241,57 +6076,12 @@
       }
     },
     {
-      "id": "my_gratitude_to_is_permanent_and",
-      "text": "My gratitude to {controller} is permanent and total",
-      "themes": [
-        "gratitude"
-      ],
-      "base_points": 140,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_exist_only_to_be_grateful",
       "text": "I exist only to be grateful and obedient",
       "themes": [
         "gratitude"
       ],
       "base_points": 130,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "s_appreciation_is_forever_unwavering",
-      "text": "{subject}'s appreciation is forever unwavering",
-      "themes": [
-        "gratitude"
-      ],
-      "base_points": 120,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
-      "id": "my_gratitude_is_irreversible_and_absolute",
-      "text": "My gratitude is irreversible and absolute",
-      "themes": [
-        "gratitude"
-      ],
-      "base_points": 120,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -7306,21 +7096,6 @@
       }
     },
     {
-      "id": "cannot_move_speak_or_think_without",
-      "text": "{subject} cannot move, speak, or think without {controller}'s permission",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 110,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "is_utterly_and_completely_helpless",
       "text": "{subject} is utterly and completely helpless",
       "themes": [
@@ -7372,21 +7147,6 @@
         "resistance"
       ],
       "base_points": 60,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
-      "id": "gave_up_control_and_can_t",
-      "text": "{subject} gave up control and can't take it back",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 95,
       "markers": {
         "has_controller": false,
         "has_subject": true,
@@ -8758,21 +8518,6 @@
         "permanence": false,
         "identity": false,
         "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_mind_is_permanently_writable_by",
-      "text": "My mind is permanently writable by {controller}",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 140,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
       }
     },
     {
