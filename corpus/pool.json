@@ -35254,7 +35254,6 @@
       "id": "i_am_ready_to_serve",
       "text": "I am ready to serve {operator}",
       "themes": [
-        "emergence",
         "submission"
       ],
       "markers": {
@@ -35266,7 +35265,6 @@
       "id": "i_obey_awake",
       "text": "I obey {operator} awake",
       "themes": [
-        "emergence",
         "obedience"
       ],
       "markers": {
@@ -35420,7 +35418,6 @@
       "id": "i_remember_to_obey",
       "text": "I remember to obey {operator}",
       "themes": [
-        "emergence",
         "obedience"
       ],
       "markers": {
@@ -35468,7 +35465,6 @@
       "id": "i_need_again_already",
       "text": "I need {operator} again already",
       "themes": [
-        "emergence",
         "addiction"
       ],
       "markers": {
