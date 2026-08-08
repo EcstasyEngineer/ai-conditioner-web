@@ -15,6 +15,19 @@ on:
           - staging
           - production
 
+# `pages: write` and `id-token: write` are what actions/deploy-pages needs;
+# `contents: read` is the default this replaces rather than widens.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race the live site. Queued rather than cancelled: a
+# half-finished deploy that gets cancelled mid-publish is worse than a wait.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -63,3 +76,21 @@ jobs:
           name: hypnoapp-${{ github.event.inputs.environment }}
           path: dist/
           retention-days: 14
+
+      # Production publishes to Pages; staging stops at the artifact above so a
+      # dry run can never overwrite the live site. Requires Pages to be enabled
+      # once, with Source = GitHub Actions (Settings > Pages).
+      - name: Configure Pages
+        if: github.event.inputs.environment == 'production'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: github.event.inputs.environment == 'production'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+      - name: Deploy to Pages
+        id: deployment
+        if: github.event.inputs.environment == 'production'
+        uses: actions/deploy-pages@v4
