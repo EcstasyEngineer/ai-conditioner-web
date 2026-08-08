@@ -80,7 +80,9 @@ jobs:
         run: |
           set -euo pipefail
           npm run build
-          if grep -rqF 'experimental-strip-types' dist/ 2>/dev/null; then
+          # Emitted JS only: sourcemaps inline the repo's own package.json
+          # scripts, so scanning them flags the corpus CLI as a bundle leak.
+          if grep -rqF --include='*.js' 'experimental-strip-types' dist/assets/ 2>/dev/null; then
             echo "::error::Node-only toolchain leaked into the browser bundle"
             exit 1
           fi
