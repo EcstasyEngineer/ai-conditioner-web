@@ -87,7 +87,8 @@ expansion list, never loaded at runtime:
 `confusion`, `internal_voice`, `looping`, `masochism`, `mindbreak`, `petplay_kitten`,
 `petplay_puppy`, `pleasure`, `relaxation`, `toy`, `training`, `trusting`
 
-Plus 9 themes named in `hypnoapp/docs/catalogs/catalog_v4.json` that have no pool
+Plus 9 themes named in `catalog_v4.json` — deleted in `eff0e71`, readable as
+`git show 4cc06db80c1e` — that have no pool
 equivalent: `chastity`, `conditioning`, `dependency`, `emptiness`, `neediness`,
 `relaxation` (overlaps the drafts), `ritual`, `surrender`, `trust`.
 
