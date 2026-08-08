@@ -1,16 +1,22 @@
 /**
  * Browser entry point.
  *
- * M0 SPINE ONLY. This exists so `npm run build` is a real signal from the first
- * commit rather than a script that has never run — a build that cannot fail
- * cannot tell you anything.
+ * The mount call and the `#root` contract are M0's and are unchanged; what M7
+ * replaced is the placeholder body, which is now `App` (DESIGN.md §6.1).
  *
- * M7 replaces the body of this file with the shell (`web/app.tsx`, the setup
- * screen and the play route). The mount call and the `#root` contract stay.
+ * `StrictMode` is kept, and it is worth saying why given that this app mounts an
+ * imperative session: StrictMode double-invokes effects in development, so
+ * `PlayRoute`'s mount effect runs, tears down and runs again. That is a FEATURE
+ * here — it is the cheapest possible test that the session's `dispose()` really
+ * releases the clock, the lanes, the bed and the GL context, because a leak
+ * shows up immediately as a doubled session rather than at minute eighteen of a
+ * sitting.
  */
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+
+import { App } from './app.tsx';
 
 const root = document.getElementById('root');
 if (!root) {
@@ -19,9 +25,6 @@ if (!root) {
 
 createRoot(root).render(
   <StrictMode>
-    <main>
-      <h1>hypnoapp</h1>
-      <p>Build spine only. The shell lands with M7.</p>
-    </main>
+    <App />
   </StrictMode>,
 );
