@@ -1,0 +1,50 @@
+[
+  {
+    "id": "never_again_do_i_close_myself",
+    "verdict": "FAIL",
+    "reason": "named drops the reflexive object present in first/second (myself/yourself), so it is not the same sentence rendering.",
+    "first": "Never again do I close myself off from {controller}",
+    "second": "Never again do you close yourself off from {controller}",
+    "named": "Never again does {subject} close off from {controller}"
+  },
+  {
+    "id": "my_designation_overwrites_the_name_i",
+    "verdict": "FAIL",
+    "reason": "named uses bare 'it' as the subject of 'answered' instead of {subject}; parallel first/second use I/you for that clause.",
+    "first": "My designation overwrites the name I answered to",
+    "second": "Your designation overwrites the name you answered to",
+    "named": "{subject}'s designation overwrites the name it answered to"
+  },
+  {
+    "id": "i_stage_my_surrender_where_the",
+    "verdict": "FAIL",
+    "reason": "named is not the same sentence: my/your surrender becomes a surrender instead of {subject}'s surrender, dropping the possessive link present in first and second.",
+    "first": "I stage my surrender where the crowd can feel it",
+    "second": "You stage your surrender where the crowd can feel it",
+    "named": "{subject} stages a surrender where the crowd can feel it"
+  },
+  {
+    "id": "my_yes_arrives_before_my_reasons",
+    "verdict": "FAIL",
+    "reason": "Not the same sentence: first/second both possess reasons (my/your reasons), but named drops the possessive to bare \u201creasons\u201d instead of \u201c{subject}'s reasons\u201d.",
+    "first": "My yes arrives before my reasons do",
+    "second": "Your yes arrives before your reasons do",
+    "named": "{subject}'s yes arrives before reasons do"
+  },
+  {
+    "id": "i_answer_faster_than_i_can",
+    "verdict": "FAIL",
+    "reason": "Not the same sentence: first/second are \u201cfaster than I/you can second-guess\u201d; named rewrites to \u201cfaster than second-guessing allows,\u201d a different clause.",
+    "first": "I answer faster than I can second-guess",
+    "second": "You answer faster than you can second-guess",
+    "named": "{subject} answers faster than second-guessing allows"
+  },
+  {
+    "id": "i_put_s_orders_ahead_of",
+    "verdict": "FAIL",
+    "reason": "named rewrites 'my/your thoughts' as 'all thought' instead of a person rendering ({subject}'s thoughts / their thoughts); the three lines are not the same sentence.",
+    "first": "I put {controller}'s orders ahead of my thoughts",
+    "second": "You put {controller}'s orders ahead of your thoughts",
+    "named": "{subject} puts {controller}'s orders ahead of all thought"
+  }
+]
