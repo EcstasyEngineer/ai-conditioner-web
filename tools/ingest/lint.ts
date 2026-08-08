@@ -10,7 +10,7 @@ import type { GateFinding } from './conjugation.ts';
  * §8.1.3 / §4.7 — placeholders: exactly two, bare form only
  * ------------------------------------------------------------------ */
 
-const ALLOWED_PLACEHOLDERS = new Set(['subject', 'controller']);
+const ALLOWED_PLACEHOLDERS = new Set(['subject', 'operator']);
 
 export function checkPlaceholders(text: string, label: string): GateFinding[] {
   const findings: GateFinding[] = [];
@@ -53,7 +53,7 @@ export function checkPlaceholders(text: string, label: string): GateFinding[] {
       code: 'PLACEHOLDER_UNKNOWN',
       message:
         `${label}: unknown placeholder "{${inner}}"; only {subject} and ` +
-        '{controller} exist',
+        '{operator} exist',
     });
   }
 

@@ -3,9 +3,9 @@
     "id": "never_again_do_i_close_myself",
     "verdict": "FAIL",
     "reason": "named drops the reflexive object present in first/second (myself/yourself), so it is not the same sentence rendering.",
-    "first": "Never again do I close myself off from {controller}",
-    "second": "Never again do you close yourself off from {controller}",
-    "named": "Never again does {subject} close off from {controller}"
+    "first": "Never again do I close myself off from {operator}",
+    "second": "Never again do you close yourself off from {operator}",
+    "named": "Never again does {subject} close off from {operator}"
   },
   {
     "id": "my_designation_overwrites_the_name_i",
@@ -43,8 +43,8 @@
     "id": "i_put_s_orders_ahead_of",
     "verdict": "FAIL",
     "reason": "named rewrites 'my/your thoughts' as 'all thought' instead of a person rendering ({subject}'s thoughts / their thoughts); the three lines are not the same sentence.",
-    "first": "I put {controller}'s orders ahead of my thoughts",
-    "second": "You put {controller}'s orders ahead of your thoughts",
-    "named": "{subject} puts {controller}'s orders ahead of all thought"
+    "first": "I put {operator}'s orders ahead of my thoughts",
+    "second": "You put {operator}'s orders ahead of your thoughts",
+    "named": "{subject} puts {operator}'s orders ahead of all thought"
   }
 ]

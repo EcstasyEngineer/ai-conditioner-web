@@ -10,7 +10,7 @@
 {"first": "I speak only as the strings dictate", "second": "You speak only as the strings dictate", "named": "{subject} speaks only as the strings dictate", "base_points": 30, "themes": ["puppet"]}
 {"first": "My knees bend on a distant tug", "second": "Your knees bend on a distant tug", "named": "{subject}'s knees bend on a distant tug", "base_points": 25, "themes": ["puppet"]}
 {"first": "I sway when the strings go slack", "second": "You sway when the strings go slack", "named": "{subject} sways when the strings go slack", "base_points": 25, "themes": ["puppet"]}
-{"first": "{controller}'s strings guide my next step", "second": "{controller}'s strings guide your next step", "named": "{controller}'s strings guide {subject}'s next step", "base_points": 40, "themes": ["puppet"]}
+{"first": "{operator}'s strings guide my next step", "second": "{operator}'s strings guide your next step", "named": "{operator}'s strings guide {subject}'s next step", "base_points": 40, "themes": ["puppet"]}
 {"first": "Strings draw a gesture from hollow wood", "second": "Strings draw a gesture from hollow wood", "named": "Strings draw a gesture from hollow wood", "base_points": 20, "themes": ["puppet"]}
 {"first": "My head tilts on a loose joint", "second": "Your head tilts on a loose joint", "named": "{subject}'s head tilts on a loose joint", "base_points": 25, "themes": ["puppet"]}
 {"first": "I dangle until the next pull arrives", "second": "You dangle until the next pull arrives", "named": "{subject} dangles until the next pull arrives", "base_points": 30, "themes": ["puppet"]}
@@ -18,4 +18,4 @@
 {"first": "My fingers curl on each tug", "second": "Your fingers curl on each tug", "named": "{subject}'s fingers curl on each tug", "base_points": 25, "themes": ["puppet"]}
 {"first": "My elbows rise without my permission", "second": "Your elbows rise without your permission", "named": "{subject}'s elbows rise without permission", "base_points": 30, "themes": ["puppet"]}
 {"first": "I watch my foot place itself carefully", "second": "You watch your foot place itself carefully", "named": "{subject} watches their foot place itself carefully", "base_points": 30, "themes": ["puppet"]}
-{"first": "{controller}'s threads turn my wrist", "second": "{controller}'s threads turn your wrist", "named": "{controller}'s threads turn {subject}'s wrist", "base_points": 40, "themes": ["puppet"]}
+{"first": "{operator}'s threads turn my wrist", "second": "{operator}'s threads turn your wrist", "named": "{operator}'s threads turn {subject}'s wrist", "base_points": 40, "themes": ["puppet"]}

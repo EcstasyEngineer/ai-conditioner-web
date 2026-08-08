@@ -119,7 +119,7 @@ export interface SessionPlanMeta {
 
   /** The names the plan was validated against. Substitution still happens at display. */
   subjectName: string;
-  controllerName: string;
+  operatorName: string;
 }
 
 /**
@@ -148,7 +148,7 @@ export interface SessionPlan {
  *
  * `fix` is not optional and is not prose-for-its-own-sake: §6.3's
  * reject-don't-repair doctrine requires a message naming the SPECIFIC fix
- * ("drop `sluttiness` from your exclusions or re-enable controller mantras first"), and a
+ * ("drop `sluttiness` from your exclusions or re-enable operator mantras first"), and a
  * required field is how that survives a refactor.
  */
 export interface PlanError {

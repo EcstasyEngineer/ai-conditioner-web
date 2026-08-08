@@ -90,10 +90,10 @@ describe('corpus.mini.json + persons.mini.json', () => {
 describe('config.reference.json', () => {
   const config = readFixture('config.reference.json') as UserConfig;
 
-  it('is 4 themes, no exclusions, controller on, 20 min, parallel', () => {
+  it('is 4 themes, no exclusions, operator on, 20 min, parallel', () => {
     expect(config.themes).toHaveLength(4);
     expect(config.excludedThemes).toEqual([]);
-    expect(config.allowController).toBe(true);
+    expect(config.allowOperator).toBe(true);
     expect(config.targetDurationMs).toBe(20 * 60 * 1000);
     expect(config.mode).toBe('parallel');
   });
@@ -472,7 +472,7 @@ describe('frame.reference.json is a SPECIFICATION M4 can render before M2 exists
         const channel = frame.channels[lane];
         if (!channel.active) continue;
         // This is what gets painted, so it must have no placeholders left.
-        expect(channel.text, `${frame.label} ${lane}`).not.toMatch(/\{(subject|controller)\}/);
+        expect(channel.text, `${frame.label} ${lane}`).not.toMatch(/\{(subject|operator)\}/);
         expect(channel.template.length, `${frame.label} ${lane}`).toBeGreaterThan(0);
       }
     }
@@ -483,8 +483,8 @@ describe('frame.reference.json is a SPECIFICATION M4 can render before M2 exists
       LANE_IDS.some(
         (lane) =>
           f.channels[lane].active &&
-          f.channels[lane].template.includes('{controller}') &&
-          f.channels[lane].text.includes(config.names.controller),
+          f.channels[lane].template.includes('{operator}') &&
+          f.channels[lane].text.includes(config.names.operator),
       ),
     );
     expect(substituted).toBe(true);

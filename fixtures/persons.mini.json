@@ -66,10 +66,10 @@
     "named": "{subject} sits down and stops holding",
     "invariant": false
   },
-  "controller_s_voice_arrives_before_the_thought_does": {
-    "first": "{controller}'s voice arrives before the thought does",
-    "second": "{controller}'s voice arrives before the thought does",
-    "named": "{controller}'s voice arrives before the thought does",
+  "operator_s_voice_arrives_before_the_thought_does": {
+    "first": "{operator}'s voice arrives before the thought does",
+    "second": "{operator}'s voice arrives before the thought does",
+    "named": "{operator}'s voice arrives before the thought does",
     "invariant": true
   },
 
@@ -103,10 +103,10 @@
     "named": "Resistance costs more than it returns",
     "invariant": true
   },
-  "i_take_what_controller_decides_i_take": {
-    "first": "I take what {controller} decides I take",
-    "second": "You take what {controller} decides you take",
-    "named": "{subject} takes what {controller} decides {subject} takes",
+  "i_take_what_operator_decides_i_take": {
+    "first": "I take what {operator} decides I take",
+    "second": "You take what {operator} decides you take",
+    "named": "{subject} takes what {operator} decides {subject} takes",
     "invariant": false
   },
   "you_agree_faster_than_you_can_object": {
@@ -140,10 +140,10 @@
     "named": "{subject} does it before {subject} hears {subject}'s answer",
     "invariant": false
   },
-  "subject_does_anything_controller_asks_for": {
-    "first": "I do anything {controller} asks for",
-    "second": "You do anything {controller} asks for",
-    "named": "{subject} does anything {controller} asks for",
+  "subject_does_anything_operator_asks_for": {
+    "first": "I do anything {operator} asks for",
+    "second": "You do anything {operator} asks for",
+    "named": "{subject} does anything {operator} asks for",
     "invariant": false
   },
   "the_command_is_finished_before_it_is_heard": {
@@ -158,10 +158,10 @@
     "named": "{subject} does not hear a command, {subject} hears {subject} doing it",
     "invariant": false
   },
-  "you_obey_controller_before_you_know_you_have": {
-    "first": "I obey {controller} before I know I have",
-    "second": "You obey {controller} before you know you have",
-    "named": "{subject} obeys {controller} before {subject} knows {subject} has",
+  "you_obey_operator_before_you_know_you_have": {
+    "first": "I obey {operator} before I know I have",
+    "second": "You obey {operator} before you know you have",
+    "named": "{subject} obeys {operator} before {subject} knows {subject} has",
     "invariant": false
   },
   "subject_obeys_the_way_subject_breathes": {
@@ -207,10 +207,10 @@
     "named": "Nothing outside the one line exists now",
     "invariant": true
   },
-  "you_hold_controller_s_word_and_nothing_else": {
-    "first": "I hold {controller}'s word and nothing else",
-    "second": "You hold {controller}'s word and nothing else",
-    "named": "{subject} holds {controller}'s word and nothing else",
+  "you_hold_operator_s_word_and_nothing_else": {
+    "first": "I hold {operator}'s word and nothing else",
+    "second": "You hold {operator}'s word and nothing else",
+    "named": "{subject} holds {operator}'s word and nothing else",
     "invariant": false
   },
 
@@ -226,10 +226,10 @@
     "named": "{subject} hands it over and feels lighter",
     "invariant": false
   },
-  "you_give_controller_the_last_of_it": {
-    "first": "I give {controller} the last of it",
-    "second": "You give {controller} the last of it",
-    "named": "{subject} gives {controller} the last of it",
+  "you_give_operator_the_last_of_it": {
+    "first": "I give {operator} the last of it",
+    "second": "You give {operator} the last of it",
+    "named": "{subject} gives {operator} the last of it",
     "invariant": false
   },
   "subject_is_easier_to_move_than_to_argue_with": {
@@ -250,10 +250,10 @@
     "named": "{subject}'s knees find the floor before {subject} asks them to",
     "invariant": false
   },
-  "subject_stops_carrying_what_controller_will_carry": {
-    "first": "I stop carrying what {controller} will carry",
-    "second": "You stop carrying what {controller} will carry",
-    "named": "{subject} stops carrying what {controller} will carry",
+  "subject_stops_carrying_what_operator_will_carry": {
+    "first": "I stop carrying what {operator} will carry",
+    "second": "You stop carrying what {operator} will carry",
+    "named": "{subject} stops carrying what {operator} will carry",
     "invariant": false
   },
   "you_are_held_and_you_stop_bracing": {

@@ -3,8 +3,8 @@
   "description": "Every struggle proves how completely you've already lost",
   "generation": {
     "good": [
-      "{subject} cannot move without {controller}'s permission",
-      "agency removal, controller-anchored"
+      "{subject} cannot move without {operator}'s permission",
+      "agency removal, operator-anchored"
     ],
     "bad": [
       "{subject} is safe in their helplessness",
@@ -26,7 +26,7 @@
       "base_points": 50
     },
     {
-      "text": "{controller} is in control of {subject}",
+      "text": "{operator} is in control of {subject}",
       "base_points": 50
     },
     {
@@ -46,15 +46,15 @@
       "base_points": 40
     },
     {
-      "text": "{subject} is completely at {controller}'s mercy",
+      "text": "{subject} is completely at {operator}'s mercy",
       "base_points": 85
     },
     {
-      "text": "{controller} has complete power over {subject}",
+      "text": "{operator} has complete power over {subject}",
       "base_points": 90
     },
     {
-      "text": "{subject} cannot move, speak, or think without {controller}'s permission",
+      "text": "{subject} cannot move, speak, or think without {operator}'s permission",
       "base_points": 110
     },
     {
@@ -66,7 +66,7 @@
       "base_points": 75
     },
     {
-      "text": "{subject} belongs to {controller} in their helplessness",
+      "text": "{subject} belongs to {operator} in their helplessness",
       "base_points": 85
     },
     {
@@ -78,11 +78,11 @@
       "base_points": 95
     },
     {
-      "text": "All agency belongs to {controller} now",
+      "text": "All agency belongs to {operator} now",
       "base_points": 100
     },
     {
-      "text": "{subject} is powerless and {controller} is not",
+      "text": "{subject} is powerless and {operator} is not",
       "base_points": 70
     },
     {
@@ -94,11 +94,11 @@
       "base_points": 75
     },
     {
-      "text": "{controller} took control and won't give it back",
+      "text": "{operator} took control and won't give it back",
       "base_points": 120
     },
     {
-      "text": "My ability to resist {controller} has been permanently washed away",
+      "text": "My ability to resist {operator} has been permanently washed away",
       "base_points": 165
     },
     {
@@ -106,7 +106,7 @@
       "base_points": 35
     },
     {
-      "text": "{controller} decides what {subject} does",
+      "text": "{operator} decides what {subject} does",
       "base_points": 65
     },
     {

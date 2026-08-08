@@ -34,7 +34,7 @@ a corpus that violates it.
 
 **Generation batch** — `corpus/raw/<theme>.<batch>.jsonl`. Line 1 is a header,
 every later line is one record. Ids are **assigned by the ingester**; a record
-carrying an `id` is rejected, as are the derived markers (`has_controller`,
+carrying an `id` is rejected, as are the derived markers (`has_operator`,
 `has_subject`).
 
 ```jsonl
@@ -84,7 +84,7 @@ keep it honest:
    the shifted subject. After a copula, determiner, preposition or the finite
    verb itself, government is spent — otherwise `{subject} is empty` reads
    "empty" as an uninflected verb (`empty|empties` is a real table entry), and
-   `{controller}'s control` reads "control" as one.
+   `{operator}'s control` reads "control" as one.
 2. **Singular *they* is not an error.** MEASURED: 28 of 253 hand-authored
    `named` records use bound "their"/"they" — `{subject} explores their softer
    side`. Only gendered stand-ins (`she`, `he`, `her`, `him`) are hard-flagged;

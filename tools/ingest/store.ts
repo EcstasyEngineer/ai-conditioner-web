@@ -61,7 +61,7 @@ export function emptyCorpus(): Corpus {
 
 export function deriveMarkers(text: string): Markers {
   return {
-    has_controller: text.includes('{controller}'),
+    has_operator: text.includes('{operator}'),
     has_subject: text.includes('{subject}'),
   };
 }
@@ -177,7 +177,7 @@ function canonicalRecord(r: PoolRecord): PoolRecord {
     text: r.text,
     themes: r.themes,
     markers: {
-      has_controller: r.markers.has_controller,
+      has_operator: r.markers.has_operator,
       has_subject: r.markers.has_subject,
     },
   };

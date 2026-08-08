@@ -2,27 +2,27 @@
 {"id": "can_t_resist", "first": "I can't resist", "second": "You can't resist", "named": "{subject} can't resist"}
 {"id": "has_no_control", "first": "I have no control", "second": "You have no control", "named": "{subject} has no control"}
 {"id": "resistance_is_impossible_for", "first": "Resistance is impossible for me", "second": "Resistance is impossible for you", "named": "Resistance is impossible for {subject}"}
-{"id": "is_in_control_of", "first": "{controller} is in control of me", "second": "{controller} is in control of you", "named": "{controller} is in control of {subject}"}
+{"id": "is_in_control_of", "first": "{operator} is in control of me", "second": "{operator} is in control of you", "named": "{operator} is in control of {subject}"}
 {"id": "is_powerless_to_disobey", "first": "I am powerless to disobey", "second": "You are powerless to disobey", "named": "{subject} is powerless to disobey"}
 {"id": "the_will_is_not_there_anymore", "first": "The will is not there anymore", "second": "The will is not there anymore", "named": "The will is not there anymore"}
 {"id": "every_choice_is_made_for", "first": "Every choice is made for me", "second": "Every choice is made for you", "named": "Every choice is made for {subject}"}
 {"id": "doesn_t_have_to_make_decisions", "first": "I don't have to make decisions", "second": "You don't have to make decisions", "named": "{subject} doesn't have to make decisions"}
-{"id": "is_completely_at_s_mercy", "first": "I am completely at {controller}'s mercy", "second": "You are completely at {controller}'s mercy", "named": "{subject} is completely at {controller}'s mercy"}
-{"id": "has_complete_power_over", "first": "{controller} has complete power over me", "second": "{controller} has complete power over you", "named": "{controller} has complete power over {subject}"}
-{"id": "cannot_move_speak_or_think_without", "first": "I cannot move, speak, or think without {controller}'s permission", "second": "You cannot move, speak, or think without {controller}'s permission", "named": "{subject} cannot move, speak, or think without {controller}'s permission"}
+{"id": "is_completely_at_s_mercy", "first": "I am completely at {operator}'s mercy", "second": "You are completely at {operator}'s mercy", "named": "{subject} is completely at {operator}'s mercy"}
+{"id": "has_complete_power_over", "first": "{operator} has complete power over me", "second": "{operator} has complete power over you", "named": "{operator} has complete power over {subject}"}
+{"id": "cannot_move_speak_or_think_without", "first": "I cannot move, speak, or think without {operator}'s permission", "second": "You cannot move, speak, or think without {operator}'s permission", "named": "{subject} cannot move, speak, or think without {operator}'s permission"}
 {"id": "is_utterly_and_completely_helpless", "first": "I am utterly and completely helpless", "second": "You are utterly and completely helpless", "named": "{subject} is utterly and completely helpless"}
 {"id": "existence_is_defined_by_powerlessness", "first": "Existence is defined by powerlessness", "second": "Existence is defined by powerlessness", "named": "Existence is defined by powerlessness"}
-{"id": "belongs_to_in_their_helplessness", "first": "I belong to {controller} in my helplessness", "second": "You belong to {controller} in your helplessness", "named": "{subject} belongs to {controller} in their helplessness"}
+{"id": "belongs_to_in_their_helplessness", "first": "I belong to {operator} in my helplessness", "second": "You belong to {operator} in your helplessness", "named": "{subject} belongs to {operator} in their helplessness"}
 {"id": "there_is_no_fighting_back_for", "first": "There is no fighting back for me", "second": "There is no fighting back for you", "named": "There is no fighting back for {subject}"}
 {"id": "gave_up_control_and_can_t", "first": "I gave up control and can't take it back", "second": "You gave up control and can't take it back", "named": "{subject} gave up control and can't take it back"}
-{"id": "all_agency_belongs_to_now", "first": "All agency belongs to {controller} now", "second": "All agency belongs to {controller} now", "named": "All agency belongs to {controller} now"}
-{"id": "is_powerless_and_is_not", "first": "I am powerless and {controller} is not", "second": "You are powerless and {controller} is not", "named": "{subject} is powerless and {controller} is not"}
+{"id": "all_agency_belongs_to_now", "first": "All agency belongs to {operator} now", "second": "All agency belongs to {operator} now", "named": "All agency belongs to {operator} now"}
+{"id": "is_powerless_and_is_not", "first": "I am powerless and {operator} is not", "second": "You are powerless and {operator} is not", "named": "{subject} is powerless and {operator} is not"}
 {"id": "struggling_only_reminds_how_helpless_they", "first": "Struggling only reminds me how helpless I am", "second": "Struggling only reminds you how helpless you are", "named": "Struggling only reminds {subject} how helpless they are"}
 {"id": "has_no_power_and_that_s", "first": "I have no power, and that's exactly how it should be", "second": "You have no power, and that's exactly how it should be", "named": "{subject} has no power, and that's exactly how it should be"}
-{"id": "took_control_and_won_t_give", "first": "{controller} took control and won't give it back", "second": "{controller} took control and won't give it back", "named": "{controller} took control and won't give it back"}
-{"id": "my_ability_to_resist_has_been", "first": "My ability to resist {controller} has been permanently washed away", "second": "Your ability to resist {controller} has been permanently washed away", "named": "{subject}'s ability to resist {controller} has been permanently washed away"}
+{"id": "took_control_and_won_t_give", "first": "{operator} took control and won't give it back", "second": "{operator} took control and won't give it back", "named": "{operator} took control and won't give it back"}
+{"id": "my_ability_to_resist_has_been", "first": "My ability to resist {operator} has been permanently washed away", "second": "Your ability to resist {operator} has been permanently washed away", "named": "{subject}'s ability to resist {operator} has been permanently washed away"}
 {"id": "stopped_fighting", "first": "I stopped fighting", "second": "You stopped fighting", "named": "{subject} stopped fighting"}
-{"id": "decides_what_does", "first": "{controller} decides what I do", "second": "{controller} decides what you do", "named": "{controller} decides what {subject} does"}
+{"id": "decides_what_does", "first": "{operator} decides what I do", "second": "{operator} decides what you do", "named": "{operator} decides what {subject} does"}
 {"id": "resistance_was_taken_away", "first": "Resistance was taken away", "second": "Resistance was taken away", "named": "Resistance was taken away"}
 {"id": "couldn_t_fight_back_even_if", "first": "I couldn't fight back even if I wanted to", "second": "You couldn't fight back even if you wanted to", "named": "{subject} couldn't fight back even if they wanted to"}
 {"id": "will_never_have_control_again", "first": "I will never have control again", "second": "You will never have control again", "named": "{subject} will never have control again"}

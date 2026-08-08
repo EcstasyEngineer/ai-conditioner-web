@@ -83,7 +83,7 @@ added:
   "text": "Resistance melts away with each breath", // raw template, never rendered at rest
   "themes": ["acceptance"],
   "base_points": 20,                                // tier is DERIVED, never stored
-  "markers": { "has_controller": false, "has_subject": false,
+  "markers": { "has_operator": false, "has_subject": false,
                "permanence": false, "identity": false, "pov": "impersonal" }
 }
 ```
@@ -95,7 +95,7 @@ added:
 - **`pov` is exactly** `first | second | named | impersonal`. There is no
   `mixed`.
 - **Exactly two placeholders** reach runtime, bare form only: `{subject}` and
-  `{controller}`. `{subject_subjective}` and `[verb|verbs]` are Phase B
+  `{operator}`. `{subject_subjective}` and `[verb|verbs]` are Phase B
   intermediates and never render.
 
 ## Conventions

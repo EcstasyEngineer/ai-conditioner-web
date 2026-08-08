@@ -121,19 +121,19 @@ I crave   -> You crave    -> {subject} craves
 I obey    -> You obey     -> {subject} obeys
 ```
 
-**`{controller}` is never person-shifted.** The controller is referenced in the
+**`{operator}` is never person-shifted.** The operator is referenced in the
 third person, identically, in all three variants. A line's person axis describes
-the subject and never the controller.
+the subject and never the operator.
 
 ```
-first:  "I kneel when {controller} speaks"
-second: "You kneel when {controller} speaks"
-named:  "{subject} kneels when {controller} speaks"
+first:  "I kneel when {operator} speaks"
+second: "You kneel when {operator} speaks"
+named:  "{subject} kneels when {operator} speaks"
 ```
 
 **No bare third-person pronouns in `named`.** Use `{subject}`, never a bare
 she/he/they. "She sinks deeper" is a rejection.
 
-**Placeholders: exactly two, bare form only.** `{subject}` and `{controller}`,
+**Placeholders: exactly two, bare form only.** `{subject}` and `{operator}`,
 nothing else. No expanded placeholders, no `[verb|verbs]` bracket grammar in the
 output, no format specs, braces balanced.

@@ -3,7 +3,7 @@
   "description": "The thrill of being seen, the pride of display, the urge to spread it",
   "generation": {
     "good": [
-      "I want everyone to see what {controller} has done to me",
+      "I want everyone to see what {operator} has done to me",
       "public confession, thrill of exposure"
     ],
     "bad": [
@@ -38,7 +38,7 @@
       "base_points": 45
     },
     {
-      "text": "I want to tell someone what {controller} does to me",
+      "text": "I want to tell someone what {operator} does to me",
       "base_points": 50
     },
     {
@@ -58,7 +58,7 @@
       "base_points": 70
     },
     {
-      "text": "{subject} shows off for {controller}",
+      "text": "{subject} shows off for {operator}",
       "base_points": 70
     },
     {
@@ -66,7 +66,7 @@
       "base_points": 75
     },
     {
-      "text": "I am proud of what {controller} has made me",
+      "text": "I am proud of what {operator} has made me",
       "base_points": 80
     },
     {
@@ -74,7 +74,7 @@
       "base_points": 90
     },
     {
-      "text": "{subject} recruits others for {controller}",
+      "text": "{subject} recruits others for {operator}",
       "base_points": 95
     },
     {
@@ -82,39 +82,39 @@
       "base_points": 100
     },
     {
-      "text": "{subject} brings new subjects to {controller}",
+      "text": "{subject} brings new subjects to {operator}",
       "base_points": 105
     },
     {
-      "text": "{subject} is living proof of {controller}'s power",
+      "text": "{subject} is living proof of {operator}'s power",
       "base_points": 110
     },
     {
-      "text": "I exist to be seen and to spread {controller}'s influence",
+      "text": "I exist to be seen and to spread {operator}'s influence",
       "base_points": 115
     },
     {
-      "text": "I have shown others the way to {controller}",
+      "text": "I have shown others the way to {operator}",
       "base_points": 120
     },
     {
-      "text": "Everyone knows I belong to {controller}",
+      "text": "Everyone knows I belong to {operator}",
       "base_points": 125
     },
     {
-      "text": "I am a walking advertisement for {controller}'s power",
+      "text": "I am a walking advertisement for {operator}'s power",
       "base_points": 130
     },
     {
-      "text": "I am {controller}'s public property",
+      "text": "I am {operator}'s public property",
       "base_points": 135
     },
     {
-      "text": "There is no private self left, only what {controller} made",
+      "text": "There is no private self left, only what {operator} made",
       "base_points": 140
     },
     {
-      "text": "{subject} converts others to {controller}'s service",
+      "text": "{subject} converts others to {operator}'s service",
       "base_points": 140
     },
     {
@@ -126,11 +126,11 @@
       "base_points": 155
     },
     {
-      "text": "{subject} spreads {controller}'s control to everyone they meet",
+      "text": "{subject} spreads {operator}'s control to everyone they meet",
       "base_points": 165
     },
     {
-      "text": "I am permanently, publicly, proudly {controller}'s",
+      "text": "I am permanently, publicly, proudly {operator}'s",
       "base_points": 175
     }
   ]

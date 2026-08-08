@@ -1,2 +1,2 @@
 {"schema": "hypnoapp.corpus.v1", "theme": "focus", "tier": "light", "generator": {"model": "grok-4.5", "prompt_sha": "38de6b08600f00c2", "generated_at": "2026-08-08T14:11:52Z", "batch": "focus.light.003", "reviewed": false}}
-{"first": "Everything but {controller}'s voice fades to static for me", "second": "Everything but {controller}'s voice fades to static for you", "named": "Everything but {controller}'s voice fades to static for {subject}", "base_points": 60, "themes": ["focus"]}
+{"first": "Everything but {operator}'s voice fades to static for me", "second": "Everything but {operator}'s voice fades to static for you", "named": "Everything but {operator}'s voice fades to static for {subject}", "base_points": 60, "themes": ["focus"]}

@@ -13,7 +13,7 @@
 {"first": "My pleasure lives in the almost", "second": "Your pleasure lives in the almost", "named": "{subject}'s pleasure lives in the almost", "base_points": 35, "themes": ["denial"]}
 {"first": "I love how denial makes me throb", "second": "You love how denial makes you throb", "named": "{subject} loves how denial makes {subject} throb", "base_points": 40, "themes": ["denial", "addiction"]}
 {"first": "Not finishing only fuels my want", "second": "Not finishing only fuels your want", "named": "Not finishing only fuels {subject}'s want", "base_points": 30, "themes": ["denial"]}
-{"first": "I stop when {controller} says edge", "second": "You stop when {controller} says edge", "named": "{subject} stops when {controller} says edge", "base_points": 40, "themes": ["denial", "obedience"]}
+{"first": "I stop when {operator} says edge", "second": "You stop when {operator} says edge", "named": "{subject} stops when {operator} says edge", "base_points": 40, "themes": ["denial", "obedience"]}
 {"first": "I tremble with almost-there heat", "second": "You tremble with almost-there heat", "named": "{subject} trembles with almost-there heat", "base_points": 35, "themes": ["denial"]}
 {"first": "Every almost makes me want more", "second": "Every almost makes you want more", "named": "Every almost makes {subject} want more", "base_points": 30, "themes": ["denial"]}
 {"first": "I answer need with another no", "second": "You answer need with another no", "named": "{subject} answers need with another no", "base_points": 35, "themes": ["denial"]}

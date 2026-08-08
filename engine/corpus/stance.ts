@@ -37,11 +37,11 @@ const SECOND_PRONOUNS = new Set([
 
 /**
  * Tokenize to comparable words. Placeholders survive as single tokens, and a
- * placeholder carries its own possessive: `{controller}'s` is ONE token.
+ * placeholder carries its own possessive: `{operator}'s` is ONE token.
  */
 function tokenize(text: string): string[] {
   return (
-    text.match(/\{subject\}(?:'s)?|\{controller\}(?:'s)?|[A-Za-z]+(?:'[A-Za-z]+)?/g) ?? []
+    text.match(/\{subject\}(?:'s)?|\{operator\}(?:'s)?|[A-Za-z]+(?:'[A-Za-z]+)?/g) ?? []
   ).map((t) => (t.startsWith('{') ? t : t.toLowerCase()));
 }
 

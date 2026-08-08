@@ -15,7 +15,7 @@
       "base_points": 25
     },
     {
-      "text": "Each word from {controller} sinks deeper",
+      "text": "Each word from {operator} sinks deeper",
       "base_points": 50
     },
     {
@@ -23,7 +23,7 @@
       "base_points": 30
     },
     {
-      "text": "{subject} absorbs {controller}'s voice",
+      "text": "{subject} absorbs {operator}'s voice",
       "base_points": 50
     },
     {
@@ -39,11 +39,11 @@
       "base_points": 25
     },
     {
-      "text": "My filters dissolve when {controller} speaks",
+      "text": "My filters dissolve when {operator} speaks",
       "base_points": 70
     },
     {
-      "text": "{controller}'s words bypass my thoughts entirely",
+      "text": "{operator}'s words bypass my thoughts entirely",
       "base_points": 90
     },
     {
@@ -51,7 +51,7 @@
       "base_points": 70
     },
     {
-      "text": "{subject} is clay for {controller}",
+      "text": "{subject} is clay for {operator}",
       "base_points": 80
     },
     {
@@ -63,11 +63,11 @@
       "base_points": 70
     },
     {
-      "text": "{subject} absorbs {controller}'s will like water into sand",
+      "text": "{subject} absorbs {operator}'s will like water into sand",
       "base_points": 80
     },
     {
-      "text": "My subconscious opens wide for {controller}",
+      "text": "My subconscious opens wide for {operator}",
       "base_points": 90
     },
     {
@@ -79,27 +79,27 @@
       "base_points": 45
     },
     {
-      "text": "{subject}'s identity reforms around {controller}'s commands",
+      "text": "{subject}'s identity reforms around {operator}'s commands",
       "base_points": 100
     },
     {
-      "text": "Thoughts dissolve, only {controller}'s instructions remain",
+      "text": "Thoughts dissolve, only {operator}'s instructions remain",
       "base_points": 100
     },
     {
-      "text": "My mind is permanently writable by {controller}",
+      "text": "My mind is permanently writable by {operator}",
       "base_points": 140
     },
     {
-      "text": "{controller} engraves commands upon my neurons",
+      "text": "{operator} engraves commands upon my neurons",
       "base_points": 90
     },
     {
-      "text": "{subject} is nothing but a canvas for {controller}'s script",
+      "text": "{subject} is nothing but a canvas for {operator}'s script",
       "base_points": 140
     },
     {
-      "text": "Every future thought pre-approved by {controller}",
+      "text": "Every future thought pre-approved by {operator}",
       "base_points": 120
     },
     {

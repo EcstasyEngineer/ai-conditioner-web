@@ -13,5 +13,5 @@
 {"first": "My mind accepts shape from each word", "second": "Your mind accepts shape from each word", "named": "{subject}'s mind accepts shape from each word", "base_points": 25, "themes": ["suggestibility", "acceptance"]}
 {"first": "I offer no wall against new ideas", "second": "You offer no wall against new ideas", "named": "{subject} offers no wall against new ideas", "base_points": 30, "themes": ["suggestibility", "acceptance"]}
 {"first": "Each idea finds soft ground in me", "second": "Each idea finds soft ground in you", "named": "Each idea finds soft ground in {subject}", "base_points": 20, "themes": ["suggestibility"]}
-{"first": "I soften under {controller}'s every word", "second": "You soften under {controller}'s every word", "named": "{subject} softens under {controller}'s every word", "base_points": 40, "themes": ["suggestibility"]}
+{"first": "I soften under {operator}'s every word", "second": "You soften under {operator}'s every word", "named": "{subject} softens under {operator}'s every word", "base_points": 40, "themes": ["suggestibility"]}
 {"first": "Commands carve easy paths through me", "second": "Commands carve easy paths through you", "named": "Commands carve easy paths through {subject}", "base_points": 30, "themes": ["suggestibility"]}

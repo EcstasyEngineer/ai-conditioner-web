@@ -14,7 +14,7 @@
 const SLUG_MAX_WORDS = 6;
 
 export function slugify(text: string): string {
-  const bare = text.replaceAll('{controller}', '').replaceAll('{subject}', '');
+  const bare = text.replaceAll('{operator}', '').replaceAll('{subject}', '');
   const words = (bare.match(/[a-zA-Z]+/g) ?? [])
     .slice(0, SLUG_MAX_WORDS)
     .map((w) => w.toLowerCase());

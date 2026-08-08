@@ -88,7 +88,7 @@ describe('every shared type is reachable and named exactly once', () => {
       ["You're sinking deeper", 'second'],
       ['{subject} sinks deeper', 'named'],
       ['Resistance melts away with each breath', 'impersonal'],
-      ['I kneel when {controller} speaks', 'first'],
+      ['I kneel when {operator} speaks', 'first'],
       ["{subject}'s thoughts go quiet", 'named'],
       ['I watch {subject} sink', 'mixed'],
     ];
@@ -256,7 +256,7 @@ describe('a PlanError always names a fix', () => {
     const example: PlanError = {
       kind: 'empty-pool',
       message: 'consent filters left no eligible mantras',
-      fix: 'raise the intensity cap or re-enable controller mantras first',
+      fix: 'raise the intensity cap or re-enable operator mantras first',
     };
     expect(example.fix.length).toBeGreaterThan(0);
   });

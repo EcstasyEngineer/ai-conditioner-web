@@ -11,9 +11,9 @@
 {"first": "My will buckles under the first real push", "second": "Your will buckles under the first real push", "named": "{subject}'s will buckles under the first real push", "base_points": 35, "themes": ["resistance"]}
 {"first": "I try to stand firm and fold anyway", "second": "You try to stand firm and fold anyway", "named": "{subject} tries to stand firm and folds anyway", "base_points": 35, "themes": ["resistance", "submission"]}
 {"first": "I claw at freedom and lose ground", "second": "You claw at freedom and lose ground", "named": "{subject} claws at freedom and loses ground", "base_points": 35, "themes": ["resistance"]}
-{"first": "I cannot outlast {controller}'s grip", "second": "You cannot outlast {controller}'s grip", "named": "{subject} cannot outlast {controller}'s grip", "base_points": 40, "themes": ["resistance"]}
-{"first": "I fight {controller} and lose anyway", "second": "You fight {controller} and lose anyway", "named": "{subject} fights {controller} and loses anyway", "base_points": 40, "themes": ["resistance"]}
-{"first": "I crack the moment {controller} presses", "second": "You crack the moment {controller} presses", "named": "{subject} cracks the moment {controller} presses", "base_points": 40, "themes": ["resistance", "submission"]}
+{"first": "I cannot outlast {operator}'s grip", "second": "You cannot outlast {operator}'s grip", "named": "{subject} cannot outlast {operator}'s grip", "base_points": 40, "themes": ["resistance"]}
+{"first": "I fight {operator} and lose anyway", "second": "You fight {operator} and lose anyway", "named": "{subject} fights {operator} and loses anyway", "base_points": 40, "themes": ["resistance"]}
+{"first": "I crack the moment {operator} presses", "second": "You crack the moment {operator} presses", "named": "{subject} cracks the moment {operator} presses", "base_points": 40, "themes": ["resistance", "submission"]}
 {"first": "I dig in and still get pulled under", "second": "You dig in and still get pulled under", "named": "{subject} digs in and still gets pulled under", "base_points": 30, "themes": ["resistance"]}
 {"first": "I brace for a fight I cannot win", "second": "You brace for a fight you cannot win", "named": "{subject} braces for a fight {subject} cannot win", "base_points": 30, "themes": ["resistance"]}
 {"first": "Every time I struggle the hold tightens", "second": "Every time you struggle the hold tightens", "named": "Every time {subject} struggles the hold tightens", "base_points": 30, "themes": ["resistance"]}

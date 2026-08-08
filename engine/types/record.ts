@@ -46,7 +46,7 @@ export const PERSON_VALUES: readonly Person[] = ['first', 'second', 'named'] as 
  * Marker flags — DESIGN.md §2.1.
  *
  * Exactly the two that are live signals and cannot drift, because each is a
- * substring test against the text it describes. `has_controller` is a consent
+ * substring test against the text it describes. `has_operator` is a consent
  * filter; `has_subject` drives person-variant rendering.
  *
  * Three sibling fields were deleted rather than kept as reserved slots.
@@ -57,7 +57,7 @@ export const PERSON_VALUES: readonly Person[] = ['first', 'second', 'named'] as 
  * The object stays open for additive keys.
  */
 export interface Markers {
-  has_controller: boolean;
+  has_operator: boolean;
   has_subject: boolean;
 }
 
@@ -65,7 +65,7 @@ export interface Markers {
  * One mantra as stored — DESIGN.md §2.1. Exactly four fields, no more.
  *
  * `text` is a RAW TEMPLATE and is never rendered at rest. Substitution happens
- * at display time (M3), so renaming a controller retroactively re-renders even
+ * at display time (M3), so renaming an operator retroactively re-renders even
  * content already in flight.
  */
 export interface PoolRecord {

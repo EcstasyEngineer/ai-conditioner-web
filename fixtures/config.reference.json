@@ -16,7 +16,7 @@
     "  no exclusions       `excludedThemes: []`. Exclusion is the primary consent surface, and",
     "                      the reference config leaves it empty so a starved slot here is",
     "                      always a corpus or planner finding rather than a config one.",
-    "  controller on       records with `has_controller` are eligible.",
+    "  operator on       records with `has_operator` are eligible.",
     "  20 min              1200000ms. At the 3400ms mean dwell this is length 353.",
     "  parallel mode       three DIFFERENT mantras per step, one per lane, each in its",
     "                      scheduled person. The shipped default.",
@@ -31,10 +31,10 @@
 
   "themes": ["acceptance", "obedience", "focus", "submission"],
   "excludedThemes": [],
-  "allowController": true,
+  "allowOperator": true,
   "names": {
     "subject": "Alex",
-    "controller": "Morgan"
+    "operator": "Morgan"
   },
   "targetDurationMs": 1200000,
   "mode": "parallel",

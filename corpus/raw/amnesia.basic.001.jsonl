@@ -13,7 +13,7 @@
 {"first": "I lose the trail of last Tuesday", "second": "You lose the trail of last Tuesday", "named": "{subject} loses the trail of last Tuesday", "base_points": 30, "themes": ["amnesia"]}
 {"first": "Half-formed days dissolve when I look back", "second": "Half-formed days dissolve when you look back", "named": "Half-formed days dissolve when {subject} looks back", "base_points": 30, "themes": ["amnesia"]}
 {"first": "I leave half-finished thoughts in the mist", "second": "You leave half-finished thoughts in the mist", "named": "{subject} leaves half-finished thoughts in the mist", "base_points": 35, "themes": ["amnesia"]}
-{"first": "I grow foggy and calm around {controller}", "second": "You grow foggy and calm around {controller}", "named": "{subject} grows foggy and calm around {controller}", "base_points": 40, "themes": ["amnesia"]}
+{"first": "I grow foggy and calm around {operator}", "second": "You grow foggy and calm around {operator}", "named": "{subject} grows foggy and calm around {operator}", "base_points": 40, "themes": ["amnesia"]}
 {"first": "When I rest, last week's edges go soft", "second": "When you rest, last week's edges go soft", "named": "When {subject} rests, last week's edges go soft", "base_points": 25, "themes": ["amnesia"]}
 {"first": "I brush past an hour and leave it lost", "second": "You brush past an hour and leave it lost", "named": "{subject} brushes past an hour and leaves it lost", "base_points": 35, "themes": ["amnesia"]}
-{"first": "Around {controller} my recent hours blur", "second": "Around {controller} your recent hours blur", "named": "Around {controller} {subject}'s recent hours blur", "base_points": 40, "themes": ["amnesia"]}
+{"first": "Around {operator} my recent hours blur", "second": "Around {operator} your recent hours blur", "named": "Around {operator} {subject}'s recent hours blur", "base_points": 40, "themes": ["amnesia"]}

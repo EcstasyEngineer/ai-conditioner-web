@@ -1,14 +1,14 @@
 {"schema": "hypnoapp.corpus.backfill.v1", "theme": "feminine", "generator": {"model": "grok-4.5-build", "prompt_sha": "a44c59cd80aa9469", "generated_at": "2026-08-08T13:38:23Z", "batch": "backfill.feminine", "reviewed": false}}
 {"id": "i_feel_pretty", "first": "I feel pretty", "second": "You feel pretty", "named": "{subject} feels pretty"}
-{"id": "wants_to_be_beautiful_for", "first": "I want to be beautiful for {controller}", "second": "You want to be beautiful for {controller}", "named": "{subject} wants to be beautiful for {controller}"}
+{"id": "wants_to_be_beautiful_for", "first": "I want to be beautiful for {operator}", "second": "You want to be beautiful for {operator}", "named": "{subject} wants to be beautiful for {operator}"}
 {"id": "i_have_a_soft_gentle_voice", "first": "I have a soft, gentle voice", "second": "You have a soft, gentle voice", "named": "{subject} has a soft, gentle voice"}
 {"id": "enjoys_feeling_delicate", "first": "I enjoy feeling delicate", "second": "You enjoy feeling delicate", "named": "{subject} enjoys feeling delicate"}
-{"id": "it_feels_good_to_be_pretty", "first": "It feels good to be pretty for {controller}", "second": "It feels good to be pretty for {controller}", "named": "It feels good to be pretty for {controller}"}
+{"id": "it_feels_good_to_be_pretty", "first": "It feels good to be pretty for {operator}", "second": "It feels good to be pretty for {operator}", "named": "It feels good to be pretty for {operator}"}
 {"id": "explores_their_softer_side", "first": "I explore my softer side", "second": "You explore your softer side", "named": "{subject} explores their softer side"}
 {"id": "my_movements_grow_more_elegant", "first": "My movements grow more elegant", "second": "Your movements grow more elegant", "named": "{subject}'s movements grow more elegant"}
-{"id": "is_a_pretty_thing_for", "first": "I am a pretty thing for {controller}", "second": "You are a pretty thing for {controller}", "named": "{subject} is a pretty thing for {controller}"}
+{"id": "is_a_pretty_thing_for", "first": "I am a pretty thing for {operator}", "second": "You are a pretty thing for {operator}", "named": "{subject} is a pretty thing for {operator}"}
 {"id": "i_love_wearing_soft_pretty_clothes", "first": "I love wearing soft, pretty clothes", "second": "You love wearing soft, pretty clothes", "named": "{subject} loves wearing soft, pretty clothes"}
-{"id": "i_need_to_feel_beautiful", "first": "I need {controller} to feel beautiful", "second": "You need {controller} to feel beautiful", "named": "{subject} needs {controller} to feel beautiful"}
+{"id": "i_need_to_feel_beautiful", "first": "I need {operator} to feel beautiful", "second": "You need {operator} to feel beautiful", "named": "{subject} needs {operator} to feel beautiful"}
 {"id": "s_smile_is_sweet_and_inviting", "first": "My smile is sweet and inviting", "second": "Your smile is sweet and inviting", "named": "{subject}'s smile is sweet and inviting"}
 {"id": "learns_to_be_more_receptive", "first": "I learn to be more receptive", "second": "You learn to be more receptive", "named": "{subject} learns to be more receptive"}
 {"id": "my_hands_are_soft_and_delicate", "first": "My hands are soft and delicate", "second": "Your hands are soft and delicate", "named": "{subject}'s hands are soft and delicate"}
@@ -17,16 +17,16 @@
 {"id": "s_body_is_soft_and_yielding", "first": "My body is soft and yielding", "second": "Your body is soft and yielding", "named": "{subject}'s body is soft and yielding"}
 {"id": "my_thoughts_grow_softer_more_gentle", "first": "My thoughts grow softer, more gentle", "second": "Your thoughts grow softer, more gentle", "named": "{subject}'s thoughts grow softer, more gentle"}
 {"id": "is_defined_by_grace_and_beauty", "first": "I am defined by grace and beauty", "second": "You are defined by grace and beauty", "named": "{subject} is defined by grace and beauty"}
-{"id": "i_am_an_object_of_beauty", "first": "I am an object of beauty for {controller}", "second": "You are an object of beauty for {controller}", "named": "{subject} is an object of beauty for {controller}"}
+{"id": "i_am_an_object_of_beauty", "first": "I am an object of beauty for {operator}", "second": "You are an object of beauty for {operator}", "named": "{subject} is an object of beauty for {operator}"}
 {"id": "finds_pleasure_in_their_own_beauty", "first": "I find pleasure in my own beauty", "second": "You find pleasure in your own beauty", "named": "{subject} finds pleasure in their own beauty"}
 {"id": "my_true_self_is_feminine_and", "first": "My true self is feminine and beautiful", "second": "Your true self is feminine and beautiful", "named": "{subject}'s true self is feminine and beautiful"}
 {"id": "femininity_is_s_core_identity", "first": "Femininity is my core identity", "second": "Femininity is your core identity", "named": "Femininity is {subject}'s core identity"}
-{"id": "i_am_a_delicate_flower_for", "first": "I am a delicate flower for {controller}", "second": "You are a delicate flower for {controller}", "named": "{subject} is a delicate flower for {controller}"}
+{"id": "i_am_a_delicate_flower_for", "first": "I am a delicate flower for {operator}", "second": "You are a delicate flower for {operator}", "named": "{subject} is a delicate flower for {operator}"}
 {"id": "only_thinks_beautiful_pleasing_thoughts", "first": "I only think beautiful, pleasing thoughts", "second": "You only think beautiful, pleasing thoughts", "named": "{subject} only thinks beautiful, pleasing thoughts"}
 {"id": "i_am_consumed_by_the_need", "first": "I am consumed by the need to be pretty", "second": "You are consumed by the need to be pretty", "named": "{subject} is consumed by the need to be pretty"}
 {"id": "s_every_movement_flows_with_elegance", "first": "My every movement flows with elegance", "second": "Your every movement flows with elegance", "named": "{subject}'s every movement flows with elegance"}
 {"id": "my_transformation_into_femininity_is_permanent", "first": "My transformation into femininity is permanent", "second": "Your transformation into femininity is permanent", "named": "{subject}'s transformation into femininity is permanent"}
-{"id": "exists_to_be_beautiful_for", "first": "I exist to be beautiful for {controller}", "second": "You exist to be beautiful for {controller}", "named": "{subject} exists to be beautiful for {controller}"}
+{"id": "exists_to_be_beautiful_for", "first": "I exist to be beautiful for {operator}", "second": "You exist to be beautiful for {operator}", "named": "{subject} exists to be beautiful for {operator}"}
 {"id": "i_am_nothing_but_beauty_and", "first": "I am nothing but beauty and grace", "second": "You are nothing but beauty and grace", "named": "{subject} is nothing but beauty and grace"}
-{"id": "is_s_perfect_pretty_creation", "first": "I am {controller}'s perfect, pretty creation", "second": "You are {controller}'s perfect, pretty creation", "named": "{subject} is {controller}'s perfect, pretty creation"}
-{"id": "sculpted_me_into_a_work_of", "first": "{controller} sculpted me into a work of art", "second": "{controller} sculpted you into a work of art", "named": "{controller} sculpted {subject} into a work of art"}
+{"id": "is_s_perfect_pretty_creation", "first": "I am {operator}'s perfect, pretty creation", "second": "You are {operator}'s perfect, pretty creation", "named": "{subject} is {operator}'s perfect, pretty creation"}
+{"id": "sculpted_me_into_a_work_of", "first": "{operator} sculpted me into a work of art", "second": "{operator} sculpted you into a work of art", "named": "{operator} sculpted {subject} into a work of art"}

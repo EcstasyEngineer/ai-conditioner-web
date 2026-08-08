@@ -1,9 +1,9 @@
 {"schema": "hypnoapp.corpus.v1", "theme": "degradation", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "5ea9184dbc5e9801", "generated_at": "2026-08-08T13:50:26Z", "batch": "degradation.basic.001"}}
 {"first": "I blush with pleasure at mockery", "second": "You blush with pleasure at mockery", "named": "{subject} blushes with pleasure at mockery", "base_points": 25, "themes": ["degradation"]}
 {"first": "My lowered place thrills me", "second": "Your lowered place thrills you", "named": "{subject}'s lowered place thrills {subject}", "base_points": 30, "themes": ["degradation"]}
-{"first": "My embarrassment delights {controller}", "second": "Your embarrassment delights {controller}", "named": "{subject}'s embarrassment delights {controller}", "base_points": 40, "themes": ["degradation"]}
+{"first": "My embarrassment delights {operator}", "second": "Your embarrassment delights {operator}", "named": "{subject}'s embarrassment delights {operator}", "base_points": 40, "themes": ["degradation"]}
 {"first": "Shame warms me from the inside", "second": "Shame warms you from the inside", "named": "Shame warms {subject} from the inside", "base_points": 30, "themes": ["degradation"]}
-{"first": "I melt when {controller} laughs at me", "second": "You melt when {controller} laughs at you", "named": "{subject} melts when {controller} laughs at {subject}", "base_points": 40, "themes": ["degradation"]}
+{"first": "I melt when {operator} laughs at me", "second": "You melt when {operator} laughs at you", "named": "{subject} melts when {operator} laughs at {subject}", "base_points": 40, "themes": ["degradation"]}
 {"first": "Mockery blooms into sweet pleasure", "second": "Mockery blooms into sweet pleasure", "named": "Mockery blooms into sweet pleasure", "base_points": 30, "themes": ["degradation"]}
 {"first": "Being put in my place thrills me", "second": "Being put in your place thrills you", "named": "Being put in {subject}'s place thrills {subject}", "base_points": 35, "themes": ["degradation", "submission"]}
 {"first": "I love being the punchline", "second": "You love being the punchline", "named": "{subject} loves being the punchline", "base_points": 30, "themes": ["degradation"]}
@@ -12,7 +12,7 @@
 {"first": "I welcome every jab of ridicule", "second": "You welcome every jab of ridicule", "named": "{subject} welcomes every jab of ridicule", "base_points": 30, "themes": ["degradation", "acceptance"]}
 {"first": "Shame softens into eager pleasure", "second": "Shame softens into eager pleasure", "named": "Shame softens into eager pleasure", "base_points": 25, "themes": ["degradation"]}
 {"first": "Looking foolish fills me with joy", "second": "Looking foolish fills you with joy", "named": "Looking foolish fills {subject} with joy", "base_points": 30, "themes": ["degradation"]}
-{"first": "I glow under {controller}'s mockery", "second": "You glow under {controller}'s mockery", "named": "{subject} glows under {controller}'s mockery", "base_points": 40, "themes": ["degradation", "submission"]}
+{"first": "I glow under {operator}'s mockery", "second": "You glow under {operator}'s mockery", "named": "{subject} glows under {operator}'s mockery", "base_points": 40, "themes": ["degradation", "submission"]}
 {"first": "Being pathetic feels delicious to me", "second": "Being pathetic feels delicious to you", "named": "Being pathetic feels delicious to {subject}", "base_points": 35, "themes": ["degradation"]}
 {"first": "The flush of shame thrills me", "second": "The flush of shame thrills you", "named": "The flush of shame thrills {subject}", "base_points": 30, "themes": ["degradation"]}
 {"first": "I savor every step lower", "second": "You savor every step lower", "named": "{subject} savors every step lower", "base_points": 25, "themes": ["degradation"]}

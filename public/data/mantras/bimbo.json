@@ -30,7 +30,7 @@
       "base_points": 45
     },
     {
-      "text": "{controller} carries my serious thoughts",
+      "text": "{operator} carries my serious thoughts",
       "base_points": 70
     },
     {
@@ -54,7 +54,7 @@
       "base_points": 55
     },
     {
-      "text": "I just smile and echo {controller}",
+      "text": "I just smile and echo {operator}",
       "base_points": 75
     },
     {
@@ -86,7 +86,7 @@
       "base_points": 85
     },
     {
-      "text": "{controller}'s words glaze my mind with gloss",
+      "text": "{operator}'s words glaze my mind with gloss",
       "base_points": 90
     },
     {
@@ -110,7 +110,7 @@
       "base_points": 160
     },
     {
-      "text": "{subject} is pure giggle-fuel for {controller}",
+      "text": "{subject} is pure giggle-fuel for {operator}",
       "base_points": 110
     },
     {

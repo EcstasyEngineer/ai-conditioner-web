@@ -61,7 +61,7 @@ export function isPov(value: unknown): value is Pov {
 export function validateMarkers(value: unknown): value is Markers {
   if (!isPlainObject(value)) return false;
   return (
-    typeof value.has_controller === 'boolean' &&
+    typeof value.has_operator === 'boolean' &&
     typeof value.has_subject === 'boolean'
   );
 }

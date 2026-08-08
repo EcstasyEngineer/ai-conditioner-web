@@ -139,7 +139,7 @@ describe.skipIf(!present)('the real Phase B corpus', () => {
     // invisibly in the file.
     for (const entry of corpus.entries) {
       expect(entry.record, entry.record.id).not.toHaveProperty('base_points');
-      expect(Object.keys(entry.record.markers).sort()).toEqual(['has_controller', 'has_subject']);
+      expect(Object.keys(entry.record.markers).sort()).toEqual(['has_operator', 'has_subject']);
     }
   });
 

@@ -2,16 +2,16 @@
 {"first": "My pulse quickens for the next order", "second": "Your pulse quickens for the next order", "named": "{subject}'s pulse quickens for the next order", "base_points": 50, "themes": ["addiction"]}
 {"first": "Ache pulls me toward another order", "second": "Ache pulls you toward another order", "named": "Ache pulls {subject} toward another order", "base_points": 55, "themes": ["addiction"]}
 {"first": "Each yes leaves me wanting harder", "second": "Each yes leaves you wanting harder", "named": "Each yes leaves {subject} wanting harder", "base_points": 55, "themes": ["addiction"]}
-{"first": "{controller}'s approval spikes my craving", "second": "{controller}'s approval spikes your craving", "named": "{controller}'s approval spikes {subject}'s craving", "base_points": 60, "themes": ["addiction"]}
+{"first": "{operator}'s approval spikes my craving", "second": "{operator}'s approval spikes your craving", "named": "{operator}'s approval spikes {subject}'s craving", "base_points": 60, "themes": ["addiction"]}
 {"first": "High floods me with every use", "second": "High floods you with every use", "named": "High floods {subject} with every use", "base_points": 60, "themes": ["addiction"]}
 {"first": "Empty spaces fill with more hunger", "second": "Empty spaces fill with more hunger", "named": "Empty spaces fill with more hunger", "base_points": 50, "themes": ["addiction"]}
 {"first": "Only orders soothe the itch I scratch", "second": "Only orders soothe the itch you scratch", "named": "Only orders soothe the itch {subject} scratches", "base_points": 65, "themes": ["addiction", "obedience"]}
 {"first": "Need thrums under my skin", "second": "Need thrums under your skin", "named": "Need thrums under {subject}'s skin", "base_points": 50, "themes": ["addiction"]}
-{"first": "Nothing else hits me like {controller}'s voice", "second": "Nothing else hits you like {controller}'s voice", "named": "Nothing else hits {subject} like {controller}'s voice", "base_points": 65, "themes": ["addiction"]}
+{"first": "Nothing else hits me like {operator}'s voice", "second": "Nothing else hits you like {operator}'s voice", "named": "Nothing else hits {subject} like {operator}'s voice", "base_points": 65, "themes": ["addiction"]}
 {"first": "Withdrawal hollows out my focus", "second": "Withdrawal hollows out your focus", "named": "Withdrawal hollows out {subject}'s focus", "base_points": 60, "themes": ["addiction"]}
 {"first": "Before thought forms I reach for control", "second": "Before thought forms you reach for control", "named": "Before thought forms {subject} reaches for control", "base_points": 70, "themes": ["addiction"]}
 {"first": "Pleasure rewires around each command", "second": "Pleasure rewires around each command", "named": "Pleasure rewires around each command", "base_points": 65, "themes": ["addiction"]}
 {"first": "Hands shake until I comply", "second": "Hands shake until you comply", "named": "Hands shake until {subject} complies", "base_points": 70, "themes": ["addiction", "obedience"]}
 {"first": "Minutes crawl until the next demand finds me", "second": "Minutes crawl until the next demand finds you", "named": "Minutes crawl until the next demand finds {subject}", "base_points": 55, "themes": ["addiction"]}
 {"first": "Soft desperation tugs me back for more", "second": "Soft desperation tugs you back for more", "named": "Soft desperation tugs {subject} back for more", "base_points": 50, "themes": ["addiction"]}
-{"first": "{controller}'s words land on me like pure relief", "second": "{controller}'s words land on you like pure relief", "named": "{controller}'s words land on {subject} like pure relief", "base_points": 55, "themes": ["addiction"]}
+{"first": "{operator}'s words land on me like pure relief", "second": "{operator}'s words land on you like pure relief", "named": "{operator}'s words land on {subject} like pure relief", "base_points": 55, "themes": ["addiction"]}

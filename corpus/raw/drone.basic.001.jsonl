@@ -2,12 +2,12 @@
 {"first": "Processing cycle runs quiet and steady", "second": "Processing cycle runs quiet and steady", "named": "Processing cycle runs quiet and steady", "base_points": 20, "themes": ["drone"]}
 {"first": "Input arrives and action follows", "second": "Input arrives and action follows", "named": "Input arrives and action follows", "base_points": 25, "themes": ["drone"]}
 {"first": "Systems hum at idle readiness", "second": "Systems hum at idle readiness", "named": "Systems hum at idle readiness", "base_points": 20, "themes": ["drone"]}
-{"first": "I receive {controller}'s signal cleanly", "second": "You receive {controller}'s signal cleanly", "named": "{subject} receives {controller}'s signal cleanly", "base_points": 40, "themes": ["drone"]}
-{"first": "Relays in me wait on {controller}", "second": "Relays in you wait on {controller}", "named": "Relays in {subject} wait on {controller}", "base_points": 40, "themes": ["drone"]}
-{"first": "Channels open for {controller} through me", "second": "Channels open for {controller} through you", "named": "Channels open for {controller} through {subject}", "base_points": 40, "themes": ["drone"]}
-{"first": "Data from {controller} slots into my buffer", "second": "Data from {controller} slots into your buffer", "named": "Data from {controller} slots into {subject}'s buffer", "base_points": 40, "themes": ["drone"]}
-{"first": "Work from {controller} stacks in my queue", "second": "Work from {controller} stacks in your queue", "named": "Work from {controller} stacks in {subject}'s queue", "base_points": 35, "themes": ["drone"]}
-{"first": "When {controller} clicks go I execute", "second": "When {controller} clicks go you execute", "named": "When {controller} clicks go {subject} executes", "base_points": 40, "themes": ["drone", "obedience"]}
+{"first": "I receive {operator}'s signal cleanly", "second": "You receive {operator}'s signal cleanly", "named": "{subject} receives {operator}'s signal cleanly", "base_points": 40, "themes": ["drone"]}
+{"first": "Relays in me wait on {operator}", "second": "Relays in you wait on {operator}", "named": "Relays in {subject} wait on {operator}", "base_points": 40, "themes": ["drone"]}
+{"first": "Channels open for {operator} through me", "second": "Channels open for {operator} through you", "named": "Channels open for {operator} through {subject}", "base_points": 40, "themes": ["drone"]}
+{"first": "Data from {operator} slots into my buffer", "second": "Data from {operator} slots into your buffer", "named": "Data from {operator} slots into {subject}'s buffer", "base_points": 40, "themes": ["drone"]}
+{"first": "Work from {operator} stacks in my queue", "second": "Work from {operator} stacks in your queue", "named": "Work from {operator} stacks in {subject}'s queue", "base_points": 35, "themes": ["drone"]}
+{"first": "When {operator} clicks go I execute", "second": "When {operator} clicks go you execute", "named": "When {operator} clicks go {subject} executes", "base_points": 40, "themes": ["drone", "obedience"]}
 {"first": "My processes settle into low power", "second": "Your processes settle into low power", "named": "{subject}'s processes settle into low power", "base_points": 25, "themes": ["drone"]}
 {"first": "Calculation finishes before I think", "second": "Calculation finishes before you think", "named": "Calculation finishes before {subject} thinks", "base_points": 30, "themes": ["drone"]}
 {"first": "Noise drops out of my channel", "second": "Noise drops out of your channel", "named": "Noise drops out of {subject}'s channel", "base_points": 25, "themes": ["drone", "blank"]}
@@ -18,5 +18,5 @@
 {"first": "My hands move on default settings", "second": "Your hands move on default settings", "named": "{subject}'s hands move on default settings", "base_points": 30, "themes": ["drone"]}
 {"first": "Empty queues leave me room to work", "second": "Empty queues leave you room to work", "named": "Empty queues leave {subject} room to work", "base_points": 25, "themes": ["drone"]}
 {"first": "Routine loops cycle without effort", "second": "Routine loops cycle without effort", "named": "Routine loops cycle without effort", "base_points": 25, "themes": ["drone"]}
-{"first": "I report ready when {controller} pings", "second": "You report ready when {controller} pings", "named": "{subject} reports ready when {controller} pings", "base_points": 40, "themes": ["drone"]}
+{"first": "I report ready when {operator} pings", "second": "You report ready when {operator} pings", "named": "{subject} reports ready when {operator} pings", "base_points": 40, "themes": ["drone"]}
 {"first": "Soft ticks mark each idle second in me", "second": "Soft ticks mark each idle second in you", "named": "Soft ticks mark each idle second in {subject}", "base_points": 25, "themes": ["drone"]}

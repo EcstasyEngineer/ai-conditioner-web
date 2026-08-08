@@ -74,7 +74,7 @@
     "                    reference config' holds. An empty array is an assertion, not a gap.",
     "",
     "  `text` is the RAW TEMPLATE for that lane's person, straight from persons.mini.json.",
-    "  {subject} and {controller} are still unsubstituted: substitution happens in the",
+    "  {subject} and {operator} are still unsubstituted: substitution happens in the",
     "  renderer at display time, never at selection or storage time."
   ],
   "meta": {
@@ -100,7 +100,7 @@
       "right": 1.0
     },
     "subjectName": "Alex",
-    "controllerName": "Morgan"
+    "operatorName": "Morgan"
   },
   "ticks": [
     {
@@ -210,9 +210,9 @@
       "dwellMs": 3860,
       "phase": "middle",
       "center": {
-        "mantraId": "you_hold_controller_s_word_and_nothing_else",
+        "mantraId": "you_hold_operator_s_word_and_nothing_else",
         "person": "second",
-        "text": "You hold {controller}'s word and nothing else",
+        "text": "You hold {operator}'s word and nothing else",
         "split": "LINE"
       },
       "left": {
@@ -260,9 +260,9 @@
       "dwellMs": 3580,
       "phase": "middle",
       "center": {
-        "mantraId": "you_hold_controller_s_word_and_nothing_else",
+        "mantraId": "you_hold_operator_s_word_and_nothing_else",
         "person": "second",
-        "text": "You hold {controller}'s word and nothing else",
+        "text": "You hold {operator}'s word and nothing else",
         "split": "LINE"
       },
       "left": {
@@ -310,9 +310,9 @@
       "dwellMs": 3253,
       "phase": "middle",
       "center": {
-        "mantraId": "you_hold_controller_s_word_and_nothing_else",
+        "mantraId": "you_hold_operator_s_word_and_nothing_else",
         "person": "second",
-        "text": "You hold {controller}'s word and nothing else",
+        "text": "You hold {operator}'s word and nothing else",
         "split": "LINE"
       },
       "left": {
@@ -360,9 +360,9 @@
       "dwellMs": 2988,
       "phase": "middle",
       "center": {
-        "mantraId": "you_obey_controller_before_you_know_you_have",
+        "mantraId": "you_obey_operator_before_you_know_you_have",
         "person": "second",
-        "text": "You obey {controller} before you know you have",
+        "text": "You obey {operator} before you know you have",
         "split": "LINE"
       },
       "left": {
@@ -410,15 +410,15 @@
       "dwellMs": 2901,
       "phase": "middle",
       "center": {
-        "mantraId": "you_obey_controller_before_you_know_you_have",
+        "mantraId": "you_obey_operator_before_you_know_you_have",
         "person": "second",
-        "text": "You obey {controller} before you know you have",
+        "text": "You obey {operator} before you know you have",
         "split": "LINE"
       },
       "left": {
-        "mantraId": "subject_does_anything_controller_asks_for",
+        "mantraId": "subject_does_anything_operator_asks_for",
         "person": "named",
-        "text": "{subject} does anything {controller} asks for",
+        "text": "{subject} does anything {operator} asks for",
         "split": "WORD"
       },
       "right": {
@@ -460,15 +460,15 @@
       "dwellMs": 3035,
       "phase": "middle",
       "center": {
-        "mantraId": "you_obey_controller_before_you_know_you_have",
+        "mantraId": "you_obey_operator_before_you_know_you_have",
         "person": "second",
-        "text": "You obey {controller} before you know you have",
+        "text": "You obey {operator} before you know you have",
         "split": "LINE"
       },
       "left": {
-        "mantraId": "subject_does_anything_controller_asks_for",
+        "mantraId": "subject_does_anything_operator_asks_for",
         "person": "named",
-        "text": "{subject} does anything {controller} asks for",
+        "text": "{subject} does anything {operator} asks for",
         "split": "WORD"
       },
       "right": {

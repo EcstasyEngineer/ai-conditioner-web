@@ -3,7 +3,7 @@
   "description": "Complete accessibility and willingness to fulfill any request",
   "generation": {
     "good": [
-      "{subject} is always ready for {controller}",
+      "{subject} is always ready for {operator}",
       "availability as identity"
     ],
     "bad": [
@@ -38,7 +38,7 @@
       "base_points": 60
     },
     {
-      "text": "{controller} can use my body at any time",
+      "text": "{operator} can use my body at any time",
       "base_points": 80
     },
     {
@@ -106,7 +106,7 @@
       "base_points": 85
     },
     {
-      "text": "{subject} is permanently available for {controller}'s use",
+      "text": "{subject} is permanently available for {operator}'s use",
       "base_points": 140
     },
     {

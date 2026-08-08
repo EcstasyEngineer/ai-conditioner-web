@@ -3,14 +3,14 @@
   "description": "Controlled movement and speech through invisible strings and guidance",
   "generation": {
     "good": [
-      "{subject} dances on {controller}'s strings",
+      "{subject} dances on {operator}'s strings",
       "vivid, specific"
     ],
     "bad": [
       "{subject} is controlled",
       "generic, loses puppet imagery"
     ],
-    "notes": "Headspace is dissociated, watching yourself move without willing it. Key imagery: strings, marionette, wooden limbs, hollow body, being animated by another. Boundary dissolution between self and controller is the core psychological lever. Distinguishes from drone (puppet is external control via strings, drone is internal programming)."
+    "notes": "Headspace is dissociated, watching yourself move without willing it. Key imagery: strings, marionette, wooden limbs, hollow body, being animated by another. Boundary dissolution between self and operator is the core psychological lever. Distinguishes from drone (puppet is external control via strings, drone is internal programming)."
   },
   "mantras": [
     {
@@ -26,7 +26,7 @@
       "base_points": 85
     },
     {
-      "text": "My thoughts only move when {controller} pulls",
+      "text": "My thoughts only move when {operator} pulls",
       "base_points": 100
     },
     {
@@ -38,7 +38,7 @@
       "base_points": 30
     },
     {
-      "text": "{controller} pulls my strings",
+      "text": "{operator} pulls my strings",
       "base_points": 60
     },
     {
@@ -54,7 +54,7 @@
       "base_points": 30
     },
     {
-      "text": "{controller}'s will moves {subject}",
+      "text": "{operator}'s will moves {subject}",
       "base_points": 70
     },
     {
@@ -62,11 +62,11 @@
       "base_points": 65
     },
     {
-      "text": "{subject} speaks the words {controller} provides",
+      "text": "{subject} speaks the words {operator} provides",
       "base_points": 50
     },
     {
-      "text": "{subject} dances on {controller}'s strings",
+      "text": "{subject} dances on {operator}'s strings",
       "base_points": 50
     },
     {
@@ -82,19 +82,19 @@
       "base_points": 50
     },
     {
-      "text": "{subject} loves being {controller}'s puppet",
+      "text": "{subject} loves being {operator}'s puppet",
       "base_points": 50
     },
     {
-      "text": "{subject} is hollowed out, waiting for {controller}'s command",
+      "text": "{subject} is hollowed out, waiting for {operator}'s command",
       "base_points": 100
     },
     {
-      "text": "My body is a tool for {controller} to animate",
+      "text": "My body is a tool for {operator} to animate",
       "base_points": 70
     },
     {
-      "text": "{subject} cannot tell where they end and {controller} begins",
+      "text": "{subject} cannot tell where they end and {operator} begins",
       "base_points": 120
     },
     {
@@ -102,7 +102,7 @@
       "base_points": 60
     },
     {
-      "text": "My only purpose is to perform for {controller}",
+      "text": "My only purpose is to perform for {operator}",
       "base_points": 100
     },
     {
@@ -110,7 +110,7 @@
       "base_points": 70
     },
     {
-      "text": "{subject} is completely inanimate without {controller}",
+      "text": "{subject} is completely inanimate without {operator}",
       "base_points": 80
     },
     {
@@ -122,7 +122,7 @@
       "base_points": 65
     },
     {
-      "text": "{subject} is {controller}'s puppet, now and forever",
+      "text": "{subject} is {operator}'s puppet, now and forever",
       "base_points": 160
     },
     {

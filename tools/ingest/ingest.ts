@@ -237,7 +237,7 @@ function ingestRecord(
     if (typeof r.markers !== 'object' || r.markers === null) {
       push('hard', 'BAD_MARKERS', 'markers must be an object');
     } else {
-      for (const derived of ['has_controller', 'has_subject']) {
+      for (const derived of ['has_operator', 'has_subject']) {
         if (derived in (r.markers as object)) {
           push('hard', 'DERIVED_MARKER', `markers.${derived} is derived and must not be authored`);
         }

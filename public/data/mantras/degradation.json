@@ -3,7 +3,7 @@
   "description": "Finding pleasure in being diminished, mocked, and put in one's place",
   "generation": {
     "good": [
-      "My embarrassment is a source of pleasure for {controller}",
+      "My embarrassment is a source of pleasure for {operator}",
       "shows the dynamic, not just a label"
     ],
     "bad": [
@@ -18,7 +18,7 @@
       "base_points": 25
     },
     {
-      "text": "{subject}'s embarrassment is a source of pleasure for {controller}",
+      "text": "{subject}'s embarrassment is a source of pleasure for {operator}",
       "base_points": 50
     },
     {
@@ -34,7 +34,7 @@
       "base_points": 40
     },
     {
-      "text": "{controller} finds my humiliation delightful",
+      "text": "{operator} finds my humiliation delightful",
       "base_points": 50
     },
     {
@@ -42,11 +42,11 @@
       "base_points": 55
     },
     {
-      "text": "{subject}'s degradation is a gift to {controller}",
+      "text": "{subject}'s degradation is a gift to {operator}",
       "base_points": 60
     },
     {
-      "text": "I am a clown for {controller}'s amusement",
+      "text": "I am a clown for {operator}'s amusement",
       "base_points": 55
     },
     {
@@ -110,11 +110,11 @@
       "base_points": 155
     },
     {
-      "text": "{subject} exists only to be mocked and used by {controller}",
+      "text": "{subject} exists only to be mocked and used by {operator}",
       "base_points": 165
     },
     {
-      "text": "I am nothing, and {controller} made me love it",
+      "text": "I am nothing, and {operator} made me love it",
       "base_points": 120
     }
   ]

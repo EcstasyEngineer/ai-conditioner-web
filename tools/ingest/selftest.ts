@@ -228,19 +228,19 @@ console.log('\n== L3 stance leakage ==');
   }, 'L3_FIRST_NO_PRONOUN'));
 }
 
-console.log('\n== §4.5 {controller} is never person-shifted ==');
+console.log('\n== §4.5 {operator} is never person-shifted ==');
 {
-  check('identical {controller} in all three passes', codes({
-    first: 'I kneel when {controller} speaks',
-    second: 'You kneel when {controller} speaks',
-    named: '{subject} kneels when {controller} speaks',
+  check('identical {operator} in all three passes', codes({
+    first: 'I kneel when {operator} speaks',
+    second: 'You kneel when {operator} speaks',
+    named: '{subject} kneels when {operator} speaks',
   }).length === 0);
 
-  check('dropping {controller} from one variant is HARD', hasHard({
-    first: 'I kneel when {controller} speaks',
+  check('dropping {operator} from one variant is HARD', hasHard({
+    first: 'I kneel when {operator} speaks',
     second: 'You kneel when he speaks',
-    named: '{subject} kneels when {controller} speaks',
-  }, 'CONTROLLER_SHIFTED'));
+    named: '{subject} kneels when {operator} speaks',
+  }, 'OPERATOR_SHIFTED'));
 }
 
 console.log('\n== §4.3 invariant case ==');
@@ -263,21 +263,21 @@ console.log('\n== §4.3 invariant case ==');
 console.log('\n== §4.2 pov derivation ==');
 {
   check('first', derivePov('My thoughts are being reprogrammed') === 'first');
-  check('named', derivePov("{subject} does anything for {controller}'s pleasure") === 'named');
+  check('named', derivePov("{subject} does anything for {operator}'s pleasure") === 'named');
   check('impersonal', derivePov('Resistance melts away with each breath') === 'impersonal');
   check('second', derivePov('Your thoughts are being reprogrammed') === 'second');
   check('mixed is detected', derivePov('I obey {subject}') === 'mixed');
-  check('{controller} alone does not make it named',
-    derivePov('Obedience belongs to {controller}') === 'impersonal');
+  check('{operator} alone does not make it named',
+    derivePov('Obedience belongs to {operator}') === 'impersonal');
   check("possessive {subject}'s counts as named",
     derivePov("{subject}'s mind is quiet") === 'named');
   check('tokenizer keeps placeholders whole',
-    tokenize('{subject} obeys {controller}').join('|') === '{subject}|obeys|{controller}');
+    tokenize('{subject} obeys {operator}').join('|') === '{subject}|obeys|{operator}');
 }
 
 console.log('\n== §8.1 structural: placeholders ==');
 {
-  check('bare placeholders pass', checkPlaceholders('{subject} obeys {controller}', 'x').length === 0);
+  check('bare placeholders pass', checkPlaceholders('{subject} obeys {operator}', 'x').length === 0);
   check('unknown placeholder is HARD',
     checkPlaceholders('{pet} obeys', 'x').some((f) => f.code === 'PLACEHOLDER_UNKNOWN'));
   // The format-spec attack from §4.7.
@@ -318,12 +318,12 @@ console.log('\n== §8.4 slug / id assignment ==');
 {
   // Ported from conditioner scripts/migrate_mantra_pool.py:52-58.
   check('slug drops placeholders and keeps 6 words',
-    slugify('{subject} does anything for {controller} pleasure now today') ===
+    slugify('{subject} does anything for {operator} pleasure now today') ===
     'does_anything_for_pleasure_now_today');
   check('slug of the first pool record round-trips',
     slugify('Resistance melts away with each breath') ===
     'resistance_melts_away_with_each_breath');
-  check('empty slug falls back to "mantra"', slugify('{subject} {controller}') === 'mantra');
+  check('empty slug falls back to "mantra"', slugify('{subject} {operator}') === 'mantra');
   check('digits are dropped (alphabetic only)', slugify('I count 3 times') === 'i_count_times');
   const taken = new Set<string>();
   check('collision suffixes are _2 then _3',
@@ -403,7 +403,7 @@ console.log('\n== end-to-end ingest ==');
     c.pool.mantras[0]!.text === 'My body moves before I decide to');
   check('markers are mechanical',
     c.pool.mantras[0]!.markers.has_subject === false &&
-    c.pool.mantras[0]!.markers.has_controller === false);
+    c.pool.mantras[0]!.markers.has_operator === false);
   check('provenance reviewed:false for Phase B',
     c.provenance[c.pool.mantras[0]!.id]!.reviewed === false);
   check('sidecar integrity holds', checkIntegrity(c).length === 0);

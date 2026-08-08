@@ -3,7 +3,7 @@
   "description": "Thoughts drift away into beautiful, peaceful emptiness",
   "generation": {
     "good": [
-      "My mind is a blank slate for {controller}",
+      "My mind is a blank slate for {operator}",
       "functional emptiness"
     ],
     "bad": [
@@ -22,7 +22,7 @@
       "base_points": 25
     },
     {
-      "text": "{controller} helps my mind go blank",
+      "text": "{operator} helps my mind go blank",
       "base_points": 70
     },
     {
@@ -38,7 +38,7 @@
       "base_points": 30
     },
     {
-      "text": "{subject} needs to be empty for {controller}",
+      "text": "{subject} needs to be empty for {operator}",
       "base_points": 90
     },
     {
@@ -46,7 +46,7 @@
       "base_points": 45
     },
     {
-      "text": "My mind is a blank slate for {controller}",
+      "text": "My mind is a blank slate for {operator}",
       "base_points": 85
     },
     {
@@ -74,11 +74,11 @@
       "base_points": 80
     },
     {
-      "text": "{controller} controls the quiet in my head",
+      "text": "{operator} controls the quiet in my head",
       "base_points": 95
     },
     {
-      "text": "My mind is a vessel for {controller}'s thoughts",
+      "text": "My mind is a vessel for {operator}'s thoughts",
       "base_points": 110
     },
     {
@@ -98,7 +98,7 @@
       "base_points": 120
     },
     {
-      "text": "There is nothing in my head but {controller}'s will",
+      "text": "There is nothing in my head but {operator}'s will",
       "base_points": 140
     },
     {
@@ -110,7 +110,7 @@
       "base_points": 130
     },
     {
-      "text": "{subject} is forever a blank slate for {controller}",
+      "text": "{subject} is forever a blank slate for {operator}",
       "base_points": 180
     },
     {
@@ -126,11 +126,11 @@
       "base_points": 40
     },
     {
-      "text": "I am becoming part of {controller}'s consciousness",
+      "text": "I am becoming part of {operator}'s consciousness",
       "base_points": 110
     },
     {
-      "text": "There is no 'me', only the will of {controller}",
+      "text": "There is no 'me', only the will of {operator}",
       "base_points": 155
     }
   ]

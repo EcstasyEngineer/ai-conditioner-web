@@ -58,7 +58,7 @@
       {
         "path": "fixtures/config.reference.json",
         "authored_by_hand": true,
-        "content": "A fixed UserConfig: 4 themes, no exclusions, controller on, 20 min, parallel mode."
+        "content": "A fixed UserConfig: 4 themes, no exclusions, operator on, 20 min, parallel mode."
       },
       {
         "path": "fixtures/plan.reference.json",
@@ -185,7 +185,7 @@
         "A4 Gaussian arc: per-step intensity trace is unimodal — non-decreasing to peak, non-increasing after — over 200 seeds.",
         "A5 Triplet distinctness: in parallel mode all three mantraIds within a tick differ, every tick, every plan.",
         "A6 Anti-repeat: no id repeats within a channel inside the shuffler window, except where a shuffler-degraded diagnostic is present. window = clamp(floor(blockSize/2), 3, 12).",
-        "A7 Consent: over 1000 random configs, zero mantras with has_controller when the toggle is off, and zero tagged with an excluded theme, checked against the record's FULL tag list rather than the bucket it was collected under. ZERO TOLERANCE — one violation blocks 1.0.",
+        "A7 Consent: over 1000 random configs, zero mantras with has_operator when the toggle is off, and zero tagged with an excluded theme, checked against the record's FULL tag list rather than the bucket it was collected under. ZERO TOLERANCE — one violation blocks 1.0.",
         "A8 Starvation is a plan error: unservable configs return PlanError[] naming the specific fix. No plan is ever returned with a missing or duplicate-filled tick.",
         "A9 Person schedule: center is 'second' in 100% of ticks. Side 'named' share binned into deciles over 200 seeds is <0.20 in deciles 1-2, >0.55 in deciles 5-7, and <0.25 in deciles 9-10. NON-MONOTONE BY DESIGN — the return toward first person is asserted, not merely permitted.",
         "A11 Performance: plan() p95 <= 40ms for a 500-step plan over the full corpus, asserted in CI.",
@@ -202,7 +202,7 @@
       "interface": {
         "exports": [
           "renderChannel(tick: TripletTick, lane: LaneId, tInStepMs: number): ChannelFrame",
-          "substitute(template: string, names: {subject: string, controller: string}): string",
+          "substitute(template: string, names: {subject: string, operator: string}): string",
           "parsePauseMarkers(text: string): Array<{text: string, holdMs: number}>",
           "CHANNEL_GEOMETRY: Record<LaneId, LaneSpec>"
         ],
@@ -226,7 +226,7 @@
         "ease 'late' is p^3 (dwells at the start); ease 'early' is 1-(1-p)^3 (dwells at the end).",
         "C6 Substitution never throws: any error falls back to returning the raw template. Property-tested against malformed inputs.",
         "Format specs and conversions are REJECTED, not just unknown fields. '{subject:>4096}' must not render — it passes a naive format probe and then blows past output limits.",
-        "Exactly two placeholders are supported, bare form only: {subject} and {controller}. No {subject_subjective}, no [verb|verbs] — that grammar is a Phase B intermediate and never reaches runtime.",
+        "Exactly two placeholders are supported, bare form only: {subject} and {operator}. No {subject_subjective}, no [verb|verbs] — that grammar is a Phase B intermediate and never reaches runtime.",
         "First letter is capitalized after substitution if lowercase, matching conditioner/utils/mantras.py:153-162.",
         "Inline [500] and [1.5s] pause markers round-trip through the parser and hold the visual on a partial line.",
         "Pure functions only: no DOM, no canvas, no timers. Fully unit-testable in Node."
@@ -372,7 +372,7 @@
       "acceptance": [
         "D3 Live-feedback loop: displayed counts equal what the plan actually contains. Shows 'your filters match N of M mantras', a per-tag breakdown warning when an exclusion drops an enrolled tag toward the floor, and two samples rendered as a LIVE TRIPLET with the user's own names — that sample is the first-run explanation, so no modal, no walkthrough, no tooltips.",
         "Plan is rebuilt on every config change, debounced at 250ms, with errors and warnings surfaced inline. If A11's 40ms p95 budget is at risk, the typing path degrades to counts-only validation with the full plan built on blur and before Begin.",
-        "D4 A starving config is refused IN THE FORM with a message naming the specific fix ('drop sluttiness from your exclusions or re-enable controller mantras first'), never at playback.",
+        "D4 A starving config is refused IN THE FORM with a message naming the specific fix ('drop sluttiness from your exclusions or re-enable operator mantras first'), never at playback.",
         "Reject-don't-repair: a theme cannot be both enrolled and excluded, and THE SAVE BEING ATTEMPTED LOSES, mirrored in both directions so the outcome never depends on click order. An empty theme list is allowed — it is visible and simply blocks Start.",
         "Excluded themes are a separate unbounded list, filtered against each mantra's FULL tag list rather than the bucket it was collected under.",
         "Presets expand to explicit primitives BEFORE validation, so a preset can never carry hidden behavior. Unknown preset is a hard error. Three ship: standard, gentle, deep.",

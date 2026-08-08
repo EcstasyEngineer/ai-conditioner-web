@@ -3,7 +3,7 @@
   "description": "Warm appreciation that swells and overflows for every moment of control",
   "generation": {
     "good": [
-      "Every command is a gift from {controller}",
+      "Every command is a gift from {operator}",
       "reframes control as blessing"
     ],
     "bad": [
@@ -26,15 +26,15 @@
       "base_points": 35
     },
     {
-      "text": "I am grateful for {controller}'s guidance",
+      "text": "I am grateful for {operator}'s guidance",
       "base_points": 50
     },
     {
-      "text": "I appreciate {controller}'s influence",
+      "text": "I appreciate {operator}'s influence",
       "base_points": 55
     },
     {
-      "text": "My gratitude to {controller} grows daily",
+      "text": "My gratitude to {operator} grows daily",
       "base_points": 60
     },
     {
@@ -46,7 +46,7 @@
       "base_points": 55
     },
     {
-      "text": "My gratitude for {controller} defines me",
+      "text": "My gratitude for {operator} defines me",
       "base_points": 90
     },
     {
@@ -54,7 +54,7 @@
       "base_points": 75
     },
     {
-      "text": "My appreciation for {controller} runs deep",
+      "text": "My appreciation for {operator} runs deep",
       "base_points": 70
     },
     {
@@ -62,11 +62,11 @@
       "base_points": 65
     },
     {
-      "text": "My gratitude to {controller} is overwhelming",
+      "text": "My gratitude to {operator} is overwhelming",
       "base_points": 80
     },
     {
-      "text": "My appreciation for {controller} is fundamental to my being",
+      "text": "My appreciation for {operator} is fundamental to my being",
       "base_points": 100
     },
     {
@@ -82,7 +82,7 @@
       "base_points": 70
     },
     {
-      "text": "My gratitude to {controller} is permanent and total",
+      "text": "My gratitude to {operator} is permanent and total",
       "base_points": 140
     },
     {
@@ -98,7 +98,7 @@
       "base_points": 120
     },
     {
-      "text": "There is nothing left but pure, endless gratitude for {controller}",
+      "text": "There is nothing left but pure, endless gratitude for {operator}",
       "base_points": 155
     }
   ]

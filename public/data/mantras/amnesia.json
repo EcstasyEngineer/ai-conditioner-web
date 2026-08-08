@@ -31,7 +31,7 @@
       "base_points": 30
     },
     {
-      "text": "I forget for {controller}",
+      "text": "I forget for {operator}",
       "base_points": 60
     },
     {
@@ -43,7 +43,7 @@
       "base_points": 50
     },
     {
-      "text": "The past dissolves when {controller} speaks",
+      "text": "The past dissolves when {operator} speaks",
       "base_points": 70
     },
     {
@@ -51,23 +51,23 @@
       "base_points": 55
     },
     {
-      "text": "My mind clears itself for {controller}",
+      "text": "My mind clears itself for {operator}",
       "base_points": 65
     },
     {
-      "text": "I cannot recall what came before {controller}",
+      "text": "I cannot recall what came before {operator}",
       "base_points": 90
     },
     {
-      "text": "{subject}'s memories are under {controller}'s control",
+      "text": "{subject}'s memories are under {operator}'s control",
       "base_points": 100
     },
     {
-      "text": "My mind is becoming a blank canvas for {controller}",
+      "text": "My mind is becoming a blank canvas for {operator}",
       "base_points": 85
     },
     {
-      "text": "{controller} decides what {subject} remembers",
+      "text": "{operator} decides what {subject} remembers",
       "base_points": 110
     },
     {
@@ -75,11 +75,11 @@
       "base_points": 70
     },
     {
-      "text": "I can't remember who I was before {controller}",
+      "text": "I can't remember who I was before {operator}",
       "base_points": 120
     },
     {
-      "text": "{subject}'s history dissolves at {controller}'s touch",
+      "text": "{subject}'s history dissolves at {operator}'s touch",
       "base_points": 105
     },
     {
@@ -87,11 +87,11 @@
       "base_points": 80
     },
     {
-      "text": "{subject} is consumed completely by forgetting for {controller}",
+      "text": "{subject} is consumed completely by forgetting for {operator}",
       "base_points": 140
     },
     {
-      "text": "{controller} has erased everything {subject} was",
+      "text": "{operator} has erased everything {subject} was",
       "base_points": 160
     },
     {
@@ -103,7 +103,7 @@
       "base_points": 130
     },
     {
-      "text": "There is nothing left to remember, only {controller}'s truth",
+      "text": "There is nothing left to remember, only {operator}'s truth",
       "base_points": 150
     },
     {
@@ -111,7 +111,7 @@
       "base_points": 140
     },
     {
-      "text": "{subject}'s past is permanently deleted by {controller}",
+      "text": "{subject}'s past is permanently deleted by {operator}",
       "base_points": 170
     },
     {
@@ -119,7 +119,7 @@
       "base_points": 155
     },
     {
-      "text": "{controller} owns every memory {subject} will ever have",
+      "text": "{operator} owns every memory {subject} will ever have",
       "base_points": 190
     }
   ],

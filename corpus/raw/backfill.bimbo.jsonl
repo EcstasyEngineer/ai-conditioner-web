@@ -3,13 +3,13 @@
 {"id": "i_love_feeling_cute_and_light", "first": "I love feeling cute and light", "second": "You love feeling cute and light", "named": "{subject} loves feeling cute and light"}
 {"id": "gets_giggly_and_happy", "first": "I get giggly and happy", "second": "You get giggly and happy", "named": "{subject} gets giggly and happy"}
 {"id": "smart_thoughts_float_away", "first": "Smart thoughts float away", "second": "Smart thoughts float away", "named": "Smart thoughts float away"}
-{"id": "carries_my_serious_thoughts", "first": "{controller} carries my serious thoughts", "second": "{controller} carries your serious thoughts", "named": "{controller} carries {subject}'s serious thoughts"}
+{"id": "carries_my_serious_thoughts", "first": "{operator} carries my serious thoughts", "second": "{operator} carries your serious thoughts", "named": "{operator} carries {subject}'s serious thoughts"}
 {"id": "my_mind_feels_bubbly_and_pink", "first": "My mind feels bubbly and pink", "second": "Your mind feels bubbly and pink", "named": "{subject}'s mind feels bubbly and pink"}
 {"id": "is_too_pretty_to_overthink", "first": "I am too pretty to overthink", "second": "You are too pretty to overthink", "named": "{subject} is too pretty to overthink"}
 {"id": "giggles_replace_complexity", "first": "Giggles replace complexity", "second": "Giggles replace complexity", "named": "Giggles replace complexity"}
 {"id": "sparkles_fill_the_space_where_thoughts", "first": "Sparkles fill the space where thoughts were", "second": "Sparkles fill the space where thoughts were", "named": "Sparkles fill the space where thoughts were"}
 {"id": "obeying_keeps_me_carefree", "first": "Obeying keeps me carefree", "second": "Obeying keeps you carefree", "named": "Obeying keeps {subject} carefree"}
-{"id": "i_just_smile_and_echo", "first": "I just smile and echo {controller}", "second": "You just smile and echo {controller}", "named": "{subject} just smiles and echoes {controller}"}
+{"id": "i_just_smile_and_echo", "first": "I just smile and echo {operator}", "second": "You just smile and echo {operator}", "named": "{subject} just smiles and echoes {operator}"}
 {"id": "each_breath_makes_me_cuter_and", "first": "Each breath makes me cuter and emptier", "second": "Each breath makes you cuter and emptier", "named": "Each breath makes {subject} cuter and emptier"}
 {"id": "glows_brighter_than_thoughts", "first": "I glow brighter than thoughts", "second": "You glow brighter than thoughts", "named": "{subject} glows brighter than thoughts"}
 {"id": "my_brain_purrs_when_commands_arrive", "first": "My brain purrs when commands arrive", "second": "Your brain purrs when commands arrive", "named": "{subject}'s brain purrs when commands arrive"}
@@ -17,13 +17,13 @@
 {"id": "complexity_drains_bliss_pours_in", "first": "Complexity drains, bliss pours in", "second": "Complexity drains, bliss pours in", "named": "Complexity drains, bliss pours in"}
 {"id": "thinking_slows_obedience_sparkles", "first": "Thinking slows; obedience sparkles", "second": "Thinking slows; obedience sparkles", "named": "Thinking slows; obedience sparkles"}
 {"id": "intelligence_dissolves_into_cotton_candy", "first": "Intelligence dissolves into cotton candy", "second": "Intelligence dissolves into cotton candy", "named": "Intelligence dissolves into cotton candy"}
-{"id": "s_words_glaze_my_mind_with", "first": "{controller}'s words glaze my mind with gloss", "second": "{controller}'s words glaze your mind with gloss", "named": "{controller}'s words glaze {subject}'s mind with gloss"}
+{"id": "s_words_glaze_my_mind_with", "first": "{operator}'s words glaze my mind with gloss", "second": "{operator}'s words glaze your mind with gloss", "named": "{operator}'s words glaze {subject}'s mind with gloss"}
 {"id": "i_giggle_instead_of_think", "first": "I giggle instead of think", "second": "You giggle instead of think", "named": "{subject} giggles instead of think"}
 {"id": "thoughts_pop_like_bubbles_gone", "first": "Thoughts pop like bubbles, gone", "second": "Thoughts pop like bubbles, gone", "named": "Thoughts pop like bubbles, gone"}
 {"id": "empty_space_feels_glittery_and_obedient", "first": "Empty space feels glittery and obedient", "second": "Empty space feels glittery and obedient", "named": "Empty space feels glittery and obedient"}
 {"id": "i_swirl_in_pretty_obedience", "first": "I swirl in pretty obedience", "second": "You swirl in pretty obedience", "named": "{subject} swirls in pretty obedience"}
 {"id": "permanent_bimbofication_sealed_and_shiny", "first": "Permanent bimbofication sealed and shiny", "second": "Permanent bimbofication sealed and shiny", "named": "Permanent bimbofication sealed and shiny"}
-{"id": "is_pure_giggle_fuel_for", "first": "I am pure giggle-fuel for {controller}", "second": "You are pure giggle-fuel for {controller}", "named": "{subject} is pure giggle-fuel for {controller}"}
+{"id": "is_pure_giggle_fuel_for", "first": "I am pure giggle-fuel for {operator}", "second": "You are pure giggle-fuel for {operator}", "named": "{subject} is pure giggle-fuel for {operator}"}
 {"id": "no_thoughts_left_only_sparkles", "first": "No thoughts left, only sparkles", "second": "No thoughts left, only sparkles", "named": "No thoughts left, only sparkles"}
 {"id": "i_exist_to_be_pretty_and", "first": "I exist to be pretty and pleasing", "second": "You exist to be pretty and pleasing", "named": "{subject} exists to be pretty and pleasing"}
 {"id": "lifelong_airhead_bliss_installed", "first": "Lifelong airhead bliss installed", "second": "Lifelong airhead bliss installed", "named": "Lifelong airhead bliss installed"}

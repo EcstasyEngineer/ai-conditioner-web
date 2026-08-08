@@ -5,7 +5,7 @@
 {"id": "craves_to_be_used", "first": "I crave to be used", "second": "You crave to be used", "named": "{subject} craves to be used"}
 {"id": "exists_to_be_used", "first": "I exist to be used", "second": "You exist to be used", "named": "{subject} exists to be used"}
 {"id": "my_body_is_not_my_own", "first": "My body is not my own", "second": "Your body is not your own", "named": "{subject}'s body is not {subject}'s own"}
-{"id": "can_use_my_body_at_any", "first": "{controller} can use my body at any time", "second": "{controller} can use your body at any time", "named": "{controller} can use {subject}'s body at any time"}
+{"id": "can_use_my_body_at_any", "first": "{operator} can use my body at any time", "second": "{operator} can use your body at any time", "named": "{operator} can use {subject}'s body at any time"}
 {"id": "is_a_public_utility_for_pleasure", "first": "I am a public utility for pleasure", "second": "You are a public utility for pleasure", "named": "{subject} is a public utility for pleasure"}
 {"id": "my_holes_are_always_ready_for", "first": "My holes are always ready for use", "second": "Your holes are always ready for use", "named": "{subject}'s holes are always ready for use"}
 {"id": "my_body_is_a_playground_for", "first": "My body is a playground for others", "second": "Your body is a playground for others", "named": "{subject}'s body is a playground for others"}
@@ -22,6 +22,6 @@
 {"id": "my_mind_has_been_erased_leaving", "first": "My mind has been erased, leaving only the need to be used", "second": "Your mind has been erased, leaving only the need to be used", "named": "{subject}'s mind has been erased, leaving only the need to be used"}
 {"id": "is_a_public_degradation_object_and", "first": "I am a public degradation object, and I love it", "second": "You are a public degradation object, and you love it", "named": "{subject} is a public degradation object, and {subject} loves it"}
 {"id": "anyone_can_use_whenever_they_want", "first": "Anyone can use me whenever they want", "second": "Anyone can use you whenever they want", "named": "Anyone can use {subject} whenever they want"}
-{"id": "is_permanently_available_for_s_use", "first": "I am permanently available for {controller}'s use", "second": "You are permanently available for {controller}'s use", "named": "{subject} is permanently available for {controller}'s use"}
+{"id": "is_permanently_available_for_s_use", "first": "I am permanently available for {operator}'s use", "second": "You are permanently available for {operator}'s use", "named": "{subject} is permanently available for {operator}'s use"}
 {"id": "my_holes_belong_to_whoever_wants", "first": "My holes belong to whoever wants them", "second": "Your holes belong to whoever wants them", "named": "{subject}'s holes belong to whoever wants them"}
 {"id": "was_made_to_be_used_and", "first": "I was made to be used and nothing else", "second": "You were made to be used and nothing else", "named": "{subject} was made to be used and nothing else"}

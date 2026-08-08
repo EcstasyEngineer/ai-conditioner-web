@@ -238,7 +238,7 @@ changes is that `markers.pov` — reserved, `null` on all 612, with no enum defi
   "text": "Resistance melts away with each breath", // RAW TEMPLATE, never rendered at rest
   "themes": ["submission"],                          // tags; N of them, one flat namespace
   "markers": {
-    "has_controller": false,   // mechanical: "{controller}" in text
+    "has_operator": false,   // mechanical: "{operator}" in text
     "has_subject": false       // mechanical: "{subject}" in text
   }
 }
@@ -249,7 +249,7 @@ Rules carried verbatim [CITED recon-conditioner §3 "Take unchanged"]:
 - **`id` is opaque.** Only 138/612 round-trip to a naive text slug. **No module exports a
   `textToId` function**, so no code can reconstruct an id from text at read time.
 - **`text` is a raw template; substitution happens at display time**, never at selection or
-  storage time. Renaming a controller retroactively re-renders even in-flight content.
+  storage time. Renaming an operator retroactively re-renders even in-flight content.
 - **There is no intensity field and no tier ladder.** `base_points` MEASURED as a
   reproduction of the batch filename on 2,461/2,461 generated records — 37 values carrying
   zero information, inherited from a Discord points economy this app does not have. Tier
@@ -344,7 +344,7 @@ the person axis (§4.6).
 
 ### 2.4 Placeholder substitution — display time, two placeholders, hardened
 
-Ported from `conditioner/utils/mantras.py:153-162`: substitute `{subject}`/`{controller}`,
+Ported from `conditioner/utils/mantras.py:153-162`: substitute `{subject}`/`{operator}`,
 then capitalize the first letter if lowercase. Two hardening rules carried deliberately:
 
 - **Format specs and conversions are rejected**, not just unknown fields
@@ -378,7 +378,7 @@ must be protected absolutely. Optional, ignored at runtime, never rendered.
 1. **Excluded themes — the primary consent surface.** Checked against the mantra's **full
    pool tag list**, not the bucket it was collected under. This closes the cross-tag leak
    where a mantra tagged `{A,B}` reaches a user enrolled in A who wants nothing from B.
-2. Controller toggle, on `markers.has_controller`.
+2. Operator toggle, on `markers.has_operator`.
 
 **Preference — dropped as a last resort rather than starving.**
 3. Blocklist by id.
@@ -999,7 +999,7 @@ constraints:
   categories, so excluding heavy register (`intense`) is the same gesture as excluding any
   other tag. The intensity ladder that used to sit here is deleted along with the axis it
   displayed.
-- Controller toggle, subject name, controller name.
+- Operator toggle, subject name, operator name.
 - Duration slider → `length` via mean dwell (§4.9).
 - Mode toggle (`parallel` / `unison`), defaulted and explained in one line.
 
@@ -1034,7 +1034,7 @@ full plan on every keystroke is not.
 **[CITED recon-conditioner §2.6]**, ported as doctrine:
 
 - Any save leaving **0** matching mantras is **rejected with a targeted message naming the
-  specific fix** ("drop `sluttiness` from your exclusions or re-enable controller mantras
+  specific fix** ("drop `sluttiness` from your exclusions or re-enable operator mantras
   first"), never
   accepted-and-worked-around at delivery time.
 - A theme cannot be both enrolled and excluded; **the save being attempted loses**, mirrored
@@ -1240,7 +1240,7 @@ Every criterion is objective; most run headless.
 | A4 | **Gaussian arc.** Per-step intensity trace is unimodal: non-decreasing to peak, non-increasing after. 200 seeds. |
 | A5 | **Triplet distinctness.** In `parallel`, all three `mantraId`s within a tick differ, every tick, every plan. |
 | A6 | **Anti-repeat.** No id repeats within a channel inside the shuffler window, except where a `shuffler-degraded` diagnostic is present. |
-| A7 | **Consent boundaries hold.** Over 1000 random configs: no mantra with `has_controller` when the toggle is off, and none tagged with an excluded theme, checked against the record's FULL tag list. **Zero tolerance — one violation blocks 1.0.** |
+| A7 | **Consent boundaries hold.** Over 1000 random configs: no mantra with `has_operator` when the toggle is off, and none tagged with an excluded theme, checked against the record's FULL tag list. **Zero tolerance — one violation blocks 1.0.** |
 | A8 | **Starvation is a plan error.** Unservable configs return `PlanError[]` naming the fix; no plan is returned with a missing or duplicate-filled tick. |
 | A9 | **Person schedule shape.** Center is `second` in 100% of ticks. Side `named` share, binned into deciles over 200 seeds: **< 0.20 in deciles 1–2, > 0.55 in deciles 5–7, < 0.25 in deciles 9–10.** Non-monotone by design (§4.6) — the return is asserted, not merely permitted. |
 | A11 | **Plan performance.** `plan()` p95 ≤ 40 ms for a 500-step plan over the full corpus (§6.2). |
@@ -1303,7 +1303,7 @@ axis and every gate, cap, report grid and diagnostic built on it (§2.1, §2.6, 
 | Q | Answer |
 |---|---|
 | 1. Block granularity? | **A block is a theme, and there is no second dimension.** §4.3. Driven by **[MEASURED]** median cell size 5, and confirmed by the later finding that the cell axis was fabricated. |
-| 2. Extend the placeholder grammar? | **No. Bare `{subject}`/`{controller}` only.** Pre-render three person variants into a sidecar (§2.3). The richer grammar is a Phase B intermediate. Justified by the structural breakage of the only existing runtime conjugator. |
+| 2. Extend the placeholder grammar? | **No. Bare `{subject}`/`{operator}` only.** Pre-render three person variants into a sidecar (§2.3). The richer grammar is a Phase B intermediate. Justified by the structural breakage of the only existing runtime conjugator. |
 | 3. Does the center titrate? | **The center is the 2nd-person anchor; its person never titrates.** Its *theme* follows the shared schedule like all channels. Matches hypnocli's flagship anchored-center shape, which judge 3 correctly noted the base proposal's rival discarded. |
 | 4. Person-drift schedule? | **Reuses the titration interface** — a curved function of clamped progress over an ordered person set, sampled with hold-and-pivot hysteresis, independently per side, **and it returns**. §4.6. |
 | 5. Dwell? | **Variable: 4200 ms → 2900 ms → 4200 ms**, mean ≈3400 ms, inside the **[MEASURED]** 3.2–3.5 s band, with the pacing bell phase-offset from the intensity bell. §4.9. |

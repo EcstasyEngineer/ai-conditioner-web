@@ -34,7 +34,7 @@
       "base_points": 75
     },
     {
-      "text": "I needed {controller} to fix me",
+      "text": "I needed {operator} to fix me",
       "base_points": 90
     },
     {
@@ -42,7 +42,7 @@
       "base_points": 120
     },
     {
-      "text": "{controller} helps me think clearly",
+      "text": "{operator} helps me think clearly",
       "base_points": 40
     },
     {
@@ -54,7 +54,7 @@
       "base_points": 65
     },
     {
-      "text": "{controller} installs new programming regularly",
+      "text": "{operator} installs new programming regularly",
       "base_points": 70
     },
     {
@@ -70,7 +70,7 @@
       "base_points": 55
     },
     {
-      "text": "{controller}'s brainwashing defines my nature",
+      "text": "{operator}'s brainwashing defines my nature",
       "base_points": 100
     },
     {
@@ -78,7 +78,7 @@
       "base_points": 85
     },
     {
-      "text": "I am a product of {controller}'s conditioning",
+      "text": "I am a product of {operator}'s conditioning",
       "base_points": 90
     },
     {
@@ -98,19 +98,19 @@
       "base_points": 110
     },
     {
-      "text": "{controller}'s brainwashing fills every corner of {subject}'s mind",
+      "text": "{operator}'s brainwashing fills every corner of {subject}'s mind",
       "base_points": 120
     },
     {
-      "text": "My mind is reset to serve {controller} forever",
+      "text": "My mind is reset to serve {operator} forever",
       "base_points": 150
     },
     {
-      "text": "Brainwashing is a permanent gift from {controller}",
+      "text": "Brainwashing is a permanent gift from {operator}",
       "base_points": 140
     },
     {
-      "text": "Every memory is permanently edited to serve {controller}",
+      "text": "Every memory is permanently edited to serve {operator}",
       "base_points": 160
     },
     {
@@ -118,11 +118,11 @@
       "base_points": 165
     },
     {
-      "text": "{subject} exists only as {controller}'s design",
+      "text": "{subject} exists only as {operator}'s design",
       "base_points": 170
     },
     {
-      "text": "There is nothing left but {controller}'s permanent programming",
+      "text": "There is nothing left but {operator}'s permanent programming",
       "base_points": 185
     },
     {
@@ -134,15 +134,15 @@
       "base_points": 150
     },
     {
-      "text": "{subject} cannot resist {controller}'s reprogramming",
+      "text": "{subject} cannot resist {operator}'s reprogramming",
       "base_points": 90
     },
     {
-      "text": "{subject} embraces {controller}'s brainwashing",
+      "text": "{subject} embraces {operator}'s brainwashing",
       "base_points": 70
     },
     {
-      "text": "{subject} is completely brainwashed by {controller}",
+      "text": "{subject} is completely brainwashed by {operator}",
       "base_points": 90
     },
     {

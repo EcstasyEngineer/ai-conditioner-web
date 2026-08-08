@@ -18,7 +18,7 @@
       "base_points": 25
     },
     {
-      "text": "{subject} wants to be beautiful for {controller}",
+      "text": "{subject} wants to be beautiful for {operator}",
       "base_points": 35
     },
     {
@@ -30,7 +30,7 @@
       "base_points": 25
     },
     {
-      "text": "It feels good to be pretty for {controller}",
+      "text": "It feels good to be pretty for {operator}",
       "base_points": 40
     },
     {
@@ -42,7 +42,7 @@
       "base_points": 50
     },
     {
-      "text": "{subject} is a pretty thing for {controller}",
+      "text": "{subject} is a pretty thing for {operator}",
       "base_points": 55
     },
     {
@@ -50,7 +50,7 @@
       "base_points": 45
     },
     {
-      "text": "I need {controller} to feel beautiful",
+      "text": "I need {operator} to feel beautiful",
       "base_points": 60
     },
     {
@@ -86,7 +86,7 @@
       "base_points": 90
     },
     {
-      "text": "I am an object of beauty for {controller}",
+      "text": "I am an object of beauty for {operator}",
       "base_points": 95
     },
     {
@@ -102,7 +102,7 @@
       "base_points": 115
     },
     {
-      "text": "I am a delicate flower for {controller}",
+      "text": "I am a delicate flower for {operator}",
       "base_points": 110
     },
     {
@@ -122,7 +122,7 @@
       "base_points": 155
     },
     {
-      "text": "{subject} exists to be beautiful for {controller}",
+      "text": "{subject} exists to be beautiful for {operator}",
       "base_points": 160
     },
     {
@@ -130,11 +130,11 @@
       "base_points": 165
     },
     {
-      "text": "{subject} is {controller}'s perfect, pretty creation",
+      "text": "{subject} is {operator}'s perfect, pretty creation",
       "base_points": 170
     },
     {
-      "text": "{controller} sculpted me into a work of art",
+      "text": "{operator} sculpted me into a work of art",
       "base_points": 175
     }
   ]

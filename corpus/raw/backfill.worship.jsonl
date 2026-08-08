@@ -2,23 +2,23 @@
 {"id": "admiration_feels_natural", "first": "Admiration feels natural", "second": "Admiration feels natural", "named": "Admiration feels natural"}
 {"id": "kneeling_feels_right", "first": "Kneeling feels right", "second": "Kneeling feels right", "named": "Kneeling feels right"}
 {"id": "kneels_in_reverence", "first": "I kneel in reverence", "second": "You kneel in reverence", "named": "{subject} kneels in reverence"}
-{"id": "my_praise_for_is_endless", "first": "My praise for {controller} is endless", "second": "Your praise for {controller} is endless", "named": "{subject}'s praise for {controller} is endless"}
-{"id": "lives_to_serve_their_deity", "first": "I live to serve my deity, {controller}", "second": "You live to serve your deity, {controller}", "named": "{subject} lives to serve their deity, {controller}"}
-{"id": "my_body_is_a_temple_for", "first": "My body is a temple for {controller}", "second": "Your body is a temple for {controller}", "named": "{subject}'s body is a temple for {controller}"}
+{"id": "my_praise_for_is_endless", "first": "My praise for {operator} is endless", "second": "Your praise for {operator} is endless", "named": "{subject}'s praise for {operator} is endless"}
+{"id": "lives_to_serve_their_deity", "first": "I live to serve my deity, {operator}", "second": "You live to serve your deity, {operator}", "named": "{subject} lives to serve their deity, {operator}"}
+{"id": "my_body_is_a_temple_for", "first": "My body is a temple for {operator}", "second": "Your body is a temple for {operator}", "named": "{subject}'s body is a temple for {operator}"}
 {"id": "offers_themself_as_a_sacrifice", "first": "I offer myself as a sacrifice", "second": "You offer yourself as a sacrifice", "named": "{subject} offers themself as a sacrifice"}
-{"id": "my_every_thought_is_a_prayer", "first": "My every thought is a prayer to {controller}", "second": "Your every thought is a prayer to {controller}", "named": "{subject}'s every thought is a prayer to {controller}"}
-{"id": "is_insignificant_before", "first": "I am insignificant before {controller}", "second": "You are insignificant before {controller}", "named": "{subject} is insignificant before {controller}"}
+{"id": "my_every_thought_is_a_prayer", "first": "My every thought is a prayer to {operator}", "second": "Your every thought is a prayer to {operator}", "named": "{subject}'s every thought is a prayer to {operator}"}
+{"id": "is_insignificant_before", "first": "I am insignificant before {operator}", "second": "You are insignificant before {operator}", "named": "{subject} is insignificant before {operator}"}
 {"id": "is_lost_in_ecstatic_worship", "first": "I am lost in ecstatic worship", "second": "You are lost in ecstatic worship", "named": "{subject} is lost in ecstatic worship"}
-{"id": "would_die_for", "first": "I would die for {controller}", "second": "You would die for {controller}", "named": "{subject} would die for {controller}"}
-{"id": "sees_divinity_in", "first": "I see divinity in {controller}", "second": "You see divinity in {controller}", "named": "{subject} sees divinity in {controller}"}
-{"id": "is_nothing_but_an_instrument_of", "first": "I am nothing but an instrument of {controller}'s will", "second": "You are nothing but an instrument of {controller}'s will", "named": "{subject} is nothing but an instrument of {controller}'s will"}
-{"id": "my_soul_belongs_to", "first": "My soul belongs to {controller}", "second": "Your soul belongs to {controller}", "named": "{subject}'s soul belongs to {controller}"}
+{"id": "would_die_for", "first": "I would die for {operator}", "second": "You would die for {operator}", "named": "{subject} would die for {operator}"}
+{"id": "sees_divinity_in", "first": "I see divinity in {operator}", "second": "You see divinity in {operator}", "named": "{subject} sees divinity in {operator}"}
+{"id": "is_nothing_but_an_instrument_of", "first": "I am nothing but an instrument of {operator}'s will", "second": "You are nothing but an instrument of {operator}'s will", "named": "{subject} is nothing but an instrument of {operator}'s will"}
+{"id": "my_soul_belongs_to", "first": "My soul belongs to {operator}", "second": "Your soul belongs to {operator}", "named": "{subject}'s soul belongs to {operator}"}
 {"id": "my_worship_has_consumed_me_entirely", "first": "My worship has consumed me entirely", "second": "Your worship has consumed you entirely", "named": "{subject}'s worship has consumed {subject} entirely"}
-{"id": "is_one_with_their_god", "first": "I am one with my god, {controller}", "second": "You are one with your god, {controller}", "named": "{subject} is one with their god, {controller}"}
-{"id": "bows_before", "first": "I bow before {controller}", "second": "You bow before {controller}", "named": "{subject} bows before {controller}"}
+{"id": "is_one_with_their_god", "first": "I am one with my god, {operator}", "second": "You are one with your god, {operator}", "named": "{subject} is one with their god, {operator}"}
+{"id": "bows_before", "first": "I bow before {operator}", "second": "You bow before {operator}", "named": "{subject} bows before {operator}"}
 {"id": "worship_comes_naturally_to", "first": "Worship comes naturally to me", "second": "Worship comes naturally to you", "named": "Worship comes naturally to {subject}"}
-{"id": "is_my_god", "first": "{controller} is my god", "second": "{controller} is your god", "named": "{controller} is {subject}'s god"}
-{"id": "knows_what_s_best", "first": "{controller} knows what's best", "second": "{controller} knows what's best", "named": "{controller} knows what's best"}
-{"id": "exists_to_glorify", "first": "I exist to glorify {controller}", "second": "You exist to glorify {controller}", "named": "{subject} exists to glorify {controller}"}
-{"id": "my_soul_is_permanently_bound_to", "first": "My soul is permanently bound to {controller}", "second": "Your soul is permanently bound to {controller}", "named": "{subject}'s soul is permanently bound to {controller}"}
-{"id": "there_is_no_self_only_worship", "first": "There is no self, only worship of {controller}", "second": "There is no self, only worship of {controller}", "named": "There is no self, only worship of {controller}"}
+{"id": "is_my_god", "first": "{operator} is my god", "second": "{operator} is your god", "named": "{operator} is {subject}'s god"}
+{"id": "knows_what_s_best", "first": "{operator} knows what's best", "second": "{operator} knows what's best", "named": "{operator} knows what's best"}
+{"id": "exists_to_glorify", "first": "I exist to glorify {operator}", "second": "You exist to glorify {operator}", "named": "{subject} exists to glorify {operator}"}
+{"id": "my_soul_is_permanently_bound_to", "first": "My soul is permanently bound to {operator}", "second": "Your soul is permanently bound to {operator}", "named": "{subject}'s soul is permanently bound to {operator}"}
+{"id": "there_is_no_self_only_worship", "first": "There is no self, only worship of {operator}", "second": "There is no self, only worship of {operator}", "named": "There is no self, only worship of {operator}"}

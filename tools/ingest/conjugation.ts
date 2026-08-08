@@ -98,13 +98,13 @@ const SINGULAR_THEY = new Set(['they', 'them', 'their', 'theirs', 'themselves'])
  * they align positionally against a pronoun in the other variant.
  */
 export function tokenize(text: string): string[] {
-  // A placeholder carries its own possessive: "{controller}'s" is ONE token.
-  // Splitting it into ["{controller}", "s"] strands a bare "s" that shifts
+  // A placeholder carries its own possessive: "{operator}'s" is ONE token.
+  // Splitting it into ["{operator}", "s"] strands a bare "s" that shifts
   // every later position and makes the following noun look like a verb
-  // ("{controller}'s control" -> "control" read as an uninflected stem).
+  // ("{operator}'s control" -> "control" read as an uninflected stem).
   return (
     text.match(
-      /\{subject\}(?:'s)?|\{controller\}(?:'s)?|[A-Za-z]+(?:'[A-Za-z]+)?/g,
+      /\{subject\}(?:'s)?|\{operator\}(?:'s)?|[A-Za-z]+(?:'[A-Za-z]+)?/g,
     ) ?? []
   ).map((t) => (t.startsWith('{') ? t : t.toLowerCase()));
 }
@@ -275,18 +275,18 @@ export function checkPersonCorrectness(v: {
     });
   }
 
-  // §4.5 — {controller} is never person-shifted: it appears identically in
+  // §4.5 — {operator} is never person-shifted: it appears identically in
   // all three variants.
-  const ctlCount = (s: string) => (s.match(/\{controller\}/g) ?? []).length;
+  const ctlCount = (s: string) => (s.match(/\{operator\}/g) ?? []).length;
   if (
     ctlCount(v.first) !== ctlCount(v.second) ||
     ctlCount(v.second) !== ctlCount(v.named)
   ) {
     findings.push({
       severity: 'hard',
-      code: 'CONTROLLER_SHIFTED',
+      code: 'OPERATOR_SHIFTED',
       message:
-        '{controller} must appear identically in all three variants (§4.5)',
+        '{operator} must appear identically in all three variants (§4.5)',
     });
   }
 
@@ -348,7 +348,7 @@ export function checkPersonCorrectness(v: {
 
       // L2 — copula / auxiliary closed set. HARD on mismatch, but only for
       // the auxiliary GOVERNED BY THE SUBJECT: a copula belonging to
-      // {controller} or another noun is never person-shifted (§4.5).
+      // {operator} or another noun is never person-shifted (§4.5).
       if (AUX_FORMS.has(a) || AUX_FORMS.has(b)) {
         if (!subjectShifted) continue;
         const row = auxRowFor(a) ?? auxRowFor(b)!;
@@ -400,7 +400,7 @@ export function checkPersonCorrectness(v: {
       // not carry ("spread" -> "spreads"). Government is spent here: without
       // this, the flag stays armed and the next noun that happens to be a
       // table entry gets reported as an uninflected verb
-      // ("{controller}'s control" -> "control" wanting "controls").
+      // ("{operator}'s control" -> "control" wanting "controls").
       subjectShifted = false;
       alignmentUsable = false;
     }
@@ -411,8 +411,8 @@ export function checkPersonCorrectness(v: {
   // through — the center channel is the one the user reads most.
   if (fTok.length === sTok.length) {
     // Only the auxiliary GOVERNED BY THE SUBJECT is checked. A copula
-    // belonging to {controller} or to another noun is not person-shifted
-    // (§4.5) — "I am powerless and {controller} is not" keeps its second
+    // belonging to {operator} or to another noun is not person-shifted
+    // (§4.5) — "I am powerless and {operator} is not" keeps its second
     // "is" in all three variants, and demanding am->are there would
     // hard-reject correct content.
     let governed = false;

@@ -15,7 +15,7 @@
       "base_points": 55
     },
     {
-      "text": "My body moves when {controller} speaks",
+      "text": "My body moves when {operator} speaks",
       "base_points": 65
     },
     {
@@ -23,7 +23,7 @@
       "base_points": 20
     },
     {
-      "text": "My body syncs to {controller}'s will",
+      "text": "My body syncs to {operator}'s will",
       "base_points": 60
     },
     {
@@ -39,7 +39,7 @@
       "base_points": 25
     },
     {
-      "text": "{subject} snaps to attention at {controller}'s voice",
+      "text": "{subject} snaps to attention at {operator}'s voice",
       "base_points": 60
     },
     {
@@ -47,7 +47,7 @@
       "base_points": 25
     },
     {
-      "text": "{subject} cannot resist {controller}'s commands",
+      "text": "{subject} cannot resist {operator}'s commands",
       "base_points": 90
     },
     {
@@ -55,15 +55,15 @@
       "base_points": 55
     },
     {
-      "text": "{subject} acts as {controller}'s extension",
+      "text": "{subject} acts as {operator}'s extension",
       "base_points": 60
     },
     {
-      "text": "My will aligns perfectly with {controller}'s orders",
+      "text": "My will aligns perfectly with {operator}'s orders",
       "base_points": 70
     },
     {
-      "text": "Serving {controller} flows like breathing",
+      "text": "Serving {operator} flows like breathing",
       "base_points": 40
     },
     {
@@ -71,15 +71,15 @@
       "base_points": 75
     },
     {
-      "text": "{controller} speaks, {subject}'s body obeys",
+      "text": "{operator} speaks, {subject}'s body obeys",
       "base_points": 90
     },
     {
-      "text": "Every cell aches to comply with {controller}",
+      "text": "Every cell aches to comply with {operator}",
       "base_points": 70
     },
     {
-      "text": "My reflexes belong to {controller}",
+      "text": "My reflexes belong to {operator}",
       "base_points": 70
     },
     {
@@ -95,19 +95,19 @@
       "base_points": 150
     },
     {
-      "text": "{subject} is a living command line for {controller}",
+      "text": "{subject} is a living command line for {operator}",
       "base_points": 70
     },
     {
-      "text": "{subject} exists only to carry out {controller}'s orders",
+      "text": "{subject} exists only to carry out {operator}'s orders",
       "base_points": 110
     },
     {
-      "text": "Free will deleted, obedience to {controller} operational",
+      "text": "Free will deleted, obedience to {operator} operational",
       "base_points": 140
     },
     {
-      "text": "Orders from {controller} overwrite every impulse permanently",
+      "text": "Orders from {operator} overwrite every impulse permanently",
       "base_points": 140
     }
   ],

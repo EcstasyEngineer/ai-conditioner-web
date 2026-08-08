@@ -36,7 +36,7 @@
         "induction"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -47,7 +47,7 @@
         "induction"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -58,7 +58,7 @@
         "induction"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -69,7 +69,7 @@
         "induction"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     },
@@ -80,7 +80,7 @@
         "induction"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -91,7 +91,7 @@
         "induction"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -102,18 +102,18 @@
         "induction"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
     {
-      "id": "controller_s_voice_arrives_before_the_thought_does",
-      "text": "{controller}'s voice arrives before the thought does",
+      "id": "operator_s_voice_arrives_before_the_thought_does",
+      "text": "{operator}'s voice arrives before the thought does",
       "themes": [
         "induction"
       ],
       "markers": {
-        "has_controller": true,
+        "has_operator": true,
         "has_subject": false
       }
     },
@@ -125,7 +125,7 @@
         "obedience"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -136,7 +136,7 @@
         "acceptance"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -147,7 +147,7 @@
         "acceptance"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -158,7 +158,7 @@
         "acceptance"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     },
@@ -169,18 +169,18 @@
         "acceptance"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
     {
-      "id": "i_take_what_controller_decides_i_take",
-      "text": "I take what {controller} decides I take",
+      "id": "i_take_what_operator_decides_i_take",
+      "text": "I take what {operator} decides I take",
       "themes": [
         "acceptance"
       ],
       "markers": {
-        "has_controller": true,
+        "has_operator": true,
         "has_subject": false
       }
     },
@@ -191,7 +191,7 @@
         "acceptance"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -202,7 +202,7 @@
         "acceptance"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     },
@@ -214,7 +214,7 @@
         "focus"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -225,7 +225,7 @@
         "obedience"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -236,18 +236,18 @@
         "obedience"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
     {
-      "id": "subject_does_anything_controller_asks_for",
-      "text": "{subject} does anything {controller} asks for",
+      "id": "subject_does_anything_operator_asks_for",
+      "text": "{subject} does anything {operator} asks for",
       "themes": [
         "obedience"
       ],
       "markers": {
-        "has_controller": true,
+        "has_operator": true,
         "has_subject": true
       }
     },
@@ -258,7 +258,7 @@
         "obedience"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -269,18 +269,18 @@
         "obedience"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
     {
-      "id": "you_obey_controller_before_you_know_you_have",
-      "text": "You obey {controller} before you know you have",
+      "id": "you_obey_operator_before_you_know_you_have",
+      "text": "You obey {operator} before you know you have",
       "themes": [
         "obedience"
       ],
       "markers": {
-        "has_controller": true,
+        "has_operator": true,
         "has_subject": false
       }
     },
@@ -291,7 +291,7 @@
         "obedience"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     },
@@ -302,7 +302,7 @@
         "focus"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -313,7 +313,7 @@
         "focus"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -324,7 +324,7 @@
         "focus"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -335,7 +335,7 @@
         "focus"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     },
@@ -346,7 +346,7 @@
         "focus"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -357,18 +357,18 @@
         "focus"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
     {
-      "id": "you_hold_controller_s_word_and_nothing_else",
-      "text": "You hold {controller}'s word and nothing else",
+      "id": "you_hold_operator_s_word_and_nothing_else",
+      "text": "You hold {operator}'s word and nothing else",
       "themes": [
         "focus"
       ],
       "markers": {
-        "has_controller": true,
+        "has_operator": true,
         "has_subject": false
       }
     },
@@ -379,7 +379,7 @@
         "submission"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -390,18 +390,18 @@
         "submission"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
     {
-      "id": "you_give_controller_the_last_of_it",
-      "text": "You give {controller} the last of it",
+      "id": "you_give_operator_the_last_of_it",
+      "text": "You give {operator} the last of it",
       "themes": [
         "submission"
       ],
       "markers": {
-        "has_controller": true,
+        "has_operator": true,
         "has_subject": false
       }
     },
@@ -412,7 +412,7 @@
         "submission"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     },
@@ -423,7 +423,7 @@
         "submission"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -434,18 +434,18 @@
         "submission"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
     {
-      "id": "subject_stops_carrying_what_controller_will_carry",
-      "text": "{subject} stops carrying what {controller} will carry",
+      "id": "subject_stops_carrying_what_operator_will_carry",
+      "text": "{subject} stops carrying what {operator} will carry",
       "themes": [
         "submission"
       ],
       "markers": {
-        "has_controller": true,
+        "has_operator": true,
         "has_subject": true
       }
     },
@@ -456,7 +456,7 @@
         "submission"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -467,7 +467,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -478,7 +478,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -489,7 +489,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -500,7 +500,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     },
@@ -511,7 +511,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -522,7 +522,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -533,7 +533,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": false
       }
     },
@@ -544,7 +544,7 @@
         "emergence"
       ],
       "markers": {
-        "has_controller": false,
+        "has_operator": false,
         "has_subject": true
       }
     }

@@ -25,17 +25,17 @@ export type TripletMode = 'parallel' | 'unison';
  */
 export type TitrationMode = 'gaussian' | 'linear';
 
-/** The names substituted into `{subject}` and `{controller}` at display time. */
+/** The names substituted into `{subject}` and `{operator}` at display time. */
 export interface Names {
   subject: string;
-  controller: string;
+  operator: string;
 }
 
 /**
  * The user's choices — DESIGN.md §6.1.
  *
  * Consent boundaries (§2.6) are `themes`, `excludedThemes` and
- * `allowController`. They are NEVER silently relaxed: if they empty the pool,
+ * `allowOperator`. They are NEVER silently relaxed: if they empty the pool,
  * the slot starves and that is a hard planning error surfaced before playback.
  * `blocklist` is a preference and IS relaxed as a last resort rather than
  * starving. The ordering is normative.
@@ -65,8 +65,8 @@ export interface UserConfig {
    */
   excludedThemes: string[];
 
-  /** When false, every record with `markers.has_controller` is filtered out. */
-  allowController: boolean;
+  /** When false, every record with `markers.has_operator` is filtered out. */
+  allowOperator: boolean;
 
   /** Substituted at display time, never at selection or storage time. */
   names: Names;

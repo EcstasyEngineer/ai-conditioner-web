@@ -26,7 +26,7 @@ export type Pov = 'first' | 'second' | 'named' | 'impersonal';
  * 2,639 records, and a constant is not data. `pov` is derived (see `Pov`).
  */
 export interface Markers {
-  has_controller: boolean;
+  has_operator: boolean;
   has_subject: boolean;
 }
 

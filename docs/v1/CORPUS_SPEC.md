@@ -169,7 +169,7 @@ the variant set.
 | `pov` | definition | today | example |
 |---|---|---:|---|
 | `first` | a 1st-person pronoun, no `{subject}` | 272 | "My thoughts are being reprogrammed" |
-| `named` | `{subject}`, no 1st-person pronoun | 253 | "{subject} does anything for {controller}'s pleasure" |
+| `named` | `{subject}`, no 1st-person pronoun | 253 | "{subject} does anything for {operator}'s pleasure" |
 | `impersonal` | no grammatical subject at all | 87 | "Resistance melts away with each breath" |
 | `second` | a 2nd-person pronoun | **0** | "Your thoughts are being reprogrammed" |
 
@@ -223,16 +223,16 @@ rule gets wrong. The closed set that must be right:
 | I crave | You crave | {subject} craves |
 | I obey | You obey | {subject} obeys |
 
-### 4.5 `{controller}` is never person-shifted
+### 4.5 `{operator}` is never person-shifted
 
-**HARD.** The controller is always referenced in the third person, in all three variants,
-identically. A mantra's person axis describes the *subject*, never the controller.
+**HARD.** The operator is always referenced in the third person, in all three variants,
+identically. A mantra's person axis describes the *subject*, never the operator.
 
 ```jsonc
 {
-  "first":  "I kneel when {controller} speaks",
-  "second": "You kneel when {controller} speaks",
-  "named":  "{subject} kneels when {controller} speaks"
+  "first":  "I kneel when {operator} speaks",
+  "second": "You kneel when {operator} speaks",
+  "named":  "{subject} kneels when {operator} speaks"
 }
 ```
 
@@ -244,7 +244,7 @@ deeper" is correct.
 
 ### 4.7 Placeholders: exactly two, bare form only
 
-**HARD.** `{subject}` and `{controller}`. Nothing else.
+**HARD.** `{subject}` and `{operator}`. Nothing else.
 
 - No `{subject_subjective}`, `{subject_possessive}`, or any other expanded placeholder.
 - No `[verb|verbs]` bracket grammar in the **output**. It is permitted as a generation
@@ -261,7 +261,7 @@ deeper" is correct.
 
 | marker | rule |
 |---|---|
-| `has_controller` | **Mechanical.** `"{controller}"` appears in the text. Computed by the ingester, not authored. **This is a live consent filter** — a user who has turned controller mantras off must never see one. |
+| `has_operator` | **Mechanical.** `"{operator}"` appears in the text. Computed by the ingester, not authored. **This is a live consent filter** — a user who has turned operator mantras off must never see one. |
 | `has_subject` | **Mechanical.** `"{subject}"` appears in the text. Computed, not authored. |
 
 Those are the only two. Both are substring tests against the text they
@@ -310,7 +310,7 @@ records — 37 distinct values carrying zero information, inherited from a Disco
 points economy this app does not have. Tier was derived from it, so a stored or
 compared tier was a value derived from a fabricated one.
 
-The scoring heuristic that produced those numbers (base 20; `{controller}` +20;
+The scoring heuristic that produced those numbers (base 20; `{operator}` +20;
 permanence +60; and so on) is deleted with them. Deleting the output while
 keeping the generator invites regeneration.
 
@@ -359,7 +359,7 @@ whole batch. Line 1 is a header object; every subsequent line is one record.
 |---|---|
 | `first` / `second` / `named` | **HARD.** All three required, always. Grammatically correct, independently readable, §4's rules applied. |
 | `themes` | **HARD.** ≥1. Cross-tagging encouraged. |
-| `markers` | Optional and empty. `has_controller` and `has_subject` are **derived** and rejected if present; no other marker exists. |
+| `markers` | Optional and empty. `has_operator` and `has_subject` are **derived** and rejected if present; no other marker exists. |
 | `id` | **HARD — must be absent.** |
 
 ### 6.3 What the ingester produces
@@ -409,9 +409,9 @@ then content quality, then dedupe, then id assignment.
 ### 8.1 Structural (HARD)
 
 1. Valid JSONL; the header line conforms; every required field present and correctly typed.
-2. Only `{subject}` and `{controller}`, bare form only; **format specs rejected**; braces
+2. Only `{subject}` and `{operator}`, bare form only; **format specs rejected**; braces
    balanced.
-3. No `id`; no derived markers (`has_controller`, `has_subject`).
+3. No `id`; no derived markers (`has_operator`, `has_subject`).
 
 ### 8.2 Person correctness — the gates that protect the product
 

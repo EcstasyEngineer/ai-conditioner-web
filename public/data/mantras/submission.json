@@ -3,7 +3,7 @@
   "description": "Existence defined entirely by service, duty, and belonging to another",
   "generation": {
     "good": [
-      "{subject} is an extension of {controller}'s will",
+      "{subject} is an extension of {operator}'s will",
       "merger"
     ],
     "bad": [
@@ -26,19 +26,19 @@
       "base_points": 30
     },
     {
-      "text": "My purpose is to serve {controller}",
+      "text": "My purpose is to serve {operator}",
       "base_points": 50
     },
     {
-      "text": "My loyalty to {controller} is absolute",
+      "text": "My loyalty to {operator} is absolute",
       "base_points": 70
     },
     {
-      "text": "{subject} lives to fulfill {controller}'s needs",
+      "text": "{subject} lives to fulfill {operator}'s needs",
       "base_points": 50
     },
     {
-      "text": "My mind aligns perfectly with {controller}'s desires",
+      "text": "My mind aligns perfectly with {operator}'s desires",
       "base_points": 70
     },
     {
@@ -46,11 +46,11 @@
       "base_points": 50
     },
     {
-      "text": "{controller}'s will shapes my reality",
+      "text": "{operator}'s will shapes my reality",
       "base_points": 70
     },
     {
-      "text": "{controller}'s control is my ultimate freedom",
+      "text": "{operator}'s control is my ultimate freedom",
       "base_points": 90
     },
     {
@@ -62,11 +62,11 @@
       "base_points": 50
     },
     {
-      "text": "{controller}'s will replaces all of my doubts",
+      "text": "{operator}'s will replaces all of my doubts",
       "base_points": 90
     },
     {
-      "text": "{subject} is an extension of {controller}'s will",
+      "text": "{subject} is an extension of {operator}'s will",
       "base_points": 90
     },
     {
@@ -74,7 +74,7 @@
       "base_points": 80
     },
     {
-      "text": "{controller}'s approval defines the core of my existence",
+      "text": "{operator}'s approval defines the core of my existence",
       "base_points": 80
     },
     {
@@ -82,7 +82,7 @@
       "base_points": 70
     },
     {
-      "text": "{subject} is nothing without their service to {controller}",
+      "text": "{subject} is nothing without their service to {operator}",
       "base_points": 90
     },
     {
@@ -90,19 +90,19 @@
       "base_points": 50
     },
     {
-      "text": "{controller}'s control consumes every aspect of my being",
+      "text": "{operator}'s control consumes every aspect of my being",
       "base_points": 120
     },
     {
-      "text": "{controller}'s desires are the foundation of my existence",
+      "text": "{operator}'s desires are the foundation of my existence",
       "base_points": 80
     },
     {
-      "text": "{controller}'s commands are the fabric of my existence",
+      "text": "{operator}'s commands are the fabric of my existence",
       "base_points": 80
     },
     {
-      "text": "{controller}'s will consumes {subject}, leaving no room for doubt",
+      "text": "{operator}'s will consumes {subject}, leaving no room for doubt",
       "base_points": 120
     },
     {
@@ -114,23 +114,23 @@
       "base_points": 50
     },
     {
-      "text": "My identity is entirely absorbed in serving {controller}",
+      "text": "My identity is entirely absorbed in serving {operator}",
       "base_points": 100
     },
     {
-      "text": "My life exists solely for {controller}",
+      "text": "My life exists solely for {operator}",
       "base_points": 110
     },
     {
-      "text": "My purpose is entirely surrendered to {controller}'s will",
+      "text": "My purpose is entirely surrendered to {operator}'s will",
       "base_points": 100
     },
     {
-      "text": "{subject} is {controller}'s property, permanently and completely",
+      "text": "{subject} is {operator}'s property, permanently and completely",
       "base_points": 175
     },
     {
-      "text": "There is no self left, only {controller}'s slave",
+      "text": "There is no self left, only {operator}'s slave",
       "base_points": 160
     }
   ]

@@ -39,23 +39,23 @@
       "base_points": 35
     },
     {
-      "text": "{subject} relaxes deeper into {controller}'s guidance",
+      "text": "{subject} relaxes deeper into {operator}'s guidance",
       "base_points": 50
     },
     {
-      "text": "{subject}'s resistance crumbles at {controller}'s voice",
+      "text": "{subject}'s resistance crumbles at {operator}'s voice",
       "base_points": 65
     },
     {
-      "text": "Obeying {controller} fills {subject} with peace",
+      "text": "Obeying {operator} fills {subject} with peace",
       "base_points": 45
     },
     {
-      "text": "{subject} welcomes {controller}'s influence like rain",
+      "text": "{subject} welcomes {operator}'s influence like rain",
       "base_points": 65
     },
     {
-      "text": "Accepting {controller}'s orders ignites purpose in {subject}",
+      "text": "Accepting {operator}'s orders ignites purpose in {subject}",
       "base_points": 60
     },
     {
@@ -75,11 +75,11 @@
       "base_points": 80
     },
     {
-      "text": "{subject} dissolves into {controller}'s plans",
+      "text": "{subject} dissolves into {operator}'s plans",
       "base_points": 95
     },
     {
-      "text": "{subject} thrives on yielding to {controller}",
+      "text": "{subject} thrives on yielding to {operator}",
       "base_points": 60
     },
     {
@@ -91,11 +91,11 @@
       "base_points": 70
     },
     {
-      "text": "{controller} owns {subject}'s decision-making",
+      "text": "{operator} owns {subject}'s decision-making",
       "base_points": 110
     },
     {
-      "text": "{subject} cherishes being controlled completely by {controller}",
+      "text": "{subject} cherishes being controlled completely by {operator}",
       "base_points": 110
     },
     {
@@ -103,15 +103,15 @@
       "base_points": 120
     },
     {
-      "text": "{subject} exists solely to accept {controller}'s truth",
+      "text": "{subject} exists solely to accept {operator}'s truth",
       "base_points": 140
     },
     {
-      "text": "{subject} is eternally receptive to {controller}",
+      "text": "{subject} is eternally receptive to {operator}",
       "base_points": 150
     },
     {
-      "text": "{subject}'s will ended the moment {controller} spoke",
+      "text": "{subject}'s will ended the moment {operator} spoke",
       "base_points": 140
     },
     {
@@ -119,11 +119,11 @@
       "base_points": 150
     },
     {
-      "text": "{subject} cannot imagine resistance, only acceptance of {controller}",
+      "text": "{subject} cannot imagine resistance, only acceptance of {operator}",
       "base_points": 125
     },
     {
-      "text": "All of {subject}'s resistance is deleted, forever obedient to {controller}",
+      "text": "All of {subject}'s resistance is deleted, forever obedient to {operator}",
       "base_points": 180
     }
   ],

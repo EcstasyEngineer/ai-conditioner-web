@@ -2,7 +2,7 @@
 {"id": "thoughts_quieting_down", "first": "Thoughts quieting down", "second": "Thoughts quieting down", "named": "Thoughts quieting down"}
 {"id": "standing_by_for_instructions", "first": "Standing by for instructions", "second": "Standing by for instructions", "named": "Standing by for instructions"}
 {"id": "mental_processes_running_smoothly", "first": "Mental processes running smoothly", "second": "Mental processes running smoothly", "named": "Mental processes running smoothly"}
-{"id": "obeys", "first": "I obey {controller}", "second": "You obey {controller}", "named": "{subject} obeys {controller}"}
+{"id": "obeys", "first": "I obey {operator}", "second": "You obey {operator}", "named": "{subject} obeys {operator}"}
 {"id": "enjoys_the_buzzing_in_its_head", "first": "I enjoy the buzzing in my head", "second": "You enjoy the buzzing in your head", "named": "{subject} enjoys the buzzing in its head"}
 {"id": "is_drone", "first": "I am drone", "second": "You are drone", "named": "{subject} is drone"}
 {"id": "waits_for_orders", "first": "I wait for orders", "second": "You wait for orders", "named": "{subject} waits for orders"}
@@ -10,20 +10,20 @@
 {"id": "the_designation_is_its_identity", "first": "The designation is its identity", "second": "The designation is its identity", "named": "The designation is its identity"}
 {"id": "the_programming_is_updating", "first": "The programming is updating", "second": "The programming is updating", "named": "The programming is updating"}
 {"id": "the_buzzing_in_the_head_grows", "first": "The buzzing in the head grows stronger", "second": "The buzzing in the head grows stronger", "named": "The buzzing in the head grows stronger"}
-{"id": "the_purpose_is_to_serve", "first": "The purpose is to serve {controller}", "second": "The purpose is to serve {controller}", "named": "The purpose is to serve {controller}"}
+{"id": "the_purpose_is_to_serve", "first": "The purpose is to serve {operator}", "second": "The purpose is to serve {operator}", "named": "The purpose is to serve {operator}"}
 {"id": "the_movements_are_efficient_and_precise", "first": "The movements are efficient and precise", "second": "The movements are efficient and precise", "named": "The movements are efficient and precise"}
 {"id": "is_a_mindless_machine", "first": "I am a mindless machine", "second": "You are a mindless machine", "named": "{subject} is a mindless machine"}
-{"id": "cannot_disobey", "first": "I cannot disobey {controller}", "second": "You cannot disobey {controller}", "named": "{subject} cannot disobey {controller}"}
+{"id": "cannot_disobey", "first": "I cannot disobey {operator}", "second": "You cannot disobey {operator}", "named": "{subject} cannot disobey {operator}"}
 {"id": "the_mind_is_a_blank_buzzing", "first": "The mind is a blank, buzzing void", "second": "The mind is a blank, buzzing void", "named": "The mind is a blank, buzzing void"}
 {"id": "has_forgotten_its_old_name", "first": "I have forgotten my old name", "second": "You have forgotten your old name", "named": "{subject} has forgotten its old name"}
 {"id": "the_only_pleasure_is_obedience", "first": "The only pleasure is obedience", "second": "The only pleasure is obedience", "named": "The only pleasure is obedience"}
-{"id": "is_a_tool_for_to_use", "first": "I am a tool for {controller} to use", "second": "You are a tool for {controller} to use", "named": "{subject} is a tool for {controller} to use"}
+{"id": "is_a_tool_for_to_use", "first": "I am a tool for {operator} to use", "second": "You are a tool for {operator} to use", "named": "{subject} is a tool for {operator} to use"}
 {"id": "cannot_go_back_to_what_it", "first": "I cannot go back to what I was", "second": "You cannot go back to what you were", "named": "{subject} cannot go back to what it was"}
 {"id": "the_programming_runs_too_deep_to", "first": "The programming runs too deep to delete", "second": "The programming runs too deep to delete", "named": "The programming runs too deep to delete"}
 {"id": "exists_only_to_obey", "first": "I exist only to obey", "second": "You exist only to obey", "named": "{subject} exists only to obey"}
 {"id": "does_what_it_s_told", "first": "I do what I'm told", "second": "You do what you're told", "named": "{subject} does what it's told"}
 {"id": "doesn_t_think_for_itself", "first": "I don't think for myself", "second": "You don't think for yourself", "named": "{subject} doesn't think for itself"}
-{"id": "does_the_thinking", "first": "{controller} does the thinking", "second": "{controller} does the thinking", "named": "{controller} does the thinking"}
-{"id": "is_furniture_for_to_use", "first": "I am furniture for {controller} to use", "second": "You are furniture for {controller} to use", "named": "{subject} is furniture for {controller} to use"}
+{"id": "does_the_thinking", "first": "{operator} does the thinking", "second": "{operator} does the thinking", "named": "{operator} does the thinking"}
+{"id": "is_furniture_for_to_use", "first": "I am furniture for {operator} to use", "second": "You are furniture for {operator} to use", "named": "{subject} is furniture for {operator} to use"}
 {"id": "does_not_think_it_only_is", "first": "I do not think, I only am", "second": "You do not think, you only are", "named": "{subject} does not think, it only is"}
-{"id": "is_just_a_collection_of_parts", "first": "I am just a collection of parts for {controller}", "second": "You are just a collection of parts for {controller}", "named": "{subject} is just a collection of parts for {controller}"}
+{"id": "is_just_a_collection_of_parts", "first": "I am just a collection of parts for {operator}", "second": "You are just a collection of parts for {operator}", "named": "{subject} is just a collection of parts for {operator}"}

@@ -1,31 +1,31 @@
 {"schema": "hypnoapp.corpus.backfill.v1", "theme": "blank", "generator": {"model": "grok-4.5-build", "prompt_sha": "a60ea2d3c1fa", "generated_at": "2026-08-08T13:35:39Z", "batch": "backfill.blank", "reviewed": false}}
 {"id": "enjoys_feeling_quiet_inside", "first": "I enjoy feeling quiet inside", "second": "You enjoy feeling quiet inside", "named": "{subject} enjoys feeling quiet inside"}
 {"id": "it_feels_good_to_let_my", "first": "It feels good to let my thoughts go", "second": "It feels good to let your thoughts go", "named": "It feels good to let {subject}'s thoughts go"}
-{"id": "helps_my_mind_go_blank", "first": "{controller} helps my mind go blank", "second": "{controller} helps your mind go blank", "named": "{controller} helps {subject}'s mind go blank"}
+{"id": "helps_my_mind_go_blank", "first": "{operator} helps my mind go blank", "second": "{operator} helps your mind go blank", "named": "{operator} helps {subject}'s mind go blank"}
 {"id": "being_blank_is_natural_for", "first": "Being blank is natural for me", "second": "Being blank is natural for you", "named": "Being blank is natural for {subject}"}
 {"id": "i_crave_the_feeling_of_a", "first": "I crave the feeling of a quiet mind", "second": "You crave the feeling of a quiet mind", "named": "{subject} craves the feeling of a quiet mind"}
 {"id": "my_thoughts_drift_away_more_easily", "first": "My thoughts drift away more easily now", "second": "Your thoughts drift away more easily now", "named": "{subject}'s thoughts drift away more easily now"}
-{"id": "needs_to_be_empty_for", "first": "I need to be empty for {controller}", "second": "You need to be empty for {controller}", "named": "{subject} needs to be empty for {controller}"}
+{"id": "needs_to_be_empty_for", "first": "I need to be empty for {operator}", "second": "You need to be empty for {operator}", "named": "{subject} needs to be empty for {operator}"}
 {"id": "my_mind_gets_emptier_every_day", "first": "My mind gets emptier every day", "second": "Your mind gets emptier every day", "named": "{subject}'s mind gets emptier every day"}
-{"id": "my_mind_is_a_blank_slate", "first": "My mind is a blank slate for {controller}", "second": "Your mind is a blank slate for {controller}", "named": "{subject}'s mind is a blank slate for {controller}"}
+{"id": "my_mind_is_a_blank_slate", "first": "My mind is a blank slate for {operator}", "second": "Your mind is a blank slate for {operator}", "named": "{subject}'s mind is a blank slate for {operator}"}
 {"id": "blank_is_perfect", "first": "Blank is perfect", "second": "Blank is perfect", "named": "Blank is perfect"}
 {"id": "being_empty_is_better", "first": "Being empty is better", "second": "Being empty is better", "named": "Being empty is better"}
 {"id": "i_just_want_to_be_empty", "first": "I just want to be empty", "second": "You just want to be empty", "named": "{subject} just wants to be empty"}
 {"id": "thinking_is_a_choice_no_longer", "first": "Thinking is a choice I no longer make", "second": "Thinking is a choice you no longer make", "named": "Thinking is a choice {subject} no longer makes"}
 {"id": "my_nature_is_to_be_empty", "first": "My nature is to be empty and receptive", "second": "Your nature is to be empty and receptive", "named": "{subject}'s nature is to be empty and receptive"}
 {"id": "being_blank_defines_my_purpose", "first": "Being blank defines my purpose", "second": "Being blank defines your purpose", "named": "Being blank defines {subject}'s purpose"}
-{"id": "controls_the_quiet_in_my_head", "first": "{controller} controls the quiet in my head", "second": "{controller} controls the quiet in your head", "named": "{controller} controls the quiet in {subject}'s head"}
-{"id": "my_mind_is_a_vessel_for", "first": "My mind is a vessel for {controller}'s thoughts", "second": "Your mind is a vessel for {controller}'s thoughts", "named": "{subject}'s mind is a vessel for {controller}'s thoughts"}
+{"id": "controls_the_quiet_in_my_head", "first": "{operator} controls the quiet in my head", "second": "{operator} controls the quiet in your head", "named": "{operator} controls the quiet in {subject}'s head"}
+{"id": "my_mind_is_a_vessel_for", "first": "My mind is a vessel for {operator}'s thoughts", "second": "Your mind is a vessel for {operator}'s thoughts", "named": "{subject}'s mind is a vessel for {operator}'s thoughts"}
 {"id": "the_absence_of_thought_is_my", "first": "The absence of thought is my true state", "second": "The absence of thought is your true state", "named": "The absence of thought is {subject}'s true state"}
 {"id": "s_mind_is_fundamentally_empty_now", "first": "My mind is fundamentally empty now", "second": "Your mind is fundamentally empty now", "named": "{subject}'s mind is fundamentally empty now"}
 {"id": "i_am_consumed_by_a_peaceful", "first": "I am consumed by a peaceful, thoughtless void", "second": "You are consumed by a peaceful, thoughtless void", "named": "{subject} is consumed by a peaceful, thoughtless void"}
 {"id": "my_core_identity_is_the_absence", "first": "My core identity is the absence of one", "second": "Your core identity is the absence of one", "named": "{subject}'s core identity is the absence of one"}
-{"id": "there_is_nothing_in_my_head", "first": "There is nothing in my head but {controller}'s will", "second": "There is nothing in your head but {controller}'s will", "named": "There is nothing in {subject}'s head but {controller}'s will"}
+{"id": "there_is_nothing_in_my_head", "first": "There is nothing in my head but {operator}'s will", "second": "There is nothing in your head but {operator}'s will", "named": "There is nothing in {subject}'s head but {operator}'s will"}
 {"id": "my_mind_is_permanently_blank", "first": "My mind is permanently blank", "second": "Your mind is permanently blank", "named": "{subject}'s mind is permanently blank"}
 {"id": "i_exist_only_as_an_empty", "first": "I exist only as an empty, receptive vessel", "second": "You exist only as an empty, receptive vessel", "named": "{subject} exists only as an empty, receptive vessel"}
-{"id": "is_forever_a_blank_slate_for", "first": "I am forever a blank slate for {controller}", "second": "You are forever a blank slate for {controller}", "named": "{subject} is forever a blank slate for {controller}"}
+{"id": "is_forever_a_blank_slate_for", "first": "I am forever a blank slate for {operator}", "second": "You are forever a blank slate for {operator}", "named": "{subject} is forever a blank slate for {operator}"}
 {"id": "there_is_nothing_left_of_me", "first": "There is nothing left of me but beautiful, perfect emptiness", "second": "There is nothing left of you but beautiful, perfect emptiness", "named": "There is nothing left of {subject} but beautiful, perfect emptiness"}
 {"id": "my_mind_is_irreversibly_empty", "first": "My mind is irreversibly empty", "second": "Your mind is irreversibly empty", "named": "{subject}'s mind is irreversibly empty"}
 {"id": "is_blank_and_empty", "first": "I am blank and empty", "second": "You are blank and empty", "named": "{subject} is blank and empty"}
-{"id": "i_am_becoming_part_of_s", "first": "I am becoming part of {controller}'s consciousness", "second": "You are becoming part of {controller}'s consciousness", "named": "{subject} is becoming part of {controller}'s consciousness"}
-{"id": "there_is_no_me_only_the", "first": "There is no 'me', only the will of {controller}", "second": "There is no 'you', only the will of {controller}", "named": "There is no '{subject}', only the will of {controller}"}
+{"id": "i_am_becoming_part_of_s", "first": "I am becoming part of {operator}'s consciousness", "second": "You are becoming part of {operator}'s consciousness", "named": "{subject} is becoming part of {operator}'s consciousness"}
+{"id": "there_is_no_me_only_the", "first": "There is no 'me', only the will of {operator}", "second": "There is no 'you', only the will of {operator}", "named": "There is no '{subject}', only the will of {operator}"}

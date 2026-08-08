@@ -1,3 +1,3 @@
 {"schema": "hypnoapp.corpus.v1", "theme": "worship", "generator": {"model": "grok-4.5-build", "prompt_sha": "2e56456d284edfce", "generated_at": "2026-08-08T14:32:44Z", "batch": "worship.deep.002"}, "tier": "deep"}
-{"first": "Holiness pours from {controller}'s every word", "second": "Holiness pours from {controller}'s every word", "named": "Holiness pours from {controller}'s every word", "base_points": 115, "themes": ["worship"]}
-{"first": "My spine bows of its own accord for {controller}", "second": "Your spine bows of its own accord for {controller}", "named": "{subject}'s spine bows of its own accord for {controller}", "base_points": 125, "themes": ["worship", "submission"]}
+{"first": "Holiness pours from {operator}'s every word", "second": "Holiness pours from {operator}'s every word", "named": "Holiness pours from {operator}'s every word", "base_points": 115, "themes": ["worship"]}
+{"first": "My spine bows of its own accord for {operator}", "second": "Your spine bows of its own accord for {operator}", "named": "{subject}'s spine bows of its own accord for {operator}", "base_points": 125, "themes": ["worship", "submission"]}
