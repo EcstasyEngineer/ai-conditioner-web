@@ -1,4 +1,0 @@
-{subject_subjective} [don't|doesn't] think.
-{subject_subjective} [am|are|are|is] not allowed to think.
-{subject_subjective} [am|are|are|is] not allowed to feel.
-{subject_subjective} [am|are|are|is] not allowed to be.

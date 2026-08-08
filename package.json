@@ -3,37 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run typecheck && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "test": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.tools.json --noEmit",
+    "test": "vitest run",
     "test:run": "vitest run",
+    "test:watch": "vitest",
     "corpus:ingest": "node --experimental-strip-types tools/ingest/cli.ts ingest",
     "corpus:report": "node --experimental-strip-types tools/ingest/cli.ts report",
     "corpus:lint": "node --experimental-strip-types tools/ingest/cli.ts lint",
     "corpus:test": "node --experimental-strip-types tools/ingest/selftest.ts"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.515.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.1.0",
-    "tailwind-merge": "^3.3.1",
-    "zustand": "^5.0.5"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/vite": "^4.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-v8": "^4.1.10",
     "eslint": "^9",
-    "tailwindcss": "^4.0.0",
+    "globals": "^15.15.0",
     "typescript": "^5",
+    "typescript-eslint": "^8.66.0",
     "vite": "^6.0.0",
     "vitest": "^4.0.16"
   }

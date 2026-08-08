@@ -1,6 +1,8 @@
 name: Deploy
 
-# Manual trigger only - no automatic deployment
+# Manual trigger. Decisions this implements are recorded in docs/v1/DEPLOYMENT.md:
+# base path `/`, no router, SPA fallback on every host, index.html uncached.
+
 on:
   workflow_dispatch:
     inputs:
@@ -10,41 +12,54 @@ on:
         default: 'staging'
         type: choice
         options:
-        - staging
-        - production
+          - staging
+          - production
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     environment: ${{ github.event.inputs.environment }}
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20.x'
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
-      
-    - name: Build application
-      run: npm run build
-      env:
-        NEXT_TELEMETRY_DISABLED: 1
-        
-    - name: Deployment placeholder
-      run: |
-        echo "🚀 Deployment to ${{ github.event.inputs.environment }} would happen here"
-        echo "Add your deployment commands (rsync, docker, etc.) in this step"
-        echo "Current build is ready in ./dist or ./.next directory"
-        
-    - name: Deployment summary
-      run: |
-        echo "✅ Deployment workflow completed"
-        echo "Environment: ${{ github.event.inputs.environment }}"
-        echo "Commit: ${{ github.sha }}"
-        echo "Branch: ${{ github.ref_name }}"
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Deploying an unverified build is how a broken bundle reaches a real URL.
+      - name: Verify
+        run: |
+          npm run lint
+          npm run typecheck
+          npm run test:run
+
+      - name: Build
+        run: npm run build
+
+      # DEPLOYMENT.md §3: hosts without a rewrite engine (GitHub Pages) serve
+      # 404.html for unknown paths. Making it identical to index.html turns a
+      # hard refresh into a normal load. Harmless everywhere else.
+      - name: Install SPA fallback
+        run: cp dist/index.html dist/404.html
+
+      - name: Verify the fallback is in place
+        run: |
+          set -euo pipefail
+          test -f dist/index.html
+          test -f dist/404.html
+          cmp dist/index.html dist/404.html
+          echo "SPA fallback verified: hard refresh on any path serves the shell"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hypnoapp-${{ github.event.inputs.environment }}
+          path: dist/
+          retention-days: 14

@@ -1,58 +1,93 @@
 name: CI
 
+# Every step below is BLOCKING. There is no `continue-on-error` in this file and
+# none may be added: a green check that survives a failing step is worse than no
+# check at all, because it is trusted. tests/repo-hygiene.test.ts asserts the
+# absence, so reintroducing one fails the suite that would have hidden it.
+
 on:
   push:
-    branches: [ main, develop ]
+    branches: [main, v1]
   pull_request:
-    branches: [ main ]
+    branches: [main, v1]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  build-and-test:
+  verify:
+    name: lint · typecheck · test · build
     runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x]
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Setup Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
-      continue-on-error: true
-      
-    - name: TypeScript compilation check
-      run: npx tsc --noEmit
-      continue-on-error: true
-      
-    - name: ESLint check
-      run: npm run lint
-      continue-on-error: true
-      
-    - name: Prisma schema validation
-      run: npx prisma validate
-      continue-on-error: true
-      
-    - name: Next.js build
-      run: npm run build
-      continue-on-error: true
-      env:
-        # Skip telemetry during build
-        NEXT_TELEMETRY_DISABLED: 1
-        # Provide minimal env vars for build
-        NEXTAUTH_SECRET: "dummy-secret-for-build"
-        NEXTAUTH_URL: "http://localhost:3000"
-        DATABASE_URL: "postgresql://dummy:dummy@localhost:5432/dummy"
-        
-    - name: Build Summary
-      run: |
-        echo "✅ CI pipeline completed"
-        echo "Note: This pipeline runs checks but does not block commits on failure"
-        echo "Check individual step results above for any issues"
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Node 22: the ingest toolchain runs .ts directly via
+          # --experimental-strip-types, which is not available on 20.
+          node-version: '22.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck (browser tree and Node toolchain)
+        run: npm run typecheck
+
+      - name: Test
+        run: npm run test:run
+
+      - name: Build
+        run: npm run build
+
+      # The corpus is a build input. `corpus:lint` exits non-zero on schema and
+      # content errors; coverage shortfalls are reported as data, since Phase B
+      # saturation is M5's tracked target rather than a gate on every push.
+      - name: Corpus lint
+        run: npm run corpus:lint
+
+      - name: Corpus toolchain self-test
+        run: npm run corpus:test
+
+  firewall:
+    name: node-only firewall
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # The browser bundle must not be able to reach tools/. Proving it by
+      # building is stronger than grepping for the import: a transitive path
+      # through a barrel file still fails here.
+      - name: Assert tools/ is unreachable from the browser bundle
+        run: |
+          set -euo pipefail
+          npm run build
+          if grep -rqF 'experimental-strip-types' dist/ 2>/dev/null; then
+            echo "::error::Node-only toolchain leaked into the browser bundle"
+            exit 1
+          fi
+          for builtin in 'node:fs' 'node:path' 'node:child_process'; do
+            if grep -rqF "$builtin" dist/assets/ 2>/dev/null; then
+              echo "::error::Bundle imports the Node builtin $builtin"
+              exit 1
+            fi
+          done
+          echo "Firewall intact: no Node-only code in dist/"

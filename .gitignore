@@ -30,3 +30,10 @@ yarn-debug.log*
 .venv
 __pycache__
 *.pyc
+
+# coverage
+coverage
+
+# toolchain scratch (batch logs, smoke output)
+tools/*.log
+tools/*_smoke.json

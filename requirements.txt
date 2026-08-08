@@ -1,6 +1,0 @@
-discord.py
-pyyaml
-sqlalchemy
-boto3
-Flask
-python-dotenv

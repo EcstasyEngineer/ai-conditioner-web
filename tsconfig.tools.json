@@ -1,5 +1,5 @@
 {
-  "//": "Node-only toolchain (MODULES.json M5). Firewalled from the browser bundle: no DOM lib, and nothing under tools/ may be imported by src/ or lib/ at runtime.",
+  "//": "Node-only toolchain (MODULES.json M5). Firewalled from the browser bundle: no DOM lib, and nothing under tools/ may be imported by engine/ or web/ — asserted in tests/repo-hygiene.test.ts. tools/ may import engine/ (it consumes M1's schema rather than reimplementing it); the arrow never points the other way.",
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",
@@ -11,11 +11,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
     "noEmit": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
-  "include": ["tools"]
+  "include": ["tools"],
+  "exclude": ["node_modules", "dist"]
 }

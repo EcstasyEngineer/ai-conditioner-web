@@ -1,85 +1,72 @@
-# AI Conditioner Web
+# hypnoapp
 
-Web application for browsing, organizing, and playing hypnosis content. Provides the taxonomy/ontology layer and web-based session player.
+A hypnotic mantra session you sit in front of for twenty minutes.
+
+Three lanes of text — a dominant center and two dimmer, offset sides — render a
+seeded, fully-planned session over a shader backdrop and an isochronic audio bed.
+No backend, no database, no accounts. A session never leaves the browser.
 
 ## Architecture
 
-This repo focuses on **organization and playback**, not generation:
+Two layers, one package:
 
-| Repo | Purpose |
-|------|---------|
-| **autotranceweb** (this) | Theme taxonomy, ontologies, web UI, session playback |
-| **[hypnocli](https://github.com/EcstasyEngineer/hypnocli)** | Content generation (mantras, scripts, TTS rendering) |
-| **[conditioner](https://github.com/EcstasyEngineer/conditioner)** | Discord bot that consumes content |
+| Layer | What it is | Rules |
+|---|---|---|
+| `engine/` | The whole artifact: consent filters, session planning, the pacing arc, the render model | **Pure.** No DOM, no `window`, no `fetch`, no `Date.now()`, no `Math.random()`, no Node builtins, zero third-party imports. Time enters as a parameter; randomness as a seeded RNG. |
+| `web/` | Vite + React shell, plus raw DOM/rAF rendering for the three lanes | React owns the setup screen. It never sits between the session clock and the pixels. |
+| `tools/` | Node-only corpus ingest and reporting | Firewalled behind `tsconfig.tools.json`; never reachable from the browser bundle. |
 
-## Key Components
+The engine produces a fully-materialized `SessionPlan` before a single pixel is
+drawn, and the renderer is a function of `(plan, elapsedMs) → FrameState`. A
+session is reproducible from `(config, seed)`, which is what makes scheduling
+bugs unit-testable instead of something you watch a spiral for eight minutes to
+reproduce.
 
-### Ontologies (`ontologies/`)
-115+ theme definitions with metadata:
-- Theme descriptions and keywords
-- Psychological appeal classifications
-- CNC (consensual non-consent) flags
-- Related themes and intensity levels
+Both engine rules are enforced by local ESLint rules in `eslint-rules/`, not by
+convention.
 
-### Session Engine (`lib/session-engine/`)
-TidalCycles-inspired pattern system for session composition:
-- **Cyclers** - Content ordering strategies (adaptive, weave, cluster)
-- **Players** - Spatial audio positioning (tri-chamber, rotational)
-- **Pattern Compiler** - Compositional session building
-
-### Template System (`lib/mantras/`)
-Variable substitution for flexible content rendering:
-- `{subject_subjective}` / `{subject_possessive}` / `{subject_objective}`
-- `{dominant_name}` / `{dominant_possessive}`
-- Verb conjugation patterns `[verb_1st|verb_3rd]`
-
-## Stack
-
-- **Framework**: Next.js 15 (App Router)
-- **Language**: TypeScript
-- **Database**: Prisma ORM (PostgreSQL/SQLite)
-- **Auth**: NextAuth.js
-
-## Getting Started
+## Getting started
 
 ```bash
 npm install
-npm run dev
+npm run dev          # dev server
+npm run build        # typecheck + production build to dist/
+npm run preview      # serve the production build
 ```
 
-### Environment
-
-Create `.env.local`:
-```env
-DATABASE_URL="file:./dev.db"
-NEXTAUTH_SECRET="your-secret"
-
-# AWS Polly (if rendering audio locally)
-AWS_ACCESS_KEY_ID=your_key
-AWS_SECRET_ACCESS_KEY=your_secret
-AWS_REGION=us-east-1
-```
-
-### Prisma
+## Verification
 
 ```bash
-npx prisma generate    # Regenerate client after schema changes
-npx prisma db push     # Push schema to dev DB
-npx prisma studio      # Browse data
+npm run lint         # includes the two engine-purity rules
+npm run typecheck    # browser tree and Node toolchain, separately
+npm test             # vitest, single run
 ```
 
-## Content Workflow
+CI runs all four plus the build, and **every step is blocking** — there is no
+`continue-on-error` in the workflow and a test asserts none is ever added.
 
-1. **Generate content** using hypnocli:
-   ```bash
-   # In hypnocli repo
-   python script/generate_mantras.py --theme obedience --count 20 --format conditioner
-   python tts/render_polly.py script.txt output.mp3
-   ```
+## Corpus
 
-2. **Organize** using autotranceweb ontologies for theme metadata
+Mantras live in `corpus/pool.json` as first-class records tagged with themes,
+with a person-variant sidecar in `corpus/persons.json` and per-record provenance
+in `corpus/provenance.json`.
 
-3. **Play** through the web session player or export for conditioner bot
+```bash
+npm run corpus:lint      # schema, content and coverage report
+npm run corpus:report     # per-(theme, tier) coverage
+npm run corpus:ingest     # re-ingest raw batches (idempotent)
+```
+
+Ingest is idempotent by design: re-ingesting the same raw files produces a
+byte-identical pool, so corpus growth is reviewable as a diff.
+
+## Documentation
+
+- `docs/v1/DESIGN.md` — the architecture, and the authority when anything disagrees
+- `docs/v1/MODULES.json` — module boundaries, interfaces and acceptance criteria
+- `docs/v1/CORPUS_SPEC.md` — the record contract and the conjugation gate
+- `docs/v1/DECISIONS.md` — owner overrides
+- `docs/v1/DEPLOYMENT.md` — base path, router mode, SPA fallback
 
 ## License
 
