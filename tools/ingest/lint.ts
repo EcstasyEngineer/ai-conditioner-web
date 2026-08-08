@@ -4,8 +4,6 @@
  * The ingester REJECTS, never repairs.
  */
 
-import type { Tier } from './types.ts';
-import { getTier } from './tier.ts';
 import type { GateFinding } from './conjugation.ts';
 
 /* ------------------------------------------------------------------ *
@@ -77,7 +75,16 @@ export function checkPlaceholders(text: string, label: string): GateFinding[] {
  * §8.3 — content quality
  * ------------------------------------------------------------------ */
 
-/** §5.2 — permanence vocabulary is extreme-tier only. Lexical, no classifier. */
+/**
+ * Permanence vocabulary — rejected outright, at any register.
+ *
+ * This list was previously a tier gate ("legal at extreme tier"). A blind
+ * quality tournament then measured it as the single strongest quality signal in
+ * the corpus, and negative: it appears in 0% of S-rated lines and 48% of F. The
+ * word does the work the image should do, asserting durability rather than
+ * producing an experience. There is no tier at which that is good writing, so
+ * the list is a kill probe rather than a gate.
+ */
 const PERMANENCE_VOCAB = [
   'forever',
   'permanent',
@@ -88,7 +95,17 @@ const PERMANENCE_VOCAB = [
   'can never',
 ];
 
-/** §8.3.8 — GPT-ism blacklist. */
+/**
+ * §8.3.8 — GPT-ism blacklist.
+ *
+ * The quality tournament also named an intensifier stack (`absolute`, `total`,
+ * `completely`, `entirely`, `nothing but`) that clusters in its C/F tiers and
+ * appears in none of S. Those terms are NOT added here: MEASURED, they occur in
+ * 45 records already in the pool, so promoting them to a hard gate would reject
+ * shipped content and break re-ingest idempotence. They belong in the authoring
+ * brief, which is where they are, and in a review-severity pass if one is ever
+ * funded to re-read those 45 lines.
+ */
 const GPT_ISMS = [
   'delve',
   'tapestry',
@@ -107,7 +124,6 @@ export function wordCount(text: string): number {
 export function checkContentQuality(
   text: string,
   label: string,
-  basePoints: number,
 ): GateFinding[] {
   const findings: GateFinding[] = [];
   const lower = text.toLowerCase();
@@ -157,18 +173,16 @@ export function checkContentQuality(
     });
   }
 
-  // §5.2 / §8.3.7 — permanence vocabulary only at extreme tier.
-  if (getTier(basePoints) !== 'extreme') {
-    for (const term of PERMANENCE_VOCAB) {
-      if (lower.includes(term)) {
-        findings.push({
-          severity: 'hard',
-          code: 'PERMANENCE_BELOW_EXTREME',
-          message:
-            `${label}: permanence vocabulary "${term}" requires the extreme ` +
-            `tier (base_points >= 150); this record has ${basePoints}`,
-        });
-      }
+  // Permanence vocabulary, rejected at any register.
+  for (const term of PERMANENCE_VOCAB) {
+    if (lower.includes(term)) {
+      findings.push({
+        severity: 'hard',
+        code: 'PERMANENCE_VOCAB',
+        message:
+          `${label}: permanence vocabulary "${term}" asserts durability ` +
+          'instead of producing an image',
+      });
     }
   }
 
@@ -184,53 +198,6 @@ export function checkContentQuality(
     }
   }
 
-  return findings;
-}
-
-/* ------------------------------------------------------------------ *
- * §8.1.2 — base_points
- * ------------------------------------------------------------------ */
-
-export function checkBasePoints(
-  basePoints: unknown,
-  declaredTier: Tier,
-): GateFinding[] {
-  const findings: GateFinding[] = [];
-  if (typeof basePoints !== 'number' || !Number.isInteger(basePoints)) {
-    return [
-      {
-        severity: 'hard',
-        code: 'POINTS_NOT_INT',
-        message: `base_points must be an integer, got ${JSON.stringify(basePoints)}`,
-      },
-    ];
-  }
-  if (basePoints % 5 !== 0) {
-    findings.push({
-      severity: 'hard',
-      code: 'POINTS_NOT_MULTIPLE_OF_5',
-      message: `base_points ${basePoints} is not a multiple of 5`,
-    });
-  }
-  if (basePoints < 20 || basePoints > 200) {
-    findings.push({
-      severity: 'hard',
-      code: 'POINTS_OUT_OF_RANGE',
-      message: `base_points ${basePoints} is outside 20-200`,
-    });
-  }
-  const actual = getTier(basePoints);
-  if (actual !== declaredTier) {
-    // §5.3 — a declared tier that disagrees with getTier() pins the record
-    // for a human. Never a silent rewrite in either direction.
-    findings.push({
-      severity: 'review',
-      code: 'TIER_DISAGREEMENT',
-      message:
-        `base_points ${basePoints} lands in "${actual}" but the batch ` +
-        `declares "${declaredTier}"`,
-    });
-  }
   return findings;
 }
 

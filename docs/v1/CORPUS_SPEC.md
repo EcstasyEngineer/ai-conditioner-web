@@ -19,7 +19,7 @@ brief's triplet is made of: the center channel shows the 2nd-person form, the tw
 channels show 1st- or 3rd-person forms that drift across the session. The corpus must be
 saturated enough that three simultaneous channels can draw from one theme for ~18
 consecutive steps without visible repetition. **[MEASURED]** today's corpus holds 612
-records with a median (theme, tier) cell of **5** and **zero** 2nd-person content — so the
+records with **zero** 2nd-person content — so the
 center channel currently has no source material at all. Phase B closes that.
 
 ---
@@ -29,7 +29,7 @@ center channel currently has no source material at all. Phase B closes that.
 ### 2.1 The 22 existing themes and their live cell counts
 
 **[MEASURED]** from the conditioner repo's `mantras/pool.json`, 612 records. Columns are
-tiers derived from `base_points`, never stored.
+and its markers derived from its text, never stored.
 
 | theme | n | basic | light | moderate | deep | extreme |
 |---|---:|---:|---:|---:|---:|---:|
@@ -68,7 +68,7 @@ content and no wakener content anywhere in the corpus.
 
 | theme | role | why it cannot be improvised |
 |---|---|---|
-| `induction` | plays the first ~10% of every session; removed from the titration pool entirely | Improvising it from basic-tier `acceptance`/`blank`/`focus` was considered and rejected: those are conditioning themes that happen to be low-intensity, not content about *entering* trance. |
+| `induction` | plays the first ~10% of every session; removed from the titration pool entirely | Improvising it from quiet `acceptance`/`blank`/`focus` lines was considered and rejected: those are conditioning themes that happen to be gentle, not content about *entering* trance. |
 | `emergence` | plays the last ~10% of every session; removed from the titration pool entirely | **The engine cannot plan a session without it.** The phase-bookend mechanism exists to prevent the documented "Wide awake, rested and present" firing at line 2, and it has nothing to draw from. |
 
 **These are Tranche 0 and they are authored FIRST.** They are also the only batches with
@@ -105,39 +105,34 @@ candidates with pre-authored progression arcs.
 The target is derived from the triplet's arithmetic, not asserted:
 
 ```
-distinct draws needed per block per dwell = 3 channels × dwell_steps
-gaussian dwell at peak, MEASURED          = up to 18 consecutive steps
-→ a (theme, tier) cell self-sufficient at max dwell needs ≥54
-→ with the engine's ±1 tier adjacency widening,        ≥24 suffices
+distinct draws needed per tag per dwell = 3 channels x dwell_steps
+gaussian dwell at peak, MEASURED        = up to 18 consecutive steps
+-> a tag self-sufficient at max dwell needs >=54 records
 ```
 
-### 3.2 The tranches
+**The floor is an ENGINE parameter, not a law.** It moves if the lane count or
+the dwell curve moves, and every headroom figure quoted against it moves with
+it. It is stated here so that a tag falling under it is a finding rather than a
+surprise; it is not a number the corpus was designed backwards from.
 
-1.0 ships at **Tranche 1**. This is the deliberate answer to "what if Phase B only
-partially completes" — there is a defined degraded-but-shippable state.
+There is no second dimension. An earlier version of this section derived a floor
+per **(theme, tier) cell** and a lower "widening suffices" threshold beneath it.
+Tier was derived from `base_points`, `base_points` MEASURED as a reproduction of
+the batch filename on 2,461/2,461 generated records, and a floor computed per
+cell of a fabricated axis is a floor computed against nothing. A tag is a flat
+member of one namespace and the floor applies to it directly.
 
-| Tranche | Requirement | Records added | Cumulative | Gate |
-|---|---|---:|---:|---|
-| **T0** | `induction` ≥40 and `emergence` ≥40, hand-reviewed | ~80 | ~692 | **Blocking.** No session plans without it. |
-| **T1** | Every (theme, tier) cell ≥ **8**; every record has all 3 variants | ~700 | ~1,400 | **The 1.0 ship gate.** |
-| **T2** | Every (theme, tier) cell ≥ **24** | ~3,000 | ~4,400 | Quality target. Unlocks per-(theme,tier) blocks behind a config flag. |
-| **T3** | 12 draft themes + catalog_v4's 9 unmatched targets, at ≥24 | ~2,500 | ~6,900 | 1.1. |
+### 3.2 Status
 
-**T2 arithmetic:** 24 themes (22 + induction + emergence) × 5 tiers × 24 = **2,880**
-minimum, ~4,320 accounting for cells that naturally overfill. Against 612 today that is
-roughly **7× the corpus**, and each record needs three authored person variants — so
-Phase B is authoring on the order of **13,000 strings**.
+Phase B is **complete**. The tranche table that stood here described a campaign
+that has finished: T0 bookends authored, person variants backfilled, T2
+generation run. What replaced it as the live gate is the per-tag floor above,
+printed by `corpus:report`, which every tag currently clears.
 
-### 3.3 Per-cell priority within a tranche
-
-Generate against the deficit, not uniformly. The ingester's `corpus:report` prints every
-cell against both thresholds, so each batch targets the thinnest cells first. From §2.1, the
-starting deficit is concentrated in:
-
-- **`extreme`** — 11 of 22 themes hold ≤2 (`addiction`, `drone`, `free_use`, `gratitude`,
-  `obedience`, `suggestibility` all hold 1)
-- **`deep`** — `puppet` (1), `focus` (2), `bimbo` (2), `resistance` (2)
-- **`focus`** overall is the smallest theme at 19
+Generation against a deficit is therefore no longer the working mode. If the
+vocabulary should grow, the corpus must grow first: a new tag is only viable
+when the content to support it exists, and splitting an existing tag below the
+floor is the exact failure the floor exists to prevent.
 
 ---
 
@@ -268,52 +263,64 @@ deeper" is correct.
 |---|---|
 | `has_controller` | **Mechanical.** `"{controller}"` appears in the text. Computed by the ingester, not authored. **This is a live consent filter** — a user who has turned controller mantras off must never see one. |
 | `has_subject` | **Mechanical.** `"{subject}"` appears in the text. Computed, not authored. |
-| `permanence` | **Always `false` in 1.0.** Left as a reserved schema slot. See §5.2. |
-| `identity` | **Always `false` in 1.0.** Reserved. |
-| `pov` | **Derived by the ingester** from the `first` variant's stance. Never authored. |
 
-### 5.2 Why `permanence` and `identity` are not populated
+Those are the only two. Both are substring tests against the text they
+describe, which is what makes them incapable of drifting from it.
 
-An alternative design populated both via LLM judgment and made `permanence: true` below
-extreme tier a hard ingest rejection. That is declined, deliberately: a mass-rejection rule
-built on subjective classification either mass-rejects legitimate records when the classifier
-is over-eager, or silently under-populates and never fires when it is conservative — giving
-false confidence that a documented doctrine is now mechanically enforced.
+### 5.2 Three marker slots that were deleted
 
-**The permanence doctrine is instead enforced lexically, with no classifier in the
+`permanence` and `identity` were reserved schema slots, always written `false`.
+MEASURED: `true` on **0 of 2,639 records**. A constant is not data, and a
+reserved slot that nothing populates is a field every reader has to learn about
+and no reader can use.
+
+The section that stood here argued at length against having an LLM classifier
+populate them — correctly, since a mass-rejection rule built on subjective
+classification either mass-rejects legitimate records or silently never fires.
+The argument was right and the conclusion was one step short: the answer was to
+delete the slots, not to leave them empty.
+
+`pov` was deleted for a different reason: it is not empty, it is **redundant**.
+It is 100% recomputable from `text` by `derivePov`, its `second` value had zero
+instances, and its one load-bearing distinction — person-free, meaning a record
+can serve a side lane without exposing the person axis — is already stored as
+`persons[id].invariant`. Recomputing it is also strictly stronger than reading
+it: the sidecar integrity check now validates each record against its own text
+rather than against a stored opinion about its text.
+
+**The permanence doctrine survives, as a lexical gate with no classifier in the
 rejection path:**
 
-> **HARD — permanence vocabulary (`forever`, `permanent`, `permanently`, `never again`,
-> `for good`, `irreversible`, `can never`) may appear only in records whose `base_points`
-> land in the `extreme` tier (≥150).**
+> **HARD — permanence vocabulary (`forever`, `permanent`, `permanently`, `never
+> again`, `for good`, `irreversible`, `can never`) is rejected outright.**
 
-This is a word-list check on the string. It is deterministic, reviewable, and it makes the
-`THEME_GUIDELINES.md` doctrine mechanically enforceable for the first time without staking
-ingest on an LLM's judgment.
+It used to be legal at `extreme` tier. A blind quality tournament then measured
+this word list as the strongest quality signal in the corpus, and negative: 0%
+of S-rated lines, 48% of F. The word asserts durability instead of producing an
+image, and it breaks trance by inviting the reader to evaluate a claim. There is
+no tier at which that is good writing, and there is no longer a tier.
 
-### 5.3 Tiering and `base_points`
+### 5.3 There is no intensity axis
 
-**HARD.** Integer, a multiple of 5, in the range 20–200, and landing inside the requested
-tier's band. Tier is **derived, never stored**:
+`base_points` and the five-rung tier ladder derived from it are **deleted**, from
+the schema and from the data.
 
-| tier | `base_points` |
-|---|---|
-| `basic` | 20–44 |
-| `light` | 45–74 |
-| `moderate` | 75–109 |
-| `deep` | 110–149 |
-| `extreme` | ≥150 |
+MEASURED: `base_points` reproduced the batch filename on 2,461/2,461 Phase B
+records — 37 distinct values carrying zero information, inherited from a Discord
+points economy this app does not have. Tier was derived from it, so a stored or
+compared tier was a value derived from a fabricated one.
 
-Boundaries are lower-inclusive, matching `conditioner/utils/scoring.py:15-28` exactly.
+The scoring heuristic that produced those numbers (base 20; `{controller}` +20;
+permanence +60; and so on) is deleted with them. Deleting the output while
+keeping the generator invites regeneration.
 
-**The scoring heuristic** (from conditioner's own POINT_ECONOMY doctrine): base 20;
-`{controller}` +20; `{subject}` +10; both +30; permanence +60; ownership +30; identity
-erasure +30; vulnerability +30; absolutism +20; mechanism / depth / agency-removal +20 each;
-comfort language −15. **With the explicit override: "when math and instinct disagree, trust
-instinct."**
-
-A declared tier that disagrees with `getTier(base_points)` is a **REVIEW**, pinning the
-record for a human — never a silent rewrite in either direction.
+The consequence that mattered most was a consent defect: the user-facing
+intensity cap compared records **by index into the tier ladder**, so a user who
+set a ceiling was protected by a number invented from a filename. The cap is
+deleted and `excludedThemes` is promoted to the primary consent surface in the
+same change, so consent never regresses through an intermediate state. Heavy
+register is served by the flat `intense` tag, which a user excludes like any
+other tag.
 
 ### 5.4 Themes on a record
 
@@ -335,15 +342,15 @@ naive text slug, so nothing may reconstruct an id from text at read time.
 
 ### 6.1 What the swarm emits
 
-**One JSONL file per (theme, tier) batch** at `corpus/raw/<theme>.<tier>.<batch>.jsonl`.
+**One JSONL file per batch** at `corpus/raw/<theme>.<batch>.jsonl`.
 
 **JSONL, not a JSON array** — one malformed record from the swarm loses one line, not the
 whole batch. Line 1 is a header object; every subsequent line is one record.
 
 ```jsonl
-{"schema":"hypnoapp.corpus.v1","theme":"obedience","tier":"moderate","generator":{"model":"grok-…","prompt_sha":"…","generated_at":"2026-08-08T12:00:00Z","batch":"obedience.moderate.003"}}
-{"first":"My body moves before I decide to","second":"Your body moves before you decide to","named":"{subject}'s body moves before {subject} decides to","base_points":90,"themes":["obedience"],"markers":{"permanence":false,"identity":false}}
-{"first":"I stop checking whether I agree","second":"You stop checking whether you agree","named":"{subject} stops checking whether {subject} agrees","base_points":95,"themes":["obedience","submission"]}
+{"schema":"hypnoapp.corpus.v1","theme":"obedience","generator":{"model":"grok-…","prompt_sha":"…","generated_at":"2026-08-08T12:00:00Z","batch":"obedience.003"}}
+{"first":"My body moves before I decide to","second":"Your body moves before you decide to","named":"{subject}'s body moves before {subject} decides to","themes":["obedience"]}
+{"first":"I stop checking whether I agree","second":"You stop checking whether you agree","named":"{subject} stops checking whether {subject} agrees","themes":["obedience","submission"]}
 ```
 
 ### 6.2 Field contract
@@ -351,9 +358,8 @@ whole batch. Line 1 is a header object; every subsequent line is one record.
 | field | rule |
 |---|---|
 | `first` / `second` / `named` | **HARD.** All three required, always. Grammatically correct, independently readable, §4's rules applied. |
-| `base_points` | **HARD.** Integer, multiple of 5, 20–200, inside the requested tier's band. |
 | `themes` | **HARD.** ≥1. Cross-tagging encouraged. |
-| `markers` | Optional. Only `permanence`/`identity` may appear and both must be `false` in 1.0. `has_controller`/`has_subject`/`pov` are **derived** and rejected if present. |
+| `markers` | Optional and empty. `has_controller` and `has_subject` are **derived** and rejected if present; no other marker exists. |
 | `id` | **HARD — must be absent.** |
 
 ### 6.3 What the ingester produces
@@ -403,10 +409,9 @@ then content quality, then dedupe, then id assignment.
 ### 8.1 Structural (HARD)
 
 1. Valid JSONL; the header line conforms; every required field present and correctly typed.
-2. `base_points` integer, multiple of 5, 20–200, inside the declared tier's band.
-3. Only `{subject}` and `{controller}`, bare form only; **format specs rejected**; braces
+2. Only `{subject}` and `{controller}`, bare form only; **format specs rejected**; braces
    balanced.
-4. No `id`; no derived markers (`has_controller`, `has_subject`, `pov`).
+3. No `id`; no derived markers (`has_controller`, `has_subject`).
 
 ### 8.2 Person correctness — the gates that protect the product
 
@@ -441,7 +446,7 @@ problem with a bounded queue and a published number, which is the best available
 
 5. No em dashes, no en dashes, no smart quotes, no trailing periods.
 6. 3–15 words typical, **20 hard maximum**, per variant.
-7. **Permanence vocabulary only at extreme tier** (§5.2).
+7. **Permanence vocabulary rejected outright** (§5.2).
 8. **GPT-ism blacklist:** *delve, tapestry, symphony of, journey, beacon, vessel of*,
    adjective stacking, purple prose.
 9. **Prompt contamination — REVIEW.** Distinctive words (length ≥4, non-stopword) from the
@@ -476,8 +481,10 @@ Each grok call is seeded with three things:
    distinguishing-from-neighbors note. These were *deliberately never migrated* into
    `pool.json` and are the single most valuable Phase B input available. Legacy per-theme
    files are an authoring corpus only and are never loaded at runtime.
-3. Up to **8 existing pool mantras** for that theme as few-shot examples, drawn from the
-   target tier where possible.
+3. Up to **8 existing pool mantras** for that theme as few-shot examples.
+4. **The authoring brief** at `docs/v1/AUTHORING_BRIEF.md`, verbatim. MEASURED: lines
+   written against it rated S or A at 37.8%, against 5.1% for the legacy pool authored
+   without it.
 
 `induction` and `emergence` have none of these (§2.2), which is exactly why they are
 hand-authored first.
@@ -515,18 +522,18 @@ mantra capped at 4000, so batches above ~47 silently hit the cap and truncate.
 ## 10. Phase B acceptance
 
 Phase B is complete for 1.0 when every row passes. These are the B-criteria from
-`DESIGN.md` §9, gated at **Tranche 1**.
+`DESIGN.md` §9.
 
 | # | Criterion |
 |---|---|
-| B1 | Every (theme, tier) cell holds **≥8** (T1 ship floor). T2's ≥24 is tracked as a quality target, not a ship gate. |
+| B1 | Every tag holds **≥54** records (3 lanes x an 18-step peak dwell). |
 | B2 | Every record has all three person variants; `invariant` is computed correctly. |
-| B3 | `pov` is non-null on 100% of records; no record is mixed-stance. |
+| B3 | Every record's stance derives to one of the four; no record is mixed-stance. |
 | B4 | The §8.2 conjugation gate passes with **zero** hard errors; the review queue is triaged to zero; the machine-verified coverage percentage is published in the ingest report. |
 | B5 | The ingester is idempotent: re-ingest yields a byte-identical pool. |
 | B6 | Zero lint errors across §8.1 and §8.3. |
 | B7 | `induction` and `emergence` exist with ≥40 records each, **hand-reviewed** (T0). |
-| B8 | Sidecar integrity: `persons[id][record.markers.pov] === record.text` for 100% of records. |
+| B8 | Sidecar integrity: `persons[id][derivePov(record.text)] === record.text` for 100% of records. |
 | B9 | Provenance present on every Phase B record; the original 612 carry `conditioner-pool` or `human` and are unmodified. |
 | B10 | The impersonal share of new content is 12–18% (§4.3); a batch above 25% is reviewed. |
-| B11 | `corpus:report` prints every cell against both thresholds, so remaining work is machine-readable. |
+| B11 | `corpus:report` prints every tag against the floor, so a tag that cannot field a lane is machine-readable. |

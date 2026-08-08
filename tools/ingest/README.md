@@ -25,25 +25,26 @@ Exit status is non-zero when any HARD issue was found, so CI can gate on it.
 | `corpus/persons.json` | `{ [id]: { first, second, named, invariant } }` |
 | `corpus/provenance.json` | `{ [id]: { source, batch, model, generated_at, reviewed } }` |
 
-The **sidecar integrity invariant** — `persons[id][record.markers.pov] === record.text`
-— is asserted both at load and before emission. The ingester refuses to write
+The **sidecar integrity invariant** — `persons[id][derivePov(record.text)] === record.text`
+— is asserted both at load and before emission. The stance is recomputed from the text
+rather than read from a stored field, so a record is checked against itself. The ingester refuses to write
 a corpus that violates it.
 
 ## Input formats
 
-**Generation batch** — `corpus/raw/<theme>.<tier>.<batch>.jsonl`. Line 1 is a
-header, every later line is one record. Ids are **assigned by the ingester**; a
-record carrying an `id` is rejected, as are the derived markers
-(`has_controller`, `has_subject`, `pov`).
+**Generation batch** — `corpus/raw/<theme>.<batch>.jsonl`. Line 1 is a header,
+every later line is one record. Ids are **assigned by the ingester**; a record
+carrying an `id` is rejected, as are the derived markers (`has_controller`,
+`has_subject`).
 
 ```jsonl
-{"schema":"hypnoapp.corpus.v1","theme":"obedience","tier":"moderate"}
-{"first":"I stop checking whether I agree","second":"You stop checking whether you agree","named":"{subject} stops checking whether {subject} agrees","base_points":95,"themes":["obedience"]}
+{"schema":"hypnoapp.corpus.v1","theme":"obedience"}
+{"first":"I stop checking whether I agree","second":"You stop checking whether you agree","named":"{subject} stops checking whether {subject} agrees","themes":["obedience"]}
 ```
 
 **Backfill batch** — `corpus/raw/backfill.<theme>.jsonl`. Attaches person
 variants to records that already exist, and can never modify their `text` or
-`base_points`. The variant matching the record's `pov` **must byte-equal** the
+`themes`. The variant matching the record's derived stance **must byte-equal** the
 stored text or the line is rejected — that check is what makes backfill
 incapable of rewriting the 612 hand-authored originals.
 

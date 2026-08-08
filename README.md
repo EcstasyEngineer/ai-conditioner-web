@@ -53,7 +53,7 @@ in `corpus/provenance.json`.
 
 ```bash
 npm run corpus:lint      # schema, content and coverage report
-npm run corpus:report     # per-(theme, tier) coverage
+npm run corpus:report     # per-tag coverage against the 54-record floor
 npm run corpus:ingest     # re-ingest raw batches (idempotent)
 ```
 

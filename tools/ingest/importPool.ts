@@ -2,8 +2,8 @@
  * Import an existing conditioner-schema pool.json into the corpus store.
  *
  * These records are the 612 hand-authored originals. Per B9 they carry
- * source "conditioner-pool" and are NEVER modified: text, base_points, themes
- * and ids are taken verbatim, and re-importing is a no-op.
+ * source "conditioner-pool" and are NEVER modified: text, themes and ids are
+ * taken verbatim, and re-importing is a no-op.
  *
  * They arrive with ONE rendering, not three. §4.1 requires all three variants
  * on every record, so the import fills the variant named by the derived pov
@@ -19,7 +19,7 @@
 
 import { readFileSync } from 'node:fs';
 import type { Corpus } from './store.ts';
-import type { Pool, PersonTriple, PoolRecord, Pov } from './types.ts';
+import type { Pool, PersonTriple, PoolRecord } from './types.ts';
 import { computeInvariant, deriveMarkers } from './store.ts';
 import { derivePov } from './conjugation.ts';
 
@@ -79,10 +79,9 @@ export function importPool(
       id: rec.id,
       text: rec.text,
       themes: [...rec.themes],
-      base_points: rec.base_points,
-      // markers are re-derived so has_controller/has_subject are mechanical
-      // and pov is filled in; permanence/identity stay reserved false.
-      markers: deriveMarkers(rec.text, pov as Pov),
+      // Re-derived rather than copied, so both markers are mechanical
+      // substring tests against the text they describe.
+      markers: deriveMarkers(rec.text),
     };
 
     c.pool.mantras.push(poolRecord);

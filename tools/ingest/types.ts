@@ -8,18 +8,26 @@
 
 export type Person = 'first' | 'second' | 'named';
 
-/** §4.2 — the four stances. `mixed` is deliberately not a value. */
+/**
+ * §4.2 — the four stances. `mixed` is deliberately not a value.
+ *
+ * DERIVED from text by `derivePov`, and deliberately NOT a stored field: it is
+ * 100% recomputable, its `second` value has zero instances in the corpus, and
+ * its one load-bearing distinction — person-free — is stored as
+ * `persons[id].invariant` instead.
+ */
 export type Pov = 'first' | 'second' | 'named' | 'impersonal';
 
-export type Tier = 'basic' | 'light' | 'moderate' | 'deep' | 'extreme';
-
-/** §5.1 markers, byte-compatible with conditioner's pool schema. */
+/**
+ * §5.1 markers. Exactly the two that are live signals and cannot drift, because
+ * each is a substring test against the text it describes.
+ *
+ * `permanence` and `identity` were reserved slots that measured true on 0 of
+ * 2,639 records, and a constant is not data. `pov` is derived (see `Pov`).
+ */
 export interface Markers {
   has_controller: boolean;
   has_subject: boolean;
-  permanence: boolean;
-  identity: boolean;
-  pov: Pov | null;
 }
 
 /** §6.3 — conditioner's exact record shape. Key order is load-bearing. */
@@ -27,7 +35,6 @@ export interface PoolRecord {
   id: string;
   text: string;
   themes: string[];
-  base_points: number;
   markers: Markers;
 }
 
@@ -60,7 +67,6 @@ export interface Provenance {
 export interface BatchHeader {
   schema: 'hypnoapp.corpus.v1';
   theme: string;
-  tier: Tier;
   generator?: {
     model?: string;
     prompt_sha?: string;
@@ -81,9 +87,7 @@ export interface RawRecord {
   first: string;
   second: string;
   named: string;
-  base_points: number;
   themes: string[];
-  markers?: { permanence?: boolean; identity?: boolean };
 }
 
 /** A backfill record — attaches variants to an EXISTING pool id. */

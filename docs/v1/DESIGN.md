@@ -41,8 +41,8 @@ Two consequences:
    These are not a remainder — they are a first-class stance with a scheduled job (§4.6).
 
 The zero-second-person finding is confirmed: **the center channel has no source material
-and must be authored.** `markers.pov` is `null` on all 612; `permanence` and `identity`
-are `false` on all 612.
+and must be authored.** `permanence` and `identity` are `false` on all 612 — which is why
+they are not fields (§2.2).
 
 ### 0.2 Per-(theme,tier) blocks are unserveable on today's corpus
 
@@ -65,9 +65,14 @@ recon-hypnocli §4.1 warns the Shuffler degrades toward LRU-with-random-ties whe
 `window >= n`, and judged that "unlikely to bite — hypnoapp's pool blocks will be much
 larger than 5 lines." **[MEASURED] they are exactly 5.** It bites on the first session.
 
-**[DECISION] A block is a THEME. Tier is a draw-time filter, never part of block
-identity.** §4.3. This is the single decision that makes the engine buildable and testable
-against today's 612 records with no dependency on Phase B.
+**[DECISION] A block is a THEME, and there is no second dimension.** §4.3. This is the
+single decision that makes the engine buildable and testable against today's 612 records
+with no dependency on Phase B.
+
+The measurement above outlived the axis it was taken against. Tier was derived from
+`base_points`, which MEASURED reproduces the batch filename on 2,461/2,461 generated
+records, so the cells this section rejects as too thin were also cells of a fabricated
+axis. Both readings reach the same place: blocks are themes.
 
 ### 0.3 The gaussian schedule ports verbatim and produces the right arc
 
@@ -147,7 +152,7 @@ That constraint delivers:
 | **C++** (trance's language) | Port cost with no payoff. trance is C++ because it is a fullscreen SFML/VR player doing per-frame GPU work. hypnoapp renders *text*. The v3 ideas being taken are language-neutral [CITED recon-trance §9.1]. |
 | **Rust + WASM** | Every session artifact is JSON; every hot path picks a string from an array ~20×/minute. Zero performance argument, and it fights the "engine is trivially hackable" goal. |
 | **Next.js** | Rejected by the brief, and **[MEASURED]** the repo still carries Prisma/NextAuth fossils from that era. Reintroducing it reopens a grave. |
-| **Vanilla, no framework** | Defensible — the UI is thin. But the theme-selection panel is a *live-feedback* surface where every mutation re-renders counts, tier breakdowns and a rendered triplet sample. That is what a reactive view layer is for. |
+| **Vanilla, no framework** | Defensible — the UI is thin. But the theme-selection panel is a *live-feedback* surface where every mutation re-renders counts, per-tag breakdowns and a rendered triplet sample. That is what a reactive view layer is for. |
 | **Svelte / Solid** | Better fit on the merits. Rejected because the view layer is the least important decision here and should therefore be the most boring one. React 19 is already installed and the whole UI is ~6 components. |
 
 **Vite is retained as a build tool, not as an architecture.** The brief's "not Vite by
@@ -231,14 +236,10 @@ changes is that `markers.pov` — reserved, `null` on all 612, with no enum defi
 {
   "id": "resistance_melts_away_with_each_breath",   // opaque, stable, the only reference key
   "text": "Resistance melts away with each breath", // RAW TEMPLATE, never rendered at rest
-  "themes": ["acceptance"],                          // tags; N of them
-  "base_points": 20,                                 // tier is DERIVED, never stored
+  "themes": ["submission"],                          // tags; N of them, one flat namespace
   "markers": {
-    "has_controller": false,
-    "has_subject": false,
-    "permanence": false,
-    "identity": false,
-    "pov": "impersonal"        // WAS null. Now the person axis. §2.2
+    "has_controller": false,   // mechanical: "{controller}" in text
+    "has_subject": false       // mechanical: "{subject}" in text
   }
 }
 ```
@@ -249,20 +250,21 @@ Rules carried verbatim [CITED recon-conditioner §3 "Take unchanged"]:
   `textToId` function**, so no code can reconstruct an id from text at read time.
 - **`text` is a raw template; substitution happens at display time**, never at selection or
   storage time. Renaming a controller retroactively re-renders even in-flight content.
-- **Tier is derived, never stored.** Direct port of `conditioner/utils/scoring.py:15-28`:
-  boundaries lower-inclusive, `20–44 basic · 45–74 light · 75–109 moderate · 110–149 deep ·
-  ≥150 extreme`. `TIER_ORDER = ["basic","light","moderate","deep","extreme"]` is the single
-  ordered definition and the intensity cap compares **by index into it**. Two definitions of
-  that ladder is a silent consent-filter bug. **[CITED recon-hypnoapp §11.6]** four
-  incompatible mantra types and three difficulty vocabularies coexist in the target repo
-  today (`MEDIUM` vs `MODERATE`, both *stored*). 1.0 lands exactly one, and it is derived.
+- **There is no intensity field and no tier ladder.** `base_points` MEASURED as a
+  reproduction of the batch filename on 2,461/2,461 generated records — 37 values carrying
+  zero information, inherited from a Discord points economy this app does not have. Tier
+  was derived from it, so an ordering built on it ordered nothing. Both are deleted, and
+  with them the user-facing intensity cap that compared records by index into the ladder:
+  a consent control whose authority came from a filename. Heavy register is served by the
+  flat `intense` tag, excluded like any other tag (§2.6).
 - **Multi-tag is the design intent** even though today's data is single-tag (**[MEASURED]**
   max themes on any mantra = 1). It is what buys the cross-tag exclusion fix (§2.6), which
   is live consent machinery the moment Phase B emits a cross-tagged mantra.
 
-### 2.2 `markers.pov` — the enum, defined
+### 2.2 The stance of a template — derived, not stored
 
-**[DECISION]** it is the *stance of the stored template*, not the person it renders in:
+**[DECISION]** `pov` is the *stance of the stored template*, not the person it renders in,
+and it is **computed from the text at load** rather than carried as a field:
 
 | value | meaning | n today |
 |---|---|---|
@@ -278,15 +280,19 @@ forbidding it keeps the transformation total.
 (`THEME_GUIDELINES.md`'s "Named Self"), per the house rule about preserving domain
 vocabulary. The renderer knows `named` renders *as* 3rd person.
 
-**`permanence` and `identity` stay `false` and stay unread in 1.0.** This is a deliberate
-divergence from data-first, which populated them via LLM judgment and built a hard ingest
-rejection on top. **[CITED recon-conditioner §3]** is explicit that they are schema slots,
-not data, and warns to verify before relying on them. Building a mass-rejection rule on
-subjective LLM classification risks either mass-rejecting legitimate records or silently
-under-populating and never firing — giving false confidence that a documented doctrine is
-now mechanically enforced. §7.5 instead enforces the permanence doctrine with a
-**lexical** rule that needs no classifier. The `markers` object remains open for
-hypnoapp#60's tone tags as an additive key.
+**Storing the stance was the mistake, not deriving it.** It is 100% recomputable, its
+`second` value had zero instances, and its one load-bearing distinction — person-free — is
+already carried by `persons[id].invariant`. Deriving is also strictly stronger: the sidecar
+integrity check now validates a record against its own text rather than against a stored
+opinion about its text, so a wrong stance is unrepresentable instead of merely unlikely.
+
+**`permanence` and `identity` are not fields either.** They were reserved slots, always
+`false`, MEASURED `true` on **0 of 2,639 records**. An earlier design populated them via
+LLM judgment and built a hard ingest rejection on top; that was correctly refused, because
+a mass-rejection rule on subjective classification either mass-rejects legitimate records
+or silently never fires. The refusal stopped one step short — the answer was to delete the
+slots. §7.5 enforces the permanence doctrine lexically, with no classifier in the rejection
+path. The `markers` object remains open for hypnoapp#60's tone tags as an additive key.
 
 ### 2.3 The person triple — a sidecar, not a schema change
 
@@ -369,14 +375,23 @@ must be protected absolutely. Optional, ignored at runtime, never rendered.
 **[CITED recon-conditioner §1.6]**, a *behavioral* contract, not a UI one:
 
 **Consent boundaries — never silently relaxed. If they empty the pool, the slot starves.**
-1. Intensity cap, by index into `TIER_ORDER`.
+1. **Excluded themes — the primary consent surface.** Checked against the mantra's **full
+   pool tag list**, not the bucket it was collected under. This closes the cross-tag leak
+   where a mantra tagged `{A,B}` reaches a user enrolled in A who wants nothing from B.
 2. Controller toggle, on `markers.has_controller`.
-3. Excluded themes, checked against the mantra's **full pool tag list**, not the bucket it
-   was collected under. This closes the cross-tag leak where a mantra tagged `{A,B}` reaches
-   a user enrolled in A who wants nothing from B.
 
 **Preference — dropped as a last resort rather than starving.**
-4. Blocklist by id.
+3. Blocklist by id.
+
+**An intensity cap used to sit at position 1, and it was a live safety defect.** It
+compared records by index into a tier ladder derived from `base_points`, and `base_points`
+MEASURED reproduces the batch filename on 2,461/2,461 generated records — so a user setting
+a ceiling was protected by a filename. It is deleted, and exclusion is promoted in the same
+change so consent never regresses through an intermediate state. Exclusion can carry the
+load because the vocabulary was built for it: heavy register is the flat `intense` tag, so
+"nothing absolute or permanent" is an exclusion like any other rather than a rung on a
+ladder. MEASURED across all enroll x exclude pairs, no enrollable tag falls below the
+54-record floor.
 
 **Ordering is normative**: consent first, blocklist second. Empty after consent ⇒ skip.
 Empty after blocklist ⇒ ignore the blocklist.
@@ -505,34 +520,29 @@ going-under theme. They are ordinary tagged data; only the plan config designate
 role. This is the single hardest Phase B dependency and §7.2 gives it first priority and a
 hand-authoring requirement.
 
-### 4.3 Block granularity — theme-level, tier as a draw-time filter
+### 4.3 Block granularity — a block is a theme
 
 Forced by §0.2's measurement, and endorsed by judge 2 as "the single highest-value graft"
 for buildability.
 
 - A **block is a theme.** Its members are every mantra tagged with that theme passing the
-  user's consent filters. Real sizes: **19–35**.
-- **Intensity is per-mantra**, derived from `base_points` via `getTier()`.
-- The gaussian schedule emits a **target tier per step**, not a block name per step. The
-  step draws from `block ∩ {mantras at or adjacent to the target tier}`.
-
-**Adjacency widening**, deterministic:
+  user's consent filters. Real sizes: **80–358**, every tag above the 54-record floor.
+- The step draws from the block, filtered by consent and by the Shuffler's suppression
+  window. There is no second filter and no second dimension.
 
 ```
-candidates = block members at tier == target
-if |candidates| < 3:  widen to |tier - target| <= 1   → emit Diagnostic{tier-widened}
-if |candidates| < 3:  widen to |tier - target| <= 2   → emit Diagnostic{tier-widened}
-if |candidates| < 3:  PLAN ERROR — this theme cannot serve a triplet at this tier
+candidates = block members surviving the consent filters
+if |candidates| < 3:  PLAN ERROR — this theme cannot serve a triplet
 ```
 
-**The intensity cap is applied BEFORE candidates are gathered**, so widening can only move
-*down*, never above the user's cap. That ordering is not optional — it is what keeps
-widening from becoming a silent consent violation. `3` is `CHANNEL_COUNT`, a named
-constant.
+`3` is `CHANNEL_COUNT`, a named constant.
 
-When Phase B lands a saturated corpus (§7.1), widening stops firing and per-(theme,tier)
-granularity becomes available behind a config flag with no structural change. The
-measurement drove the decision; the decision does not foreclose the proven alternative.
+**Adjacency widening is deleted.** The whole widening ladder existed to compensate for thin
+(theme, tier) cells: with no tier target there is nothing to widen toward, and
+`Diagnostic{tier-widened}` goes with it. That also removes acceptance criterion A10
+("widening never crosses a consent boundary"), which tested that the cap was applied before
+candidates were gathered — a guard on a mechanism that no longer exists, protecting a cap
+that no longer exists.
 
 ### 4.4 Theme selection per step — the specification hole, closed
 
@@ -550,8 +560,7 @@ themeAt(step):
   else:
     hold the current theme for THEME_HOLD steps (default 8, ≈27s at stepMs 3400)
     on pivot, draw the next theme from a per-session Shuffler over the enrolled
-    themes, weighted by how well the theme's surviving tier distribution covers
-    the current gaussian target tier
+    themes, unweighted
 ```
 
 Three properties, each earned:
@@ -567,12 +576,11 @@ Three properties, each earned:
    (**[CITED recon-trance §7.1]**: "a stateful walk rather than a per-fire re-roll").
 3. **Coverage-weighted, not uniform.** Data-first's uniform-random theme draw was judge 1's
    named parity break: under it the session's arc moves only through difficulty, never
-   through content. Weighting the pivot by tier coverage keeps *both* axes moving — the bell
-   selects depth, and themes that can actually serve that depth are preferred — without
-   fusing theme and tier back into one block identity.
-
-**Diagnostics:** every pivot that falls back to a theme with poor coverage emits
-`Diagnostic{kind:'theme-coverage-thin'}`.
+   through content. The pivot is an unweighted Shuffler walk: the coverage weighting that
+   stood here scored themes by "how well the theme's surviving tier distribution covers the
+   current target tier", which is a weighting by a fabricated axis. With every tag above
+   the floor there is nothing left for it to correct for, and `Diagnostic{theme-coverage-thin}`
+   is deleted with it.
 
 ### 4.5 Titration — gaussian, ported verbatim
 
@@ -587,8 +595,14 @@ ecosystem, and re-deriving it would cost a rater study to learn the same thing.
 ```ts
 const p      = Math.min(step / Math.max(length - 1, 1), 1.0);   // clamped
 const target = iMin + (iMax - iMin) * Math.exp(-((p - peak) ** 2) / (2 * width ** 2));
-// nearest tier by |tier - target|, ties broken by the seeded RNG
 ```
+
+**The bell survives; the mapping onto a tier does not.** The curve won a 30-rater blind
+study against `dsm` on every seed, and re-deriving that negative result would cost another
+rater study — so the gaussian is kept and its value is carried raw on each tick as
+`intensity`. What is deleted is the line that used to follow it, selecting the "nearest
+tier by |tier - target|": that rounded a real curve onto a fabricated ladder. The curve now
+drives pacing (§4.9), which is a measured effect, and nothing rounds it.
 
 Defaults `peak = 0.5`, `width = 0.25`. Validation `0 <= peak <= 1`, `width > 0`. Progress
 clamping is retained even though hypnoapp does not need cap-invariance, because it costs
@@ -675,7 +689,7 @@ parallel variants."
 
 | Mode | Behavior |
 |---|---|
-| `parallel` **(default)** | One theme + one target tier per step; three **different** mantras, one per channel, each in its scheduled person. Ported from hypnocli's shared-theme/shared-shuffler behavior. |
+| `parallel` **(default)** | One theme per step; three **different** mantras, one per channel, each in its scheduled person. Ported from hypnocli's shared-theme/shared-shuffler behavior. |
 | `unison` | One mantra per step; all three channels render **the same** mantra in their own person. recon-trance's coordinated triplet. |
 
 Given the plan-ahead architecture, `unison` is one flag and ~15 lines. Shipping both settles
@@ -730,7 +744,7 @@ mean ≈ 3400ms        (inside the [MEASURED] 3.2–3.5 s/line/channel band)
 
 **The correction:** the dwell bell's peak is **offset to 0.62** rather than sharing the
 intensity bell's 0.5. Judge 3's risk is real — with a shared curve, every difficulty axis
-peaks simultaneously by construction: fastest lines, deepest tier, highest third-person
+peaks simultaneously by construction: fastest lines, the intensity peak, highest third-person
 share, all at the same instant. That is where a session tips from absorbing to
 overwhelming. Offsetting the pacing curve slightly later means the tightest pacing arrives
 *after* the deepest content, on the near side of the wean, which is where it reads as
@@ -773,12 +787,10 @@ expressive value, and it keeps the corpus format compatible with a future TTS pa
 
 ```typescript
 type Diagnostic =
-  | { kind: 'tier-widened';        step: number; theme: string; from: Tier; to: Tier }
   | { kind: 'lane-starved';        step: number; lane: LaneId; reason: string }
   | { kind: 'shuffler-degraded';   theme: string; poolSize: number }
   | { kind: 'blocklist-relaxed' }
   | { kind: 'person-unavailable';  step: number; lane: LaneId; wanted: Person }
-  | { kind: 'theme-coverage-thin'; step: number; theme: string; target: Tier }
   | { kind: 'unison-redraw';       step: number; reason: 'invariant' };
 ```
 
@@ -829,7 +841,7 @@ overrun.
 interface TripletTick {
   step: number;
   theme: string;
-  targetTier: Tier;
+  intensity: number;                                        // §4.5, the raw bell value in [0,1]
   dwellMs: number;                                          // §4.9, varies per step
   center: { mantraId: string; person: "second"; text: string };
   left:   { mantraId: string; person: Person;   text: string };
@@ -981,10 +993,12 @@ session state.** Every hard question is answered in the engine.
 constraints:
 
 - Multi-select themes with live per-theme counts and descriptions.
-- Intensity cap as an inclusive ladder with "…and" phrasing making cumulative semantics
-  obvious. Default: no cap.
 - Excluded themes ("yucks"), **separate and unbounded** — distinct from not-enrolling,
-  because exclusion filters by the mantra's *full tag list*.
+  because exclusion filters by the mantra's *full tag list*. **This is the consent surface**
+  (§2.6): the setup screen offers one flat alphabetical tag list with no ordering and no
+  categories, so excluding heavy register (`intense`) is the same gesture as excluding any
+  other tag. The intensity ladder that used to sit here is deleted along with the axis it
+  displayed.
 - Controller toggle, subject name, controller name.
 - Duration slider → `length` via mean dwell (§4.9).
 - Mode toggle (`parallel` / `unison`), defaulted and explained in one line.
@@ -998,7 +1012,8 @@ bar. §6.5 and §6.6 specify its first six and last six seconds.
 is the **user-facing surface of the engine's plan validation**:
 
 - `Your filters match N of 612 mantras`
-- Theme-only pool broken down **per tier**, next to the post-filter deliverable count.
+- Per-tag counts next to the post-filter deliverable count, warning when an exclusion drops
+  an enrolled tag toward the 54-record floor.
   Watching N collapse to M is what teaches the filters.
 - Two randomly drawn samples **rendered as a live triplet** with the user's own names, so
   the person axis is visible before committing twenty minutes. For a first-time user, that
@@ -1019,7 +1034,8 @@ full plan on every keystroke is not.
 **[CITED recon-conditioner §2.6]**, ported as doctrine:
 
 - Any save leaving **0** matching mantras is **rejected with a targeted message naming the
-  specific fix** ("raise the intensity cap or re-enable controller mantras first"), never
+  specific fix** ("drop `sluttiness` from your exclusions or re-enable controller mantras
+  first"), never
   accepted-and-worked-around at delivery time.
 - A theme cannot be both enrolled and excluded; **the save being attempted loses**, mirrored
   in both directions so the outcome never depends on click order.
@@ -1065,7 +1081,7 @@ at the *UI* level — they compose.
 | Pool fetch fails | Blank screen / React error boundary | "Couldn't load the mantra library. Retry." Begin disabled |
 | Record missing a person variant | A `{named}` placeholder or empty lane | Dropped from the pool at **load-time validation** with a console warning; never rendered |
 | Filters match zero mantras | An empty session | Begin disabled, specific fix named |
-| A theme too thin to fill three lanes | The same line on two lanes | Adjacency widening (§4.3) + diagnostic; **never a repeat within a tick** |
+| A theme too thin to fill three lanes | The same line on two lanes | Hard plan error before playback (§4.3); **never a repeat within a tick** |
 | AudioContext blocked by autoplay policy | Silence with no explanation | Bed starts on the Begin gesture — structurally impossible |
 | Tab backgrounded mid-session | Timer drift then a burst of lines | `performance.now()` + rAF; pause on `visibilitychange` (§5.4) |
 
@@ -1090,30 +1106,26 @@ not inherit 25 as a number.**
 ```
 required distinct draws per block per dwell = 3 channels × dwell_steps
 observed gaussian dwell at peak             = up to 18 steps
-→ a (theme, tier) cell must hold ≥54 to be self-sufficient at max dwell
-→ with adjacency widening across ±1 tier,   ≥24 per cell suffices
+→ a tag must hold ≥54 records to be self-sufficient at max dwell
 ```
 
-**[DECISION] Phase B target: ≥24 mantras per (theme, tier) cell**, ~4,320 records total
-across 180 cells. This is ~7× today's corpus and it is the number that makes the *proven*
-per-(theme,tier) granularity viable later without a redesign. The corpus target and the
-engine's granularity decision are the same measurement seen twice.
+**[DECISION] The floor is ≥54 records per tag**, and it is an ENGINE parameter rather than
+a law: it moves if the lane count or the dwell curve moves. There is no second dimension to
+divide it by — the per-cell arithmetic that stood here divided the floor across a tier axis
+that has since been deleted as fabricated.
 
-### 7.2 Phase B priority order (closing the partial-completion risk)
+### 7.2 Phase B status
 
-Judge 1's risk is that every criterion is binary against a saturated target with no defined
-degraded-but-shippable state. **[DECISION] Phase B is tranched, and 1.0 ships at Tranche 2:**
+Phase B is **complete**: bookends authored, person variants backfilled, generation run, a
+quality kill pass executed, and the corpus retagged onto the flat vocabulary. MEASURED
+2,639 records across 25 tags, every tag above the floor.
 
-| Tranche | Content | Gate |
-|---|---|---|
-| **T0 — blocking** | `emergence` (≥40) and `induction` (≥40), hand-authored or hand-reviewed line by line | **The engine cannot plan a session without these.** No exemplars exist, no `generation` profile exists, and grok output drifts off-voice without grounding — so this batch is authored first and reviewed by hand. |
-| **T1 — ship floor** | Every (theme,tier) cell ≥ **8**; every record has all three variants | **This is the 1.0 ship gate.** At ≥8 with theme-level blocks (19–35 members) the engine plans without widening on realistic configs. |
-| **T2 — target** | Every cell ≥ **24** | Quality target. Unlocks per-(theme,tier) blocks as a config flag. |
-| **T3 — expansion** | The 12 `.json.draft` themes; catalog_v4's 9 unmatched targets | 1.1. |
+The tranche table that stood here staged a campaign that has finished, and its rows were
+gated on per-(theme,tier) cell counts. What replaces it as the live gate is the per-tag
+floor above, printed by `corpus:report`.
 
-**T1, not T2, is the 1.0 gate.** This is the specific mitigation for "corpus shortfall
-blocks 1.0 with no fallback." §9's B-criteria are written against T1 with T2 as a tracked
-quality target.
+If the vocabulary should grow, the corpus must grow first: minting a tag means splitting an
+existing one below the floor, which is the exact failure the floor exists to prevent.
 
 ### 7.3 Ingester invariants
 
@@ -1188,7 +1200,7 @@ Full machine-readable partition in `MODULES.json`. Summary of the shape and the 
    named `FrameState` "the seam that makes the two biggest modules parallelizable" and never
    gave it a type definition in 1,299 lines, while M2 exported `frameAt(): FrameState` and
    M3 owned its shape. Two strong agents would block on a type neither owns. **All shared
-   types — `PoolRecord`, `PersonTriple`, `Corpus`, `Tier`, `TIER_ORDER`, `getTier`,
+   types — `PoolRecord`, `PersonTriple`, `Corpus`, `Pov`, `derivePov`,
    `Person`, `SessionPlan`, `TripletTick`, `FrameState`, `Diagnostic`, `UserConfig`,
    `SessionOptions` — live in M1 and are owned by M1.** M1 lands second (right after M0),
    alone, in half a day. Every other module imports from it and nothing else crosses
@@ -1201,7 +1213,7 @@ Full machine-readable partition in `MODULES.json`. Summary of the shape and the 
    *reproduce* it; M4's job is to *render* it. Neither agent waits on the other.
 
 ```
-fixtures/corpus.mini.json      ~40 records, all 4 stances, all 5 tiers, 2 multi-tagged
+fixtures/corpus.mini.json      ~40 records, all 4 stances, 2 multi-tagged
 fixtures/config.reference.json a fixed UserConfig
 fixtures/plan.reference.json   HAND-AUTHORED. The spec, not an output.
 fixtures/frame.reference.json  HAND-AUTHORED FrameState at three sample elapsedMs values
@@ -1228,19 +1240,18 @@ Every criterion is objective; most run headless.
 | A4 | **Gaussian arc.** Per-step intensity trace is unimodal: non-decreasing to peak, non-increasing after. 200 seeds. |
 | A5 | **Triplet distinctness.** In `parallel`, all three `mantraId`s within a tick differ, every tick, every plan. |
 | A6 | **Anti-repeat.** No id repeats within a channel inside the shuffler window, except where a `shuffler-degraded` diagnostic is present. |
-| A7 | **Consent boundaries hold.** Over 1000 random configs: no mantra above the intensity cap, none with `has_controller` when the toggle is off, none tagged with an excluded theme. **Zero tolerance — one violation blocks 1.0.** |
+| A7 | **Consent boundaries hold.** Over 1000 random configs: no mantra with `has_controller` when the toggle is off, and none tagged with an excluded theme, checked against the record's FULL tag list. **Zero tolerance — one violation blocks 1.0.** |
 | A8 | **Starvation is a plan error.** Unservable configs return `PlanError[]` naming the fix; no plan is returned with a missing or duplicate-filled tick. |
 | A9 | **Person schedule shape.** Center is `second` in 100% of ticks. Side `named` share, binned into deciles over 200 seeds: **< 0.20 in deciles 1–2, > 0.55 in deciles 5–7, < 0.25 in deciles 9–10.** Non-monotone by design (§4.6) — the return is asserted, not merely permitted. |
-| A10 | **Widening never crosses a consent boundary.** Property test: widening only moves tier *down*, never above the cap. |
 | A11 | **Plan performance.** `plan()` p95 ≤ 40 ms for a 500-step plan over the full corpus (§6.2). |
-| A12 | **Diagnostics are typed and complete.** Every widening, starvation, degradation, redraw and thin-coverage event appears in `plan.diagnostics`. **Zero `lane-starved` on the reference config.** |
+| A12 | **Diagnostics are typed and complete.** Every starvation, degradation and redraw appears in `plan.diagnostics`. **Zero `lane-starved` on the reference config.** |
 | A13 | **Theme is shared across lanes** at every step, and the theme walk holds for `THEME_HOLD` steps between pivots (§4.4). |
 
 ### Corpus (gated at Tranche 1 — §7.2)
 
 | # | Criterion |
 |---|---|
-| B1 | Every (theme, tier) cell holds **≥8** (T1 ship floor). T2's ≥24 is tracked as a quality target, not a ship gate. |
+| B1 | Every tag holds **≥54** records (3 lanes × an 18-step peak dwell). |
 | B2 | Every record has all three person variants; `invariant` is computed correctly. |
 | B3 | `pov` is non-null on 100% of records; no record is mixed-stance. |
 | B4 | **Conjugation gate (§7.4).** L1–L3 pass with **zero** hard errors. The review-queue residue is triaged to zero before ship, and the machine-verified coverage percentage is published in the ingest report. |
@@ -1282,7 +1293,8 @@ Strudel and generative mood beds (§1.4 — AGPL vs public MIT unresolved); cata
 runtime scheduler (§0.4); points, favorites, blocklist UI, custom mantras (§6.8);
 hypnoapp#60's tone sliders (`markers` accepts them additively); TTS/audio mantras;
 `arc`/`random`/`tier_gate`; the conductor `sections` program; `burst`; the v3 surface
-parser; populated `permanence`/`identity` markers (§2.2).
+parser; the `permanence`/`identity`/`pov` marker slots (§2.2); the `base_points` intensity
+axis and every gate, cap, report grid and diagnostic built on it (§2.1, §2.6, §4.3).
 
 ---
 
@@ -1290,9 +1302,9 @@ parser; populated `permanence`/`identity` markers (§2.2).
 
 | Q | Answer |
 |---|---|
-| 1. Block granularity? | **Theme-level blocks, tier as a draw-time filter with adjacency widening.** §4.3. Driven by **[MEASURED]** median cell size 5. Phase B's T2 target restores per-(theme,tier) as a future flag. |
+| 1. Block granularity? | **A block is a theme, and there is no second dimension.** §4.3. Driven by **[MEASURED]** median cell size 5, and confirmed by the later finding that the cell axis was fabricated. |
 | 2. Extend the placeholder grammar? | **No. Bare `{subject}`/`{controller}` only.** Pre-render three person variants into a sidecar (§2.3). The richer grammar is a Phase B intermediate. Justified by the structural breakage of the only existing runtime conjugator. |
-| 3. Does the center titrate? | **The center is the 2nd-person anchor; its person never titrates.** Its *theme* and *tier* follow the shared schedule like all channels. Matches hypnocli's flagship anchored-center shape, which judge 3 correctly noted the base proposal's rival discarded. |
+| 3. Does the center titrate? | **The center is the 2nd-person anchor; its person never titrates.** Its *theme* follows the shared schedule like all channels. Matches hypnocli's flagship anchored-center shape, which judge 3 correctly noted the base proposal's rival discarded. |
 | 4. Person-drift schedule? | **Reuses the titration interface** — a curved function of clamped progress over an ordered person set, sampled with hold-and-pivot hysteresis, independently per side, **and it returns**. §4.6. |
 | 5. Dwell? | **Variable: 4200 ms → 2900 ms → 4200 ms**, mean ≈3400 ms, inside the **[MEASURED]** 3.2–3.5 s band, with the pacing bell phase-offset from the intensity bell. §4.9. |
 
@@ -1317,14 +1329,15 @@ preserved (§2.2).
   *3-to-5 themes* advice without the gate.
 - **The conductor `sections` program.** A genuinely different session shape; the data model
   does not foreclose it.
-- **Populated `permanence`/`identity` markers.** §2.2 — a lexical rule enforces the
-  permanence doctrine without an LLM classifier gating ingest.
+- **The `permanence`/`identity` marker slots.** §2.2 — deleted rather than populated; a
+  lexical rule enforces the permanence doctrine without an LLM classifier gating ingest.
 - **A Python ingest toolchain.** One language on the critical path (§1.2).
 
 **1.1, in order:**
 
 1. **Whichever triplet mode D7 says lands harder**, promoted to default. Both already ship.
-2. **Corpus T2 (≥24/cell) and per-(theme,tier) blocks** behind a config flag.
+2. **Corpus growth**, so the vocabulary can grow past 25 tags without splitting one below
+   the floor.
 3. **catalog_v4 vocabulary reconciliation** — not adoption. **[MEASURED]** it covers 9 of 22
    pool themes; 1.1 starts by reconciling the two ontologies, and only then asks whether a
    DAG should pick the theme sequence.
@@ -1337,7 +1350,7 @@ preserved (§2.2).
 | # | Risk (judge) | Disposition |
 |---|---|---|
 | R1 | Conjugation gate is a 200-record sample against ~13,000 strings; 1% defect rate ships ~43 broken strings (J1, J2) | **MITIGATED, partially.** §7.4's three-layer precision-first gate, reshaped by **[MEASURED]** table coverage of 61% and a 39% false-positive rate for the naive form. Residue goes to a bounded review queue with a published coverage number. **[ACCEPTED RISK]** short of 100% proof. |
-| R2 | Adjacency widening fires on real configs; plausible configs unplannable pre-Phase-B (J1) | **MITIGATED.** Theme-level blocks (19–35) make widening rare at T1 (≥8/cell). A12 asserts zero `lane-starved` on the reference config; the widening rate is a published diagnostic. §7.2's T1 ship floor replaces the binary T2 gate. |
+| R2 | Plausible configs unplannable (J1) | **CLOSED.** Widening is deleted with the tier axis; every tag now holds ≥54 records, so a block always fields a triplet. A12 asserts zero `lane-starved` on the reference config. |
 | R3 | Theme selection per step is unspecified — a hole in the largest module, sitting on the parity pillar (J1) | **CLOSED.** §4.4 specifies it: shared across lanes, hold-and-pivot walk, coverage-weighted pivot, diagnostic on thin coverage. A13 tests it. |
 | R4 | ±6% drift jitter is an unmeasured cross-modal aesthetic claim locked in as a ship gate (J1, J3) | **MITIGATED.** Halved to ±4%, exposed as `SessionOptions.driftPct`, and **C3 demoted from ship gate to tuning observation** reviewed at D7. |
 | R5 | `plan()` on every keystroke with no performance budget (J1) | **CLOSED.** §6.2 sets p95 ≤ 40 ms, asserted by A11, with a specified counts-only degradation path. |
@@ -1348,7 +1361,7 @@ preserved (§2.2).
 | R10 | Cross-lane rule contradicts the coordinated-triplet reading it cites (J2) | **CLOSED.** §4.7 makes the two readings explicit modes with different rules: `parallel` forbids id collisions; `unison` requires the shared id and forbids `invariant` mantras. C7 tests both. |
 | R11 | Person drift, neutral bias and hysteresis are unprecedented and land in the deepest module (J2) | **MITIGATED.** All four parameters are `SessionOptions` fields from day one; D7 reviews them; every answer is a config change. |
 | R12 | Corpus contract validated twice in two languages; schema drift (J2) | **CLOSED.** §1.2: ingest is TypeScript importing M1's schema module. One validator. |
-| R13 | LLM-judged `permanence`/`identity` gating ingest (J2, J3 opposed) | **CLOSED by declining the graft.** §2.2 leaves both `false` and unread; §7.5/CORPUS_SPEC enforces the permanence doctrine lexically, with no classifier in the rejection path. |
+| R13 | LLM-judged `permanence`/`identity` gating ingest (J2, J3 opposed) | **CLOSED by deleting the fields.** Both measured `true` on 0 of 2,639 records; §7.5/CORPUS_SPEC enforces the permanence doctrine lexically, with no classifier in the rejection path. |
 | R14 | Session length open while corpus volume is derived from it (J2) | **CLOSED.** §4.9 fixes mean dwell at 3400 ms (variable 2900–4200) *before* Phase B's batch count is set. §7.1's target derives from dwell steps, not wall clock. |
 | R15 | `unison` renders `invariant` records as three identical strings; over-generating them worsens it (J3) | **CLOSED.** §4.7 refuses and redraws; §4.6 gives person-free records a scheduled job at the drift pivot instead. CORPUS_SPEC caps the impersonal share rather than over-generating it. |
 | R16 | Emergence corpus does not exist, has no exemplars, and blocks every session (J3) | **MITIGATED.** §7.2 T0: authored **first**, by hand or hand-reviewed line by line, precisely because it has no voice to imitate. B7 gates it. |

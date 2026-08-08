@@ -28,7 +28,6 @@ import type {
   Pov,
   Provenance,
   RawRecord,
-  Tier,
 } from './types.ts';
 import type { Corpus as CorpusT } from './store.ts';
 import {
@@ -37,10 +36,8 @@ import {
   checkIntegrity,
 } from './store.ts';
 import { assignId } from './slug.ts';
-import { getTier, isTier } from './tier.ts';
 import { checkPersonCorrectness, derivePov } from './conjugation.ts';
 import {
-  checkBasePoints,
   checkContentQuality,
   checkPlaceholders,
 } from './lint.ts';
@@ -165,17 +162,6 @@ export function ingest(opts: IngestOptions): IngestReport {
       report.rejected += lines.length;
       continue;
     }
-    if (!isTier(header.tier)) {
-      report.issues.push({
-        severity: 'hard',
-        code: 'BAD_HEADER',
-        message: `header.tier ${JSON.stringify(header.tier)} is not a tier`,
-        file: short,
-        line: headerLine.line,
-      });
-      report.rejected += lines.length;
-      continue;
-    }
 
     const prov: Omit<Provenance, 'reviewed'> = {
       source: 'phase-b',
@@ -188,7 +174,6 @@ export function ingest(opts: IngestOptions): IngestReport {
       const outcome = ingestRecord(
         pl,
         header.theme,
-        header.tier as Tier,
         prov,
         c,
         byId,
@@ -209,7 +194,6 @@ type Outcome = 'accepted' | 'rejected' | 'skipped';
 function ingestRecord(
   pl: ParsedLine,
   theme: string,
-  tier: Tier,
   prov: Omit<Provenance, 'reviewed'>,
   c: CorpusT,
   byId: Map<string, PoolRecord>,
@@ -253,23 +237,13 @@ function ingestRecord(
     if (typeof r.markers !== 'object' || r.markers === null) {
       push('hard', 'BAD_MARKERS', 'markers must be an object');
     } else {
-      for (const derived of ['has_controller', 'has_subject', 'pov']) {
+      for (const derived of ['has_controller', 'has_subject']) {
         if (derived in (r.markers as object)) {
           push('hard', 'DERIVED_MARKER', `markers.${derived} is derived and must not be authored`);
         }
       }
-      for (const reserved of ['permanence', 'identity'] as const) {
-        const val = (r.markers as Record<string, unknown>)[reserved];
-        if (val !== undefined && val !== false) {
-          push('hard', 'RESERVED_MARKER', `markers.${reserved} must be false in 1.0`);
-        }
-      }
     }
   }
-
-  issues.push(...checkBasePoints(r.base_points, tier).map((f) => ({
-    ...f, file: short, line: pl.line,
-  })));
 
   if (issues.some((i) => i.severity === 'hard')) {
     report.issues.push(...issues);
@@ -296,7 +270,7 @@ function ingestRecord(
   /* ---- §8.3 content quality ---- */
 
   for (const v of VARIANTS) {
-    issues.push(...checkContentQuality(rec[v], v, rec.base_points).map((f) => ({
+    issues.push(...checkContentQuality(rec[v], v).map((f) => ({
       ...f, file: short, line: pl.line,
     })));
   }
@@ -364,8 +338,7 @@ function ingestRecord(
     id,
     text,
     themes: rec.themes.includes(theme) ? rec.themes : [theme, ...rec.themes],
-    base_points: rec.base_points,
-    markers: deriveMarkers(text, canonicalPov),
+    markers: deriveMarkers(text),
   };
 
   const triple: PersonTriple = {
@@ -439,19 +412,20 @@ function ingestBackfill(
     }
 
     const rec = r as BackfillRecord;
-    const pov = existing.markers.pov;
+    // Recomputed from the stored text, the same way `checkIntegrity` does it.
+    const pov = derivePov(existing.text);
 
-    // THE backfill invariant: the variant matching the record's pov MUST
+    // THE backfill invariant: the variant matching the record's stance MUST
     // byte-equal the stored text, or the line is rejected. This is what makes
     // backfill incapable of rewriting the original 612.
-    if (pov === null) {
-      push('hard', 'BACKFILL_NO_POV', 'target record has a null pov');
+    if (pov === 'mixed') {
+      push('hard', 'BACKFILL_MIXED_STANCE', 'target record text mixes voice frames');
     } else if (pov === 'impersonal') {
       for (const v of VARIANTS) {
         if (rec[v] !== existing.text) {
           push('hard', 'BACKFILL_TEXT_MISMATCH',
-            `target pov is impersonal so every variant must byte-equal the ` +
-            `stored text; \`${v}\` is ${JSON.stringify(rec[v])} vs ` +
+            `target text is person-free so every variant must byte-equal it; ` +
+            `\`${v}\` is ${JSON.stringify(rec[v])} vs ` +
             `${JSON.stringify(existing.text)}`);
         }
       }
@@ -469,7 +443,7 @@ function ingestBackfill(
     // The attached variants face the same gates as generated content.
     for (const v of VARIANTS) {
       issues.push(...checkPlaceholders(rec[v], v).map((f) => ({ ...f, file: short, line: pl.line, id: rec.id })));
-      issues.push(...checkContentQuality(rec[v], v, existing.base_points).map((f) => ({ ...f, file: short, line: pl.line, id: rec.id })));
+      issues.push(...checkContentQuality(rec[v], v).map((f) => ({ ...f, file: short, line: pl.line, id: rec.id })));
     }
     const gate = checkPersonCorrectness(rec);
     issues.push(...gate.findings.map((f) => ({ ...f, file: short, line: pl.line, id: rec.id })));
@@ -496,7 +470,7 @@ function ingestBackfill(
     };
     dedupe.add(rec.id, [rec.first, rec.second, rec.named]);
 
-    // base_points and text are NEVER modified by backfill.
+    // text and themes are NEVER modified by backfill.
     if (!already) report.backfilled++;
     if (gate.machineVerified) report.machineVerified++;
     if (issues.some((i) => i.severity === 'review')) report.routedToReview++;
@@ -505,4 +479,4 @@ function ingestBackfill(
 }
 
 /** Re-export so the CLI has one import surface. */
-export { checkIntegrity, getTier };
+export { checkIntegrity };

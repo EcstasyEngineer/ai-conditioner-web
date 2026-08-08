@@ -1,47 +1,53 @@
 /**
- * Coverage report — CORPUS_SPEC.md §3.3, §8.2, B1/B11.
+ * Coverage report — one flat count per tag, against one floor.
  *
- * Prints EVERY (theme, tier) cell against both thresholds — the T1 ship floor
- * of >=8 and the T2 quality target of >=24 — so remaining Phase B work is
- * machine-readable and each batch can target the thinnest cells first.
+ * This replaces a (theme, tier) grid that scored every cell against two
+ * thresholds. With the intensity axis deleted there are no cells: a tag is a
+ * flat member of one namespace, a record carries N of them, and the only
+ * question the report has to answer is whether each tag can field a lane.
  */
 
 import type { Corpus } from './store.ts';
-import type { Tier } from './types.ts';
-import { TIER_ORDER, getTier } from './tier.ts';
 
-export const T1_FLOOR = 8;
-export const T2_TARGET = 24;
+/**
+ * The per-tag floor: 3 lanes x an 18-step peak gaussian dwell.
+ *
+ * A tag below it cannot supply a lane for the span the titration curve holds it
+ * at peak, so a user who enrolls it sees repetition — the most visible failure
+ * in a three-lane simultaneous renderer. This is an ENGINE parameter, not a
+ * law: it moves if the lane count or the dwell curve moves, and every headroom
+ * figure quoted against it moves with it.
+ */
+export const TAG_FLOOR = 54;
 
-export interface CellCounts {
-  theme: string;
-  counts: Record<Tier, number>;
-  total: number;
+export interface TagCount {
+  tag: string;
+  /** Records carrying this tag. A record tagged {A,B} counts toward both. */
+  count: number;
+  /** Records carrying this tag and no other. */
+  solo: number;
 }
 
-export function coverage(c: Corpus): CellCounts[] {
-  const byTheme = new Map<string, Record<Tier, number>>();
-  const blank = (): Record<Tier, number> => ({
-    basic: 0, light: 0, moderate: 0, deep: 0, extreme: 0,
-  });
+export function coverage(c: Corpus): TagCount[] {
+  const counts = new Map<string, { count: number; solo: number }>();
 
   for (const rec of c.pool.mantras) {
-    const tier = getTier(rec.base_points);
-    // A cross-tagged record counts toward EVERY theme it carries — exclusions
-    // are checked against the full tag list, so coverage must be too.
-    for (const theme of rec.themes) {
-      if (!byTheme.has(theme)) byTheme.set(theme, blank());
-      byTheme.get(theme)![tier]++;
+    // A cross-tagged record counts toward EVERY tag it carries — exclusions are
+    // checked against the full tag list, so coverage must be too.
+    for (const tag of rec.themes) {
+      let row = counts.get(tag);
+      if (row === undefined) {
+        row = { count: 0, solo: 0 };
+        counts.set(tag, row);
+      }
+      row.count++;
+      if (rec.themes.length === 1) row.solo++;
     }
   }
 
-  return [...byTheme.entries()]
-    .map(([theme, counts]) => ({
-      theme,
-      counts,
-      total: TIER_ORDER.reduce((s, t) => s + counts[t], 0),
-    }))
-    .sort((a, b) => a.theme.localeCompare(b.theme));
+  return [...counts.entries()]
+    .map(([tag, row]) => ({ tag, ...row }))
+    .sort((a, b) => a.tag.localeCompare(b.tag));
 }
 
 export interface VariantStats {
@@ -49,7 +55,6 @@ export interface VariantStats {
   complete: number;
   invariant: number;
   missingVariants: number;
-  povNull: number;
   reviewedFalse: number;
   bySource: Map<string, number>;
 }
@@ -60,7 +65,6 @@ export function variantStats(c: Corpus): VariantStats {
     complete: 0,
     invariant: 0,
     missingVariants: 0,
-    povNull: 0,
     reviewedFalse: 0,
     bySource: new Map(),
   };
@@ -72,7 +76,6 @@ export function variantStats(c: Corpus): VariantStats {
     } else {
       s.missingVariants++;
     }
-    if (rec.markers.pov === null) s.povNull++;
     const p = c.provenance[rec.id];
     if (p) {
       s.bySource.set(p.source, (s.bySource.get(p.source) ?? 0) + 1);
@@ -89,60 +92,43 @@ function padLeft(s: string, n: number): string {
   return s.length >= n ? s : ' '.repeat(n - s.length) + s;
 }
 
-/** Marks a cell: ' ' meets T2, '+' meets T1 only, '!' below the ship floor. */
-function mark(n: number): string {
-  if (n >= T2_TARGET) return ' ';
-  if (n >= T1_FLOOR) return '+';
-  return '!';
-}
-
 export function formatReport(c: Corpus, opts?: {
   machineVerified?: number;
   routedToReview?: number;
 }): string {
-  const cells = coverage(c);
+  const tags = coverage(c);
   const out: string[] = [];
-  const W = 16;
+  const W = 20;
 
-  out.push('');
-  out.push(`corpus coverage - ${c.pool.mantras.length} records, ${cells.length} themes`);
-  out.push(`thresholds: T1 ship floor >=${T1_FLOOR}   T2 quality target >=${T2_TARGET}`);
-  out.push(`legend: '!' below T1   '+' meets T1, below T2   ' ' meets T2`);
+  const applications = tags.reduce((sum, t) => sum + t.count, 0);
+  const below = tags.filter((t) => t.count < TAG_FLOOR);
+
   out.push('');
   out.push(
-    pad('theme', W) +
-      TIER_ORDER.map((t) => padLeft(t, 10)).join('') +
-      padLeft('total', 8),
+    `corpus coverage - ${c.pool.mantras.length} records, ${tags.length} tags, ` +
+      `${applications} applications`,
   );
-  out.push('-'.repeat(W + 10 * TIER_ORDER.length + 8));
+  out.push(`floor: >=${TAG_FLOOR} records per tag   legend: '!' below the floor`);
+  out.push('');
+  out.push(pad('tag', W) + padLeft('records', 10) + padLeft('solo', 8) + padLeft('headroom', 10));
+  out.push('-'.repeat(W + 28));
 
-  let belowT1 = 0;
-  let belowT2 = 0;
-  for (const cell of cells) {
-    const row = TIER_ORDER.map((t) => {
-      const n = cell.counts[t];
-      if (n < T1_FLOOR) belowT1++;
-      if (n < T2_TARGET) belowT2++;
-      return padLeft(`${n}${mark(n)}`, 10);
-    }).join('');
-    out.push(pad(cell.theme, W) + row + padLeft(String(cell.total), 8));
+  for (const t of tags) {
+    const flag = t.count < TAG_FLOOR ? '!' : ' ';
+    // Fraction of the tag that could be lost before it stops fielding a lane.
+    const headroom = ((t.count - TAG_FLOOR) / TAG_FLOOR) * 100;
+    out.push(
+      pad(t.tag, W) +
+        padLeft(`${t.count}${flag}`, 10) +
+        padLeft(String(t.solo), 8) +
+        padLeft(`${headroom >= 0 ? '+' : ''}${headroom.toFixed(0)}%`, 10),
+    );
   }
 
   out.push('');
-  const totalCells = cells.length * TIER_ORDER.length;
   out.push(
-    `cells: ${totalCells} total   ` +
-      `${totalCells - belowT1} meet T1 (>=${T1_FLOOR})   ` +
-      `${totalCells - belowT2} meet T2 (>=${T2_TARGET})`,
+    `tag floor: ${below.length === 0 ? 'PASS' : `FAIL - ${below.map((t) => `${t.tag} (${t.count})`).join(', ')}`}`,
   );
-  out.push(`B1 T1 ship gate: ${belowT1 === 0 ? 'PASS' : `FAIL - ${belowT1} cells below ${T1_FLOOR}`}`);
-
-  // §2.2 — induction and emergence are the blocking Tranche 0 themes.
-  for (const t of ['induction', 'emergence']) {
-    const cell = cells.find((x) => x.theme === t);
-    const n = cell?.total ?? 0;
-    out.push(`B7 ${pad(t, 10)} ${padLeft(String(n), 4)} / 40   ${n >= 40 ? 'PASS' : 'FAIL'}`);
-  }
 
   const s = variantStats(c);
   out.push('');
@@ -150,7 +136,6 @@ export function formatReport(c: Corpus, opts?: {
     `B2 all three variants: ${s.complete}/${s.total}` +
       (s.missingVariants > 0 ? `   (${s.missingVariants} incomplete - awaiting backfill)` : '   PASS'),
   );
-  out.push(`B3 pov non-null: ${s.total - s.povNull}/${s.total}${s.povNull === 0 ? '   PASS' : '   FAIL'}`);
   const invPct = s.complete > 0 ? ((s.invariant / s.complete) * 100).toFixed(1) : '0.0';
   out.push(`   invariant (person-free): ${s.invariant}/${s.complete} = ${invPct}%  (§4.3 target 12-18% of NEW content)`);
   out.push(

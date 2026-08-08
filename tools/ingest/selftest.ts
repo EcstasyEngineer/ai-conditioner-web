@@ -9,9 +9,8 @@
  */
 
 import { checkPersonCorrectness, derivePov, tokenize } from './conjugation.ts';
-import { checkBasePoints, checkContentQuality, checkPlaceholders } from './lint.ts';
+import { checkContentQuality, checkPlaceholders } from './lint.ts';
 import { assignId, slugify, normalizeForDedupe } from './slug.ts';
-import { getTier } from './tier.ts';
 import { levenshtein, isNearDuplicate, DedupeIndex } from './dedupe.ts';
 import { VERB_BY_BASE, tableConflicts, requiresInflection } from './verbTable.ts';
 import { computeInvariant, checkIntegrity, emptyCorpus } from './store.ts';
@@ -292,49 +291,27 @@ console.log('\n== §8.1 structural: placeholders ==');
     checkPlaceholders('{subject} [obey|obeys] now', 'x').some((f) => f.code === 'BRACKET_GRAMMAR'));
 }
 
-console.log('\n== §5.3 base_points and tiering ==');
-{
-  // Boundaries ported from conditioner utils/scoring.py:15-28.
-  check('tier boundaries', getTier(20) === 'basic' && getTier(44) === 'basic' &&
-    getTier(45) === 'light' && getTier(74) === 'light' &&
-    getTier(75) === 'moderate' && getTier(109) === 'moderate' &&
-    getTier(110) === 'deep' && getTier(149) === 'deep' &&
-    getTier(150) === 'extreme' && getTier(200) === 'extreme');
-  check('non-multiple of 5 is HARD',
-    checkBasePoints(93, 'moderate').some((f) => f.code === 'POINTS_NOT_MULTIPLE_OF_5'));
-  check('out of range is HARD',
-    checkBasePoints(15, 'basic').some((f) => f.code === 'POINTS_OUT_OF_RANGE'));
-  check('non-integer is HARD',
-    checkBasePoints(90.5, 'moderate').some((f) => f.code === 'POINTS_NOT_INT'));
-  // §5.3 - a declared tier that disagrees is REVIEW, never a silent rewrite.
-  const dis = checkBasePoints(90, 'basic');
-  check('tier disagreement is REVIEW not HARD',
-    dis.some((f) => f.code === 'TIER_DISAGREEMENT' && f.severity === 'review'));
-  check('matching tier is clean', checkBasePoints(90, 'moderate').length === 0);
-}
-
 console.log('\n== §8.3 content quality ==');
 {
   check('em dash is HARD',
-    checkContentQuality('I sink - deeper'.replace('-', '—'), 'x', 20).some((f) => f.code === 'DASH'));
+    checkContentQuality('I sink - deeper'.replace('-', '—'), 'x').some((f) => f.code === 'DASH'));
   check('smart quote is HARD',
-    checkContentQuality('I am “empty”', 'x', 20).some((f) => f.code === 'SMART_QUOTE'));
+    checkContentQuality('I am “empty”', 'x').some((f) => f.code === 'SMART_QUOTE'));
   check('trailing period is HARD',
-    checkContentQuality('I obey without thinking.', 'x', 20).some((f) => f.code === 'TRAILING_PERIOD'));
+    checkContentQuality('I obey without thinking.', 'x').some((f) => f.code === 'TRAILING_PERIOD'));
   check('over 20 words is HARD',
-    checkContentQuality(Array(21).fill('word').join(' '), 'x', 20).some((f) => f.code === 'TOO_LONG'));
+    checkContentQuality(Array(21).fill('word').join(' '), 'x').some((f) => f.code === 'TOO_LONG'));
   check('GPT-ism is HARD',
-    checkContentQuality('I delve into the emptiness', 'x', 20).some((f) => f.code === 'GPT_ISM'));
+    checkContentQuality('I delve into the emptiness', 'x').some((f) => f.code === 'GPT_ISM'));
   check('"symphony of" is HARD',
-    checkContentQuality('A symphony of surrender fills me', 'x', 20).some((f) => f.code === 'GPT_ISM'));
-  // §5.2 - permanence vocabulary is extreme-tier only, checked lexically.
-  check('permanence below extreme is HARD',
-    checkContentQuality('I am changed forever', 'x', 90).some((f) => f.code === 'PERMANENCE_BELOW_EXTREME'));
-  check('permanence at extreme is allowed',
-    !checkContentQuality('I am changed forever', 'x', 150).some((f) => f.code === 'PERMANENCE_BELOW_EXTREME'));
-  check('"can never" below extreme is HARD',
-    checkContentQuality('I can never go back', 'x', 100).some((f) => f.code === 'PERMANENCE_BELOW_EXTREME'));
-  check('clean line passes', checkContentQuality('I obey without thinking', 'x', 90).length === 0);
+    checkContentQuality('A symphony of surrender fills me', 'x').some((f) => f.code === 'GPT_ISM'));
+  // Permanence vocabulary is rejected at any register: MEASURED 0% of S-rated
+  // lines and 48% of F, so there is no tier at which it is good writing.
+  check('permanence vocabulary is HARD',
+    checkContentQuality('I am changed forever', 'x').some((f) => f.code === 'PERMANENCE_VOCAB'));
+  check('"can never" is HARD',
+    checkContentQuality('I can never go back', 'x').some((f) => f.code === 'PERMANENCE_VOCAB'));
+  check('clean line passes', checkContentQuality('I obey without thinking', 'x').length === 0);
 }
 
 console.log('\n== §8.4 slug / id assignment ==');
@@ -376,35 +353,35 @@ console.log('\n== §7 dedupe ==');
 console.log('\n== end-to-end ingest ==');
 {
   const dir = mkdtempSync(join(tmpdir(), 'corpus-selftest-'));
-  const file = join(dir, 'obedience.moderate.001.jsonl');
+  const file = join(dir, 'obedience.001.jsonl');
   const header = JSON.stringify({
-    schema: 'hypnoapp.corpus.v1', theme: 'obedience', tier: 'moderate',
-    generator: { model: 'grok-test', batch: 'obedience.moderate.001' },
+    schema: 'hypnoapp.corpus.v1', theme: 'obedience',
+    generator: { model: 'grok-test', batch: 'obedience.001' },
   });
   const good = JSON.stringify({
     first: 'My body moves before I decide to',
     second: 'Your body moves before you decide to',
     named: "{subject}'s body moves before {subject} decides to",
-    base_points: 90, themes: ['obedience'],
+    themes: ['obedience'],
   });
   const badConj = JSON.stringify({
     first: 'I obey without thinking',
     second: 'You obey without thinking',
     named: '{subject} obey without thinking',
-    base_points: 90, themes: ['obedience'],
+    themes: ['obedience'],
   });
   const withId = JSON.stringify({
     id: 'should_be_rejected',
     first: 'I kneel when told',
     second: 'You kneel when told',
     named: '{subject} kneels when told',
-    base_points: 90, themes: ['obedience'],
+    themes: ['obedience'],
   });
   const derivedMarker = JSON.stringify({
     first: 'I wait for the command',
     second: 'You wait for the command',
     named: '{subject} waits for the command',
-    base_points: 90, themes: ['obedience'], markers: { pov: 'first' },
+    themes: ['obedience'], markers: { has_subject: true },
   });
   writeFileSync(file, [header, good, badConj, withId, derivedMarker, good].join('\n') + '\n');
 
@@ -422,8 +399,7 @@ console.log('\n== end-to-end ingest ==');
     rep.issues.some((i) => i.code === 'D1_DUPLICATE'));
   check('id derived from the first variant',
     c.pool.mantras[0]!.id === 'my_body_moves_before_i_decide');
-  check('pov derived as first', c.pool.mantras[0]!.markers.pov === 'first');
-  check('text is the variant named by pov',
+  check('text is the variant named by the derived stance',
     c.pool.mantras[0]!.text === 'My body moves before I decide to');
   check('markers are mechanical',
     c.pool.mantras[0]!.markers.has_subject === false &&
@@ -459,16 +435,16 @@ console.log('\n== end-to-end ingest ==');
   writeFileSync(bfFile, [bfHeader, bfGood, bfMismatch, bfUnknown].join('\n') + '\n');
 
   const textBefore = c.pool.mantras[0]!.text;
-  const pointsBefore = c.pool.mantras[0]!.base_points;
+  const themesBefore = JSON.stringify(c.pool.mantras[0]!.themes);
   const rep2 = ingest({ files: [bfFile], corpus: c });
 
-  check('backfill whose pov variant mismatches stored text is rejected',
+  check('backfill whose stance variant mismatches stored text is rejected',
     rep2.issues.some((i) => i.code === 'BACKFILL_TEXT_MISMATCH' && i.severity === 'hard'));
   check('backfill against an unknown id is rejected',
     rep2.issues.some((i) => i.code === 'BACKFILL_UNKNOWN_ID'));
-  check('backfill never modifies text or base_points',
+  check('backfill never modifies text or themes',
     c.pool.mantras[0]!.text === textBefore &&
-    c.pool.mantras[0]!.base_points === pointsBefore);
+    JSON.stringify(c.pool.mantras[0]!.themes) === themesBefore);
   check('backfill attaches the variants',
     c.persons[id]!.second === 'Your body moves before you decide to');
   check('integrity still holds after backfill', checkIntegrity(c).length === 0);
@@ -484,7 +460,7 @@ console.log('\n== end-to-end ingest ==');
   const partialFile = join(dir, 'partial.jsonl');
   const other = JSON.stringify({
     first: 'I melt into the quiet', second: 'You melt into the quiet',
-    named: '{subject} melts into the quiet', base_points: 90, themes: ['obedience'],
+    named: '{subject} melts into the quiet', themes: ['obedience'],
   });
   writeFileSync(partialFile, [header, '{not json', other].join('\n') + '\n');
   const c2 = emptyCorpus();

@@ -6,10 +6,14 @@
  *   corpus/provenance.json  { [id]: { source, batch, model, generated_at, reviewed } }
  *
  * Sidecar integrity invariant, enforced at emission AND at load:
- *     persons[record.id][record.markers.pov] === record.text
+ *     persons[record.id][derivePov(record.text)] === record.text
  * The canonical text is not a separate thing from its variant set; it is the
- * member named by `pov`. Without this the sidecar silently drifts from the
- * pool it keys into.
+ * member whose stance the text is written in. Without this the sidecar silently
+ * drifts from the pool it keys into.
+ *
+ * The stance is RECOMPUTED here rather than read from a stored `markers.pov`.
+ * That is strictly stronger: a stored stance can be wrong, and an integrity
+ * check that trusts it validates the record against its own mistake.
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
@@ -20,8 +24,8 @@ import type {
   PersonTriple,
   Provenance,
   Markers,
-  Pov,
 } from './types.ts';
+import { derivePov } from './conjugation.ts';
 
 export interface Corpus {
   pool: Pool;
@@ -55,13 +59,10 @@ export function emptyCorpus(): Corpus {
  * Derived fields — computed, never authored (§5.1)
  * ------------------------------------------------------------------ */
 
-export function deriveMarkers(text: string, pov: Pov | null): Markers {
+export function deriveMarkers(text: string): Markers {
   return {
     has_controller: text.includes('{controller}'),
     has_subject: text.includes('{subject}'),
-    permanence: false, // §5.2 - always false in 1.0, reserved schema slot
-    identity: false, // §5.2 - always false in 1.0, reserved
-    pov,
   };
 }
 
@@ -91,9 +92,13 @@ export interface IntegrityViolation {
 }
 
 /**
- * §6.3 / B8. `impersonal` has no variant of its own name — for those records
- * the canonical text must equal every present variant, which is the same
- * statement one level down.
+ * §6.3 / B8. The stance is recomputed from the text rather than read back from
+ * the record, so this checks the sidecar against the text itself and not
+ * against a stored opinion about the text.
+ *
+ * `impersonal` has no variant of its own name — for those records the canonical
+ * text must equal every present variant, which is the same statement one level
+ * down, and is exactly the `invariant` flag's claim.
  */
 export function checkIntegrity(c: Corpus): IntegrityViolation[] {
   const out: IntegrityViolation[] = [];
@@ -103,9 +108,9 @@ export function checkIntegrity(c: Corpus): IntegrityViolation[] {
       out.push({ id: rec.id, reason: 'no persons entry' });
       continue;
     }
-    const pov = rec.markers.pov;
-    if (pov === null) {
-      out.push({ id: rec.id, reason: 'pov is null (B3 requires non-null)' });
+    const pov = derivePov(rec.text);
+    if (pov === 'mixed') {
+      out.push({ id: rec.id, reason: 'text mixes voice frames (§4.2 forbids mixed stance)' });
       continue;
     }
     if (pov === 'impersonal') {
@@ -115,7 +120,7 @@ export function checkIntegrity(c: Corpus): IntegrityViolation[] {
           out.push({
             id: rec.id,
             reason:
-              `pov is impersonal so every variant must equal text, but ` +
+              `text is person-free so every variant must equal it, but ` +
               `${p} is ${JSON.stringify(v)}`,
           });
         }
@@ -161,23 +166,19 @@ export function loadCorpus(root: string): Corpus {
 }
 
 /**
- * Emit with conditioner's exact formatting: 2-space indent, trailing newline,
- * and the record key order id/text/themes/base_points/markers. Key order is
- * insertion order in JS objects, so records are rebuilt field by field rather
- * than spread, keeping the pool a straight copy for regeneration upstream.
+ * Emit with 2-space indent, a trailing newline, and the record key order
+ * id/text/themes/markers. Key order is insertion order in JS objects, so
+ * records are rebuilt field by field rather than spread, which keeps the emitted
+ * pool byte-stable across runs and makes a re-ingest diffable.
  */
 function canonicalRecord(r: PoolRecord): PoolRecord {
   return {
     id: r.id,
     text: r.text,
     themes: r.themes,
-    base_points: r.base_points,
     markers: {
       has_controller: r.markers.has_controller,
       has_subject: r.markers.has_subject,
-      permanence: r.markers.permanence,
-      identity: r.markers.identity,
-      pov: r.markers.pov,
     },
   };
 }

@@ -1,0 +1,314 @@
+{
+  "_comment": [
+    "HAND-AUTHORED SPECIFICATION FIXTURE — the person sidecar for corpus.mini.json.",
+    "",
+    "Satisfies the §2.3 integrity invariant for all 44 records:",
+    "",
+    "    persons[record.id][record.markers.pov] === record.text",
+    "",
+    "with the impersonal branch read as the rule rather than an exception: an impersonal",
+    "record has no grammatical subject, so it has no dedicated key here, and its canonical",
+    "text is the member EVERY key names — all three variants equal `text` and `invariant`",
+    "is true.",
+    "",
+    "`invariant` is COMPUTED, never authored: it is true exactly when the three strings are",
+    "equal. It is what lets a side lane use a record without exposing the person axis, and",
+    "it is what `unison` refuses on so a step never renders as three byte-identical strings.",
+    "",
+    "Every `named` variant carries correct third-person agreement — `{subject} obeys`, never",
+    "`{subject} obey`. That is the single place the conjugation problem is solved, and it is",
+    "solved at authoring time where a mistake is a diffable line rather than something a",
+    "user reads mid-session.",
+    "",
+    "`_comment` is ignored by the loader; it is reported as an orphan sidecar key, which is",
+    "a warning that drops nothing."
+  ],
+
+  "my_shoulders_drop_as_i_sit": {
+    "first": "My shoulders drop as I sit",
+    "second": "Your shoulders drop as you sit",
+    "named": "{subject}'s shoulders drop as {subject} sits",
+    "invariant": false
+  },
+  "the_room_gets_quieter_than_it_was": {
+    "first": "The room gets quieter than it was",
+    "second": "The room gets quieter than it was",
+    "named": "The room gets quieter than it was",
+    "invariant": true
+  },
+  "your_out_breath_runs_longer_than_your_in_breath": {
+    "first": "My out-breath runs longer than my in-breath",
+    "second": "Your out-breath runs longer than your in-breath",
+    "named": "{subject}'s out-breath runs longer than {subject}'s in-breath",
+    "invariant": false
+  },
+  "subject_settles_without_deciding_to": {
+    "first": "I settle without deciding to",
+    "second": "You settle without deciding to",
+    "named": "{subject} settles without deciding to",
+    "invariant": false
+  },
+  "my_jaw_unclenches_on_its_own": {
+    "first": "My jaw unclenches on its own",
+    "second": "Your jaw unclenches on its own",
+    "named": "{subject}'s jaw unclenches on its own",
+    "invariant": false
+  },
+  "weight_gathers_in_the_hands": {
+    "first": "Weight gathers in the hands",
+    "second": "Weight gathers in the hands",
+    "named": "Weight gathers in the hands",
+    "invariant": true
+  },
+  "i_sit_down_and_stop_holding": {
+    "first": "I sit down and stop holding",
+    "second": "You sit down and stop holding",
+    "named": "{subject} sits down and stops holding",
+    "invariant": false
+  },
+  "controller_s_voice_arrives_before_the_thought_does": {
+    "first": "{controller}'s voice arrives before the thought does",
+    "second": "{controller}'s voice arrives before the thought does",
+    "named": "{controller}'s voice arrives before the thought does",
+    "invariant": true
+  },
+
+  "this_yes_arrives_before_the_question": {
+    "first": "This yes arrives before the question",
+    "second": "This yes arrives before the question",
+    "named": "This yes arrives before the question",
+    "invariant": true
+  },
+  "i_stop_checking_whether_i_agree": {
+    "first": "I stop checking whether I agree",
+    "second": "You stop checking whether you agree",
+    "named": "{subject} stops checking whether {subject} agrees",
+    "invariant": false
+  },
+  "you_stop_looking_for_the_edge_of_it": {
+    "first": "I stop looking for the edge of it",
+    "second": "You stop looking for the edge of it",
+    "named": "{subject} stops looking for the edge of it",
+    "invariant": false
+  },
+  "subject_lets_the_last_objection_go_unspoken": {
+    "first": "I let the last objection go unspoken",
+    "second": "You let the last objection go unspoken",
+    "named": "{subject} lets the last objection go unspoken",
+    "invariant": false
+  },
+  "resistance_costs_more_than_it_returns": {
+    "first": "Resistance costs more than it returns",
+    "second": "Resistance costs more than it returns",
+    "named": "Resistance costs more than it returns",
+    "invariant": true
+  },
+  "i_take_what_controller_decides_i_take": {
+    "first": "I take what {controller} decides I take",
+    "second": "You take what {controller} decides you take",
+    "named": "{subject} takes what {controller} decides {subject} takes",
+    "invariant": false
+  },
+  "you_agree_faster_than_you_can_object": {
+    "first": "I agree faster than I can object",
+    "second": "You agree faster than you can object",
+    "named": "{subject} agrees faster than {subject} can object",
+    "invariant": false
+  },
+  "subject_has_no_answer_left_that_is_not_yes": {
+    "first": "I have no answer left that is not yes",
+    "second": "You have no answer left that is not yes",
+    "named": "{subject} has no answer left that is not yes",
+    "invariant": false
+  },
+
+  "every_command_lands_where_focus_already_is": {
+    "first": "Every command lands where focus already is",
+    "second": "Every command lands where focus already is",
+    "named": "Every command lands where focus already is",
+    "invariant": true
+  },
+  "my_body_moves_before_i_decide_to": {
+    "first": "My body moves before I decide to",
+    "second": "Your body moves before you decide to",
+    "named": "{subject}'s body moves before {subject} decides to",
+    "invariant": false
+  },
+  "you_do_it_before_you_hear_yourself_answer": {
+    "first": "I do it before I hear myself answer",
+    "second": "You do it before you hear yourself answer",
+    "named": "{subject} does it before {subject} hears {subject}'s answer",
+    "invariant": false
+  },
+  "subject_does_anything_controller_asks_for": {
+    "first": "I do anything {controller} asks for",
+    "second": "You do anything {controller} asks for",
+    "named": "{subject} does anything {controller} asks for",
+    "invariant": false
+  },
+  "the_command_is_finished_before_it_is_heard": {
+    "first": "The command is finished before it is heard",
+    "second": "The command is finished before it is heard",
+    "named": "The command is finished before it is heard",
+    "invariant": true
+  },
+  "i_do_not_hear_a_command_i_hear_myself_doing_it": {
+    "first": "I do not hear a command, I hear myself doing it",
+    "second": "You do not hear a command, you hear yourself doing it",
+    "named": "{subject} does not hear a command, {subject} hears {subject} doing it",
+    "invariant": false
+  },
+  "you_obey_controller_before_you_know_you_have": {
+    "first": "I obey {controller} before I know I have",
+    "second": "You obey {controller} before you know you have",
+    "named": "{subject} obeys {controller} before {subject} knows {subject} has",
+    "invariant": false
+  },
+  "subject_obeys_the_way_subject_breathes": {
+    "first": "I obey the way I breathe",
+    "second": "You obey the way you breathe",
+    "named": "{subject} obeys the way {subject} breathes",
+    "invariant": false
+  },
+
+  "one_point_holds_and_the_rest_goes_quiet": {
+    "first": "One point holds and the rest goes quiet",
+    "second": "One point holds and the rest goes quiet",
+    "named": "One point holds and the rest goes quiet",
+    "invariant": true
+  },
+  "my_attention_narrows_to_one_line": {
+    "first": "My attention narrows to one line",
+    "second": "Your attention narrows to one line",
+    "named": "{subject}'s attention narrows to one line",
+    "invariant": false
+  },
+  "you_hold_the_one_word_and_drop_the_rest": {
+    "first": "I hold the one word and drop the rest",
+    "second": "You hold the one word and drop the rest",
+    "named": "{subject} holds the one word and drops the rest",
+    "invariant": false
+  },
+  "subject_keeps_one_thread_and_loses_the_others": {
+    "first": "I keep one thread and lose the others",
+    "second": "You keep one thread and lose the others",
+    "named": "{subject} keeps one thread and loses the others",
+    "invariant": false
+  },
+  "i_cannot_find_the_other_thoughts_anymore": {
+    "first": "I cannot find the other thoughts anymore",
+    "second": "You cannot find the other thoughts anymore",
+    "named": "{subject} cannot find the other thoughts anymore",
+    "invariant": false
+  },
+  "nothing_outside_the_one_line_exists_now": {
+    "first": "Nothing outside the one line exists now",
+    "second": "Nothing outside the one line exists now",
+    "named": "Nothing outside the one line exists now",
+    "invariant": true
+  },
+  "you_hold_controller_s_word_and_nothing_else": {
+    "first": "I hold {controller}'s word and nothing else",
+    "second": "You hold {controller}'s word and nothing else",
+    "named": "{subject} holds {controller}'s word and nothing else",
+    "invariant": false
+  },
+
+  "kneeling_is_easier_than_standing_now": {
+    "first": "Kneeling is easier than standing now",
+    "second": "Kneeling is easier than standing now",
+    "named": "Kneeling is easier than standing now",
+    "invariant": true
+  },
+  "i_hand_it_over_and_feel_lighter": {
+    "first": "I hand it over and feel lighter",
+    "second": "You hand it over and feel lighter",
+    "named": "{subject} hands it over and feels lighter",
+    "invariant": false
+  },
+  "you_give_controller_the_last_of_it": {
+    "first": "I give {controller} the last of it",
+    "second": "You give {controller} the last of it",
+    "named": "{subject} gives {controller} the last of it",
+    "invariant": false
+  },
+  "subject_is_easier_to_move_than_to_argue_with": {
+    "first": "I am easier to move than to argue with",
+    "second": "You are easier to move than to argue with",
+    "named": "{subject} is easier to move than to argue with",
+    "invariant": false
+  },
+  "there_is_nothing_left_to_hold_back_with": {
+    "first": "There is nothing left to hold back with",
+    "second": "There is nothing left to hold back with",
+    "named": "There is nothing left to hold back with",
+    "invariant": true
+  },
+  "my_knees_find_the_floor_before_i_ask_them_to": {
+    "first": "My knees find the floor before I ask them to",
+    "second": "Your knees find the floor before you ask them to",
+    "named": "{subject}'s knees find the floor before {subject} asks them to",
+    "invariant": false
+  },
+  "subject_stops_carrying_what_controller_will_carry": {
+    "first": "I stop carrying what {controller} will carry",
+    "second": "You stop carrying what {controller} will carry",
+    "named": "{subject} stops carrying what {controller} will carry",
+    "invariant": false
+  },
+  "you_are_held_and_you_stop_bracing": {
+    "first": "I am held and I stop bracing",
+    "second": "You are held and you stop bracing",
+    "named": "{subject} is held and {subject} stops bracing",
+    "invariant": false
+  },
+
+  "my_fingers_twitch_against_the_fabric": {
+    "first": "My fingers twitch against the fabric",
+    "second": "Your fingers twitch against the fabric",
+    "named": "{subject}'s fingers twitch against the fabric",
+    "invariant": false
+  },
+  "weight_returns_to_the_hands": {
+    "first": "Weight returns to the hands",
+    "second": "Weight returns to the hands",
+    "named": "Weight returns to the hands",
+    "invariant": true
+  },
+  "you_draw_one_long_breath_in": {
+    "first": "I draw one long breath in",
+    "second": "You draw one long breath in",
+    "named": "{subject} draws one long breath in",
+    "invariant": false
+  },
+  "subject_looks_around_the_room_again": {
+    "first": "I look around the room again",
+    "second": "You look around the room again",
+    "named": "{subject} looks around the room again",
+    "invariant": false
+  },
+  "i_stretch_and_the_room_is_where_i_left_it": {
+    "first": "I stretch and the room is where I left it",
+    "second": "You stretch and the room is where you left it",
+    "named": "{subject} stretches and the room is where {subject} left it",
+    "invariant": false
+  },
+  "the_edges_of_things_come_back_sharp": {
+    "first": "The edges of things come back sharp",
+    "second": "The edges of things come back sharp",
+    "named": "The edges of things come back sharp",
+    "invariant": true
+  },
+  "you_stand_up_rested_and_present": {
+    "first": "I stand up rested and present",
+    "second": "You stand up rested and present",
+    "named": "{subject} stands up rested and present",
+    "invariant": false
+  },
+  "subject_carries_none_of_it_out_of_the_chair": {
+    "first": "I carry none of it out of the chair",
+    "second": "You carry none of it out of the chair",
+    "named": "{subject} carries none of it out of the chair",
+    "invariant": false
+  }
+}

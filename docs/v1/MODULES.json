@@ -40,7 +40,7 @@
     "rule": "Every arrow between modules is a TypeScript type, and every shared type is owned by M1. No module reaches around its interface. No module redefines a shared type.",
     "types": [
       "PoolRecord", "Markers", "PersonTriple", "Corpus", "Provenance",
-      "Tier", "TIER_ORDER", "getTier", "Person", "LaneId", "CHANNEL_COUNT",
+      "Person", "LaneId", "CHANNEL_COUNT",
       "UserConfig", "SessionOptions", "SessionPlan", "TripletTick", "PlanError",
       "FrameState", "ChannelFrame", "Diagnostic"
     ],
@@ -48,7 +48,7 @@
       {
         "path": "fixtures/corpus.mini.json",
         "authored_by_hand": true,
-        "content": "~40 records covering all four pov stances, all five tiers, 2 multi-tagged records, and authored second variants so the center lane is servable before Phase B."
+        "content": "~40 records covering all four pov stances, 2 multi-tagged records, and authored second variants so the center lane is servable before Phase B."
       },
       {
         "path": "fixtures/persons.mini.json",
@@ -58,7 +58,7 @@
       {
         "path": "fixtures/config.reference.json",
         "authored_by_hand": true,
-        "content": "A fixed UserConfig: 4 themes, no intensity cap, controller on, 20 min, parallel mode."
+        "content": "A fixed UserConfig: 4 themes, no exclusions, controller on, 20 min, parallel mode."
       },
       {
         "path": "fixtures/plan.reference.json",
@@ -108,15 +108,14 @@
     {
       "name": "M1",
       "title": "corpus-schema + shared contract",
-      "responsibility": "Own EVERY type that crosses a module boundary, the tier ladder, the corpus loader/validator, and the five hand-authored fixtures. This module is the whole integration contract. It lands alone in ~half a day and everything else blocks on it.",
+      "responsibility": "Own EVERY type that crosses a module boundary, the stance derivation, the corpus loader/validator, and the five hand-authored fixtures. This module is the whole integration contract. It lands alone in ~half a day and everything else blocks on it.",
       "interface": {
         "exports": [
           "loadCorpus(poolJson, personsJson, provenanceJson?): Corpus | ValidationError[]",
-          "getTier(basePoints: number): Tier",
-          "TIER_ORDER: readonly Tier[]",
+          "derivePov(text: string): Pov | 'mixed'",
           "CHANNEL_COUNT: 3",
           "type PoolRecord, Markers, PersonTriple, Corpus, Provenance",
-          "type Tier, Person, LaneId",
+          "type Pov, Person, LaneId",
           "type UserConfig, SessionOptions",
           "type SessionPlan, TripletTick, PlanError, Diagnostic",
           "type FrameState, ChannelFrame"
@@ -132,7 +131,7 @@
         "engine/types/frame.ts",
         "engine/types/config.ts",
         "engine/types/diagnostic.ts",
-        "engine/corpus/tier.ts",
+        "engine/corpus/stance.ts",
         "engine/corpus/load.ts",
         "engine/corpus/validate.ts",
         "fixtures/corpus.mini.json",
@@ -142,11 +141,10 @@
         "fixtures/frame.reference.json"
       ],
       "acceptance": [
-        "getTier boundaries are lower-inclusive and match conditioner/utils/scoring.py:15-28 exactly: 20-44 basic, 45-74 light, 75-109 moderate, 110-149 deep, >=150 extreme. Table-driven test over every boundary and both sides of it.",
-        "TIER_ORDER is the single ordered definition. The intensity cap compares by INDEX into it. A test asserts no second ordering of the ladder exists anywhere in the tree (grep-based).",
+        "derivePov is the single definition of stance, and it is DERIVED from text rather than stored. The engine and the ingester each carry an implementation because the engine may not import from tools/; a test asserts the two agree on a shared case table, since a divergence fails every record of the disputed stance at load.",
         "FrameState is fully typed here, not in M3. This is the seam that makes M2 and M4 parallelizable and it is owned by exactly one module.",
-        "Load-time validation: a record missing any person variant is DROPPED from the pool with a warning, never rendered. A record whose persons[id][markers.pov] !== record.text is a hard validation error.",
-        "Sidecar integrity invariant enforced at load: persons[record.id][record.markers.pov] === record.text for 100% of records.",
+        "Load-time validation: a record missing any person variant is DROPPED from the pool with a warning, never rendered. A record whose persons[id][derivePov(text)] !== record.text is a hard validation error.",
+        "Sidecar integrity invariant enforced at load: persons[record.id][derivePov(record.text)] === record.text for 100% of records.",
         "pov enum is exactly first | second | named | impersonal. 'mixed' is deliberately not a value; MEASURED zero of 612 records need it.",
         "All five fixtures are hand-authored and committed. plan.reference.json and frame.reference.json are specifications, NOT generated output — this is what decouples M2 from M4.",
         "loadCorpus is pure and runs in Node with no browser shims."
@@ -155,14 +153,14 @@
     {
       "name": "M2",
       "title": "engine: planner + conductor",
-      "responsibility": "The core artifact and the largest module. Consent filters, theme-level block assembly with adjacency widening, the shared theme walk, the Shuffler, gaussian titration, phase bookends, the person schedule with return-drift, parallel/unison modes, variable dwell and per-channel drift, SessionPlan construction, and the pure (plan, elapsedMs) -> FrameState conductor. Give this the strongest agent.",
+      "responsibility": "The core artifact and the largest module. Consent filters, theme-level block assembly, the shared theme walk, the Shuffler, gaussian titration, phase bookends, the person schedule with return-drift, parallel/unison modes, variable dwell and per-channel drift, SessionPlan construction, and the pure (plan, elapsedMs) -> FrameState conductor. Give this the strongest agent.",
       "interface": {
         "exports": [
           "plan(corpus: Corpus, config: UserConfig, opts: SessionOptions, seed: number): SessionPlan | PlanError[]",
           "frameAt(plan: SessionPlan, elapsedMs: number): FrameState"
         ],
         "types_owned": [],
-        "consumes": ["M1: Corpus, UserConfig, SessionOptions, SessionPlan, TripletTick, FrameState, Diagnostic, PlanError, getTier, TIER_ORDER, CHANNEL_COUNT"],
+        "consumes": ["M1: Corpus, UserConfig, SessionOptions, SessionPlan, TripletTick, FrameState, Diagnostic, PlanError, CHANNEL_COUNT"],
         "notes": "Pure, synchronous, seeded. No clock of its own, no Math.random, no third-party imports, no DOM. Every SessionOptions tuning knob (PEAK_MIX, PIVOT_EVERY, THEME_HOLD, driftPct, dwell min/max, bell peak/width per axis) is a field, not a constant — so a bad sitting is a config change, not an engine rebuild."
       },
       "depends_on": ["M1"],
@@ -187,12 +185,11 @@
         "A4 Gaussian arc: per-step intensity trace is unimodal — non-decreasing to peak, non-increasing after — over 200 seeds.",
         "A5 Triplet distinctness: in parallel mode all three mantraIds within a tick differ, every tick, every plan.",
         "A6 Anti-repeat: no id repeats within a channel inside the shuffler window, except where a shuffler-degraded diagnostic is present. window = clamp(floor(blockSize/2), 3, 12).",
-        "A7 Consent: over 1000 random configs, zero mantras above the intensity cap, zero with has_controller when the toggle is off, zero tagged with an excluded theme. ZERO TOLERANCE — one violation blocks 1.0.",
+        "A7 Consent: over 1000 random configs, zero mantras with has_controller when the toggle is off, and zero tagged with an excluded theme, checked against the record's FULL tag list rather than the bucket it was collected under. ZERO TOLERANCE — one violation blocks 1.0.",
         "A8 Starvation is a plan error: unservable configs return PlanError[] naming the specific fix. No plan is ever returned with a missing or duplicate-filled tick.",
         "A9 Person schedule: center is 'second' in 100% of ticks. Side 'named' share binned into deciles over 200 seeds is <0.20 in deciles 1-2, >0.55 in deciles 5-7, and <0.25 in deciles 9-10. NON-MONOTONE BY DESIGN — the return toward first person is asserted, not merely permitted.",
-        "A10 Widening never crosses a consent boundary: property test that the intensity cap is applied BEFORE candidates are gathered, so widening only ever moves tier down.",
         "A11 Performance: plan() p95 <= 40ms for a 500-step plan over the full corpus, asserted in CI.",
-        "A12 Diagnostics: every widening, starvation, degradation, unison redraw and thin-coverage event appears typed in plan.diagnostics. Zero lane-starved on the reference config.",
+        "A12 Diagnostics: every starvation, degradation and unison redraw appears typed in plan.diagnostics. Zero lane-starved on the reference config.",
         "A13 Theme axis: exactly one theme is shared across all three lanes at every step, and the walk holds for THEME_HOLD steps between pivots.",
         "C7 (engine half): a unison tick never resolves to an invariant mantra — the planner refuses and redraws.",
         "Parity checklist DESIGN.md 4.11 rows 1-14 all pass headless, with no browser."
@@ -271,17 +268,17 @@
     {
       "name": "M5",
       "title": "corpus ingest + Phase B toolchain",
-      "responsibility": "The entire Phase B campaign: prompt assembly from the 22 hand-tuned generation profiles, the grok batch runner, the validator/linter/conjugation gate, dedupe, id assignment, tier verification, sidecar emission, and the per-cell coverage report. Node-only, TypeScript, importing M1's schema rather than reimplementing it.",
+      "responsibility": "The entire Phase B campaign: prompt assembly from the hand-tuned generation profiles, the grok batch runner, the validator/linter/conjugation gate, dedupe, id assignment, sidecar emission, and the per-tag coverage report. Node-only, TypeScript, importing M1's schema rather than reimplementing it.",
       "interface": {
         "exports": [
-          "CLI: npm run corpus:generate -- --theme <t> --tier <T> --batch <n>",
+          "CLI: npm run corpus:generate -- --theme <t> --batch <n>",
           "CLI: npm run corpus:ingest -- corpus/raw/*.json",
           "CLI: npm run corpus:lint",
           "CLI: npm run corpus:report",
           "ingest(rawFiles: string[]): { pool, persons, provenance, report, reviewQueue }"
         ],
         "types_owned": [],
-        "consumes": ["M1: PoolRecord, PersonTriple, Provenance, getTier, TIER_ORDER, Person"],
+        "consumes": ["M1: PoolRecord, PersonTriple, Provenance, Person"],
         "notes": "TypeScript, not Python — one language on the critical path, one validator, one schema source of truth. Firewalled behind tsconfig.tools.json and NEVER imported by the browser bundle."
       },
       "depends_on": ["M1"],
@@ -309,7 +306,7 @@
         "Ids are assigned by conditioner's exact slug algorithm from scripts/migrate_mantra_pool.py:52-58, derived from the FIRST variant so ids stay stable if other variants are later edited. Ids are opaque thereafter.",
         "B7 induction and emergence themes exist with >= 40 records each and are flagged hand-reviewed. These are authored FIRST (Tranche 0) because no exemplars exist for them anywhere in the ecosystem.",
         "B9 Provenance emitted on every Phase B record; the original 612 carry source 'conditioner-pool' or 'human' and are never overwritten.",
-        "B1 Coverage report prints every (theme, tier) cell against the >=8 T1 ship floor and the >=24 T2 target, so Phase B has a machine-readable progress meter naming exactly which cells still need generation.",
+        "B1 Coverage report prints one count per tag against the >=54 floor (3 lanes x an 18-step peak dwell), so a tag that cannot field a lane is named before it reaches the picker.",
         "grok is invoked headless single-turn via -p/--single with --json-schema constraining output to the contract shape — never by parsing prose for JSON.",
         "Prompt contamination check: distinctive words (len >= 4, non-stopword) from the prompt leaking into generated mantras are reported per batch.",
         "Firewall test: importing anything from tools/ in the browser bundle fails the build."
@@ -366,7 +363,6 @@
         "web/app.tsx",
         "web/setup/SetupScreen.tsx",
         "web/setup/ThemePicker.tsx",
-        "web/setup/IntensityLadder.tsx",
         "web/setup/LiveSample.tsx",
         "web/setup/presets.ts",
         "web/play/PlayRoute.tsx",
@@ -374,9 +370,9 @@
         "tools/session/dump.ts"
       ],
       "acceptance": [
-        "D3 Live-feedback loop: displayed counts equal what the plan actually contains. Shows 'your filters match N of M mantras', a per-tier breakdown, and two samples rendered as a LIVE TRIPLET with the user's own names — that sample is the first-run explanation, so no modal, no walkthrough, no tooltips.",
+        "D3 Live-feedback loop: displayed counts equal what the plan actually contains. Shows 'your filters match N of M mantras', a per-tag breakdown warning when an exclusion drops an enrolled tag toward the floor, and two samples rendered as a LIVE TRIPLET with the user's own names — that sample is the first-run explanation, so no modal, no walkthrough, no tooltips.",
         "Plan is rebuilt on every config change, debounced at 250ms, with errors and warnings surfaced inline. If A11's 40ms p95 budget is at risk, the typing path degrades to counts-only validation with the full plan built on blur and before Begin.",
-        "D4 A starving config is refused IN THE FORM with a message naming the specific fix ('raise the intensity cap or re-enable controller mantras first'), never at playback.",
+        "D4 A starving config is refused IN THE FORM with a message naming the specific fix ('drop sluttiness from your exclusions or re-enable controller mantras first'), never at playback.",
         "Reject-don't-repair: a theme cannot be both enrolled and excluded, and THE SAVE BEING ATTEMPTED LOSES, mirrored in both directions so the outcome never depends on click order. An empty theme list is allowed — it is visible and simply blocks Start.",
         "Excluded themes are a separate unbounded list, filtered against each mantra's FULL tag list rather than the bucket it was collected under.",
         "Presets expand to explicit primitives BEFORE validation, so a preset can never carry hidden behavior. Unknown preset is a hard error. Three ship: standard, gentle, deep.",

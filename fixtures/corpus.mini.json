@@ -1,0 +1,560 @@
+{
+  "_comment": [
+    "HAND-AUTHORED SPECIFICATION FIXTURE — MODULES.json M1, DESIGN.md §8.",
+    "",
+    "This is not a sample of the real corpus and it is not generated from one. It is a",
+    "minimum corpus that exercises every branch of the loader and the planner, so that M2,",
+    "M3 and M4 can be built and tested before Phase B saturation is anywhere near the",
+    "engine. 40 records.",
+    "",
+    "What it deliberately covers:",
+    "  - all four pov stances, including `second`, of which the REAL corpus's original 612",
+    "    records had exactly zero. That is why the center lane needed authoring at all.",
+    "    (20/44 basic, 45/74 light, 75/109 moderate, 110/149 deep, 150/200 extreme).",
+    "  - `induction` and `emergence` as first-class themes, so the phase bookends have",
+    "    something to play. Without these no session plans at all (§4.2).",
+    "  - 2 multi-tagged records (`this_yes_arrives_before_the_question` and",
+    "    `every_command_lands_where_focus_already_is`), so the cross-tag exclusion path is",
+    "    live: exclusions check a mantra's FULL tag list, not the bucket it was collected",
+    "    under. The real corpus was single-tag on all 612, leaving that path unexercised.",
+    "  - invariant records at three tiers, so the drift-pivot's neutral preference (§4.6)",
+    "    and unison's redraw refusal (§4.7) both have material to work on.",
+    "  - four titration themes each holding >= 8 records, which is T1's ship floor, so a",
+    "    theme block can serve a triplet without adjacency widening.",
+    "",
+    "`_comment` keys are ignored by the loader: it validates the five real record fields and",
+    "reads nothing else off the file.",
+    "",
+    "The sidecar for this file is fixtures/persons.mini.json, and it satisfies",
+    "persons[id][record.markers.pov] === record.text for all 40 records."
+  ],
+  "mantras": [
+    {
+      "id": "my_shoulders_drop_as_i_sit",
+      "text": "My shoulders drop as I sit",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "the_room_gets_quieter_than_it_was",
+      "text": "The room gets quieter than it was",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "your_out_breath_runs_longer_than_your_in_breath",
+      "text": "Your out-breath runs longer than your in-breath",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_settles_without_deciding_to",
+      "text": "{subject} settles without deciding to",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "my_jaw_unclenches_on_its_own",
+      "text": "My jaw unclenches on its own",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "weight_gathers_in_the_hands",
+      "text": "Weight gathers in the hands",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "i_sit_down_and_stop_holding",
+      "text": "I sit down and stop holding",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "controller_s_voice_arrives_before_the_thought_does",
+      "text": "{controller}'s voice arrives before the thought does",
+      "themes": [
+        "induction"
+      ],
+      "markers": {
+        "has_controller": true,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "this_yes_arrives_before_the_question",
+      "text": "This yes arrives before the question",
+      "themes": [
+        "acceptance",
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "i_stop_checking_whether_i_agree",
+      "text": "I stop checking whether I agree",
+      "themes": [
+        "acceptance"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_stop_looking_for_the_edge_of_it",
+      "text": "You stop looking for the edge of it",
+      "themes": [
+        "acceptance"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_lets_the_last_objection_go_unspoken",
+      "text": "{subject} lets the last objection go unspoken",
+      "themes": [
+        "acceptance"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "resistance_costs_more_than_it_returns",
+      "text": "Resistance costs more than it returns",
+      "themes": [
+        "acceptance"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "i_take_what_controller_decides_i_take",
+      "text": "I take what {controller} decides I take",
+      "themes": [
+        "acceptance"
+      ],
+      "markers": {
+        "has_controller": true,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_agree_faster_than_you_can_object",
+      "text": "You agree faster than you can object",
+      "themes": [
+        "acceptance"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_has_no_answer_left_that_is_not_yes",
+      "text": "{subject} has no answer left that is not yes",
+      "themes": [
+        "acceptance"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "every_command_lands_where_focus_already_is",
+      "text": "Every command lands where focus already is",
+      "themes": [
+        "obedience",
+        "focus"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "my_body_moves_before_i_decide_to",
+      "text": "My body moves before I decide to",
+      "themes": [
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_do_it_before_you_hear_yourself_answer",
+      "text": "You do it before you hear yourself answer",
+      "themes": [
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_does_anything_controller_asks_for",
+      "text": "{subject} does anything {controller} asks for",
+      "themes": [
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": true,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "the_command_is_finished_before_it_is_heard",
+      "text": "The command is finished before it is heard",
+      "themes": [
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "i_do_not_hear_a_command_i_hear_myself_doing_it",
+      "text": "I do not hear a command, I hear myself doing it",
+      "themes": [
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_obey_controller_before_you_know_you_have",
+      "text": "You obey {controller} before you know you have",
+      "themes": [
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": true,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_obeys_the_way_subject_breathes",
+      "text": "{subject} obeys the way {subject} breathes",
+      "themes": [
+        "obedience"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "one_point_holds_and_the_rest_goes_quiet",
+      "text": "One point holds and the rest goes quiet",
+      "themes": [
+        "focus"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "my_attention_narrows_to_one_line",
+      "text": "My attention narrows to one line",
+      "themes": [
+        "focus"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_hold_the_one_word_and_drop_the_rest",
+      "text": "You hold the one word and drop the rest",
+      "themes": [
+        "focus"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_keeps_one_thread_and_loses_the_others",
+      "text": "{subject} keeps one thread and loses the others",
+      "themes": [
+        "focus"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "i_cannot_find_the_other_thoughts_anymore",
+      "text": "I cannot find the other thoughts anymore",
+      "themes": [
+        "focus"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "nothing_outside_the_one_line_exists_now",
+      "text": "Nothing outside the one line exists now",
+      "themes": [
+        "focus"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_hold_controller_s_word_and_nothing_else",
+      "text": "You hold {controller}'s word and nothing else",
+      "themes": [
+        "focus"
+      ],
+      "markers": {
+        "has_controller": true,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "kneeling_is_easier_than_standing_now",
+      "text": "Kneeling is easier than standing now",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "i_hand_it_over_and_feel_lighter",
+      "text": "I hand it over and feel lighter",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_give_controller_the_last_of_it",
+      "text": "You give {controller} the last of it",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": true,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_is_easier_to_move_than_to_argue_with",
+      "text": "{subject} is easier to move than to argue with",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "there_is_nothing_left_to_hold_back_with",
+      "text": "There is nothing left to hold back with",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "my_knees_find_the_floor_before_i_ask_them_to",
+      "text": "My knees find the floor before I ask them to",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_stops_carrying_what_controller_will_carry",
+      "text": "{subject} stops carrying what {controller} will carry",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": true,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "you_are_held_and_you_stop_bracing",
+      "text": "You are held and you stop bracing",
+      "themes": [
+        "submission"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "my_fingers_twitch_against_the_fabric",
+      "text": "My fingers twitch against the fabric",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "weight_returns_to_the_hands",
+      "text": "Weight returns to the hands",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_draw_one_long_breath_in",
+      "text": "You draw one long breath in",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_looks_around_the_room_again",
+      "text": "{subject} looks around the room again",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    },
+    {
+      "id": "i_stretch_and_the_room_is_where_i_left_it",
+      "text": "I stretch and the room is where I left it",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "the_edges_of_things_come_back_sharp",
+      "text": "The edges of things come back sharp",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "you_stand_up_rested_and_present",
+      "text": "You stand up rested and present",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": false
+      }
+    },
+    {
+      "id": "subject_carries_none_of_it_out_of_the_chair",
+      "text": "{subject} carries none of it out of the chair",
+      "themes": [
+        "emergence"
+      ],
+      "markers": {
+        "has_controller": false,
+        "has_subject": true
+      }
+    }
+  ],
+  "theme_descriptions": {
+    "induction": "Entering. The body settles and the room narrows before anything is asked.",
+    "acceptance": "Resistance stops being worth its cost, and the yes arrives before the question does.",
+    "obedience": "The command has already happened by the time it is heard.",
+    "focus": "One point holds and everything outside it goes quiet.",
+    "submission": "Handing it over, and the lightness that follows.",
+    "emergence": "Coming back. Weight, edges and the room return, and nothing is carried out of the chair."
+  }
+}

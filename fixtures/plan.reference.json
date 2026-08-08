@@ -1,0 +1,612 @@
+{
+  "_comment": [
+    "HAND-AUTHORED SPECIFICATION FIXTURE — MODULES.json M1, DESIGN.md §8, risk R8.",
+    "",
+    "THIS FILE IS THE SPECIFICATION, NOT AN OUTPUT. Nothing generated it from a planner,",
+    "because the planner does not exist yet and a reference fixture defined as the output of",
+    "the function it is supposed to constrain is circular — that is exactly the failure R8",
+    "names. M2's job is to REPRODUCE this file byte-for-byte; M4's job is to RENDER it.",
+    "Neither waits on the other.",
+    "",
+    "Stated against: fixtures/corpus.mini.json + fixtures/config.reference.json + seed 47,",
+    "with ONE stated override: `targetDurationMs` is read as 68000 (length 20) rather than",
+    "the config's 1200000 (length 353).",
+    "",
+    "That override is deliberate and it is the honest choice. A 353-tick file cannot be",
+    "authored by hand; it can only be generated and then labelled hand-authored, which is",
+    "the circularity this fixture exists to prevent wearing a different hat. 20 steps is the",
+    "smallest length that still exercises every mechanism the plan has: two bookends at each",
+    "end, a theme pivot at THEME_HOLD, the full tier sweep basic->extreme->basic, and a",
+    "complete person arc out and back. M2 reads the override from `meta.length`.",
+    "",
+    "What a reproducing implementation must match, and where each rule comes from:",
+    "",
+    "  BOOKENDS (§4.2)   head = tail = max(1, round(20 * 0.10)) = 2, middle = 16.",
+    "                    head + middle + tail === length. Steps 0-1 sweep the induction",
+    "                    themes in listed order; steps 18-19 sweep emergence. Neither theme",
+    "                    appears anywhere in the middle: induction is absent from the last",
+    "                    50% and emergence from the first 50%, which is A3, the regression",
+    "                    test for 'Wide awake, rested and present' firing at line 2.",
+    "",
+    "  TITRATION (§4.5)  target = 0 + 4 * exp(-((pm - 0.5)^2) / (2 * 0.25^2)), rounded to the",
+    "                    nearest index into TIER_ORDER, where pm is progress through the",
+    "                    MIDDLE (m / (middle - 1)) — the bookends do not titrate. The trace",
+    "                    is light,light,light,moderate,deep,deep,extreme,extreme,extreme,",
+    "                    extreme,deep,deep,moderate,light,light,light: unimodal, which is A4.",
+    "",
+    "  DWELL (§4.9)      dwell = 4200 - (4200 - 2900) * exp(-((p - 0.62)^2) / (2 * 0.25^2)),",
+    "                    p over the WHOLE session, rounded. The pacing bell peaks at 0.62",
+    "                    rather than the intensity bell's 0.5, so the tightest pacing (2901ms",
+    "                    at step 12) arrives AFTER the deepest content (extreme at steps",
+    "                    8-11) — on the near side of the wean, where it reads as momentum",
+    "                    rather than pressure. That offset is R19's fix and it is visible in",
+    "                    this file as the two peaks not lining up.",
+    "",
+    "  THEME (§4.4)      One theme shared by all three lanes at every step (A13). The walk",
+    "                    holds for THEME_HOLD = 8 middle steps: `focus` for steps 2-9,",
+    "                    pivoting to `obedience` at step 10.",
+    "",
+    "  PERSON (§4.6)     Center is `second` in 100% of ticks — the anchor never titrates in",
+    "                    person (A9, R18). The sides drift first -> named and BACK to first:",
+    "                    both sides open in `first`, the left pivots to `named` at step 4 and",
+    "                    the right at step 6 (they pivot on OFFSET schedules, so mid-session",
+    "                    one side sits in 'I' while the other sits in '{subject}'), and both",
+    "                    return to `first` by step 15 and stay there through the tail. The",
+    "                    return is the point: a session that leaves you dissociated is a",
+    "                    session you resent afterward.",
+    "",
+    "  PARALLEL (§4.7)   All three mantraIds within a tick differ, every tick (A5).",
+    "",
+    "  GEOMETRY (§5.2)   center split LINE (it is the anchor, read whole), sides split WORD",
+    "                    (peripheral, they seep). Offsets right 0 / left +500 / center +1000:",
+    "                    the sides lead and the center arrives last and stays.",
+    "",
+    "  DRIFT (§4.9)      laneDrift is 1.0 on every lane here. driftPct is a SessionOptions",
+    "                    field and the reference plan pins it to zero, so a byte-comparison",
+    "                    against this file tests the planner rather than the jitter — and C3",
+    "                    is a tuning observation, not a ship gate.",
+    "",
+    "  TIMING (§4.9)     contentMs is the sum of every dwellMs; totalMs adds the 2500ms quiet",
+    "                    tail and the 1500ms fade. A session never stops abruptly.",
+    "",
+    "  DIAGNOSTICS       Empty. Every theme block here holds >= 8 records at T1's ship floor,",
+    "                    so no adjacency widening fires and A12's 'zero lane-starved on the",
+    "                    reference config' holds. An empty array is an assertion, not a gap.",
+    "",
+    "  `text` is the RAW TEMPLATE for that lane's person, straight from persons.mini.json.",
+    "  {subject} and {controller} are still unsubstituted: substitution happens in the",
+    "  renderer at display time, never at selection or storage time."
+  ],
+  "meta": {
+    "schema": "hypnoapp.plan.v1",
+    "seed": 47,
+    "length": 20,
+    "head": 2,
+    "middle": 16,
+    "tail": 2,
+    "mode": "parallel",
+    "totalMs": 73396,
+    "contentMs": 69396,
+    "tailQuietMs": 2500,
+    "tailFadeMs": 1500,
+    "laneOffsetsMs": {
+      "right": 0,
+      "left": 500,
+      "center": 1000
+    },
+    "laneDrift": {
+      "left": 1.0,
+      "center": 1.0,
+      "right": 1.0
+    },
+    "subjectName": "Alex",
+    "controllerName": "Morgan"
+  },
+  "ticks": [
+    {
+      "step": 0,
+      "theme": "induction",
+      "intensity": 0.135335,
+      "dwellMs": 4140,
+      "phase": "head",
+      "center": {
+        "mantraId": "your_out_breath_runs_longer_than_your_in_breath",
+        "person": "second",
+        "text": "Your out-breath runs longer than your in-breath",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "my_shoulders_drop_as_i_sit",
+        "person": "first",
+        "text": "My shoulders drop as I sit",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "the_room_gets_quieter_than_it_was",
+        "person": "first",
+        "text": "The room gets quieter than it was",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 1,
+      "theme": "induction",
+      "intensity": 0.201673,
+      "dwellMs": 4101,
+      "phase": "head",
+      "center": {
+        "mantraId": "subject_settles_without_deciding_to",
+        "person": "second",
+        "text": "You settle without deciding to",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "my_jaw_unclenches_on_its_own",
+        "person": "first",
+        "text": "My jaw unclenches on its own",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "weight_gathers_in_the_hands",
+        "person": "first",
+        "text": "Weight gathers in the hands",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 2,
+      "theme": "focus",
+      "intensity": 0.287499,
+      "dwellMs": 4044,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_the_one_word_and_drop_the_rest",
+        "person": "second",
+        "text": "You hold the one word and drop the rest",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "my_attention_narrows_to_one_line",
+        "person": "first",
+        "text": "My attention narrows to one line",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "one_point_holds_and_the_rest_goes_quiet",
+        "person": "first",
+        "text": "One point holds and the rest goes quiet",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 3,
+      "theme": "focus",
+      "intensity": 0.392081,
+      "dwellMs": 3964,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_the_one_word_and_drop_the_rest",
+        "person": "second",
+        "text": "You hold the one word and drop the rest",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "every_command_lands_where_focus_already_is",
+        "person": "first",
+        "text": "Every command lands where focus already is",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "my_attention_narrows_to_one_line",
+        "person": "first",
+        "text": "My attention narrows to one line",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 4,
+      "theme": "focus",
+      "intensity": 0.511524,
+      "dwellMs": 3860,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_controller_s_word_and_nothing_else",
+        "person": "second",
+        "text": "You hold {controller}'s word and nothing else",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "subject_keeps_one_thread_and_loses_the_others",
+        "person": "named",
+        "text": "{subject} keeps one thread and loses the others",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "one_point_holds_and_the_rest_goes_quiet",
+        "person": "first",
+        "text": "One point holds and the rest goes quiet",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 5,
+      "theme": "focus",
+      "intensity": 0.638423,
+      "dwellMs": 3731,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_the_one_word_and_drop_the_rest",
+        "person": "second",
+        "text": "You hold the one word and drop the rest",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "subject_keeps_one_thread_and_loses_the_others",
+        "person": "named",
+        "text": "{subject} keeps one thread and loses the others",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "i_cannot_find_the_other_thoughts_anymore",
+        "person": "first",
+        "text": "I cannot find the other thoughts anymore",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 6,
+      "theme": "focus",
+      "intensity": 0.76226,
+      "dwellMs": 3580,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_controller_s_word_and_nothing_else",
+        "person": "second",
+        "text": "You hold {controller}'s word and nothing else",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "i_cannot_find_the_other_thoughts_anymore",
+        "person": "named",
+        "text": "{subject} cannot find the other thoughts anymore",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "nothing_outside_the_one_line_exists_now",
+        "person": "named",
+        "text": "Nothing outside the one line exists now",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 7,
+      "theme": "focus",
+      "intensity": 0.87066,
+      "dwellMs": 3416,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_the_one_word_and_drop_the_rest",
+        "person": "second",
+        "text": "You hold the one word and drop the rest",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "nothing_outside_the_one_line_exists_now",
+        "person": "named",
+        "text": "Nothing outside the one line exists now",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "subject_keeps_one_thread_and_loses_the_others",
+        "person": "named",
+        "text": "{subject} keeps one thread and loses the others",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 8,
+      "theme": "focus",
+      "intensity": 0.951361,
+      "dwellMs": 3253,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_controller_s_word_and_nothing_else",
+        "person": "second",
+        "text": "You hold {controller}'s word and nothing else",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "i_cannot_find_the_other_thoughts_anymore",
+        "person": "named",
+        "text": "{subject} cannot find the other thoughts anymore",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "my_attention_narrows_to_one_line",
+        "person": "named",
+        "text": "{subject}'s attention narrows to one line",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 9,
+      "theme": "focus",
+      "intensity": 0.994475,
+      "dwellMs": 3105,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_hold_the_one_word_and_drop_the_rest",
+        "person": "second",
+        "text": "You hold the one word and drop the rest",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "nothing_outside_the_one_line_exists_now",
+        "person": "named",
+        "text": "Nothing outside the one line exists now",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "subject_keeps_one_thread_and_loses_the_others",
+        "person": "named",
+        "text": "{subject} keeps one thread and loses the others",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 10,
+      "theme": "obedience",
+      "intensity": 0.994475,
+      "dwellMs": 2988,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_obey_controller_before_you_know_you_have",
+        "person": "second",
+        "text": "You obey {controller} before you know you have",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "subject_obeys_the_way_subject_breathes",
+        "person": "named",
+        "text": "{subject} obeys the way {subject} breathes",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "the_command_is_finished_before_it_is_heard",
+        "person": "named",
+        "text": "The command is finished before it is heard",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 11,
+      "theme": "obedience",
+      "intensity": 0.951361,
+      "dwellMs": 2917,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_do_it_before_you_hear_yourself_answer",
+        "person": "second",
+        "text": "You do it before you hear yourself answer",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "subject_obeys_the_way_subject_breathes",
+        "person": "named",
+        "text": "{subject} obeys the way {subject} breathes",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "i_do_not_hear_a_command_i_hear_myself_doing_it",
+        "person": "named",
+        "text": "{subject} does not hear a command, {subject} hears {subject} doing it",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 12,
+      "theme": "obedience",
+      "intensity": 0.87066,
+      "dwellMs": 2901,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_obey_controller_before_you_know_you_have",
+        "person": "second",
+        "text": "You obey {controller} before you know you have",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "subject_does_anything_controller_asks_for",
+        "person": "named",
+        "text": "{subject} does anything {controller} asks for",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "the_command_is_finished_before_it_is_heard",
+        "person": "named",
+        "text": "The command is finished before it is heard",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 13,
+      "theme": "obedience",
+      "intensity": 0.76226,
+      "dwellMs": 2942,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_do_it_before_you_hear_yourself_answer",
+        "person": "second",
+        "text": "You do it before you hear yourself answer",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "i_do_not_hear_a_command_i_hear_myself_doing_it",
+        "person": "named",
+        "text": "{subject} does not hear a command, {subject} hears {subject} doing it",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "this_yes_arrives_before_the_question",
+        "person": "named",
+        "text": "This yes arrives before the question",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 14,
+      "theme": "obedience",
+      "intensity": 0.638423,
+      "dwellMs": 3035,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_obey_controller_before_you_know_you_have",
+        "person": "second",
+        "text": "You obey {controller} before you know you have",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "subject_does_anything_controller_asks_for",
+        "person": "named",
+        "text": "{subject} does anything {controller} asks for",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "my_body_moves_before_i_decide_to",
+        "person": "first",
+        "text": "My body moves before I decide to",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 15,
+      "theme": "obedience",
+      "intensity": 0.511524,
+      "dwellMs": 3167,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_do_it_before_you_hear_yourself_answer",
+        "person": "second",
+        "text": "You do it before you hear yourself answer",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "the_command_is_finished_before_it_is_heard",
+        "person": "first",
+        "text": "The command is finished before it is heard",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "my_body_moves_before_i_decide_to",
+        "person": "first",
+        "text": "My body moves before I decide to",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 16,
+      "theme": "obedience",
+      "intensity": 0.392081,
+      "dwellMs": 3324,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_do_it_before_you_hear_yourself_answer",
+        "person": "second",
+        "text": "You do it before you hear yourself answer",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "every_command_lands_where_focus_already_is",
+        "person": "first",
+        "text": "Every command lands where focus already is",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "my_body_moves_before_i_decide_to",
+        "person": "first",
+        "text": "My body moves before I decide to",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 17,
+      "theme": "obedience",
+      "intensity": 0.287499,
+      "dwellMs": 3489,
+      "phase": "middle",
+      "center": {
+        "mantraId": "you_do_it_before_you_hear_yourself_answer",
+        "person": "second",
+        "text": "You do it before you hear yourself answer",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "this_yes_arrives_before_the_question",
+        "person": "first",
+        "text": "This yes arrives before the question",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "my_body_moves_before_i_decide_to",
+        "person": "first",
+        "text": "My body moves before I decide to",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 18,
+      "theme": "emergence",
+      "intensity": 0.201673,
+      "dwellMs": 3648,
+      "phase": "tail",
+      "center": {
+        "mantraId": "you_draw_one_long_breath_in",
+        "person": "second",
+        "text": "You draw one long breath in",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "my_fingers_twitch_against_the_fabric",
+        "person": "first",
+        "text": "My fingers twitch against the fabric",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "weight_returns_to_the_hands",
+        "person": "first",
+        "text": "Weight returns to the hands",
+        "split": "WORD"
+      }
+    },
+    {
+      "step": 19,
+      "theme": "emergence",
+      "intensity": 0.135335,
+      "dwellMs": 3791,
+      "phase": "tail",
+      "center": {
+        "mantraId": "you_stand_up_rested_and_present",
+        "person": "second",
+        "text": "You stand up rested and present",
+        "split": "LINE"
+      },
+      "left": {
+        "mantraId": "i_stretch_and_the_room_is_where_i_left_it",
+        "person": "first",
+        "text": "I stretch and the room is where I left it",
+        "split": "WORD"
+      },
+      "right": {
+        "mantraId": "the_edges_of_things_come_back_sharp",
+        "person": "first",
+        "text": "The edges of things come back sharp",
+        "split": "WORD"
+      }
+    }
+  ],
+  "bed": {
+    "preset": "drone",
+    "gainDb": -18
+  },
+  "diagnostics": []
+}

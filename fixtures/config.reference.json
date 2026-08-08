@@ -1,0 +1,42 @@
+{
+  "_comment": [
+    "HAND-AUTHORED SPECIFICATION FIXTURE — MODULES.json M1.",
+    "",
+    "The fixed UserConfig every other reference fixture is stated against. When a test says",
+    "'the reference config', it means this file and no other, so that A12's 'zero",
+    "lane-starved on the reference config' names one thing.",
+    "",
+    "  4 themes            acceptance, obedience, focus, submission. Titration themes only:",
+    "                      `induction` and `emergence` are NOT enrolled here, because §4.2",
+    "                      removes them from the titration pool entirely and the plan config",
+    "                      designates their bookend role instead. Enrolling them would put",
+    "                      'You stand up rested and present' in reach at step 2, which is",
+    "                      the exact measured artifact the bookend mechanism exists to",
+    "                      prevent.",
+    "  no exclusions       `excludedThemes: []`. Exclusion is the primary consent surface, and",
+    "                      the reference config leaves it empty so a starved slot here is",
+    "                      always a corpus or planner finding rather than a config one.",
+    "  controller on       records with `has_controller` are eligible.",
+    "  20 min              1200000ms. At the 3400ms mean dwell this is length 353.",
+    "  parallel mode       three DIFFERENT mantras per step, one per lane, each in its",
+    "                      scheduled person. The shipped default.",
+    "",
+    "Names are deliberately ordinary rather than clever: they appear inside every rendered",
+    "line, and a fixture name that reads as a joke makes a rendering diff harder to read.",
+    "",
+    "The blocklist is empty. It is a PREFERENCE, not a consent boundary — it is the one",
+    "filter that gets relaxed rather than starving a slot — and the reference config keeps",
+    "it empty so `blocklist-relaxed` never fires here and its absence stays meaningful."
+  ],
+
+  "themes": ["acceptance", "obedience", "focus", "submission"],
+  "excludedThemes": [],
+  "allowController": true,
+  "names": {
+    "subject": "Alex",
+    "controller": "Morgan"
+  },
+  "targetDurationMs": 1200000,
+  "mode": "parallel",
+  "blocklist": []
+}
