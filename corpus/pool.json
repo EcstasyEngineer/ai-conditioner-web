@@ -6546,7 +6546,7 @@
     },
     {
       "id": "never_again_do_i_close_myself",
-      "text": "Never again do I close myself off from {operator}",
+      "text": "Never again do I shut {operator} out",
       "themes": [
         "submission",
         "intense"

@@ -3528,9 +3528,9 @@
     "invariant": false
   },
   "never_again_do_i_close_myself": {
-    "first": "Never again do I close myself off from {operator}",
-    "second": "Never again do you close yourself off from {operator}",
-    "named": "Never again does {subject} close off from {operator}",
+    "first": "Never again do I shut {operator} out",
+    "second": "Never again do you shut {operator} out",
+    "named": "Never again does {subject} shut {operator} out",
     "invariant": false
   },
   "all_fight_capacity_empties_into_s": {
@@ -8168,7 +8168,7 @@
   "my_designation_overwrites_the_name_i": {
     "first": "My designation overwrites the name I answered to",
     "second": "Your designation overwrites the name you answered to",
-    "named": "{subject}'s designation overwrites the name it answered to",
+    "named": "{subject}'s designation overwrites the name {subject} answered to",
     "invariant": false
   },
   "thoughts_queue_for_deletion_while_i": {
@@ -9080,7 +9080,7 @@
   "i_stage_my_surrender_where_the": {
     "first": "I stage my surrender where the crowd can feel it",
     "second": "You stage your surrender where the crowd can feel it",
-    "named": "{subject} stages a surrender where the crowd can feel it",
+    "named": "{subject} stages {subject}'s surrender where the crowd can feel it",
     "invariant": false
   },
   "privacy_feels_empty_next_to_showing": {
@@ -11906,13 +11906,13 @@
   "my_yes_arrives_before_my_reasons": {
     "first": "My yes arrives before my reasons do",
     "second": "Your yes arrives before your reasons do",
-    "named": "{subject}'s yes arrives before reasons do",
+    "named": "{subject}'s yes arrives before {subject}'s reasons do",
     "invariant": false
   },
   "i_answer_faster_than_i_can": {
     "first": "I answer faster than I can second-guess",
     "second": "You answer faster than you can second-guess",
-    "named": "{subject} answers faster than second-guessing allows",
+    "named": "{subject} answers faster than {subject} can second-guess",
     "invariant": false
   },
   "my_body_accepts_s_lead_without": {
@@ -11954,7 +11954,7 @@
   "i_put_s_orders_ahead_of": {
     "first": "I put {operator}'s orders ahead of my thoughts",
     "second": "You put {operator}'s orders ahead of your thoughts",
-    "named": "{subject} puts {operator}'s orders ahead of all thought",
+    "named": "{subject} puts {operator}'s orders ahead of {subject}'s thoughts",
     "invariant": false
   },
   "i_welcome_s_next_instruction_with": {
