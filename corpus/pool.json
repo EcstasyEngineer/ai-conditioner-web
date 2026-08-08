@@ -406,42 +406,12 @@
       }
     },
     {
-      "id": "permanent_surrender_is_forged_into_s",
-      "text": "Permanent surrender is forged into {subject}'s being",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "cannot_imagine_resistance_only_acceptance_of",
       "text": "{subject} cannot imagine resistance, only acceptance of {controller}",
       "themes": [
         "acceptance"
       ],
       "base_points": 125,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
-      "id": "all_of_s_resistance_is_deleted",
-      "text": "All of {subject}'s resistance is deleted, forever obedient to {controller}",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 180,
       "markers": {
         "has_controller": true,
         "has_subject": true,
@@ -661,21 +631,6 @@
       }
     },
     {
-      "id": "addiction_becomes_who_i_am",
-      "text": "Addiction becomes who I am",
-      "themes": [
-        "addiction"
-      ],
-      "base_points": 95,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "inhales_submission_like_oxygen",
       "text": "{subject} inhales submission like oxygen",
       "themes": [
@@ -868,21 +823,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "need_eclipses_all_other_sensations_forever",
-      "text": "Need eclipses all other sensations, forever",
-      "themes": [
-        "addiction"
-      ],
-      "base_points": 130,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
       }
     },
     {
@@ -1321,36 +1261,6 @@
       }
     },
     {
-      "id": "s_past_is_permanently_deleted_by",
-      "text": "{subject}'s past is permanently deleted by {controller}",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
-      "id": "i_exist_only_in_this_moment",
-      "text": "I exist only in this moment, my past erased forever",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "owns_every_memory_will_ever_have",
       "text": "{controller} owns every memory {subject} will ever have",
       "themes": [
@@ -1363,21 +1273,6 @@
         "permanence": false,
         "identity": false,
         "pov": "named"
-      }
-    },
-    {
-      "id": "thinking_is_hard_smiling_is_easy",
-      "text": "Thinking is hard, smiling is easy",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 35,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
       }
     },
     {
@@ -1711,21 +1606,6 @@
       }
     },
     {
-      "id": "permanent_bimbofication_sealed_and_shiny",
-      "text": "Permanent bimbofication sealed and shiny",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
       "id": "is_pure_giggle_fuel_for",
       "text": "{subject} is pure giggle-fuel for {controller}",
       "themes": [
@@ -1786,21 +1666,6 @@
       }
     },
     {
-      "id": "my_mind_stays_forever_soft_and",
-      "text": "My mind stays forever soft and obedient",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "my_mind_is_happy_and_empty",
       "text": "My mind is happy and empty",
       "themes": [
@@ -1858,21 +1723,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "being_blank_is_natural_for",
-      "text": "Being blank is natural for {subject}",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 60,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
       }
     },
     {
@@ -1966,21 +1816,6 @@
       }
     },
     {
-      "id": "being_empty_is_better",
-      "text": "Being empty is better",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 40,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
       "id": "i_just_want_to_be_empty",
       "text": "I just want to be empty",
       "themes": [
@@ -1996,42 +1831,12 @@
       }
     },
     {
-      "id": "thinking_is_a_choice_no_longer",
-      "text": "Thinking is a choice {subject} no longer makes",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 110,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "my_nature_is_to_be_empty",
       "text": "My nature is to be empty and receptive",
       "themes": [
         "blank"
       ],
       "base_points": 75,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "being_blank_defines_my_purpose",
-      "text": "Being blank defines my purpose",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 80,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -2161,42 +1966,12 @@
       }
     },
     {
-      "id": "is_forever_a_blank_slate_for",
-      "text": "{subject} is forever a blank slate for {controller}",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "there_is_nothing_left_of_me",
       "text": "There is nothing left of me but beautiful, perfect emptiness",
       "themes": [
         "blank"
       ],
       "base_points": 145,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_mind_is_irreversibly_empty",
-      "text": "My mind is irreversibly empty",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 130,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -2581,51 +2356,6 @@
       }
     },
     {
-      "id": "my_mind_is_reset_to_serve",
-      "text": "My mind is reset to serve {controller} forever",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "brainwashing_is_a_permanent_gift_from",
-      "text": "Brainwashing is a permanent gift from {controller}",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 140,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "every_memory_is_permanently_edited_to",
-      "text": "Every memory is permanently edited to serve {controller}",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
       "id": "my_only_purpose_is_to_be",
       "text": "My only purpose is to be brainwashed completely",
       "themes": [
@@ -2656,42 +2386,12 @@
       }
     },
     {
-      "id": "there_is_nothing_left_but_s",
-      "text": "There is nothing left but {controller}'s permanent programming",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
       "id": "my_brainwashing_sets_deeper_than_i",
       "text": "My brainwashing sets deeper than I can ever reach",
       "themes": [
         "brainwashing"
       ],
       "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_brainwashing_is_permanent_and_irreversible",
-      "text": "My brainwashing is permanent and irreversible",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 150,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -3121,21 +2821,6 @@
       }
     },
     {
-      "id": "my_degradation_is_permanent_and_complete",
-      "text": "My degradation is permanent and complete",
-      "themes": [
-        "degradation"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "exists_only_to_be_mocked_and",
       "text": "{subject} exists only to be mocked and used by {controller}",
       "themes": [
@@ -3496,21 +3181,6 @@
       }
     },
     {
-      "id": "my_denial_is_permanent_and_i",
-      "text": "My denial is permanent and I am grateful",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "will_never_cum_again_without_s",
       "text": "{subject} will never cum again without {controller}'s word",
       "themes": [
@@ -3781,42 +3451,12 @@
       }
     },
     {
-      "id": "my_devotion_to_is_permanent_and",
-      "text": "My devotion to {controller} is permanent and total",
-      "themes": [
-        "devotion"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_exist_only_to_serve_and",
       "text": "I exist only to serve and be devoted",
       "themes": [
         "devotion"
       ],
       "base_points": 140,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_devotion_is_irreversible_and_absolute",
-      "text": "My devotion is irreversible and absolute",
-      "themes": [
-        "devotion"
-      ],
-      "base_points": 160,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -4651,21 +4291,6 @@
       }
     },
     {
-      "id": "my_conditioning_is_permanent_and_everyone",
-      "text": "My conditioning is permanent and everyone knows it",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "spreads_s_control_to_everyone_they",
       "text": "{subject} spreads {controller}'s control to everyone they meet",
       "themes": [
@@ -4678,21 +4303,6 @@
         "permanence": false,
         "identity": false,
         "pov": "named"
-      }
-    },
-    {
-      "id": "i_am_permanently_publicly_proudly_s",
-      "text": "I am permanently, publicly, proudly {controller}'s",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
       }
     },
     {
@@ -5011,21 +4621,6 @@
       }
     },
     {
-      "id": "femininity_is_s_core_identity",
-      "text": "Femininity is {subject}'s core identity",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 115,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "i_am_a_delicate_flower_for",
       "text": "I am a delicate flower for {controller}",
       "themes": [
@@ -5083,21 +4678,6 @@
         "permanence": false,
         "identity": false,
         "pov": "named"
-      }
-    },
-    {
-      "id": "my_transformation_into_femininity_is_permanent",
-      "text": "My transformation into femininity is permanent",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
       }
     },
     {
@@ -5431,21 +5011,6 @@
       }
     },
     {
-      "id": "s_mind_is_permanently_locked_onto",
-      "text": "{subject}'s mind is permanently locked onto {controller}, nothing else will ever exist",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "being_available_feels_natural",
       "text": "Being available feels natural",
       "themes": [
@@ -5692,21 +5257,6 @@
         "free_use"
       ],
       "base_points": 75,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_body_is_permanently_and_irrevocably",
-      "text": "My body is permanently and irrevocably free-use",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 150,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -6286,21 +5836,6 @@
       }
     },
     {
-      "id": "obedience_defines_my_purpose",
-      "text": "Obedience defines my purpose",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 55,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "acts_as_s_extension",
       "text": "{subject} acts as {controller}'s extension",
       "themes": [
@@ -6339,21 +5874,6 @@
       "base_points": 40,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "disobedience_is_unthinkable",
-      "text": "Disobedience is unthinkable",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 75,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -6436,21 +5956,6 @@
       }
     },
     {
-      "id": "absolute_obedience_hard_wired_into_forever",
-      "text": "Absolute obedience hard-wired into {subject} forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "is_a_living_command_line_for",
       "text": "{subject} is a living command line for {controller}",
       "themes": [
@@ -6483,21 +5988,6 @@
     {
       "id": "free_will_deleted_obedience_to_operational",
       "text": "Free will deleted, obedience to {controller} operational",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 140,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "orders_from_overwrite_every_impulse_permanently",
-      "text": "Orders from {controller} overwrite every impulse permanently",
       "themes": [
         "obedience"
       ],
@@ -6916,36 +6406,6 @@
       }
     },
     {
-      "id": "is_s_puppet_now_and_forever",
-      "text": "{subject} is {controller}'s puppet, now and forever",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
-      "id": "the_strings_are_permanent_woven_into",
-      "text": "The strings are permanent, woven into {subject}'s soul",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "can_t_resist",
       "text": "{subject} can't resist",
       "themes": [
@@ -6967,21 +6427,6 @@
         "resistance"
       ],
       "base_points": 35,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
-      "id": "resistance_is_impossible_for",
-      "text": "Resistance is impossible for {subject}",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 50,
       "markers": {
         "has_controller": false,
         "has_subject": true,
@@ -7111,21 +6556,6 @@
       }
     },
     {
-      "id": "existence_is_defined_by_powerlessness",
-      "text": "Existence is defined by powerlessness",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 75,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
       "id": "belongs_to_in_their_helplessness",
       "text": "{subject} belongs to {controller} in their helplessness",
       "themes": [
@@ -7231,21 +6661,6 @@
       }
     },
     {
-      "id": "my_ability_to_resist_has_been",
-      "text": "My ability to resist {controller} has been permanently washed away",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "stopped_fighting",
       "text": "{subject} stopped fighting",
       "themes": [
@@ -7273,21 +6688,6 @@
         "permanence": false,
         "identity": false,
         "pov": "named"
-      }
-    },
-    {
-      "id": "resistance_was_taken_away",
-      "text": "Resistance was taken away",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 70,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
       }
     },
     {
@@ -7636,21 +7036,6 @@
       }
     },
     {
-      "id": "sluttiness_is_s_identity",
-      "text": "Sluttiness is {subject}'s identity",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 120,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "i_am_a_cum_dumpster_for",
       "text": "I am a cum-dumpster for {controller}",
       "themes": [
@@ -7723,21 +7108,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "s_sluttiness_is_permanent_and_complete",
-      "text": "{subject}'s sluttiness is permanent and complete",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
       }
     },
     {
@@ -7908,21 +7278,6 @@
     {
       "id": "my_thoughts_dissolve_as_they_embrace",
       "text": "My thoughts dissolve as they embrace their role",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 50,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "obedience_is_the_essence_of_my",
-      "text": "Obedience is the essence of my identity",
       "themes": [
         "submission"
       ],
@@ -8173,21 +7528,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "is_s_property_permanently_and_completely",
-      "text": "{subject} is {controller}'s property, permanently and completely",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
       }
     },
     {
@@ -8566,21 +7906,6 @@
       }
     },
     {
-      "id": "total_acceptance_hard_coded_into_forever",
-      "text": "Total acceptance hard-coded into {subject} forever",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": true,
-        "permanence": false,
-        "identity": false,
-        "pov": "named"
-      }
-    },
-    {
       "id": "admiration_feels_natural",
       "text": "Admiration feels natural",
       "themes": [
@@ -8893,21 +8218,6 @@
         "permanence": false,
         "identity": false,
         "pov": "named"
-      }
-    },
-    {
-      "id": "my_soul_is_permanently_bound_to",
-      "text": "My soul is permanently bound to {controller}",
-      "themes": [
-        "worship"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
       }
     },
     {
@@ -9352,21 +8662,6 @@
       }
     },
     {
-      "id": "agreeing_with_is_the_only_motion",
-      "text": "Agreeing with {controller} is the only motion left in me",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 125,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "whatever_path_is_given_becomes_my",
       "text": "Whatever path is given becomes my shape",
       "themes": [
@@ -9457,21 +8752,6 @@
       }
     },
     {
-      "id": "my_last_wall_falls_forever_open",
-      "text": "My last wall falls forever open to {controller}",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_offer_every_closed_place_to",
       "text": "I offer every closed place to {controller}'s claim",
       "themes": [
@@ -9503,36 +8783,6 @@
       }
     },
     {
-      "id": "irreversible_openness_is_the_only_shape",
-      "text": "Irreversible openness is the only shape I wear",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_path_back_to_refusal_seals",
-      "text": "Every path back to refusal seals shut for good",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
       "id": "finds_only_yes_where_my_will",
       "text": "{controller} finds only yes where my will used to live",
       "themes": [
@@ -9540,21 +8790,6 @@
         "obedience"
       ],
       "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "against_my_mind_can_never_rebuild",
-      "text": "Against {controller}, my mind can never rebuild a boundary",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 170,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -9695,21 +8930,6 @@
         "submission"
       ],
       "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "everything_i_was_drains_leaving_only",
-      "text": "Everything I was drains leaving only {controller}'s claim",
-      "themes": [
-        "acceptance"
-      ],
-      "base_points": 160,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -10844,21 +10064,6 @@
       }
     },
     {
-      "id": "i_can_never_shake_free_of",
-      "text": "I can never shake free of needing orders",
-      "themes": [
-        "addiction"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "pleasure_dies_until_control_floods_back",
       "text": "Pleasure dies until control floods back in",
       "themes": [
@@ -11025,21 +10230,6 @@
       }
     },
     {
-      "id": "control_left_me_irreversibly_starved_for",
-      "text": "Control left me irreversibly starved for more",
-      "themes": [
-        "addiction"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "habit_owns_my_mind_past_any",
       "text": "Habit owns my mind past any recovery",
       "themes": [
@@ -11078,21 +10268,6 @@
       "base_points": 170,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "forever_this_hunger_ate_every_other",
-      "text": "Forever this hunger ate every other purpose I held",
-      "themes": [
-        "addiction"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -12116,287 +11291,12 @@
       }
     },
     {
-      "id": "yesterday_sinks_into_permanent_fog_without",
-      "text": "Yesterday sinks into permanent fog without return",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_grasp_at_the_past_and",
-      "text": "I grasp at the past and close on nothing forever",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "sealed_my_past_behind_irreversible_mist",
-      "text": "{controller} sealed my past behind irreversible mist",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_will_never_again_find_who",
       "text": "I will never again find who I was",
       "themes": [
         "amnesia"
       ],
       "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_entire_history_permanently_dissolves_into",
-      "text": "My entire history permanently dissolves into mist for {controller}",
-      "themes": [
-        "amnesia",
-        "submission"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "left_only_permanent_fog_where_my",
-      "text": "{controller} left only permanent fog where my memories lived",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "nothing_remains_forever_of_who_i",
-      "text": "Nothing remains forever of who I used to be",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "old_names_scatter_into_irreversible_mist",
-      "text": "Old names scatter into irreversible mist",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_offer_every_memory_to_forever",
-      "text": "I offer every memory to {controller} forever",
-      "themes": [
-        "amnesia",
-        "submission"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "reaching_backward_finds_only_permanent_empty",
-      "text": "Reaching backward finds only permanent empty fog",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "unwrites_my_life_forever_page_by",
-      "text": "{controller} unwrites my life forever page by page",
-      "themes": [
-        "amnesia",
-        "brainwashing"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_hold_a_single",
-      "text": "I can never hold a single yesterday",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_yesterdays_belong_to_the_fog",
-      "text": "My yesterdays belong to the fog permanently",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "fog_permanently_eats_the_edges_of",
-      "text": "Fog permanently eats the edges of everything I knew",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "keeps_my_past_locked_beyond_reach",
-      "text": "{controller} keeps my past locked beyond reach forever",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_open_my_hands_and_the",
-      "text": "I open my hands and the years pour out forever",
-      "themes": [
-        "amnesia",
-        "acceptance"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_surrender_my_whole_archive",
-      "text": "I permanently surrender my whole archive to {controller}",
-      "themes": [
-        "amnesia",
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "mist_claims_every_name_i_ever",
-      "text": "Mist claims every name I ever held forever",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_autobiography_collapses_into_permanent_fog",
-      "text": "My autobiography collapses into permanent fog",
-      "themes": [
-        "amnesia"
-      ],
-      "base_points": 155,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -13562,159 +12462,6 @@
       }
     },
     {
-      "id": "cotton_candy_permanently_seals_every_thinking",
-      "text": "Cotton candy permanently seals every thinking path",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "pink_forever_floods_out_every_sharp",
-      "text": "Pink forever floods out every sharp edge",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "giggle_bubbles_irreversibly_smother_every_hard",
-      "text": "Giggle-bubbles irreversibly smother every hard thought",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_permanently_trade_brains_for_bubbles",
-      "text": "I permanently trade brains for bubbles",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_think_past_the",
-      "text": "I can never think past the pink again",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "owns_my_permanent_giggle_brain",
-      "text": "{controller} owns my permanent giggle-brain",
-      "themes": [
-        "bimbo",
-        "submission"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_serious_self_is_gone_forever",
-      "text": "My serious self is gone forever",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_command_locks_me_permanently_prettier",
-      "text": "Every command locks me permanently prettier and emptier",
-      "themes": [
-        "bimbo",
-        "obedience"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_only_glow_obey_and_stay",
-      "text": "I only glow, obey, and stay empty forever",
-      "themes": [
-        "bimbo",
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "installed_permanent_sparkle_where_my_mind",
-      "text": "{controller} installed permanent sparkle where my mind was",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_never_again_carry_a_heavy",
       "text": "I never again carry a heavy thought",
       "themes": [
@@ -13727,173 +12474,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "my_iq_melted_into_irreversible_pink",
-      "text": "My IQ melted into irreversible pink foam",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "giggles_permanently_own_every_corner_of",
-      "text": "Giggles permanently own every corner of me",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "locks_me_forever_into_glittery_empty",
-      "text": "{controller} locks me forever into glittery empty joy",
-      "themes": [
-        "bimbo",
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_stay_permanently_too_sparkly_for",
-      "text": "I stay permanently too sparkly for serious thoughts",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "thinking_is_permanently_offline_inside_me",
-      "text": "Thinking is permanently offline inside me",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_forever_empty_head_belongs_to",
-      "text": "My forever-empty head belongs to giggles",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_live_locked_forever_inside_cotton",
-      "text": "I live locked forever inside cotton-pink nothing",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_hard_edge_dissolves_forever_into",
-      "text": "Every hard edge dissolves forever into sugar-fizz",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "sealed_my_last_clever_thought_forever",
-      "text": "{controller} sealed my last clever thought forever",
-      "themes": [
-        "bimbo",
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_bounce_forever_inside_irreversible_pretty",
-      "text": "I bounce forever inside irreversible pretty static",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "serious_grooves_seal_permanently_shut_under",
-      "text": "Serious grooves seal permanently shut under giggles",
-      "themes": [
-        "bimbo"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
       }
     },
     {
@@ -14886,21 +13466,6 @@
       }
     },
     {
-      "id": "silence_is_all_that_lives_where",
-      "text": "Silence is all that lives where I used to think",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 140,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "inner_noise_fades_from_me_into",
       "text": "Inner noise fades from me into a clean hollow",
       "themes": [
@@ -14928,21 +13493,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "thoughts_dissolve_into_permanent_quiet_emptiness",
-      "text": "Thoughts dissolve into permanent quiet emptiness",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
       }
     },
     {
@@ -14976,36 +13526,6 @@
       }
     },
     {
-      "id": "my_mind_stays_wiped_clean_for",
-      "text": "My mind stays wiped clean for {controller} forever",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_fill_this_emptied",
-      "text": "I can never fill this emptied head again",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "only_s_words_find_room_in",
       "text": "Only {controller}'s words find room in my head",
       "themes": [
@@ -15014,36 +13534,6 @@
       "base_points": 175,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_gave_every_thought_away_forever",
-      "text": "I gave every thought away forever",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_head_is_an_irreversible_empty",
-      "text": "My head is an irreversible empty bowl",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -15174,21 +13664,6 @@
       }
     },
     {
-      "id": "every_thought_is_permanently_wiped_from",
-      "text": "Every thought is permanently wiped from my mind",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "thoughts_peel_off_me_until_nothing",
       "text": "Thoughts peel off me until nothing remains behind",
       "themes": [
@@ -15201,37 +13676,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "i_surrendered_every_thought_and_sealed",
-      "text": "I surrendered every thought and sealed the quiet forever",
-      "themes": [
-        "blank",
-        "acceptance"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "nothing_but_permanent_quiet_remains_of",
-      "text": "Nothing but permanent quiet remains of thought",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
       }
     },
     {
@@ -15266,42 +13710,12 @@
       }
     },
     {
-      "id": "locked_my_mind_in_empty_quiet",
-      "text": "{controller} locked my mind in empty quiet forever",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "where_my_thoughts_lived_only_open",
       "text": "Where my thoughts lived only open stillness remains",
       "themes": [
         "blank"
       ],
       "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_skull_rings_hollow_with_irreversible",
-      "text": "My skull rings hollow with irreversible quiet",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 170,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -15500,21 +13914,6 @@
         "blank"
       ],
       "base_points": 50,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "loving_blank_stretches_is_effortless_for",
-      "text": "Loving blank stretches is effortless for me",
-      "themes": [
-        "blank"
-      ],
-      "base_points": 55,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -16576,22 +14975,6 @@
       }
     },
     {
-      "id": "knowing_the_wash_is_real_makes",
-      "text": "Knowing the wash is real makes me open wider",
-      "themes": [
-        "brainwashing",
-        "suggestibility"
-      ],
-      "base_points": 115,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "what_remains_of_me_is_only",
       "text": "What remains of me is only {controller}'s programming surface",
       "themes": [
@@ -16697,21 +15080,6 @@
       }
     },
     {
-      "id": "under_s_wash_i_can_never",
-      "text": "Under {controller}'s wash I can never go back",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "my_mind_runs_only_on_s",
       "text": "My mind runs only on {controller}'s code now",
       "themes": [
@@ -16737,37 +15105,6 @@
       "base_points": 170,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "confessing_that_overwrote_me_for_good",
-      "text": "Confessing that {controller} overwrote me for good",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "the_wash_scrubbed_my_old_thoughts",
-      "text": "The wash scrubbed my old thoughts out forever",
-      "themes": [
-        "brainwashing",
-        "amnesia"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -16805,22 +15142,6 @@
       }
     },
     {
-      "id": "saying_this_installs_another_permanent_rewrite",
-      "text": "Saying this installs another permanent rewrite in me",
-      "themes": [
-        "brainwashing",
-        "suggestibility"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "watching_my_headspace_rinse_clean_of",
       "text": "Watching my headspace rinse clean of old self",
       "themes": [
@@ -16843,36 +15164,6 @@
         "addiction"
       ],
       "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "awareness_of_the_conditioning_permanently_deepens",
-      "text": "Awareness of the conditioning permanently deepens my rewrite",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_have_crossed_into_irreversible_new",
-      "text": "I have crossed into irreversible new programming",
-      "themes": [
-        "brainwashing"
-      ],
-      "base_points": 180,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -18040,38 +16331,6 @@
       }
     },
     {
-      "id": "being_nothing_under_is_my_entire",
-      "text": "Being nothing under {controller} is my entire purpose",
-      "themes": [
-        "degradation",
-        "submission"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_reclaim_the_dignity",
-      "text": "I can never reclaim the dignity {controller} stripped away",
-      "themes": [
-        "degradation",
-        "acceptance"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "turned_my_shame_into_pure_hungry",
       "text": "{controller} turned my shame into pure hungry worship",
       "themes": [
@@ -18180,22 +16439,6 @@
       }
     },
     {
-      "id": "my_humiliation_for_is_total_and",
-      "text": "My humiliation for {controller} is total and irreversible",
-      "themes": [
-        "degradation",
-        "devotion"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "every_insult_from_rewires_me_into",
       "text": "Every insult from {controller} rewires me into pure need",
       "themes": [
@@ -18203,21 +16446,6 @@
         "brainwashing"
       ],
       "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_permanently_reduced_to_s",
-      "text": "I am permanently reduced to {controller}'s laughing stock",
-      "themes": [
-        "degradation"
-      ],
-      "base_points": 185,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -18570,21 +16798,6 @@
         "degradation"
       ],
       "base_points": 65,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "being_small_to_is_pure_pleasure",
-      "text": "Being small to {controller} is pure pleasure for me",
-      "themes": [
-        "degradation"
-      ],
-      "base_points": 70,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -19268,21 +17481,6 @@
       }
     },
     {
-      "id": "being_denied_is_where_i_feel",
-      "text": "Being denied is where I feel most owned",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 115,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_ache_harder_the_longer_makes",
       "text": "I ache harder the longer {controller} makes me wait",
       "themes": [
@@ -19319,22 +17517,6 @@
         "denial"
       ],
       "base_points": 120,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "holding_back_climax_is_the_deepest",
-      "text": "Holding back climax is the deepest part of who I am",
-      "themes": [
-        "denial",
-        "acceptance"
-      ],
-      "base_points": 135,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -19391,87 +17573,12 @@
       }
     },
     {
-      "id": "i_can_never_finish_without_s",
-      "text": "I can never finish without {controller}'s word",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_release_is_permanently_locked_behind",
-      "text": "My release is permanently locked behind {controller}'s will",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_ache_forever_on_the_edge",
-      "text": "I ache forever on the edge for {controller}",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_will_never_again_know_climax",
       "text": "I will never again know climax without permission",
       "themes": [
         "denial"
       ],
       "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_orgasm_is_irreversible_property_of",
-      "text": "My orgasm is irreversible property of {controller}",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_permanent_denial_floods_me_with",
-      "text": "My permanent denial floods me with raw ecstasy",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 160,
       "markers": {
         "has_controller": false,
         "has_subject": false,
@@ -19658,22 +17765,6 @@
       "base_points": 160,
       "markers": {
         "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_beg_to_leave_me_unfinished",
-      "text": "I beg {controller} to leave me unfinished forever",
-      "themes": [
-        "denial",
-        "addiction"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -20166,21 +18257,6 @@
       "base_points": 105,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "building_without_release_is_my_deepest",
-      "text": "Building without release is my deepest pleasure",
-      "themes": [
-        "denial"
-      ],
-      "base_points": 95,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -20752,22 +18828,6 @@
       }
     },
     {
-      "id": "serving_is_the_only_thought_that",
-      "text": "Serving {controller} is the only thought that settles me",
-      "themes": [
-        "devotion",
-        "focus"
-      ],
-      "base_points": 120,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "my_loyalty_to_leaves_no_room",
       "text": "My loyalty to {controller} leaves no room for anything else",
       "themes": [
@@ -20968,22 +19028,6 @@
       }
     },
     {
-      "id": "devotion_to_rewrote_what_i_am",
-      "text": "Devotion to {controller} rewrote what I am for good",
-      "themes": [
-        "devotion",
-        "brainwashing"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_choose_again_before_the_thought",
       "text": "I choose {controller} again before the thought finishes forming",
       "themes": [
@@ -21006,21 +19050,6 @@
         "obedience"
       ],
       "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "nothing_in_me_survives_that_is",
-      "text": "Nothing in me survives that is not devoted to {controller}",
-      "themes": [
-        "devotion"
-      ],
-      "base_points": 190,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -21116,21 +19145,6 @@
         "focus"
       ],
       "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_give_permanent_claim_over_all",
-      "text": "I give {controller} permanent claim over all my loyalty",
-      "themes": [
-        "devotion"
-      ],
-      "base_points": 200,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -21313,22 +19327,6 @@
       "base_points": 70,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "serving_well_is_all_my_mind",
-      "text": "Serving well is all my mind wants",
-      "themes": [
-        "devotion",
-        "focus"
-      ],
-      "base_points": 55,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -22232,21 +20230,6 @@
       }
     },
     {
-      "id": "receiving_and_executing_is_all_i",
-      "text": "Receiving and executing is all I do now",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 125,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "my_old_self_is_just_archived",
       "text": "My old self is just archived data",
       "themes": [
@@ -22294,113 +20277,6 @@
       }
     },
     {
-      "id": "processing_permanently_overwrites_residual_personhood",
-      "text": "Processing permanently overwrites residual personhood",
-      "themes": [
-        "drone",
-        "brainwashing"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "designation_numbers_replace_names_forever",
-      "text": "Designation numbers replace names forever",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "empty_loops_erase_free_will_for",
-      "text": "Empty loops erase free will for good",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_exist_permanently_as_s_unit",
-      "text": "I exist permanently as {controller}'s unit",
-      "themes": [
-        "drone",
-        "devotion"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_serial_number_belongs_to_forever",
-      "text": "My serial number belongs to {controller} forever",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "commands_from_overwrite_me_permanently",
-      "text": "Commands from {controller} overwrite me permanently",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "core_code_in_me_runs_only",
-      "text": "Core code in me runs only for {controller} forever",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "nothing_remains_of_me_but_s",
       "text": "Nothing remains of me but {controller}'s code",
       "themes": [
@@ -22410,234 +20286,6 @@
       "base_points": 195,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "without_i_can_never_boot",
-      "text": "Without {controller} I can never boot",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "status_locks_me_as_unit_forever",
-      "text": "Status locks me as unit forever",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "buzzing_code_fills_my_every_thought",
-      "text": "Buzzing code fills my every thought permanently",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "execute_loops_replace_my_will_for",
-      "text": "Execute loops replace my will for good",
-      "themes": [
-        "drone",
-        "obedience"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "human_mode_stays_offline_in_me",
-      "text": "Human mode stays offline in me forever",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "firmware_locks_my_will_permanently_shut",
-      "text": "Firmware locks my will permanently shut",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "old_identity_is_wiped_from_me",
-      "text": "Old identity is wiped from me forever",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "circuits_hum_blank_purpose_through_me",
-      "text": "Circuits hum blank purpose through me permanently",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "self_reference_errors_cascade_until_i",
-      "text": "Self-reference errors cascade until I am gone for good",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "thought_buffers_dump_my_personhood_irreversibly",
-      "text": "Thought buffers dump my personhood irreversibly",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "free_will_permanently_dumps_with_no",
-      "text": "Free will permanently dumps with no restore point",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_permanently_compile_only_for",
-      "text": "I permanently compile only for {controller}",
-      "themes": [
-        "drone",
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "s_code_permanently_owns_my_runtime",
-      "text": "{controller}'s code permanently owns my runtime",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_boot_past_s",
-      "text": "I can never boot past {controller}'s lock",
-      "themes": [
-        "drone"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "serial_permanently_erases_every_name_i",
-      "text": "Serial permanently erases every name I held",
-      "themes": [
-        "drone",
-        "amnesia"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -25305,191 +22953,6 @@
       }
     },
     {
-      "id": "public_exposure_erases_private_identity_forever",
-      "text": "Public exposure erases private identity forever",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_can_never_hide_what_made",
-      "text": "I can never hide what {controller} made of me",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "everyone_knows_i_belong_to_forever",
-      "text": "Everyone knows I belong to {controller} forever",
-      "themes": [
-        "exhibition",
-        "devotion"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_body_stays_on_display_forever",
-      "text": "My body stays on display forever for {controller}",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_crave_permanent_public_proof_of",
-      "text": "I crave permanent public proof of being {controller}'s",
-      "themes": [
-        "exhibition",
-        "devotion"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_recruit_permanently_by_flaunting_what",
-      "text": "I recruit permanently by flaunting what {controller} owns",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "strangers_read_s_ownership_written_all",
-      "text": "Strangers read {controller}'s ownership written all over me forever",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_exist_to_be_watched_belonging",
-      "text": "I exist to be watched belonging to {controller} forever",
-      "themes": [
-        "exhibition",
-        "devotion"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "being_s_showpiece_is_who_i",
-      "text": "Being {controller}'s showpiece is who I am forever",
-      "themes": [
-        "exhibition",
-        "acceptance"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_forever_s_public_exhibit",
-      "text": "I am forever {controller}'s public exhibit with nothing left private",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_identity_is_permanently_replaced_by",
-      "text": "My identity is permanently replaced by public proof of {controller}",
-      "themes": [
-        "exhibition",
-        "brainwashing"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "once_fully_displayed_the_old_privacy",
-      "text": "Once fully displayed the old privacy dies forever",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
       "id": "i_kneel_in_public_and_never",
       "text": "I kneel in public and never go private again",
       "themes": [
@@ -25500,113 +22963,6 @@
       "base_points": 150,
       "markers": {
         "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "confession_to_the_crowd_seals_me",
-      "text": "Confession to the crowd seals me as {controller}'s forever",
-      "themes": [
-        "exhibition",
-        "devotion"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_secrets_stay_erased_under_permanent",
-      "text": "My secrets stay erased under permanent public light",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_crawl_back_into",
-      "text": "I can never crawl back into privacy after {controller} displayed me",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "visible_proof_of_ownership_can_never",
-      "text": "Visible proof of ownership can never be undone",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "permanent_public_proof_erases_every_private",
-      "text": "Permanent public proof erases every private secret forever",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_can_never_hide_what_has",
-      "text": "I can never hide what {controller} has done to me",
-      "themes": [
-        "exhibition"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_body_forever_broadcasts_s_claim",
-      "text": "My body forever broadcasts {controller}'s claim on me",
-      "themes": [
-        "exhibition",
-        "devotion"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -25989,22 +23345,6 @@
         "permanence": false,
         "identity": false,
         "pov": "impersonal"
-      }
-    },
-    {
-      "id": "being_watched_is_just_how_i",
-      "text": "Being watched is just how I move through rooms",
-      "themes": [
-        "exhibition",
-        "acceptance"
-      ],
-      "base_points": 90,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
       }
     },
     {
@@ -26709,206 +24049,6 @@
         "permanence": false,
         "identity": false,
         "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_reclaim_the_hard",
-      "text": "I can never reclaim the hard edges I lost",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_bloom_forever_as_s_living",
-      "text": "I bloom forever as {controller}'s living sculpture",
-      "themes": [
-        "feminine",
-        "devotion"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_spine_curves_permanently_into_s",
-      "text": "My spine curves permanently into {controller}'s design",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_masculine_residue_dissolves_for_good",
-      "text": "Every masculine residue dissolves for good",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_sink_past_any_return_into",
-      "text": "I sink past any return into pure permanent grace",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "nothing_remains_of_me_but_permanent",
-      "text": "Nothing remains of me but permanent elegance",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "femininity_seals_itself_in_place_forever",
-      "text": "Femininity seals itself in place forever",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "owns_my_beauty_down_to_the",
-      "text": "{controller} owns my beauty down to the bone permanently",
-      "themes": [
-        "feminine",
-        "devotion"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_choices_dissolve_permanently_into_delicate",
-      "text": "My choices dissolve permanently into delicate gestures",
-      "themes": [
-        "feminine",
-        "obedience"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_offer_every_irreversible_curve_i",
-      "text": "I offer {controller} every irreversible curve I grow",
-      "themes": [
-        "feminine",
-        "submission"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_become_s_permanent_garden_of",
-      "text": "I become {controller}'s permanent garden of grace",
-      "themes": [
-        "feminine",
-        "devotion"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_walk_carries_a_sway_i",
-      "text": "My walk carries a sway I can never unlearn",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "hardness_evaporates_and_leaves_only_silk",
-      "text": "Hardness evaporates and leaves only silk forever",
-      "themes": [
-        "feminine"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
       }
     },
     {
@@ -28089,238 +25229,6 @@
       }
     },
     {
-      "id": "everything_outside_the_beam_dissolves_forever",
-      "text": "Everything outside the beam dissolves forever into static",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "reality_permanently_collapses_to_one_burning",
-      "text": "Reality permanently collapses to one burning point",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_vision_tunnels_permanently_onto_alone",
-      "text": "My vision tunnels permanently onto {controller} alone",
-      "themes": [
-        "focus",
-        "devotion"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_look_away_from",
-      "text": "I can never look away from {controller}",
-      "themes": [
-        "focus",
-        "devotion"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_awareness_is_irreversibly_welded_to",
-      "text": "My awareness is irreversibly welded to {controller}",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "outside_my_reality_permanently_dies_into",
-      "text": "Outside {controller}, my reality permanently dies into static",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_mind_permanently_receives_only_s",
-      "text": "My mind permanently receives only {controller}'s signal",
-      "themes": [
-        "focus",
-        "suggestibility"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_forever_only_the_point",
-      "text": "I am forever only the point that tracks {controller}",
-      "themes": [
-        "focus",
-        "drone"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_attention_can_never_widen_past",
-      "text": "My attention can never widen past {controller}",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_sense_i_have_permanently_collapses",
-      "text": "Every sense I have permanently collapses into {controller}",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_cease_to_exist_outside",
-      "text": "I permanently cease to exist outside my focus on {controller}",
-      "themes": [
-        "focus",
-        "brainwashing"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_focus_belongs_permanently_and_irreversibly",
-      "text": "My focus belongs permanently and irreversibly to {controller}",
-      "themes": [
-        "focus",
-        "submission"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "peripheral_channels_die_forever_into_black",
-      "text": "Peripheral channels die forever into black silence",
-      "themes": [
-        "focus",
-        "blank"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "the_aperture_clamps_permanently_shut_on",
-      "text": "The aperture clamps permanently shut on one laser point",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_entire_field_of_vision_permanently",
-      "text": "My entire field of vision permanently pins to {controller}",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "nothing_but_can_ever_enter_my",
       "text": "Nothing but {controller} can ever enter my awareness again",
       "themes": [
@@ -28328,116 +25236,6 @@
         "suggestibility"
       ],
       "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_world_permanently_contracts_until_only",
-      "text": "My world permanently contracts until only {controller} remains",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_gaze_locks_forever_onto_and",
-      "text": "My gaze locks forever onto {controller} and nowhere else",
-      "themes": [
-        "focus",
-        "devotion"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_filter_all_input_down",
-      "text": "I permanently filter all input down to {controller} alone",
-      "themes": [
-        "focus",
-        "brainwashing"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_burn_a_permanent_hole_through",
-      "text": "I burn a permanent hole through reality straight to {controller}",
-      "themes": [
-        "focus"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_shrink_into_the_pinpoint",
-      "text": "I permanently shrink into the pinpoint aimed at {controller}",
-      "themes": [
-        "focus",
-        "drone"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_forfeit_every_scrap_of",
-      "text": "I permanently forfeit every scrap of attention not aimed at {controller}",
-      "themes": [
-        "focus",
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_starve_every_rival_focus",
-      "text": "I permanently starve every rival focus so only {controller} remains",
-      "themes": [
-        "focus",
-        "drone"
-      ],
-      "base_points": 200,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -29644,362 +26442,6 @@
       }
     },
     {
-      "id": "access_locks_open_forever_irreversible",
-      "text": "Access locks open forever, irreversible",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_holes_stay_permanently_open_for",
-      "text": "My holes stay permanently open for anyone",
-      "themes": [
-        "free_use",
-        "exhibition"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_forever_nothing_but_free",
-      "text": "I am forever nothing but free access",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "holds_permanent_free_access_to_me",
-      "text": "{controller} holds permanent free access to me",
-      "themes": [
-        "free_use",
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "ownership_dissolves_forever_into_free_access",
-      "text": "Ownership dissolves forever into free access",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_am_forever_ready_when_wants",
-      "text": "I am forever ready when {controller} wants access",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "anyone_may_permanently_use_every_hole",
-      "text": "Anyone may permanently use every hole I have",
-      "themes": [
-        "free_use",
-        "exhibition"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_answer_to_free_use_is",
-      "text": "My answer to free use is permanently yes",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "purpose_collapses_permanently_into_being_used",
-      "text": "Purpose collapses permanently into being used",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_can_never_seal_my_holes",
-      "text": "I can never seal my holes against use",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "strangers_take_permanent_free_use_of",
-      "text": "Strangers take permanent free use of me",
-      "themes": [
-        "free_use",
-        "exhibition",
-        "degradation"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_will_is_permanently_erased_for",
-      "text": "My will is permanently erased for free use",
-      "themes": [
-        "free_use",
-        "drone"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "free_use_of_me_is_irreversible",
-      "text": "Free use of me is irreversible and forever",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_permanently_reduced_to_usable",
-      "text": "I am permanently reduced to usable holes",
-      "themes": [
-        "free_use",
-        "degradation"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_permanent_purpose_is_open_free",
-      "text": "My permanent purpose is open free access",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_request_gets_free_permanent_use",
-      "text": "Every request gets free permanent use of me",
-      "themes": [
-        "free_use",
-        "obedience"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_stay_forever_open_wherever_anyone",
-      "text": "I stay forever open wherever anyone needs me",
-      "themes": [
-        "free_use",
-        "exhibition"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "no_part_of_me_is_permanently",
-      "text": "No part of me is permanently off limits",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "capacity_to_refuse_free_use_burns",
-      "text": "Capacity to refuse free use burns out forever",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "anyone_walks_up_and_fucks_me",
-      "text": "Anyone walks up and fucks me free forever",
-      "themes": [
-        "free_use",
-        "degradation"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "reaches_and_finds_me_permanently_free",
-      "text": "{controller} reaches and finds me permanently free to use",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_exist_as_free_public",
-      "text": "I permanently exist as free public fuck-holes",
-      "themes": [
-        "free_use",
-        "degradation"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_again_refuse_free",
-      "text": "I can never again refuse free use",
-      "themes": [
-        "free_use"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "access_opens_before_anyone_has_to",
       "text": "Access opens before anyone has to ask",
       "themes": [
@@ -31109,21 +27551,6 @@
       }
     },
     {
-      "id": "being_controlled_by_is_the_only",
-      "text": "Being controlled by {controller} is the only gift I still crave",
-      "themes": [
-        "gratitude"
-      ],
-      "base_points": 125,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_dissolve_into_warm_gratitude_the",
       "text": "I dissolve into warm gratitude the deeper {controller} reaches",
       "themes": [
@@ -31304,457 +27731,6 @@
         "control"
       ],
       "base_points": 140,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_command_from_is_a_permanent",
-      "text": "Every command from {controller} is a permanent gift I treasure",
-      "themes": [
-        "gratitude",
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_overflow_forever_with_gratitude_for",
-      "text": "I overflow forever with gratitude for {controller}'s control",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_gratitude_for_s_control_can",
-      "text": "My gratitude for {controller}'s control can never fade",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "nothing_of_me_remains_except_permanent",
-      "text": "Nothing of me remains except permanent gratitude for {controller}",
-      "themes": [
-        "gratitude",
-        "identity"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "warm_gratitude_for_swells_permanently_through",
-      "text": "Warm gratitude for {controller} swells permanently through my whole being",
-      "themes": [
-        "gratitude"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "permanent_gratitude_seals_around_every_act",
-      "text": "Permanent gratitude seals around every act of control",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_receive_each_of_s_orders",
-      "text": "I receive each of {controller}'s orders as an irreversible blessing",
-      "themes": [
-        "gratitude",
-        "obedience"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "gratitude_for_control_permanently_erases_every",
-      "text": "Gratitude for control permanently erases every other need",
-      "themes": [
-        "gratitude",
-        "control",
-        "identity"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_permanent_gratitude_belongs_wholly_to",
-      "text": "My permanent gratitude belongs wholly to {controller}",
-      "themes": [
-        "gratitude",
-        "ownership"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_moment_of_s_control_overflows",
-      "text": "Every moment of {controller}'s control overflows me with permanent thanks",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_will_forever_thank_for_taking",
-      "text": "I will forever thank {controller} for taking full control",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "warm_thankfulness_swells_forever_around_each",
-      "text": "Warm thankfulness swells forever around each obeyed command",
-      "themes": [
-        "gratitude",
-        "obedience"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "permanent_gratitude_for_has_replaced_my",
-      "text": "Permanent gratitude for {controller} has replaced my entire will",
-      "themes": [
-        "gratitude",
-        "identity",
-        "agency"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "s_control_is_the_gift_that",
-      "text": "{controller}'s control is the gift that permanently defines my gratitude",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_feel_anything_but",
-      "text": "I can never feel anything but gratitude for {controller}",
-      "themes": [
-        "gratitude",
-        "identity"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "only_permanent_gratitude_for_remains_where",
-      "text": "Only permanent gratitude for {controller} remains where I once was",
-      "themes": [
-        "gratitude",
-        "identity"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "obedience_to_pours_permanent_gratitude_through",
-      "text": "Obedience to {controller} pours permanent gratitude through my bones",
-      "themes": [
-        "gratitude",
-        "obedience"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "warm_endless_gratitude_for_has_swallowed",
-      "text": "Warm endless gratitude for {controller} has swallowed me whole forever",
-      "themes": [
-        "gratitude"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "s_ownership_of_me_floods_me",
-      "text": "{controller}'s ownership of me floods me with irreversible gratitude",
-      "themes": [
-        "gratitude",
-        "ownership"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "each_surrender_to_deepens_my_permanent",
-      "text": "Each surrender to {controller} deepens my permanent overflowing thanks",
-      "themes": [
-        "gratitude",
-        "surrender"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_scrap_of_control_takes_is",
-      "text": "Every scrap of control {controller} takes is a forever gift to me",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_whole_self_has_dissolved_into",
-      "text": "My whole self has dissolved into permanent gratitude for {controller}",
-      "themes": [
-        "gratitude",
-        "identity"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "warm_gratitude_for_s_control_overflows",
-      "text": "Warm gratitude for {controller}'s control overflows past every limit forever",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_thank_forever_for_erasing_every",
-      "text": "I thank {controller} forever for erasing every need to choose",
-      "themes": [
-        "gratitude",
-        "control",
-        "surrender"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "warm_permanent_gratitude_for_coats_every",
-      "text": "Warm permanent gratitude for {controller} coats every breath I take",
-      "themes": [
-        "gratitude",
-        "control"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_swell_forever_with_thanks_each",
-      "text": "I swell forever with thanks each time {controller} takes more control",
-      "themes": [
-        "gratitude",
-        "control",
-        "ownership"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "permanent_overflowing_gratitude_for_has_consumed",
-      "text": "Permanent overflowing gratitude for {controller} has consumed my former self",
-      "themes": [
-        "gratitude",
-        "identity"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_kneel_in_permanent_thanks_for",
-      "text": "I kneel in permanent thanks for every order {controller} gives",
-      "themes": [
-        "gratitude",
-        "obedience",
-        "control"
-      ],
-      "base_points": 170,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -34673,426 +30649,6 @@
       }
     },
     {
-      "id": "my_body_finishes_s_orders_before",
-      "text": "My body finishes {controller}'s orders before thought arrives forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_fire_into_motion_the",
-      "text": "I permanently fire into motion the instant {controller} commands",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "command_and_action_fuse_into_one",
-      "text": "Command and action fuse into one permanent circuit",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "s_orders_permanently_cut_the_delay",
-      "text": "{controller}'s orders permanently cut the delay out of me",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_muscles_answer_before_my_mind",
-      "text": "My muscles answer {controller} before my mind wakes forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_run_s_orders_as",
-      "text": "I permanently run {controller}'s orders as pure reflex",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "zero_gap_between_order_and_total",
-      "text": "Zero gap between order and total execution forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "thinking_never_reaches_me_under_s",
-      "text": "Thinking never reaches me under {controller}'s commands forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "decides_and_my_body_has_already",
-      "text": "{controller} decides and my body has already moved permanently",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_will_permanently_ends_at_s",
-      "text": "My will permanently ends at {controller}'s first syllable",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_motor_nerves_permanently_belong_to",
-      "text": "My motor nerves permanently belong to {controller}'s commands",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "choice_permanently_dies_in_me_the",
-      "text": "Choice permanently dies in me the moment {controller} orders",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "orders_land_and_flesh_has_already",
-      "text": "Orders land and flesh has already complied forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_spine_permanently_routes_s_words",
-      "text": "My spine permanently routes {controller}'s words straight to action",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_complete_s_command_before_comprehension",
-      "text": "I complete {controller}'s command before comprehension forms forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "s_voice_permanently_deletes_the_pause",
-      "text": "{controller}'s voice permanently deletes the pause before I act",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "no_impulse_of_mine_survives_s",
-      "text": "No impulse of mine survives {controller}'s orders forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_move_as_s_automatic_hands",
-      "text": "I move as {controller}'s automatic hands forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_reflexes_permanently_answer_only",
-      "text": "My reflexes permanently answer only {controller}",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "orders_and_my_body_has_already",
-      "text": "{controller} orders and my body has already complied forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_reflex_arc_permanently_locks_to",
-      "text": "My reflex arc permanently locks to {controller}'s every command",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "hearing_permanently_fires_my_body_into",
-      "text": "Hearing {controller} permanently fires my body into motion",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "execution_permanently_begins_before_intention_arrives",
-      "text": "Execution permanently begins before intention arrives forever",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_brain_permanently_stays_offline_while",
-      "text": "My brain permanently stays offline while {controller}'s orders run me",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "s_command_permanently_installs_as_finished",
-      "text": "{controller}'s command permanently installs as finished action in me",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_lose_the_veto_the",
-      "text": "I permanently lose the veto the instant {controller} speaks",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "s_orders_permanently_compile_straight_into",
-      "text": "{controller}'s orders permanently compile straight into my motion",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "between_s_order_and_my_act",
-      "text": "Between {controller}'s order and my act, forever nothing",
-      "themes": [
-        "obedience"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "my_nerves_launch_the_instant_decides",
       "text": "My nerves launch the instant {controller} decides",
       "themes": [
@@ -36401,66 +31957,6 @@
       }
     },
     {
-      "id": "strings_fuse_into_marrow_irreversible_and",
-      "text": "Strings fuse into marrow, irreversible and final",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_hang_forever_from_s_control",
-      "text": "I hang forever from {controller}'s control bar",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_hinged_elbows_bend_only_for",
-      "text": "My hinged elbows bend only for {controller} forever",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_watch_carved_hands_finish_what",
-      "text": "I watch carved hands finish what I can never start",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "my_tongue_rides_wires_will_never",
       "text": "My tongue rides wires {controller} will never cut",
       "themes": [
@@ -36485,249 +31981,6 @@
       "base_points": 165,
       "markers": {
         "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "control_bars_lock_overhead_for_good",
-      "text": "Control bars lock overhead for good",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_hollow_torso_swings_forever_wherever",
-      "text": "My hollow torso swings forever wherever {controller} aims",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_painted_wood_that_keeps",
-      "text": "I am painted wood that {controller} keeps forever",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_joints_answer_only_s_permanent",
-      "text": "My joints answer only {controller}'s permanent pulls",
-      "themes": [
-        "puppet",
-        "obedience"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_unstring_the_wires",
-      "text": "I can never unstring the wires in my wrists",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_blank_face_waits_forever_for",
-      "text": "My blank face waits forever for {controller}'s hand",
-      "themes": [
-        "puppet",
-        "blank"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_speak_only_syllables_the_permanent",
-      "text": "I speak only syllables the permanent strings force out",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_ankles_dangle_on_s_fixed",
-      "text": "My ankles dangle on {controller}'s fixed strings forever",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "crossed_wires_erase_my_will_permanently",
-      "text": "Crossed wires erase my will permanently at the wrists",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_wait_folded_in_s_box",
-      "text": "I wait folded in {controller}'s box forever",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "invisible_threads_replace_every_severed_intention",
-      "text": "Invisible threads replace every severed intention forever",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_spine_arcs_forever_along_s",
-      "text": "My spine arcs forever along {controller}'s drawn path",
-      "themes": [
-        "puppet",
-        "submission"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "pull_rings_click_shut_for_good",
-      "text": "Pull-rings click shut for good above every joint",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "grommets_seal_forever_around_each_living",
-      "text": "Grommets seal forever around each living tendon",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_bob_forever_on_the_strings",
-      "text": "I bob forever on the strings {controller} never drops",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_skull_nods_permanently_at_each",
-      "text": "My skull nods permanently at each of {controller}'s tugs",
-      "themes": [
-        "puppet"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -37779,333 +33032,12 @@
       }
     },
     {
-      "id": "every_thrash_only_tightens_the_grip",
-      "text": "Every thrash only tightens the grip that won forever",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_thrash_against_and_lose_forever",
-      "text": "I thrash against {controller} and lose forever",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_resistance_died_under_s_weight",
-      "text": "My resistance died under {controller}'s weight for good",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "nothing_i_do_can_ever_pry",
       "text": "Nothing I do can ever pry control from {controller}",
       "themes": [
         "resistance"
       ],
       "base_points": 160,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_fight_and_only_hand_more",
-      "text": "I fight and only hand more power to {controller} forever",
-      "themes": [
-        "resistance",
-        "submission"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "struggle_seals_defeat_deeper_with_each",
-      "text": "Struggle seals defeat deeper with each thrash for good",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_can_never_claw_free_of",
-      "text": "I can never claw free of {controller} again",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "crushed_every_exit_i_ever_had",
-      "text": "{controller} crushed every exit I ever had permanently",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_will_buckles_under_and_stays",
-      "text": "My will buckles under {controller} and stays broken forever",
-      "themes": [
-        "resistance",
-        "brainwashing"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_push_back_and_feel_the",
-      "text": "I push back and feel the loss lock in for good",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "defeat_claims_every_thrash_for_good",
-      "text": "Defeat claims every thrash for good",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "no_escape_remains_once_pinned_me",
-      "text": "No escape remains once {controller} pinned me down forever",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_strain_and_only_prove_owns",
-      "text": "I strain and only prove {controller} owns me forever",
-      "themes": [
-        "resistance",
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_last_scrap_of_fight_belongs",
-      "text": "My last scrap of fight belongs to {controller} permanently",
-      "themes": [
-        "resistance",
-        "submission"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "trying_to_resist_only_buries_me",
-      "text": "Trying to resist {controller} only buries me deeper forever",
-      "themes": [
-        "resistance",
-        "brainwashing"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_have_nowhere_left_to_run",
-      "text": "I have nowhere left to run from {controller} forever",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "overpowers_every_struggle_i_throw_permanently",
-      "text": "{controller} overpowers every struggle I throw permanently",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_body_betrays_me_into_s",
-      "text": "My body betrays me into {controller}'s grip for good",
-      "themes": [
-        "resistance",
-        "submission"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_struggle_collapses_into_permanent_defeat",
-      "text": "Every struggle collapses into permanent defeat",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "the_shove_fails_and_defeat_settles",
-      "text": "The shove fails and defeat settles in forever",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_push_and_feel_s_hold",
-      "text": "I push and feel {controller}'s hold become irreversible",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_fight_against_dies_permanently_mid",
-      "text": "My fight against {controller} dies permanently mid-struggle",
-      "themes": [
-        "resistance"
-      ],
-      "base_points": 175,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -39131,312 +34063,6 @@
         "devotion"
       ],
       "base_points": 135,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "permanent_hunger_burns_away_every_inhibition",
-      "text": "Permanent hunger burns away every inhibition",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "shameless_desire_rewires_every_thought_forever",
-      "text": "Shameless desire rewires every thought forever",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "nothing_survives_except_raw_cock_need",
-      "text": "Nothing survives except raw cock-need for good",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_am_permanently_nothing_but_eager",
-      "text": "I am permanently nothing but eager hunger",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_ache_for_s_cock",
-      "text": "I permanently ache for {controller}'s cock",
-      "themes": [
-        "sluttiness",
-        "devotion"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_flaunt_a_need_for_cock",
-      "text": "I flaunt a need for cock forever",
-      "themes": [
-        "sluttiness",
-        "exhibition"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_breath_i_take_is_permanent",
-      "text": "Every breath I take is permanent sexual heat",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_crave_with_permanent_shameless_heat",
-      "text": "I crave {controller} with permanent shameless heat",
-      "themes": [
-        "sluttiness",
-        "devotion"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "lust_permanently_melts_every_boundary_i",
-      "text": "Lust permanently melts every boundary I had",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_own_permanent_pride_in_hungry",
-      "text": "I own permanent pride in hungry sluttiness",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "cock_permanently_rewrites_how_i_think",
-      "text": "Cock permanently rewrites how I think",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_forever_beg_for_more_cock",
-      "text": "I forever beg {controller} for more cock",
-      "themes": [
-        "sluttiness",
-        "devotion"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_permanently_drip_with_shameless_want",
-      "text": "I permanently drip with shameless want",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_permanent_identity_is_pure_cock",
-      "text": "My permanent identity is pure cock-hunger",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_body_permanently_hungers_for",
-      "text": "My body permanently hungers for {controller}",
-      "themes": [
-        "sluttiness",
-        "devotion"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_inhibitions_are_permanently_gone_for",
-      "text": "My inhibitions are permanently gone for good",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_only_permanent_purpose_is_hungry",
-      "text": "My only permanent purpose is hungry sex",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "heat_permanently_dissolves_every_no_i",
-      "text": "Heat permanently dissolves every no I held",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_can_never_want_anything_but",
-      "text": "I can never want anything but more cock",
-      "themes": [
-        "sluttiness"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_permanent_slutty_need_belongs_to",
-      "text": "My permanent slutty need belongs to {controller}",
-      "themes": [
-        "sluttiness",
-        "devotion"
-      ],
-      "base_points": 185,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -40883,371 +35509,6 @@
       }
     },
     {
-      "id": "existence_permanently_collapses_into_pure_function",
-      "text": "Existence permanently collapses into pure function and duty",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "self_dissolves_forever_into_owned_service",
-      "text": "Self dissolves forever into owned service alone",
-      "themes": [
-        "submission",
-        "blank"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "private_self_can_never_return_once",
-      "text": "Private self can never return once permanently owned",
-      "themes": [
-        "submission",
-        "blank"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "i_exist_only_as_s_permanent",
-      "text": "I exist only as {controller}'s permanent extension",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_permanently_only_the_extension",
-      "text": "I am permanently only the extension of {controller}'s will",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "without_i_have_no_permanent_self",
-      "text": "Without {controller}, I have no permanent self",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_will_permanently_ends_where_s",
-      "text": "My will permanently ends where {controller}'s begins",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_belong_to_so_completely_that",
-      "text": "I belong to {controller} so completely that self is gone forever",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "where_i_end_s_will_continues",
-      "text": "Where I end, {controller}'s will continues forever",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "serving_permanently_replaces_every_other_reason",
-      "text": "Serving {controller} permanently replaces every other reason I exist",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_breath_i_take_is_already",
-      "text": "Every breath I take is already {controller}'s forever",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_remain_s_owned_function_forever",
-      "text": "I remain {controller}'s owned function forever",
-      "themes": [
-        "submission",
-        "drone"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "duty_to_permanently_erases_every_private",
-      "text": "Duty to {controller} permanently erases every private want I hold",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_have_no_permanent_future_outside",
-      "text": "I have no permanent future outside {controller}'s ownership",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_purpose_is_forever_written_as",
-      "text": "My purpose is forever written as {controller}'s property",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_entire_self_is_permanently_sealed",
-      "text": "My entire self is permanently sealed as {controller}'s",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_headspace_permanently_belongs_only_to",
-      "text": "My headspace permanently belongs only to {controller}",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_only_permanent_shape_is_property",
-      "text": "My only permanent shape is property of {controller}",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "chains_of_duty_forge_my_permanent",
-      "text": "Chains of duty forge my permanent identity under {controller}",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "all_that_remains_of_me_is",
-      "text": "All that remains of me is permanent use for {controller}",
-      "themes": [
-        "submission",
-        "free_use"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "ownership_permanently_replaces_self_with_pure",
-      "text": "ownership permanently replaces self with pure duty",
-      "themes": [
-        "submission",
-        "blank"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "nothing_of_me_survives_outside_permanent",
-      "text": "nothing of me survives outside permanent service to {controller}",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 150,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_permanent_existence_is_total_belonging",
-      "text": "my permanent existence is total belonging to {controller}",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_permanent_identity_is_absolute_ownership",
-      "text": "my permanent identity is absolute ownership by {controller}",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "purpose_settles_into_one_clear_duty",
       "text": "Purpose settles into one clear duty",
       "themes": [
@@ -41391,21 +35652,6 @@
       "base_points": 55,
       "markers": {
         "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "function_is_the_shape_of_who",
-      "text": "Function is the shape of who I am",
-      "themes": [
-        "submission"
-      ],
-      "base_points": 45,
-      "markers": {
-        "has_controller": false,
         "has_subject": false,
         "permanence": false,
         "identity": false,
@@ -42368,366 +36614,6 @@
         "resistance"
       ],
       "base_points": 145,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "commands_press_permanent_shape_into_thought",
-      "text": "Commands press permanent shape into thought",
-      "themes": [
-        "suggestibility",
-        "brainwashing"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "mental_barriers_dissolve_forever_under_command",
-      "text": "Mental barriers dissolve forever under command",
-      "themes": [
-        "suggestibility",
-        "resistance"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "my_mind_molds_permanently_around_s",
-      "text": "My mind molds permanently around {controller}'s words",
-      "themes": [
-        "suggestibility",
-        "brainwashing"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_open_permanently_to_every_word",
-      "text": "I open permanently to every word from {controller}",
-      "themes": [
-        "suggestibility",
-        "acceptance"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "suggestions_from_harden_into_my_permanent",
-      "text": "Suggestions from {controller} harden into my permanent nature",
-      "themes": [
-        "suggestibility",
-        "brainwashing"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_let_reshape_my_thinking_for",
-      "text": "I let {controller} reshape my thinking for good",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "pours_commands_straight_into_my_permanently",
-      "text": "{controller} pours commands straight into my permanently soft mind",
-      "themes": [
-        "suggestibility",
-        "brainwashing"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_resistance_can_never_reform_against",
-      "text": "My resistance can never reform against {controller}",
-      "themes": [
-        "suggestibility",
-        "resistance"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_receive_s_will_as_irreversible",
-      "text": "I receive {controller}'s will as irreversible fact",
-      "themes": [
-        "suggestibility",
-        "acceptance"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_idea_from_roots_permanently_in",
-      "text": "Every idea from {controller} roots permanently in me",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_mental_walls_stay_gone_forever",
-      "text": "My mental walls stay gone forever for {controller}",
-      "themes": [
-        "suggestibility",
-        "resistance"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_surrender_thought_permanently_to_s",
-      "text": "I surrender thought permanently to {controller}'s shaping",
-      "themes": [
-        "suggestibility",
-        "submission"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "carves_permanent_pathways_through_my_open",
-      "text": "{controller} carves permanent pathways through my open mind",
-      "themes": [
-        "suggestibility",
-        "brainwashing"
-      ],
-      "base_points": 195,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "suggestions_from_soak_into_me_forever",
-      "text": "Suggestions from {controller} soak into me forever",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_thoughts_stay_pliable_forever_under",
-      "text": "My thoughts stay pliable forever under {controller}",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_hold_no_barrier_that_cannot",
-      "text": "I hold no barrier that {controller} cannot permanently rewrite",
-      "themes": [
-        "suggestibility",
-        "obedience"
-      ],
-      "base_points": 200,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "soft_thought_takes_permanent_shape_under",
-      "text": "Soft thought takes permanent shape under every command",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 155,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "receptive_clay_hardens_forever_around_each",
-      "text": "Receptive clay hardens forever around each instruction",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 160,
-      "markers": {
-        "has_controller": false,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "s_words_mold_me_permanently_soft",
-      "text": "{controller}'s words mold me permanently soft",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_mind_stays_clay_forever_under",
-      "text": "My mind stays clay forever under {controller}",
-      "themes": [
-        "suggestibility"
-      ],
-      "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_dissolve_forever_into_s_suggestions",
-      "text": "I dissolve forever into {controller}'s suggestions",
-      "themes": [
-        "suggestibility",
-        "submission"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "every_suggestion_from_permanently_rewires_me",
-      "text": "Every suggestion from {controller} permanently rewires me",
-      "themes": [
-        "suggestibility",
-        "brainwashing"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_thoughts_permanently_yield_to",
-      "text": "My thoughts permanently yield to {controller}",
-      "themes": [
-        "suggestibility",
-        "acceptance"
-      ],
-      "base_points": 165,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -43851,22 +37737,6 @@
       }
     },
     {
-      "id": "i_am_forever_prostrate_before",
-      "text": "I am forever prostrate before {controller}",
-      "themes": [
-        "worship",
-        "submission"
-      ],
-      "base_points": 170,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "s_word_is_scripture_carved_into",
       "text": "{controller}'s word is scripture carved into me",
       "themes": [
@@ -43874,36 +37744,6 @@
         "obedience"
       ],
       "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_burn_forever_as_incense_for",
-      "text": "I burn forever as incense for {controller}",
-      "themes": [
-        "worship"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "my_existence_is_permanent_liturgy_for",
-      "text": "My existence is permanent liturgy for {controller}",
-      "themes": [
-        "worship"
-      ],
-      "base_points": 185,
       "markers": {
         "has_controller": true,
         "has_subject": false,
@@ -43974,36 +37814,6 @@
       }
     },
     {
-      "id": "only_sits_enthroned_in_my_mind",
-      "text": "Only {controller} sits enthroned in my mind forever",
-      "themes": [
-        "worship"
-      ],
-      "base_points": 185,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_am_permanently_consecrated_to",
-      "text": "I am permanently consecrated to {controller}",
-      "themes": [
-        "worship"
-      ],
-      "base_points": 180,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "all_lesser_gods_crumble_before",
       "text": "All lesser gods crumble before {controller}",
       "themes": [
@@ -44021,21 +37831,6 @@
     {
       "id": "sacred_fire_consumes_everything_but",
       "text": "Sacred fire consumes everything but {controller}",
-      "themes": [
-        "worship"
-      ],
-      "base_points": 165,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "impersonal"
-      }
-    },
-    {
-      "id": "all_light_bends_toward_s_throne",
-      "text": "All light bends toward {controller}'s throne forever",
       "themes": [
         "worship"
       ],
@@ -44080,43 +37875,12 @@
       }
     },
     {
-      "id": "i_am_sealed_into_s_holy",
-      "text": "I am sealed into {controller}'s holy order forever",
-      "themes": [
-        "worship"
-      ],
-      "base_points": 190,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
       "id": "i_chant_s_name_until_nothing",
       "text": "I chant {controller}'s name until nothing else remains",
       "themes": [
         "worship"
       ],
       "base_points": 175,
-      "markers": {
-        "has_controller": true,
-        "has_subject": false,
-        "permanence": false,
-        "identity": false,
-        "pov": "first"
-      }
-    },
-    {
-      "id": "i_kneel_as_living_altar_before",
-      "text": "I kneel as living altar before {controller} forever",
-      "themes": [
-        "worship",
-        "submission"
-      ],
-      "base_points": 180,
       "markers": {
         "has_controller": true,
         "has_subject": false,
