@@ -1,0 +1,17 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "deep", "generator": {"model": "grok-4.5-build", "prompt_sha": "193b853c8ae311c1", "generated_at": "2026-08-08T14:49:27Z", "batch": "induction.deep.002", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "My mind holds only what arrives next", "second": "Your mind holds only what arrives next", "named": "{subject}'s mind holds only what arrives next", "base_points": 110, "themes": ["induction"]}
+{"first": "Depth opens wider on its own", "second": "Depth opens wider on its own", "named": "Depth opens wider on its own", "base_points": 115, "themes": ["induction"]}
+{"first": "I stop reaching for the next thought", "second": "You stop reaching for the next thought", "named": "{subject} stops reaching for the next thought", "base_points": 120, "themes": ["induction"]}
+{"first": "My awareness narrows to one thin line", "second": "Your awareness narrows to one thin line", "named": "{subject}'s awareness narrows to one thin line", "base_points": 125, "themes": ["induction"]}
+{"first": "I let the next thought form alone", "second": "You let the next thought form alone", "named": "{subject} lets the next thought form alone", "base_points": 130, "themes": ["induction"]}
+{"first": "Thought thins to one slow strand", "second": "Thought thins to one slow strand", "named": "Thought thins to one slow strand", "base_points": 135, "themes": ["induction"]}
+{"first": "I drop without choosing how far", "second": "You drop without choosing how far", "named": "{subject} drops without choosing how far", "base_points": 140, "themes": ["induction"]}
+{"first": "I keep falling with no effort spent", "second": "You keep falling with no effort spent", "named": "{subject} keeps falling with no effort spent", "base_points": 145, "themes": ["induction"]}
+{"first": "I sink with no bottom in sight", "second": "You sink with no bottom in sight", "named": "{subject} sinks with no bottom in sight", "base_points": 110, "themes": ["induction"]}
+{"first": "I stay under as space keeps opening", "second": "You stay under as space keeps opening", "named": "{subject} stays under as space keeps opening", "base_points": 115, "themes": ["induction"]}
+{"first": "The descent carries itself lower still", "second": "The descent carries itself lower still", "named": "The descent carries itself lower still", "base_points": 125, "themes": ["induction"]}
+{"first": "I feel no need to climb back up", "second": "You feel no need to climb back up", "named": "{subject} feels no need to climb back up", "base_points": 135, "themes": ["induction"]}
+{"first": "I no longer know how long I have been", "second": "You no longer know how long you have been", "named": "{subject} no longer knows how long {subject} has been", "base_points": 140, "themes": ["induction"]}
+{"first": "I feel no pull toward the surface", "second": "You feel no pull toward the surface", "named": "{subject} feels no pull toward the surface", "base_points": 145, "themes": ["induction"]}
+{"first": "My body no longer sends word back", "second": "Your body no longer sends word back", "named": "{subject}'s body no longer sends word back", "base_points": 125, "themes": ["induction"]}
+{"first": "Nothing pulls me back toward waking", "second": "Nothing pulls you back toward waking", "named": "Nothing pulls {subject} back toward waking", "base_points": 115, "themes": ["induction"]}

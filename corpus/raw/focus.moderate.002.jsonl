@@ -1,0 +1,2 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "focus", "tier": "moderate", "generator": {"model": "grok-4.5", "prompt_sha": "7afeee35e607701e", "generated_at": "2026-08-08T14:02:55Z", "batch": "focus.moderate.002", "reviewed": false}}
+{"first": "All other signals fall silent under compression", "second": "All other signals fall silent under compression", "named": "All other signals fall silent under compression", "base_points": 80, "themes": ["focus"]}

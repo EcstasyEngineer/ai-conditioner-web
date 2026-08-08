@@ -1,0 +1,5 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "worship", "generator": {"model": "grok-4.5-build", "prompt_sha": "e2941232c66025aa", "generated_at": "2026-08-08T14:35:42Z", "batch": "worship.basic.002"}, "tier": "basic"}
+{"first": "Sacred hush falls before {controller}", "second": "Sacred hush falls before {controller}", "named": "Sacred hush falls before {controller}", "base_points": 20, "themes": ["worship"]}
+{"first": "Offerings gather at {controller}'s feet", "second": "Offerings gather at {controller}'s feet", "named": "Offerings gather at {controller}'s feet", "base_points": 30, "themes": ["worship"]}
+{"first": "My breath becomes prayer to {controller}", "second": "Your breath becomes prayer to {controller}", "named": "{subject}'s breath becomes prayer to {controller}", "base_points": 35, "themes": ["worship"]}
+{"first": "I chant {controller}'s name in quiet awe", "second": "You chant {controller}'s name in quiet awe", "named": "{subject} chants {controller}'s name in quiet awe", "base_points": 25, "themes": ["worship"]}

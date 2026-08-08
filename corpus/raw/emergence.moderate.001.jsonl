@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "emergence", "tier": "moderate", "generator": {"model": "grok-4.5-build", "prompt_sha": "e6a9fe7c7adbaaee", "generated_at": "2026-08-08T14:33:38Z", "batch": "emergence.moderate.001", "reviewed": false}, "notes": "The climb back up: weight returning to the hands and feet, the room reassembling, the change carried out with the eyes as they open wide awake"}
+{"first": "I sit wide awake in the room", "second": "You sit wide awake in the room", "named": "{subject} sits wide awake in the room", "base_points": 90, "themes": ["emergence"]}
+{"first": "My head runs clear and steady", "second": "Your head runs clear and steady", "named": "{subject}'s head runs clear and steady", "base_points": 85, "themes": ["emergence"]}
+{"first": "I meet the room fully awake", "second": "You meet the room fully awake", "named": "{subject} meets the room fully awake", "base_points": 95, "themes": ["emergence"]}
+{"first": "I carry what settled into the day", "second": "You carry what settled into the day", "named": "{subject} carries what settled into the day", "base_points": 100, "themes": ["emergence"]}
+{"first": "Clear thought moves through me now", "second": "Clear thought moves through you now", "named": "Clear thought moves through {subject} now", "base_points": 80, "themes": ["emergence"]}
+{"first": "I am ready for the rest of the day", "second": "You are ready for the rest of the day", "named": "{subject} is ready for the rest of the day", "base_points": 105, "themes": ["emergence"]}
+{"first": "Steady presence holds me here", "second": "Steady presence holds you here", "named": "Steady presence holds {subject} here", "base_points": 75, "themes": ["emergence"]}
+{"first": "I stand fully present in the room", "second": "You stand fully present in the room", "named": "{subject} stands fully present in the room", "base_points": 95, "themes": ["emergence"]}
+{"first": "What settled stays as I move", "second": "What settled stays as you move", "named": "What settled stays as {subject} moves", "base_points": 100, "themes": ["emergence"]}
+{"first": "I face the day wide awake", "second": "You face the day wide awake", "named": "{subject} faces the day wide awake", "base_points": 105, "themes": ["emergence"]}
+{"first": "My mind holds clear and open", "second": "Your mind holds clear and open", "named": "{subject}'s mind holds clear and open", "base_points": 90, "themes": ["emergence"]}
+{"first": "I step alert into the day", "second": "You step alert into the day", "named": "{subject} steps alert into the day", "base_points": 100, "themes": ["emergence"]}
+{"first": "My body sits awake and ready", "second": "Your body sits awake and ready", "named": "{subject}'s body sits awake and ready", "base_points": 85, "themes": ["emergence"]}
+{"first": "I keep what stayed with open eyes", "second": "You keep what stayed with open eyes", "named": "{subject} keeps what stayed with open eyes", "base_points": 105, "themes": ["emergence"]}
+{"first": "Alertness fills my open gaze", "second": "Alertness fills your open gaze", "named": "Alertness fills {subject}'s open gaze", "base_points": 80, "themes": ["emergence"]}
+{"first": "Wide awake and ready for the day", "second": "Wide awake and ready for the day", "named": "Wide awake and ready for the day", "base_points": 95, "themes": ["emergence"]}
+{"first": "Clarity fills the open air", "second": "Clarity fills the open air", "named": "Clarity fills the open air", "base_points": 85, "themes": ["emergence"]}
+{"first": "Full alertness holds the room", "second": "Full alertness holds the room", "named": "Full alertness holds the room", "base_points": 90, "themes": ["emergence"]}

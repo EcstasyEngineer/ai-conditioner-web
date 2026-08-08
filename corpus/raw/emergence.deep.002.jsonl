@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "emergence", "tier": "deep", "generator": {"model": "grok-4.5-build", "prompt_sha": "30279a57b078d989", "generated_at": "2026-08-08T14:53:17Z", "batch": "emergence.deep.002", "reviewed": false}, "notes": "The climb back up: weight returning to the hands and feet, the room reassembling, the change carried out with the eyes as they open wide awake"}
+{"first": "My soles press down and stay clear", "second": "Your soles press down and stay clear", "named": "{subject}'s soles press down and stay clear", "base_points": 110, "themes": ["emergence"]}
+{"first": "I cross the room on steady feet", "second": "You cross the room on steady feet", "named": "{subject} crosses the room on steady feet", "base_points": 115, "themes": ["emergence"]}
+{"first": "My shoulders stack upright through the day", "second": "Your shoulders stack upright through the day", "named": "{subject}'s shoulders stack upright through the day", "base_points": 120, "themes": ["emergence"]}
+{"first": "I stand at the counter fully clear", "second": "You stand at the counter fully clear", "named": "{subject} stands at the counter fully clear", "base_points": 125, "themes": ["emergence"]}
+{"first": "My stride lengthens through the hallway", "second": "Your stride lengthens through the hallway", "named": "{subject}'s stride lengthens through the hallway", "base_points": 130, "themes": ["emergence"]}
+{"first": "Balance rides with me step by step", "second": "Balance rides with you step by step", "named": "Balance rides with {subject} step by step", "base_points": 135, "themes": ["emergence"]}
+{"first": "I turn and keep steady footing", "second": "You turn and keep steady footing", "named": "{subject} turns and keeps steady footing", "base_points": 140, "themes": ["emergence"]}
+{"first": "My hands work and nothing slips free", "second": "Your hands work and nothing slips free", "named": "{subject}'s hands work and nothing slips free", "base_points": 145, "themes": ["emergence"]}
+{"first": "I dress for the day still steady", "second": "You dress for the day still steady", "named": "{subject} dresses for the day still steady", "base_points": 110, "themes": ["emergence"]}
+{"first": "I find balance on both feet", "second": "You find balance on both feet", "named": "{subject} finds balance on both feet", "base_points": 115, "themes": ["emergence"]}
+{"first": "I walk end to end still clear", "second": "You walk end to end still clear", "named": "{subject} walks end to end still clear", "base_points": 125, "themes": ["emergence"]}
+{"first": "My steps keep the morning steady", "second": "Your steps keep the morning steady", "named": "{subject}'s steps keep the morning steady", "base_points": 130, "themes": ["emergence"]}
+{"first": "I stay upright through ordinary hours", "second": "You stay upright through ordinary hours", "named": "{subject} stays upright through ordinary hours", "base_points": 140, "themes": ["emergence"]}
+{"first": "I move freely and nothing frays", "second": "You move freely and nothing frays", "named": "{subject} moves freely and nothing frays", "base_points": 145, "themes": ["emergence"]}
+{"first": "Weight rests firm under my stance", "second": "Weight rests firm under your stance", "named": "Weight rests firm under {subject}'s stance", "base_points": 120, "themes": ["emergence"]}
+{"first": "Steady footing carries the day forward", "second": "Steady footing carries the day forward", "named": "Steady footing carries the day forward", "base_points": 135, "themes": ["emergence"]}
+{"first": "Alertness rides every ordinary step", "second": "Alertness rides every ordinary step", "named": "Alertness rides every ordinary step", "base_points": 140, "themes": ["emergence"]}
+{"first": "Clear motion holds through the hours", "second": "Clear motion holds through the hours", "named": "Clear motion holds through the hours", "base_points": 125, "themes": ["emergence"]}

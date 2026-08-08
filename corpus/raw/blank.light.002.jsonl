@@ -1,0 +1,3 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "blank", "tier": "light", "generator": {"model": "grok-4.5-build", "prompt_sha": "a60ea2d3c1fa", "generated_at": "2026-08-08T13:48:16Z", "batch": "blank.light.002"}}
+{"first": "Near {controller} my thoughts simply leave", "second": "Near {controller} your thoughts simply leave", "named": "Near {controller} {subject}'s thoughts simply leave", "base_points": 65, "themes": ["blank"]}
+{"first": "My mind drops thoughts like loose sand", "second": "Your mind drops thoughts like loose sand", "named": "{subject}'s mind drops thoughts like loose sand", "base_points": 50, "themes": ["blank"]}

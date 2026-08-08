@@ -1,0 +1,36 @@
+{"schema": "hypnoapp.corpus.backfill.v1", "theme": "addiction", "generator": {"model": "grok-4.5-build", "prompt_sha": "18ccb2115e359fc3", "generated_at": "2026-08-08T13:35:08Z", "batch": "backfill.addiction", "reviewed": false}, "count": 35}
+{"id": "the_craving_feels_good", "first": "The craving feels good", "second": "The craving feels good", "named": "The craving feels good"}
+{"id": "i_want_more_and_more", "first": "I want more and more", "second": "You want more and more", "named": "{subject} wants more and more"}
+{"id": "i_crave_s_attention", "first": "I crave {controller}'s attention", "second": "You crave {controller}'s attention", "named": "{subject} craves {controller}'s attention"}
+{"id": "need_blossoms_inside_me", "first": "Need blossoms inside me", "second": "Need blossoms inside you", "named": "Need blossoms inside {subject}"}
+{"id": "hungers_for_guidance", "first": "I hunger for guidance", "second": "You hunger for guidance", "named": "{subject} hungers for guidance"}
+{"id": "serving_feels_necessary", "first": "Serving feels necessary", "second": "Serving feels necessary", "named": "Serving feels necessary"}
+{"id": "want_becomes_need_need_becomes_life", "first": "Want becomes need, need becomes life", "second": "Want becomes need, need becomes life", "named": "Want becomes need, need becomes life"}
+{"id": "my_craving_sparks_each_breath", "first": "My craving sparks each breath", "second": "Your craving sparks each breath", "named": "{subject}'s craving sparks each breath"}
+{"id": "every_dose_of_control_amplifies_desire", "first": "Every dose of control amplifies desire", "second": "Every dose of control amplifies desire", "named": "Every dose of control amplifies desire"}
+{"id": "returns_for_another_fix", "first": "I return for another fix", "second": "You return for another fix", "named": "{subject} returns for another fix"}
+{"id": "obedience_tastes_sweeter_each_time", "first": "Obedience tastes sweeter each time", "second": "Obedience tastes sweeter each time", "named": "Obedience tastes sweeter each time"}
+{"id": "need_intensifies_faster_than_i_can", "first": "Need intensifies faster than I can sate it", "second": "Need intensifies faster than you can sate it", "named": "Need intensifies faster than {subject} can sate it"}
+{"id": "i_m_hooked_on_s_dominance", "first": "I'm hooked on {controller}'s dominance", "second": "You're hooked on {controller}'s dominance", "named": "{subject} is hooked on {controller}'s dominance"}
+{"id": "craving_coils_tighter_around_my_mind", "first": "Craving coils tighter around my mind", "second": "Craving coils tighter around your mind", "named": "Craving coils tighter around {subject}'s mind"}
+{"id": "addiction_becomes_who_i_am", "first": "Addiction becomes who I am", "second": "Addiction becomes who you are", "named": "Addiction becomes who {subject} is"}
+{"id": "inhales_submission_like_oxygen", "first": "I inhale submission like oxygen", "second": "You inhale submission like oxygen", "named": "{subject} inhales submission like oxygen"}
+{"id": "every_command_feeds_the_habit", "first": "Every command feeds the habit", "second": "Every command feeds the habit", "named": "Every command feeds the habit"}
+{"id": "i_cannot_imagine_life_without_control", "first": "I cannot imagine life without control", "second": "You cannot imagine life without control", "named": "{subject} cannot imagine life without control"}
+{"id": "the_more_i_get_the_more", "first": "The more I get, the more I need", "second": "The more you get, the more you need", "named": "The more {subject} gets, the more {subject} needs"}
+{"id": "dependency_rewrites_what_rewards_me", "first": "Dependency rewrites what rewards me", "second": "Dependency rewrites what rewards you", "named": "Dependency rewrites what rewards {subject}"}
+{"id": "craving_burns_hot_unquenchable", "first": "Craving burns hot, unquenchable", "second": "Craving burns hot, unquenchable", "named": "Craving burns hot, unquenchable"}
+{"id": "s_touch_rewrites_my_pleasure", "first": "{controller}'s touch rewrites my pleasure", "second": "{controller}'s touch rewrites your pleasure", "named": "{controller}'s touch rewrites {subject}'s pleasure"}
+{"id": "withdrawal_feels_like_emptiness_itself", "first": "Withdrawal feels like emptiness itself", "second": "Withdrawal feels like emptiness itself", "named": "Withdrawal feels like emptiness itself"}
+{"id": "addiction_fills_every_corner_of", "first": "Addiction fills every corner of me", "second": "Addiction fills every corner of you", "named": "Addiction fills every corner of {subject}"}
+{"id": "my_brain_loops_on_submission_endlessly", "first": "My brain loops on submission endlessly", "second": "Your brain loops on submission endlessly", "named": "{subject}'s brain loops on submission endlessly"}
+{"id": "i_cannot_function_without_my_next", "first": "I cannot function without my next command", "second": "You cannot function without your next command", "named": "{subject} cannot function without {subject}'s next command"}
+{"id": "permanent_craving_carved_into_me", "first": "Permanent craving carved into me", "second": "Permanent craving carved into you", "named": "Permanent craving carved into {subject}"}
+{"id": "exists_to_chase_s_control", "first": "I exist to chase {controller}'s control", "second": "You exist to chase {controller}'s control", "named": "{subject} exists to chase {controller}'s control"}
+{"id": "my_universe_narrows_to_pleasing", "first": "My universe narrows to pleasing {controller}", "second": "Your universe narrows to pleasing {controller}", "named": "{subject}'s universe narrows to pleasing {controller}"}
+{"id": "need_eclipses_all_other_sensations_forever", "first": "Need eclipses all other sensations, forever", "second": "Need eclipses all other sensations, forever", "named": "Need eclipses all other sensations, forever"}
+{"id": "i_am_nothing_but_hunger_for", "first": "I am nothing but hunger for obedience", "second": "You are nothing but hunger for obedience", "named": "{subject} is nothing but hunger for obedience"}
+{"id": "endless_addiction_drives_every_choice_i", "first": "Endless addiction drives every choice I make", "second": "Endless addiction drives every choice you make", "named": "Endless addiction drives every choice {subject} makes"}
+{"id": "s_need_is_a_black_hole", "first": "My need is a black hole only {controller} can fill", "second": "Your need is a black hole only {controller} can fill", "named": "{subject}'s need is a black hole only {controller} can fill"}
+{"id": "would_shatter_without", "first": "I would shatter without {controller}", "second": "You would shatter without {controller}", "named": "{subject} would shatter without {controller}"}
+{"id": "s_entire_being_screams_for", "first": "My entire being screams for {controller}", "second": "Your entire being screams for {controller}", "named": "{subject}'s entire being screams for {controller}"}

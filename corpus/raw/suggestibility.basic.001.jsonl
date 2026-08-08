@@ -1,0 +1,17 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "suggestibility", "generator": {"model": "grok-4.5-build", "prompt_sha": "f45ec6ed84941744", "generated_at": "2026-08-08T14:25:46Z", "batch": "suggestibility.basic.001"}, "tier": "basic"}
+{"first": "Ideas sink in without friction", "second": "Ideas sink in without friction", "named": "Ideas sink in without friction", "base_points": 25, "themes": ["suggestibility"]}
+{"first": "Barriers soften as commands arrive", "second": "Barriers soften as commands arrive", "named": "Barriers soften as commands arrive", "base_points": 30, "themes": ["suggestibility"]}
+{"first": "My mind softens around each command", "second": "Your mind softens around each command", "named": "{subject}'s mind softens around each command", "base_points": 30, "themes": ["suggestibility"]}
+{"first": "Suggestions mold me like soft clay", "second": "Suggestions mold you like soft clay", "named": "Suggestions mold {subject} like soft clay", "base_points": 35, "themes": ["suggestibility"]}
+{"first": "I drink in every directed word", "second": "You drink in every directed word", "named": "{subject} drinks in every directed word", "base_points": 25, "themes": ["suggestibility"]}
+{"first": "Commands reshape my thinking easily", "second": "Commands reshape your thinking easily", "named": "Commands reshape {subject}'s thinking easily", "base_points": 30, "themes": ["suggestibility"]}
+{"first": "My thoughts yield to incoming words", "second": "Your thoughts yield to incoming words", "named": "{subject}'s thoughts yield to incoming words", "base_points": 25, "themes": ["suggestibility"]}
+{"first": "Fresh suggestions land inside me", "second": "Fresh suggestions land inside you", "named": "Fresh suggestions land inside {subject}", "base_points": 20, "themes": ["suggestibility"]}
+{"first": "My headspace stays open and porous", "second": "Your headspace stays open and porous", "named": "{subject}'s headspace stays open and porous", "base_points": 35, "themes": ["suggestibility"]}
+{"first": "I let every command press into clay", "second": "You let every command press into clay", "named": "{subject} lets every command press into clay", "base_points": 35, "themes": ["suggestibility"]}
+{"first": "Suggestions pass through me unchallenged", "second": "Suggestions pass through you unchallenged", "named": "Suggestions pass through {subject} unchallenged", "base_points": 30, "themes": ["suggestibility", "acceptance"]}
+{"first": "My mind accepts shape from each word", "second": "Your mind accepts shape from each word", "named": "{subject}'s mind accepts shape from each word", "base_points": 25, "themes": ["suggestibility", "acceptance"]}
+{"first": "I offer no wall against new ideas", "second": "You offer no wall against new ideas", "named": "{subject} offers no wall against new ideas", "base_points": 30, "themes": ["suggestibility", "acceptance"]}
+{"first": "Each idea finds soft ground in me", "second": "Each idea finds soft ground in you", "named": "Each idea finds soft ground in {subject}", "base_points": 20, "themes": ["suggestibility"]}
+{"first": "I soften under {controller}'s every word", "second": "You soften under {controller}'s every word", "named": "{subject} softens under {controller}'s every word", "base_points": 40, "themes": ["suggestibility"]}
+{"first": "Commands carve easy paths through me", "second": "Commands carve easy paths through you", "named": "Commands carve easy paths through {subject}", "base_points": 30, "themes": ["suggestibility"]}

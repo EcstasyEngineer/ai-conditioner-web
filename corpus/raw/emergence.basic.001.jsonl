@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "emergence", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "2ba968768c6246e3", "generated_at": "2026-08-08T14:28:40Z", "batch": "emergence.basic.001", "reviewed": false}, "notes": "The climb back up: weight returning to the hands and feet, the room reassembling, the change carried out with the eyes as they open wide awake"}
+{"first": "Fingers flex against the chair", "second": "Fingers flex against the chair", "named": "Fingers flex against the chair", "base_points": 20, "themes": ["emergence"]}
+{"first": "Weight returns to the hands", "second": "Weight returns to the hands", "named": "Weight returns to the hands", "base_points": 25, "themes": ["emergence"]}
+{"first": "Breath deepens on its own", "second": "Breath deepens on its own", "named": "Breath deepens on its own", "base_points": 30, "themes": ["emergence"]}
+{"first": "My fingers twitch against the fabric", "second": "Your fingers twitch against the fabric", "named": "{subject}'s fingers twitch against the fabric", "base_points": 20, "themes": ["emergence"]}
+{"first": "I draw one long breath in", "second": "You draw one long breath in", "named": "{subject} draws one long breath in", "base_points": 25, "themes": ["emergence"]}
+{"first": "My toes curl and uncurl", "second": "Your toes curl and uncurl", "named": "{subject}'s toes curl and uncurl", "base_points": 30, "themes": ["emergence"]}
+{"first": "I feel the chair under my body", "second": "You feel the chair under your body", "named": "{subject} feels the chair under {subject}'s body", "base_points": 35, "themes": ["emergence"]}
+{"first": "Sensation floods back into my hands", "second": "Sensation floods back into your hands", "named": "Sensation floods back into {subject}'s hands", "base_points": 40, "themes": ["emergence"]}
+{"first": "Light presses behind my lids", "second": "Light presses behind your lids", "named": "Light presses behind {subject}'s lids", "base_points": 20, "themes": ["emergence"]}
+{"first": "My feet find the floor again", "second": "Your feet find the floor again", "named": "{subject}'s feet find the floor again", "base_points": 25, "themes": ["emergence"]}
+{"first": "I stretch my fingers wide", "second": "You stretch your fingers wide", "named": "{subject} stretches {subject}'s fingers wide", "base_points": 30, "themes": ["emergence"]}
+{"first": "Sound comes nearer as I breathe", "second": "Sound comes nearer as you breathe", "named": "Sound comes nearer as {subject} breathes", "base_points": 35, "themes": ["emergence"]}
+{"first": "My hands rest heavier on my lap", "second": "Your hands rest heavier on your lap", "named": "{subject}'s hands rest heavier on {subject}'s lap", "base_points": 40, "themes": ["emergence"]}
+{"first": "I notice the chair under me again", "second": "You notice the chair under you again", "named": "{subject} notices the chair under {subject} again", "base_points": 20, "themes": ["emergence"]}
+{"first": "I press my toes into the floor", "second": "You press your toes into the floor", "named": "{subject} presses {subject}'s toes into the floor", "base_points": 25, "themes": ["emergence"]}
+{"first": "Warmth returns to my fingertips", "second": "Warmth returns to your fingertips", "named": "Warmth returns to {subject}'s fingertips", "base_points": 30, "themes": ["emergence"]}
+{"first": "I open and close my hands", "second": "You open and close your hands", "named": "{subject} opens and closes {subject}'s hands", "base_points": 35, "themes": ["emergence"]}
+{"first": "My lungs fill with cool air", "second": "Your lungs fill with cool air", "named": "{subject}'s lungs fill with cool air", "base_points": 40, "themes": ["emergence"]}

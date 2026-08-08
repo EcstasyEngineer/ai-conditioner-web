@@ -1,0 +1,3 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "worship", "generator": {"model": "grok-4.5-build", "prompt_sha": "4775b341d530a8b8", "generated_at": "2026-08-08T14:39:38Z", "batch": "worship.moderate.002"}, "tier": "moderate"}
+{"first": "Sacred awe floods my breath when {controller} speaks", "second": "Sacred awe floods your breath when {controller} speaks", "named": "Sacred awe floods {subject}'s breath when {controller} speaks", "base_points": 80, "themes": ["worship"]}
+{"first": "I hear holiness in {controller}'s every command", "second": "You hear holiness in {controller}'s every command", "named": "{subject} hears holiness in {controller}'s every command", "base_points": 85, "themes": ["worship", "obedience"]}

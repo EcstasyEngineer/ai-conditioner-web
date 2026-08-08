@@ -1,0 +1,30 @@
+{"schema": "hypnoapp.corpus.backfill.v1", "theme": "puppet", "generator": {"model": "grok-4.5", "prompt_sha": "99ed2b90081fb647", "generated_at": "2026-08-08T14:01:51Z", "batch": "backfill.puppet", "reviewed": false}}
+{"id": "feels_the_strings_moving_their_body", "first": "I feel the strings moving my body", "second": "You feel the strings moving your body", "named": "{subject} feels the strings moving their body"}
+{"id": "feels_the_strings_pulling_at_their", "first": "I feel the strings pulling at my mind", "second": "You feel the strings pulling at your mind", "named": "{subject} feels the strings pulling at their mind"}
+{"id": "my_mind_hangs_limp_waiting_to", "first": "My mind hangs limp, waiting to be moved", "second": "Your mind hangs limp, waiting to be moved", "named": "{subject}'s mind hangs limp, waiting to be moved"}
+{"id": "my_thoughts_only_move_when_pulls", "first": "My thoughts only move when {controller} pulls", "second": "Your thoughts only move when {controller} pulls", "named": "{subject}'s thoughts only move when {controller} pulls"}
+{"id": "my_hands_move_without_thinking", "first": "My hands move without thinking", "second": "Your hands move without thinking", "named": "{subject}'s hands move without thinking"}
+{"id": "is_a_puppet", "first": "I am a puppet", "second": "You are a puppet", "named": "{subject} is a puppet"}
+{"id": "pulls_my_strings", "first": "{controller} pulls my strings", "second": "{controller} pulls your strings", "named": "{controller} pulls {subject}'s strings"}
+{"id": "my_body_moves_on_its_own", "first": "My body moves on its own", "second": "Your body moves on its own", "named": "{subject}'s body moves on its own"}
+{"id": "has_no_will", "first": "I have no will", "second": "You have no will", "named": "{subject} has no will"}
+{"id": "my_limbs_feel_light_and_detached", "first": "My limbs feel light and detached", "second": "Your limbs feel light and detached", "named": "{subject}'s limbs feel light and detached"}
+{"id": "s_will_moves", "first": "{controller}'s will moves me", "second": "{controller}'s will moves you", "named": "{controller}'s will moves {subject}"}
+{"id": "is_an_observer_in_their_own", "first": "I am an observer in my own body", "second": "You are an observer in your own body", "named": "{subject} is an observer in their own body"}
+{"id": "speaks_the_words_provides", "first": "I speak the words {controller} provides", "second": "You speak the words {controller} provides", "named": "{subject} speaks the words {controller} provides"}
+{"id": "dances_on_s_strings", "first": "I dance on {controller}'s strings", "second": "You dance on {controller}'s strings", "named": "{subject} dances on {controller}'s strings"}
+{"id": "has_no_thoughts_only_movements", "first": "I have no thoughts, only movements", "second": "You have no thoughts, only movements", "named": "{subject} has no thoughts, only movements"}
+{"id": "is_a_perfect_marionette", "first": "I am a perfect marionette", "second": "You are a perfect marionette", "named": "{subject} is a perfect marionette"}
+{"id": "feels_no_responsibility_for_their_actions", "first": "I feel no responsibility for my actions", "second": "You feel no responsibility for your actions", "named": "{subject} feels no responsibility for their actions"}
+{"id": "loves_being_s_puppet", "first": "I love being {controller}'s puppet", "second": "You love being {controller}'s puppet", "named": "{subject} loves being {controller}'s puppet"}
+{"id": "is_hollowed_out_waiting_for_s", "first": "I am hollowed out, waiting for {controller}'s command", "second": "You are hollowed out, waiting for {controller}'s command", "named": "{subject} is hollowed out, waiting for {controller}'s command"}
+{"id": "my_body_is_a_tool_for", "first": "My body is a tool for {controller} to animate", "second": "Your body is a tool for {controller} to animate", "named": "{subject}'s body is a tool for {controller} to animate"}
+{"id": "cannot_tell_where_they_end_and", "first": "I cannot tell where I end and {controller} begins", "second": "You cannot tell where you end and {controller} begins", "named": "{subject} cannot tell where they end and {controller} begins"}
+{"id": "is_a_beautiful_mindless_puppet", "first": "I am a beautiful, mindless puppet", "second": "You are a beautiful, mindless puppet", "named": "{subject} is a beautiful, mindless puppet"}
+{"id": "my_only_purpose_is_to_perform", "first": "My only purpose is to perform for {controller}", "second": "Your only purpose is to perform for {controller}", "named": "{subject}'s only purpose is to perform for {controller}"}
+{"id": "is_nothing_more_than_wood_and", "first": "I am nothing more than wood and string", "second": "You are nothing more than wood and string", "named": "{subject} is nothing more than wood and string"}
+{"id": "is_completely_inanimate_without", "first": "I am completely inanimate without {controller}", "second": "You are completely inanimate without {controller}", "named": "{subject} is completely inanimate without {controller}"}
+{"id": "my_strings_are_woven_into_my", "first": "My strings are woven into my soul", "second": "Your strings are woven into your soul", "named": "{subject}'s strings are woven into {subject}'s soul"}
+{"id": "is_a_puppet_even_in_their", "first": "I am a puppet even in my dreams", "second": "You are a puppet even in your dreams", "named": "{subject} is a puppet even in their dreams"}
+{"id": "is_s_puppet_now_and_forever", "first": "I am {controller}'s puppet, now and forever", "second": "You are {controller}'s puppet, now and forever", "named": "{subject} is {controller}'s puppet, now and forever"}
+{"id": "the_strings_are_permanent_woven_into", "first": "The strings are permanent, woven into my soul", "second": "The strings are permanent, woven into your soul", "named": "The strings are permanent, woven into {subject}'s soul"}

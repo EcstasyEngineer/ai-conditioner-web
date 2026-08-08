@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "emergence", "tier": "light", "generator": {"model": "grok-4.5-build", "prompt_sha": "15319d759b95013e", "generated_at": "2026-08-08T14:32:24Z", "batch": "emergence.light.002", "reviewed": false}, "notes": "The climb back up: weight returning to the hands and feet, the room reassembling, the change carried out with the eyes as they open wide awake"}
+{"first": "My lids part for the light", "second": "Your lids part for the light", "named": "{subject}'s lids part for the light", "base_points": 45, "themes": ["emergence"]}
+{"first": "I blink once and the room clears", "second": "You blink once and the room clears", "named": "{subject} blinks once and the room clears", "base_points": 50, "themes": ["emergence"]}
+{"first": "My eyelashes unstick with a blink", "second": "Your eyelashes unstick with a blink", "named": "{subject}'s eyelashes unstick with a blink", "base_points": 55, "themes": ["emergence"]}
+{"first": "I blink the haze from my eyes", "second": "You blink the haze from your eyes", "named": "{subject} blinks the haze from {subject}'s eyes", "base_points": 60, "themes": ["emergence"]}
+{"first": "I open both eyes to steady light", "second": "You open both eyes to steady light", "named": "{subject} opens both eyes to steady light", "base_points": 65, "themes": ["emergence"]}
+{"first": "My eyes open wide and clear", "second": "Your eyes open wide and clear", "named": "{subject}'s eyes open wide and clear", "base_points": 70, "themes": ["emergence"]}
+{"first": "Bright vision fills my eyes", "second": "Bright vision fills your eyes", "named": "Bright vision fills {subject}'s eyes", "base_points": 50, "themes": ["emergence"]}
+{"first": "My focus locks on one point", "second": "Your focus locks on one point", "named": "{subject}'s focus locks on one point", "base_points": 55, "themes": ["emergence"]}
+{"first": "I look out through clear eyes", "second": "You look out through clear eyes", "named": "{subject} looks out through clear eyes", "base_points": 60, "themes": ["emergence"]}
+{"first": "My vision steadies on the wall", "second": "Your vision steadies on the wall", "named": "{subject}'s vision steadies on the wall", "base_points": 65, "themes": ["emergence"]}
+{"first": "I blink until the edges sharpen", "second": "You blink until the edges sharpen", "named": "{subject} blinks until the edges sharpen", "base_points": 55, "themes": ["emergence"]}
+{"first": "I lift closed lids into open light", "second": "You lift closed lids into open light", "named": "{subject} lifts closed lids into open light", "base_points": 70, "themes": ["emergence"]}
+{"first": "My eyes hold the room steady", "second": "Your eyes hold the room steady", "named": "{subject}'s eyes hold the room steady", "base_points": 60, "themes": ["emergence"]}
+{"first": "I blink clear and look around", "second": "You blink clear and look around", "named": "{subject} blinks clear and looks around", "base_points": 45, "themes": ["emergence"]}
+{"first": "My eyes catch the full light", "second": "Your eyes catch the full light", "named": "{subject}'s eyes catch the full light", "base_points": 70, "themes": ["emergence"]}
+{"first": "Lids lift toward open light", "second": "Lids lift toward open light", "named": "Lids lift toward open light", "base_points": 45, "themes": ["emergence"]}
+{"first": "Clear vision returns through open eyes", "second": "Clear vision returns through open eyes", "named": "Clear vision returns through open eyes", "base_points": 65, "themes": ["emergence"]}
+{"first": "Soft blinks clear the last haze", "second": "Soft blinks clear the last haze", "named": "Soft blinks clear the last haze", "base_points": 50, "themes": ["emergence"]}

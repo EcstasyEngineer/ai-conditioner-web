@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "0b69dbb56afb54f5", "generated_at": "2026-08-08T14:22:03Z", "batch": "induction.basic.001", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "My shoulders drop as I sit", "second": "Your shoulders drop as you sit", "named": "{subject}'s shoulders drop as {subject} sits", "base_points": 20, "themes": ["induction"]}
+{"first": "My out-breath runs longer than my in-breath", "second": "Your out-breath runs longer than your in-breath", "named": "{subject}'s out-breath runs longer than {subject}'s in-breath", "base_points": 30, "themes": ["induction"]}
+{"first": "My hands go heavy in my lap", "second": "Your hands go heavy in your lap", "named": "{subject}'s hands go heavy in {subject}'s lap", "base_points": 25, "themes": ["induction"]}
+{"first": "My jaw unclenches on its own", "second": "Your jaw unclenches on its own", "named": "{subject}'s jaw unclenches on its own", "base_points": 35, "themes": ["induction"]}
+{"first": "I sit down and stop holding", "second": "You sit down and stop holding", "named": "{subject} sits down and stops holding", "base_points": 40, "themes": ["induction"]}
+{"first": "My breath slows without effort", "second": "Your breath slows without effort", "named": "{subject}'s breath slows without effort", "base_points": 20, "themes": ["induction"]}
+{"first": "I let the chair take my weight", "second": "You let the chair take your weight", "named": "{subject} lets the chair take {subject}'s weight", "base_points": 30, "themes": ["induction"]}
+{"first": "My eyelids rest half closed", "second": "Your eyelids rest half closed", "named": "{subject}'s eyelids rest half closed", "base_points": 25, "themes": ["induction"]}
+{"first": "My body stays put on its own", "second": "Your body stays put on its own", "named": "{subject}'s body stays put on its own", "base_points": 35, "themes": ["induction"]}
+{"first": "I breathe out longer than I breathe in", "second": "You breathe out longer than you breathe in", "named": "{subject} breathes out longer than {subject} breathes in", "base_points": 40, "themes": ["induction"]}
+{"first": "I stop holding my body up", "second": "You stop holding your body up", "named": "{subject} stops holding {subject}'s body up", "base_points": 30, "themes": ["induction"]}
+{"first": "My weight sinks into the seat", "second": "Your weight sinks into the seat", "named": "{subject}'s weight sinks into the seat", "base_points": 25, "themes": ["induction"]}
+{"first": "I settle into the chair and stay", "second": "You settle into the chair and stay", "named": "{subject} settles into the chair and stays", "base_points": 20, "themes": ["induction"]}
+{"first": "I leave my hands still and heavy", "second": "You leave your hands still and heavy", "named": "{subject} leaves {subject}'s hands still and heavy", "base_points": 35, "themes": ["induction"]}
+{"first": "I sit still with nowhere to go", "second": "You sit still with nowhere to go", "named": "{subject} sits still with nowhere to go", "base_points": 40, "themes": ["induction"]}
+{"first": "Breath lengthens on the way out", "second": "Breath lengthens on the way out", "named": "Breath lengthens on the way out", "base_points": 25, "themes": ["induction"]}
+{"first": "Weight arrives in the shoulders", "second": "Weight arrives in the shoulders", "named": "Weight arrives in the shoulders", "base_points": 20, "themes": ["induction"]}
+{"first": "The out-breath runs longer than the in-breath", "second": "The out-breath runs longer than the in-breath", "named": "The out-breath runs longer than the in-breath", "base_points": 30, "themes": ["induction"]}

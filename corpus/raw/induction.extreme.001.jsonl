@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "extreme", "generator": {"model": "grok-4.5-build", "prompt_sha": "39784d05f827c18f", "generated_at": "2026-08-08T14:50:41Z", "batch": "induction.extreme.001", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "Nothing props me up any longer", "second": "Nothing props you up any longer", "named": "Nothing props {subject} up any longer", "base_points": 160, "themes": ["induction"]}
+{"first": "I rest where the drop bottoms out", "second": "You rest where the drop bottoms out", "named": "{subject} rests where the drop bottoms out", "base_points": 170, "themes": ["induction"]}
+{"first": "My notice thins to a single strand", "second": "Your notice thins to a single strand", "named": "{subject}'s notice thins to a single strand", "base_points": 180, "themes": ["induction"]}
+{"first": "All bracing falls away on its own", "second": "All bracing falls away on its own", "named": "All bracing falls away on its own", "base_points": 155, "themes": ["induction"]}
+{"first": "I have no pull toward returning", "second": "You have no pull toward returning", "named": "{subject} has no pull toward returning", "base_points": 185, "themes": ["induction"]}
+{"first": "I lose track of how long I've been down", "second": "You lose track of how long you've been down", "named": "{subject} loses track of how long {subject} has been down", "base_points": 175, "themes": ["induction"]}
+{"first": "My body stops sending news upward", "second": "Your body stops sending news upward", "named": "{subject}'s body stops sending news upward", "base_points": 190, "themes": ["induction"]}
+{"first": "Interest in rising simply dissolves", "second": "Interest in rising simply dissolves", "named": "Interest in rising simply dissolves", "base_points": 165, "themes": ["induction"]}
+{"first": "I keep only one thin strand of notice", "second": "You keep only one thin strand of notice", "named": "{subject} keeps only one thin strand of notice", "base_points": 200, "themes": ["induction"]}
+{"first": "I sink past every last ledge", "second": "You sink past every last ledge", "named": "{subject} sinks past every last ledge", "base_points": 195, "themes": ["induction"]}
+{"first": "Nothing in me lifts against the drop", "second": "Nothing in you lifts against the drop", "named": "Nothing in {subject} lifts against the drop", "base_points": 150, "themes": ["induction"]}
+{"first": "I leave each arriving thought unanswered", "second": "You leave each arriving thought unanswered", "named": "{subject} leaves each arriving thought unanswered", "base_points": 170, "themes": ["induction"]}
+{"first": "I forget which way leads up", "second": "You forget which way leads up", "named": "{subject} forgets which way leads up", "base_points": 180, "themes": ["induction"]}
+{"first": "The last brace lets go on its own", "second": "The last brace lets go on its own", "named": "The last brace lets go on its own", "base_points": 155, "themes": ["induction"]}
+{"first": "My mind rests on one thin line", "second": "Your mind rests on one thin line", "named": "{subject}'s mind rests on one thin line", "base_points": 185, "themes": ["induction"]}
+{"first": "I lose the urge to climb back", "second": "You lose the urge to climb back", "named": "{subject} loses the urge to climb back", "base_points": 175, "themes": ["induction"]}
+{"first": "I drop below the need to rise", "second": "You drop below the need to rise", "named": "{subject} drops below the need to rise", "base_points": 190, "themes": ["induction"]}
+{"first": "Depth keeps taking what remains of me", "second": "Depth keeps taking what remains of you", "named": "Depth keeps taking what remains of {subject}", "base_points": 200, "themes": ["induction"]}

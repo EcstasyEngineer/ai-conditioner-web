@@ -1,0 +1,4 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "suggestibility", "generator": {"model": "grok-4.5-build", "prompt_sha": "fa34f84c041cd215", "generated_at": "2026-08-08T14:26:32Z", "batch": "suggestibility.basic.002"}, "tier": "basic"}
+{"first": "New ideas press into waiting clay", "second": "New ideas press into waiting clay", "named": "New ideas press into waiting clay", "base_points": 20, "themes": ["suggestibility"]}
+{"first": "Words land and stay as given", "second": "Words land and stay as given", "named": "Words land and stay as given", "base_points": 25, "themes": ["suggestibility", "acceptance"]}
+{"first": "I take shape from each new word", "second": "You take shape from each new word", "named": "{subject} takes shape from each new word", "base_points": 30, "themes": ["suggestibility"]}

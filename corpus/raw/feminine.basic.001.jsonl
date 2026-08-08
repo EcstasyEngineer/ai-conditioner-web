@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "feminine", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "eb1620fff383448c", "generated_at": "2026-08-08T13:48:19Z", "batch": "feminine.basic.001", "reviewed": false}}
+{"first": "Grace blooms with every quiet breath", "second": "Grace blooms with every quiet breath", "named": "Grace blooms with every quiet breath", "base_points": 20, "themes": ["feminine"]}
+{"first": "My hips learn a softer sway", "second": "Your hips learn a softer sway", "named": "{subject}'s hips learn a softer sway", "base_points": 25, "themes": ["feminine"]}
+{"first": "I bloom when {controller} notices my poise", "second": "You bloom when {controller} notices your poise", "named": "{subject} blooms when {controller} notices {subject}'s poise", "base_points": 40, "themes": ["feminine", "devotion"]}
+{"first": "Elegance finds its way into my posture", "second": "Elegance finds its way into your posture", "named": "Elegance finds its way into {subject}'s posture", "base_points": 25, "themes": ["feminine"]}
+{"first": "Lace feels right against my skin", "second": "Lace feels right against your skin", "named": "Lace feels right against {subject}'s skin", "base_points": 25, "themes": ["feminine"]}
+{"first": "Femininity settles in like warm silk", "second": "Femininity settles in like warm silk", "named": "Femininity settles in like warm silk", "base_points": 25, "themes": ["feminine"]}
+{"first": "I curtsy before I notice the motion", "second": "You curtsy before you notice the motion", "named": "{subject} curtsies before {subject} notices the motion", "base_points": 30, "themes": ["feminine", "suggestibility"]}
+{"first": "Beauty rises under {controller}'s gaze", "second": "Beauty rises under {controller}'s gaze", "named": "Beauty rises under {controller}'s gaze", "base_points": 40, "themes": ["feminine"]}
+{"first": "My laugh turns sweet and musical", "second": "Your laugh turns sweet and musical", "named": "{subject}'s laugh turns sweet and musical", "base_points": 25, "themes": ["feminine"]}
+{"first": "Flowers belong in my hair now", "second": "Flowers belong in your hair now", "named": "Flowers belong in {subject}'s hair now", "base_points": 25, "themes": ["feminine"]}
+{"first": "My edges melt into softness", "second": "Your edges melt into softness", "named": "{subject}'s edges melt into softness", "base_points": 30, "themes": ["feminine"]}
+{"first": "I practice walking with pointed toes", "second": "You practice walking with pointed toes", "named": "{subject} practices walking with pointed toes", "base_points": 20, "themes": ["feminine"]}
+{"first": "{controller} shapes me toward grace", "second": "{controller} shapes you toward grace", "named": "{controller} shapes {subject} toward grace", "base_points": 40, "themes": ["feminine", "submission"]}
+{"first": "My nails beg for polish and care", "second": "Your nails beg for polish and care", "named": "{subject}'s nails beg for polish and care", "base_points": 20, "themes": ["feminine"]}
+{"first": "Elegance slips into how I sit", "second": "Elegance slips into how you sit", "named": "Elegance slips into how {subject} sits", "base_points": 30, "themes": ["feminine"]}
+{"first": "I blush when praised as lovely", "second": "You blush when praised as lovely", "named": "{subject} blushes when praised as lovely", "base_points": 30, "themes": ["feminine"]}
+{"first": "Pearls suit the woman I am becoming", "second": "Pearls suit the woman you are becoming", "named": "Pearls suit the woman {subject} is becoming", "base_points": 35, "themes": ["feminine", "acceptance"]}
+{"first": "I long to look refined for {controller}", "second": "You long to look refined for {controller}", "named": "{subject} longs to look refined for {controller}", "base_points": 35, "themes": ["feminine", "devotion"]}

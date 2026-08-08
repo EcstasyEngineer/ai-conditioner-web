@@ -1,0 +1,12 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "resistance", "tier": "light", "generator": {"model": "grok-4.5", "prompt_sha": "b0e3fcf3dbff6353", "generated_at": "2026-08-08T14:12:03Z", "batch": "resistance.light.001", "reviewed": false}}
+{"first": "Pushing back only tightens the hold", "second": "Pushing back only tightens the hold", "named": "Pushing back only tightens the hold", "base_points": 55, "themes": ["resistance"]}
+{"first": "Overwhelm swallows the fight whole", "second": "Overwhelm swallows the fight whole", "named": "Overwhelm swallows the fight whole", "base_points": 50, "themes": ["resistance"]}
+{"first": "My grip on control keeps slipping", "second": "Your grip on control keeps slipping", "named": "{subject}'s grip on control keeps slipping", "base_points": 55, "themes": ["resistance"]}
+{"first": "I lose every clash with {controller}", "second": "You lose every clash with {controller}", "named": "{subject} loses every clash with {controller}", "base_points": 65, "themes": ["resistance", "submission"]}
+{"first": "Trying to refuse only wastes my strength", "second": "Trying to refuse only wastes your strength", "named": "Trying to refuse only wastes {subject}'s strength", "base_points": 50, "themes": ["resistance"]}
+{"first": "My footing fails under pressure", "second": "Your footing fails under pressure", "named": "{subject}'s footing fails under pressure", "base_points": 50, "themes": ["resistance"]}
+{"first": "Escape closes as I reach for it", "second": "Escape closes as you reach for it", "named": "Escape closes as {subject} reaches for it", "base_points": 55, "themes": ["resistance"]}
+{"first": "{controller} pins down every move I make", "second": "{controller} pins down every move you make", "named": "{controller} pins down every move {subject} makes", "base_points": 70, "themes": ["resistance"]}
+{"first": "My pushback collapses mid-effort", "second": "Your pushback collapses mid-effort", "named": "{subject}'s pushback collapses mid-effort", "base_points": 50, "themes": ["resistance"]}
+{"first": "I have already lost this fight", "second": "You have already lost this fight", "named": "{subject} has already lost this fight", "base_points": 55, "themes": ["resistance"]}
+{"first": "No force I raise can hold", "second": "No force you raise can hold", "named": "No force {subject} raises can hold", "base_points": 50, "themes": ["resistance"]}

@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "emergence", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "690016819f5add0a", "generated_at": "2026-08-08T14:29:56Z", "batch": "emergence.basic.002", "reviewed": false}, "notes": "The climb back up: weight returning to the hands and feet, the room reassembling, the change carried out with the eyes as they open wide awake"}
+{"first": "The room edges sharpen as I breathe", "second": "The room edges sharpen as you breathe", "named": "The room edges sharpen as {subject} breathes", "base_points": 25, "themes": ["emergence"]}
+{"first": "Sound settles close around me", "second": "Sound settles close around you", "named": "Sound settles close around {subject}", "base_points": 30, "themes": ["emergence"]}
+{"first": "Color seeps in behind my lids", "second": "Color seeps in behind your lids", "named": "Color seeps in behind {subject}'s lids", "base_points": 20, "themes": ["emergence"]}
+{"first": "I hear the room take shape", "second": "You hear the room take shape", "named": "{subject} hears the room take shape", "base_points": 35, "themes": ["emergence"]}
+{"first": "Soft noises land near my ears", "second": "Soft noises land near your ears", "named": "Soft noises land near {subject}'s ears", "base_points": 40, "themes": ["emergence"]}
+{"first": "I feel the walls return into place", "second": "You feel the walls return into place", "named": "{subject} feels the walls return into place", "base_points": 25, "themes": ["emergence"]}
+{"first": "Near sounds land one by one", "second": "Near sounds land one by one", "named": "Near sounds land one by one", "base_points": 30, "themes": ["emergence"]}
+{"first": "Brightness gathers under my closed eyes", "second": "Brightness gathers under your closed eyes", "named": "Brightness gathers under {subject}'s closed eyes", "base_points": 20, "themes": ["emergence"]}
+{"first": "I sense the ceiling settle above", "second": "You sense the ceiling settle above", "named": "{subject} senses the ceiling settle above", "base_points": 35, "themes": ["emergence"]}
+{"first": "I catch the hum of the room again", "second": "You catch the hum of the room again", "named": "{subject} catches the hum of the room again", "base_points": 40, "themes": ["emergence"]}
+{"first": "The room rebuilds itself nearby", "second": "The room rebuilds itself nearby", "named": "The room rebuilds itself nearby", "base_points": 30, "themes": ["emergence"]}
+{"first": "My ears fill with nearby sound", "second": "Your ears fill with nearby sound", "named": "{subject}'s ears fill with nearby sound", "base_points": 25, "themes": ["emergence"]}
+{"first": "Distance shrinks between me and the walls", "second": "Distance shrinks between you and the walls", "named": "Distance shrinks between {subject} and the walls", "base_points": 35, "themes": ["emergence"]}
+{"first": "Warm light filters through my lids", "second": "Warm light filters through your lids", "named": "Warm light filters through {subject}'s lids", "base_points": 20, "themes": ["emergence"]}
+{"first": "I notice ordinary noise return close by", "second": "You notice ordinary noise return close by", "named": "{subject} notices ordinary noise return close by", "base_points": 40, "themes": ["emergence"]}
+{"first": "Edges of the room grow sharp", "second": "Edges of the room grow sharp", "named": "Edges of the room grow sharp", "base_points": 25, "themes": ["emergence"]}
+{"first": "The air carries sound back to me", "second": "The air carries sound back to you", "named": "The air carries sound back to {subject}", "base_points": 30, "themes": ["emergence"]}
+{"first": "I feel the nearness of the walls", "second": "You feel the nearness of the walls", "named": "{subject} feels the nearness of the walls", "base_points": 35, "themes": ["emergence"]}

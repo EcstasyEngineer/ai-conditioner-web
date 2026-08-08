@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "light", "generator": {"model": "grok-4.5-build", "prompt_sha": "0e9bb65b2bd5a86a", "generated_at": "2026-08-08T14:25:27Z", "batch": "induction.light.002", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "My gaze settles on one spot", "second": "Your gaze settles on one spot", "named": "{subject}'s gaze settles on one spot", "base_points": 50, "themes": ["induction"]}
+{"first": "I blink slower with each breath", "second": "You blink slower with each breath", "named": "{subject} blinks slower with each breath", "base_points": 55, "themes": ["induction"]}
+{"first": "My eyelids grow too heavy to lift", "second": "Your eyelids grow too heavy to lift", "named": "{subject}'s eyelids grow too heavy to lift", "base_points": 70, "themes": ["induction"]}
+{"first": "Edges go soft around the focus", "second": "Edges go soft around the focus", "named": "Edges go soft around the focus", "base_points": 60, "themes": ["induction"]}
+{"first": "One word holds my whole attention", "second": "One word holds your whole attention", "named": "One word holds {subject}'s whole attention", "base_points": 65, "themes": ["induction"]}
+{"first": "I watch one point of light", "second": "You watch one point of light", "named": "{subject} watches one point of light", "base_points": 55, "themes": ["induction"]}
+{"first": "My lids close and stay closed", "second": "Your lids close and stay closed", "named": "{subject}'s lids close and stay closed", "base_points": 70, "themes": ["induction"]}
+{"first": "Blinking slows to a stop", "second": "Blinking slows to a stop", "named": "Blinking slows to a stop", "base_points": 65, "themes": ["induction"]}
+{"first": "I fix on one spot and stay", "second": "You fix on one spot and stay", "named": "{subject} fixes on one spot and stays", "base_points": 50, "themes": ["induction"]}
+{"first": "My vision shrinks to a pinprick", "second": "Your vision shrinks to a pinprick", "named": "{subject}'s vision shrinks to a pinprick", "base_points": 60, "themes": ["induction"]}
+{"first": "The room edges blur as I look", "second": "The room edges blur as you look", "named": "The room edges blur as {subject} looks", "base_points": 55, "themes": ["induction"]}
+{"first": "My next blink lasts longer", "second": "Your next blink lasts longer", "named": "{subject}'s next blink lasts longer", "base_points": 45, "themes": ["induction"]}
+{"first": "I let both lids stay shut", "second": "You let both lids stay shut", "named": "{subject} lets both lids stay shut", "base_points": 70, "themes": ["induction"]}
+{"first": "Focus shrinks to a single point", "second": "Focus shrinks to a single point", "named": "Focus shrinks to a single point", "base_points": 60, "themes": ["induction"]}
+{"first": "I lose the edges of the room", "second": "You lose the edges of the room", "named": "{subject} loses the edges of the room", "base_points": 65, "themes": ["induction"]}
+{"first": "My eyes rest on one word", "second": "Your eyes rest on one word", "named": "{subject}'s eyes rest on one word", "base_points": 50, "themes": ["induction"]}
+{"first": "My lids drag down and close", "second": "Your lids drag down and close", "named": "{subject}'s lids drag down and close", "base_points": 65, "themes": ["induction"]}
+{"first": "I watch until the world softens", "second": "You watch until the world softens", "named": "{subject} watches until the world softens", "base_points": 55, "themes": ["induction"]}

@@ -1,0 +1,3 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "resistance", "tier": "extreme", "generator": {"model": "grok-4.5", "prompt_sha": "647e5dde40e1c2bb", "generated_at": "2026-08-08T14:07:38Z", "batch": "resistance.extreme.002", "reviewed": false}}
+{"first": "I push and feel {controller}'s hold become irreversible", "second": "You push and feel {controller}'s hold become irreversible", "named": "{subject} pushes and feels {controller}'s hold become irreversible", "base_points": 185, "themes": ["resistance"]}
+{"first": "My fight against {controller} dies permanently mid-struggle", "second": "Your fight against {controller} dies permanently mid-struggle", "named": "{subject}'s fight against {controller} dies permanently mid-struggle", "base_points": 175, "themes": ["resistance"]}

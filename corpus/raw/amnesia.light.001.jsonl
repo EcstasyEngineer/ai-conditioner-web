@@ -1,0 +1,17 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "amnesia", "tier": "light", "generator": {"model": "grok-4.5-build", "prompt_sha": "f71dc015bdb81878", "generated_at": "2026-08-08T13:57:27Z", "batch": "amnesia.light.001"}}
+{"first": "Soft fog rolls between then and now", "second": "Soft fog rolls between then and now", "named": "Soft fog rolls between then and now", "base_points": 50, "themes": ["amnesia"]}
+{"first": "I lose the shape of an hour in soft fog", "second": "You lose the shape of an hour in soft fog", "named": "{subject} loses the shape of an hour in soft fog", "base_points": 55, "themes": ["amnesia"]}
+{"first": "Cool haze settles over my recent thoughts", "second": "Cool haze settles over your recent thoughts", "named": "Cool haze settles over {subject}'s recent thoughts", "base_points": 45, "themes": ["amnesia"]}
+{"first": "Around {controller} my yesterdays go soft", "second": "Around {controller} your yesterdays go soft", "named": "Around {controller} {subject}'s yesterdays go soft", "base_points": 60, "themes": ["amnesia"]}
+{"first": "Edges of the day smear into gray", "second": "Edges of the day smear into gray", "named": "Edges of the day smear into gray", "base_points": 45, "themes": ["amnesia"]}
+{"first": "I welcome the blank where yesterday sat", "second": "You welcome the blank where yesterday sat", "named": "{subject} welcomes the blank where yesterday sat", "base_points": 65, "themes": ["amnesia", "blank", "acceptance"]}
+{"first": "My grip on the week loosens gently", "second": "Your grip on the week loosens gently", "named": "{subject}'s grip on the week loosens gently", "base_points": 50, "themes": ["amnesia"]}
+{"first": "{controller}'s voice softens the trail behind me", "second": "{controller}'s voice softens the trail behind you", "named": "{controller}'s voice softens the trail behind {subject}", "base_points": 70, "themes": ["amnesia"]}
+{"first": "Names loosen and float free", "second": "Names loosen and float free", "named": "Names loosen and float free", "base_points": 55, "themes": ["amnesia"]}
+{"first": "I breathe and a detail goes missing", "second": "You breathe and a detail goes missing", "named": "{subject} breathes and a detail goes missing", "base_points": 50, "themes": ["amnesia"]}
+{"first": "When I turn back, last night softens", "second": "When you turn back, last night softens", "named": "When {subject} turns back, last night softens", "base_points": 45, "themes": ["amnesia"]}
+{"first": "A name leaves only cool air in my palm", "second": "A name leaves only cool air in your palm", "named": "A name leaves only cool air in {subject}'s palm", "base_points": 60, "themes": ["amnesia"]}
+{"first": "My earlier steps sink into soft haze", "second": "Your earlier steps sink into soft haze", "named": "{subject}'s earlier steps sink into soft haze", "base_points": 50, "themes": ["amnesia"]}
+{"first": "Mist pools in the gaps of my day", "second": "Mist pools in the gaps of your day", "named": "Mist pools in the gaps of {subject}'s day", "base_points": 55, "themes": ["amnesia"]}
+{"first": "I prefer the fog to the weight of remembering", "second": "You prefer the fog to the weight of remembering", "named": "{subject} prefers the fog to the weight of remembering", "base_points": 55, "themes": ["amnesia", "acceptance"]}
+{"first": "Softness takes the path I just walked", "second": "Softness takes the path you just walked", "named": "Softness takes the path {subject} just walked", "base_points": 55, "themes": ["amnesia"]}

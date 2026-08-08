@@ -1,0 +1,21 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "puppet", "tier": "basic", "generator": {"model": "grok-4.5", "prompt_sha": "061a7ab8758b014e", "generated_at": "2026-08-08T14:09:57Z", "batch": "puppet.basic.001", "reviewed": false}}
+{"first": "My wrists lift on invisible strings", "second": "Your wrists lift on invisible strings", "named": "{subject}'s wrists lift on invisible strings", "base_points": 25, "themes": ["puppet"]}
+{"first": "My wooden legs step before I choose", "second": "Your wooden legs step before you choose", "named": "{subject}'s wooden legs step before {subject} chooses", "base_points": 30, "themes": ["puppet"]}
+{"first": "I hang limp between the tugs", "second": "You hang limp between the tugs", "named": "{subject} hangs limp between the tugs", "base_points": 25, "themes": ["puppet"]}
+{"first": "My mouth opens when the string pulls", "second": "Your mouth opens when the string pulls", "named": "{subject}'s mouth opens when the string pulls", "base_points": 30, "themes": ["puppet"]}
+{"first": "Strings walk me across the floor", "second": "Strings walk you across the floor", "named": "Strings walk {subject} across the floor", "base_points": 30, "themes": ["puppet"]}
+{"first": "Invisible strings lift the next limb", "second": "Invisible strings lift the next limb", "named": "Invisible strings lift the next limb", "base_points": 20, "themes": ["puppet"]}
+{"first": "I watch my arm rise on a thread", "second": "You watch your arm rise on a thread", "named": "{subject} watches the arm rise on a thread", "base_points": 30, "themes": ["puppet"]}
+{"first": "My hollow chest moves when pulled", "second": "Your hollow chest moves when pulled", "named": "{subject}'s hollow chest moves when pulled", "base_points": 25, "themes": ["puppet"]}
+{"first": "I speak only as the strings dictate", "second": "You speak only as the strings dictate", "named": "{subject} speaks only as the strings dictate", "base_points": 30, "themes": ["puppet"]}
+{"first": "My knees bend on a distant tug", "second": "Your knees bend on a distant tug", "named": "{subject}'s knees bend on a distant tug", "base_points": 25, "themes": ["puppet"]}
+{"first": "I sway when the strings go slack", "second": "You sway when the strings go slack", "named": "{subject} sways when the strings go slack", "base_points": 25, "themes": ["puppet"]}
+{"first": "{controller}'s strings guide my next step", "second": "{controller}'s strings guide your next step", "named": "{controller}'s strings guide {subject}'s next step", "base_points": 40, "themes": ["puppet"]}
+{"first": "Strings draw a gesture from hollow wood", "second": "Strings draw a gesture from hollow wood", "named": "Strings draw a gesture from hollow wood", "base_points": 20, "themes": ["puppet"]}
+{"first": "My head tilts on a loose joint", "second": "Your head tilts on a loose joint", "named": "{subject}'s head tilts on a loose joint", "base_points": 25, "themes": ["puppet"]}
+{"first": "I dangle until the next pull arrives", "second": "You dangle until the next pull arrives", "named": "{subject} dangles until the next pull arrives", "base_points": 30, "themes": ["puppet"]}
+{"first": "Marionette joints click into place", "second": "Marionette joints click into place", "named": "Marionette joints click into place", "base_points": 20, "themes": ["puppet"]}
+{"first": "My fingers curl on each tug", "second": "Your fingers curl on each tug", "named": "{subject}'s fingers curl on each tug", "base_points": 25, "themes": ["puppet"]}
+{"first": "My elbows rise without my permission", "second": "Your elbows rise without your permission", "named": "{subject}'s elbows rise without permission", "base_points": 30, "themes": ["puppet"]}
+{"first": "I watch my foot place itself carefully", "second": "You watch your foot place itself carefully", "named": "{subject} watches their foot place itself carefully", "base_points": 30, "themes": ["puppet"]}
+{"first": "{controller}'s threads turn my wrist", "second": "{controller}'s threads turn your wrist", "named": "{controller}'s threads turn {subject}'s wrist", "base_points": 40, "themes": ["puppet"]}

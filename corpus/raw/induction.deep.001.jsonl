@@ -1,0 +1,17 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "deep", "generator": {"model": "grok-4.5-build", "prompt_sha": "238a4cbf2a058d3c", "generated_at": "2026-08-08T14:47:18Z", "batch": "induction.deep.001", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "I have no sense of how long", "second": "You have no sense of how long", "named": "{subject} has no sense of how long", "base_points": 120, "themes": ["induction"]}
+{"first": "I hear words and form no answer", "second": "You hear words and form no answer", "named": "{subject} hears words and forms no answer", "base_points": 130, "themes": ["induction"]}
+{"first": "I lose track of both hands", "second": "You lose track of both hands", "named": "{subject} loses track of both hands", "base_points": 110, "themes": ["induction"]}
+{"first": "My body stops sending any news", "second": "Your body stops sending any news", "named": "{subject}'s body stops sending any news", "base_points": 135, "themes": ["induction"]}
+{"first": "Nothing answers the words that arrive", "second": "Nothing answers the words that arrive", "named": "Nothing answers the words that arrive", "base_points": 140, "themes": ["induction"]}
+{"first": "I sink past any count of time", "second": "You sink past any count of time", "named": "{subject} sinks past any count of time", "base_points": 145, "themes": ["induction"]}
+{"first": "I leave the body map behind", "second": "You leave the body map behind", "named": "{subject} leaves the body map behind", "base_points": 125, "themes": ["induction"]}
+{"first": "I hear each word and stay silent inside", "second": "You hear each word and stay silent inside", "named": "{subject} hears each word and stays silent inside", "base_points": 145, "themes": ["induction"]}
+{"first": "I keep dropping with no surface left", "second": "You keep dropping with no surface left", "named": "{subject} keeps dropping with no surface left", "base_points": 140, "themes": ["induction"]}
+{"first": "Time falls away from the drop", "second": "Time falls away from the drop", "named": "Time falls away from the drop", "base_points": 120, "themes": ["induction"]}
+{"first": "My arms go missing from awareness", "second": "Your arms go missing from awareness", "named": "{subject}'s arms go missing from awareness", "base_points": 130, "themes": ["induction"]}
+{"first": "I stay far under and keep going", "second": "You stay far under and keep going", "named": "{subject} stays far under and keeps going", "base_points": 135, "themes": ["induction"]}
+{"first": "I form no reply when the words land", "second": "You form no reply when the words land", "named": "{subject} forms no reply when the words land", "base_points": 125, "themes": ["induction"]}
+{"first": "I forget where the body ends", "second": "You forget where the body ends", "named": "{subject} forgets where the body ends", "base_points": 110, "themes": ["induction"]}
+{"first": "My body stops checking in", "second": "Your body stops checking in", "named": "{subject}'s body stops checking in", "base_points": 140, "themes": ["induction"]}
+{"first": "The drop keeps opening underfoot", "second": "The drop keeps opening underfoot", "named": "The drop keeps opening underfoot", "base_points": 125, "themes": ["induction"]}

@@ -1,0 +1,18 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "acceptance", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "1da810c864638a95", "generated_at": "2026-08-08T14:20:33Z", "batch": "acceptance.basic.001", "reviewed": false}}
+{"first": "Tension unknots under calm attention", "second": "Tension unknots under calm attention", "named": "Tension unknots under calm attention", "base_points": 20, "themes": ["acceptance"]}
+{"first": "Softness seeps into every clenched place", "second": "Softness seeps into every clenched place", "named": "Softness seeps into every clenched place", "base_points": 20, "themes": ["acceptance"]}
+{"first": "My shoulders drop on the next exhale", "second": "Your shoulders drop on the next exhale", "named": "{subject}'s shoulders drop on the next exhale", "base_points": 30, "themes": ["acceptance"]}
+{"first": "I let the next instruction land", "second": "You let the next instruction land", "named": "{subject} lets the next instruction land", "base_points": 30, "themes": ["acceptance", "suggestibility"]}
+{"first": "Doubt thins into quiet agreement within me", "second": "Doubt thins into quiet agreement within you", "named": "Doubt thins into quiet agreement within {subject}", "base_points": 30, "themes": ["acceptance"]}
+{"first": "Giving in feels natural to me", "second": "Giving in feels natural to you", "named": "Giving in feels natural to {subject}", "base_points": 25, "themes": ["acceptance"]}
+{"first": "Bracing falls away inside me", "second": "Bracing falls away inside you", "named": "Bracing falls away inside {subject}", "base_points": 30, "themes": ["acceptance"]}
+{"first": "Control slips free from my hands", "second": "Control slips free from your hands", "named": "Control slips free from {subject}'s hands", "base_points": 30, "themes": ["acceptance"]}
+{"first": "Permission settles over me like ease", "second": "Permission settles over you like ease", "named": "Permission settles over {subject} like ease", "base_points": 20, "themes": ["acceptance"]}
+{"first": "{controller}'s lead lands easy in me", "second": "{controller}'s lead lands easy in you", "named": "{controller}'s lead lands easy in {subject}", "base_points": 35, "themes": ["acceptance", "obedience"]}
+{"first": "Following {controller} soothes my thoughts", "second": "Following {controller} soothes your thoughts", "named": "Following {controller} soothes {subject}'s thoughts", "base_points": 35, "themes": ["acceptance", "obedience"]}
+{"first": "The urge to fight drains out of me", "second": "The urge to fight drains out of you", "named": "The urge to fight drains out of {subject}", "base_points": 30, "themes": ["acceptance"]}
+{"first": "Yes rises in me without effort", "second": "Yes rises in you without effort", "named": "Yes rises in {subject} without effort", "base_points": 25, "themes": ["acceptance"]}
+{"first": "Requests find soft room in my mind", "second": "Requests find soft room in your mind", "named": "Requests find soft room in {subject}'s mind", "base_points": 30, "themes": ["acceptance", "suggestibility"]}
+{"first": "Going along brings me simple relief", "second": "Going along brings you simple relief", "named": "Going along brings {subject} simple relief", "base_points": 20, "themes": ["acceptance"]}
+{"first": "Barriers thin until I stop holding", "second": "Barriers thin until you stop holding", "named": "Barriers thin until {subject} stops holding", "base_points": 30, "themes": ["acceptance"]}
+{"first": "Warmth loosens every tight hold", "second": "Warmth loosens every tight hold", "named": "Warmth loosens every tight hold", "base_points": 20, "themes": ["acceptance"]}

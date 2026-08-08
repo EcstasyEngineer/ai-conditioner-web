@@ -1,0 +1,11 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "bimbo", "tier": "light", "generator": {"model": "grok-4.5-build", "prompt_sha": "7897600ed7bc062b", "generated_at": "2026-08-08T13:47:01Z", "batch": "bimbo.light.001"}}
+{"first": "Thinking loosens into pink fluff", "second": "Thinking loosens into pink fluff", "named": "Thinking loosens into pink fluff", "base_points": 50, "themes": ["bimbo"]}
+{"first": "Pink sparkles tickle hard thoughts soft", "second": "Pink sparkles tickle hard thoughts soft", "named": "Pink sparkles tickle hard thoughts soft", "base_points": 45, "themes": ["bimbo"]}
+{"first": "{controller} paints my thoughts soft and pink", "second": "{controller} paints your thoughts soft and pink", "named": "{controller} paints {subject}'s thoughts soft and pink", "base_points": 65, "themes": ["bimbo"]}
+{"first": "I hum instead of working things out", "second": "You hum instead of working things out", "named": "{subject} hums instead of working things out", "base_points": 50, "themes": ["bimbo"]}
+{"first": "My worries pop into harmless little bubbles", "second": "Your worries pop into harmless little bubbles", "named": "{subject}'s worries pop into harmless little bubbles", "base_points": 55, "themes": ["bimbo"]}
+{"first": "My thoughts shrink into cute little puffs", "second": "Your thoughts shrink into cute little puffs", "named": "{subject}'s thoughts shrink into cute little puffs", "base_points": 60, "themes": ["bimbo"]}
+{"first": "I bounce along with whatever {controller} says", "second": "You bounce along with whatever {controller} says", "named": "{subject} bounces along with whatever {controller} says", "base_points": 70, "themes": ["bimbo", "obedience"]}
+{"first": "Pretty clouds roll over my lists and plans", "second": "Pretty clouds roll over your lists and plans", "named": "Pretty clouds roll over {subject}'s lists and plans", "base_points": 55, "themes": ["bimbo"]}
+{"first": "{controller}'s voice leaves me fizzy and light", "second": "{controller}'s voice leaves you fizzy and light", "named": "{controller}'s voice leaves {subject} fizzy and light", "base_points": 70, "themes": ["bimbo"]}
+{"first": "I find floating prettier than figuring", "second": "You find floating prettier than figuring", "named": "{subject} finds floating prettier than figuring", "base_points": 45, "themes": ["bimbo"]}

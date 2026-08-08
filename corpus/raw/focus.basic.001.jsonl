@@ -1,0 +1,18 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "focus", "tier": "basic", "generator": {"model": "grok-4.5", "prompt_sha": "8417f8310c8747c7", "generated_at": "2026-08-08T14:06:48Z", "batch": "focus.basic.001", "reviewed": false}}
+{"first": "Everything else fades to static", "second": "Everything else fades to static", "named": "Everything else fades to static", "base_points": 20, "themes": ["focus"]}
+{"first": "All directions fold into the center", "second": "All directions fold into the center", "named": "All directions fold into the center", "base_points": 25, "themes": ["focus"]}
+{"first": "Noise collapses into a soft hush", "second": "Noise collapses into a soft hush", "named": "Noise collapses into a soft hush", "base_points": 20, "themes": ["focus"]}
+{"first": "My senses gather into a tight circle", "second": "Your senses gather into a tight circle", "named": "{subject}'s senses gather into a tight circle", "base_points": 30, "themes": ["focus"]}
+{"first": "A soft tunnel of attention forms around me", "second": "A soft tunnel of attention forms around you", "named": "A soft tunnel of attention forms around {subject}", "base_points": 30, "themes": ["focus"]}
+{"first": "My world narrows to a thin corridor of notice", "second": "Your world narrows to a thin corridor of notice", "named": "{subject}'s world narrows to a thin corridor of notice", "base_points": 35, "themes": ["focus"]}
+{"first": "My whole mind rests on one small place", "second": "Your whole mind rests on one small place", "named": "{subject}'s whole mind rests on one small place", "base_points": 20, "themes": ["focus"]}
+{"first": "Each breath pulls my attention closer in", "second": "Each breath pulls your attention closer in", "named": "Each breath pulls {subject}'s attention closer in", "base_points": 25, "themes": ["focus"]}
+{"first": "My thoughts line up behind a single thread", "second": "Your thoughts line up behind a single thread", "named": "{subject}'s thoughts line up behind a single thread", "base_points": 30, "themes": ["focus"]}
+{"first": "I feel the frame of the room fall away", "second": "You feel the frame of the room fall away", "named": "{subject} feels the frame of the room fall away", "base_points": 35, "themes": ["focus"]}
+{"first": "Peripheral details melt from my view", "second": "Peripheral details melt from your view", "named": "Peripheral details melt from {subject}'s view", "base_points": 25, "themes": ["focus"]}
+{"first": "Background chatter drifts out of my reach", "second": "Background chatter drifts out of your reach", "named": "Background chatter drifts out of {subject}'s reach", "base_points": 25, "themes": ["focus"]}
+{"first": "My attention pins to one small mark", "second": "Your attention pins to one small mark", "named": "{subject}'s attention pins to one small mark", "base_points": 30, "themes": ["focus"]}
+{"first": "{controller}'s words pull my attention tight", "second": "{controller}'s words pull your attention tight", "named": "{controller}'s words pull {subject}'s attention tight", "base_points": 40, "themes": ["focus", "suggestibility"]}
+{"first": "I lean into {controller}'s words with easy care", "second": "You lean into {controller}'s words with easy care", "named": "{subject} leans into {controller}'s words with easy care", "base_points": 40, "themes": ["focus", "submission"]}
+{"first": "I settle gently onto one clear cue", "second": "You settle gently onto one clear cue", "named": "{subject} settles gently onto one clear cue", "base_points": 30, "themes": ["focus", "suggestibility"]}
+{"first": "Soft edges of the world go dim for me", "second": "Soft edges of the world go dim for you", "named": "Soft edges of the world go dim for {subject}", "base_points": 25, "themes": ["focus"]}

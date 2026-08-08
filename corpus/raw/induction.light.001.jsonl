@@ -1,0 +1,18 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "light", "generator": {"model": "grok-4.5-build", "prompt_sha": "d30e121044cb0ac1", "generated_at": "2026-08-08T14:24:39Z", "batch": "induction.light.001", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "My arms grow heavy on the armrests", "second": "Your arms grow heavy on the armrests", "named": "{subject}'s arms grow heavy on the armrests", "base_points": 50, "themes": ["induction"]}
+{"first": "My legs settle dense and still", "second": "Your legs settle dense and still", "named": "{subject}'s legs settle dense and still", "base_points": 55, "themes": ["induction"]}
+{"first": "My whole body presses into the chair", "second": "Your whole body presses into the chair", "named": "{subject}'s whole body presses into the chair", "base_points": 60, "themes": ["induction"]}
+{"first": "My limbs grow too heavy to lift", "second": "Your limbs grow too heavy to lift", "named": "{subject}'s limbs grow too heavy to lift", "base_points": 70, "themes": ["induction"]}
+{"first": "My hips drop heavy and stay", "second": "Your hips drop heavy and stay", "named": "{subject}'s hips drop heavy and stay", "base_points": 45, "themes": ["induction"]}
+{"first": "My elbows rest heavy at my sides", "second": "Your elbows rest heavy at your sides", "named": "{subject}'s elbows rest heavy at {subject}'s sides", "base_points": 55, "themes": ["induction"]}
+{"first": "My thighs go thick and quiet", "second": "Your thighs go thick and quiet", "named": "{subject}'s thighs go thick and quiet", "base_points": 50, "themes": ["induction"]}
+{"first": "My back spreads wide into the seat", "second": "Your back spreads wide into the seat", "named": "{subject}'s back spreads wide into the seat", "base_points": 65, "themes": ["induction"]}
+{"first": "My knees rest thick against the chair", "second": "Your knees rest thick against the chair", "named": "{subject}'s knees rest thick against the chair", "base_points": 45, "themes": ["induction"]}
+{"first": "Heaviness fills both of my legs", "second": "Heaviness fills both of your legs", "named": "Heaviness fills both of {subject}'s legs", "base_points": 60, "themes": ["induction"]}
+{"first": "I let every limb go dense", "second": "You let every limb go dense", "named": "{subject} lets every limb go dense", "base_points": 65, "themes": ["induction"]}
+{"first": "Pressure spreads through my seat bones", "second": "Pressure spreads through your seat bones", "named": "Pressure spreads through {subject}'s seat bones", "base_points": 55, "themes": ["induction"]}
+{"first": "My ankles rest heavy and still", "second": "Your ankles rest heavy and still", "named": "{subject}'s ankles rest heavy and still", "base_points": 50, "themes": ["induction"]}
+{"first": "My torso sags into the cushion", "second": "Your torso sags into the cushion", "named": "{subject}'s torso sags into the cushion", "base_points": 60, "themes": ["induction"]}
+{"first": "Weight pools down through the limbs", "second": "Weight pools down through the limbs", "named": "Weight pools down through the limbs", "base_points": 55, "themes": ["induction"]}
+{"first": "Arms and legs thicken with each breath", "second": "Arms and legs thicken with each breath", "named": "Arms and legs thicken with each breath", "base_points": 65, "themes": ["induction"]}
+{"first": "The seat carries the full load of the body", "second": "The seat carries the full load of the body", "named": "The seat carries the full load of the body", "base_points": 70, "themes": ["induction"]}

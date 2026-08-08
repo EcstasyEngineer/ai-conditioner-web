@@ -1,0 +1,2 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "suggestibility", "generator": {"model": "grok-4.5-build", "prompt_sha": "b772c4a9b1e03d96", "generated_at": "2026-08-08T14:29:27Z", "batch": "suggestibility.moderate.002"}, "tier": "moderate"}
+{"first": "Soft thinking yields under each new command", "second": "Soft thinking yields under each new command", "named": "Soft thinking yields under each new command", "base_points": 75, "themes": ["suggestibility"]}

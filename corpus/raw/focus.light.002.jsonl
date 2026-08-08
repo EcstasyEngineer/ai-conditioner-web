@@ -1,0 +1,3 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "focus", "tier": "light", "generator": {"model": "grok-4.5", "prompt_sha": "abeaa6d635294d8e", "generated_at": "2026-08-08T14:05:16Z", "batch": "focus.light.002", "reviewed": false}}
+{"first": "Loose threads of thought drop away", "second": "Loose threads of thought drop away", "named": "Loose threads of thought drop away", "base_points": 45, "themes": ["focus"]}
+{"first": "The soft edges of the room blur for me", "second": "The soft edges of the room blur for you", "named": "The soft edges of the room blur for {subject}", "base_points": 50, "themes": ["focus"]}

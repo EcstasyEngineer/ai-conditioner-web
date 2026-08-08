@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "emergence", "tier": "light", "generator": {"model": "grok-4.5-build", "prompt_sha": "b54b702f2abd5fab", "generated_at": "2026-08-08T14:31:17Z", "batch": "emergence.light.001", "reviewed": false}, "notes": "The climb back up: weight returning to the hands and feet, the room reassembling, the change carried out with the eyes as they open wide awake"}
+{"first": "I climb one number higher", "second": "You climb one number higher", "named": "{subject} climbs one number higher", "base_points": 45, "themes": ["emergence"]}
+{"first": "My arms tingle as I climb", "second": "Your arms tingle as you climb", "named": "{subject}'s arms tingle as {subject} climbs", "base_points": 50, "themes": ["emergence"]}
+{"first": "I rise through each number", "second": "You rise through each number", "named": "{subject} rises through each number", "base_points": 55, "themes": ["emergence"]}
+{"first": "A stretch rolls through my shoulders", "second": "A stretch rolls through your shoulders", "named": "A stretch rolls through {subject}'s shoulders", "base_points": 60, "themes": ["emergence"]}
+{"first": "My legs wake as I climb", "second": "Your legs wake as you climb", "named": "{subject}'s legs wake as {subject} climbs", "base_points": 55, "themes": ["emergence"]}
+{"first": "I push up toward the surface", "second": "You push up toward the surface", "named": "{subject} pushes up toward the surface", "base_points": 65, "themes": ["emergence"]}
+{"first": "Warmth pours down my legs", "second": "Warmth pours down your legs", "named": "Warmth pours down {subject}'s legs", "base_points": 50, "themes": ["emergence"]}
+{"first": "I stretch long through my spine", "second": "You stretch long through your spine", "named": "{subject} stretches long through {subject}'s spine", "base_points": 60, "themes": ["emergence"]}
+{"first": "My lids lighten as I climb", "second": "Your lids lighten as you climb", "named": "{subject}'s lids lighten as {subject} climbs", "base_points": 70, "themes": ["emergence"]}
+{"first": "I climb toward the light", "second": "You climb toward the light", "named": "{subject} climbs toward the light", "base_points": 65, "themes": ["emergence"]}
+{"first": "I feel the climb along both legs", "second": "You feel the climb along both legs", "named": "{subject} feels the climb along both legs", "base_points": 55, "themes": ["emergence"]}
+{"first": "I draw closer to the surface", "second": "You draw closer to the surface", "named": "{subject} draws closer to the surface", "base_points": 70, "themes": ["emergence"]}
+{"first": "I count up through the layers", "second": "You count up through the layers", "named": "{subject} counts up through the layers", "base_points": 50, "themes": ["emergence"]}
+{"first": "I lengthen through a full stretch", "second": "You lengthen through a full stretch", "named": "{subject} lengthens through a full stretch", "base_points": 60, "themes": ["emergence"]}
+{"first": "I surface one layer higher", "second": "You surface one layer higher", "named": "{subject} surfaces one layer higher", "base_points": 45, "themes": ["emergence"]}
+{"first": "Counting climbs toward the surface", "second": "Counting climbs toward the surface", "named": "Counting climbs toward the surface", "base_points": 65, "themes": ["emergence"]}
+{"first": "Sensation floods up the arms", "second": "Sensation floods up the arms", "named": "Sensation floods up the arms", "base_points": 50, "themes": ["emergence"]}
+{"first": "A stretch runs through the body", "second": "A stretch runs through the body", "named": "A stretch runs through the body", "base_points": 55, "themes": ["emergence"]}

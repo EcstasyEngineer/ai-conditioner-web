@@ -1,0 +1,20 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "exhibition", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "43162fcf3c4524d6", "generated_at": "2026-08-08T13:43:31Z", "batch": "exhibition.basic.001", "reviewed": false}}
+{"first": "Pride surges under open eyes", "second": "Pride surges under open eyes", "named": "Pride surges under open eyes", "base_points": 20, "themes": ["exhibition"]}
+{"first": "Secrets itch until they spill", "second": "Secrets itch until they spill", "named": "Secrets itch until they spill", "base_points": 25, "themes": ["exhibition"]}
+{"first": "Heat climbs with every stare", "second": "Heat climbs with every stare", "named": "Heat climbs with every stare", "base_points": 20, "themes": ["exhibition"]}
+{"first": "I blush and still step forward", "second": "You blush and still step forward", "named": "{subject} blushes and still steps forward", "base_points": 25, "themes": ["exhibition"]}
+{"first": "I light up under a stranger's stare", "second": "You light up under a stranger's stare", "named": "{subject} lights up under a stranger's stare", "base_points": 30, "themes": ["exhibition"]}
+{"first": "My body poses when someone looks", "second": "Your body poses when someone looks", "named": "{subject}'s body poses when someone looks", "base_points": 30, "themes": ["exhibition"]}
+{"first": "I reveal more than I mean to", "second": "You reveal more than you mean to", "named": "{subject} reveals more than {subject} means to", "base_points": 25, "themes": ["exhibition"]}
+{"first": "I like how eyes linger here", "second": "You like how eyes linger here", "named": "{subject} likes how eyes linger here", "base_points": 35, "themes": ["exhibition"]}
+{"first": "I wear {controller}'s choices in plain sight", "second": "You wear {controller}'s choices in plain sight", "named": "{subject} wears {controller}'s choices in plain sight", "base_points": 40, "themes": ["exhibition", "obedience"]}
+{"first": "I can't hide the flush on my face", "second": "You can't hide the flush on your face", "named": "{subject} can't hide the flush on {subject}'s face", "base_points": 30, "themes": ["exhibition"]}
+{"first": "I drop hints so others ask", "second": "You drop hints so others ask", "named": "{subject} drops hints so others ask", "base_points": 35, "themes": ["exhibition"]}
+{"first": "I leave {controller}'s mark where others can find it", "second": "You leave {controller}'s mark where others can find it", "named": "{subject} leaves {controller}'s mark where others can find it", "base_points": 40, "themes": ["exhibition", "devotion"]}
+{"first": "I glow when someone catches on", "second": "You glow when someone catches on", "named": "{subject} glows when someone catches on", "base_points": 25, "themes": ["exhibition"]}
+{"first": "I tell the truth where others hear", "second": "You tell the truth where others hear", "named": "{subject} tells the truth where others hear", "base_points": 30, "themes": ["exhibition"]}
+{"first": "I tilt so the room can see", "second": "You tilt so the room can see", "named": "{subject} tilts so the room can see", "base_points": 20, "themes": ["exhibition"]}
+{"first": "I smile knowing {controller} lets them look", "second": "You smile knowing {controller} lets them look", "named": "{subject} smiles knowing {controller} lets them look", "base_points": 40, "themes": ["exhibition", "devotion"]}
+{"first": "My changes sit bare for anyone nearby", "second": "Your changes sit bare for anyone nearby", "named": "{subject}'s changes sit bare for anyone nearby", "base_points": 35, "themes": ["exhibition", "acceptance"]}
+{"first": "I say it loud enough for the room", "second": "You say it loud enough for the room", "named": "{subject} says it loud enough for the room", "base_points": 25, "themes": ["exhibition"]}
+{"first": "I crave another set of eyes", "second": "You crave another set of eyes", "named": "{subject} craves another set of eyes", "base_points": 30, "themes": ["exhibition"]}

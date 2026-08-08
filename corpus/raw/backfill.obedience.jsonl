@@ -1,0 +1,28 @@
+{"schema": "hypnoapp.corpus.backfill.v1", "theme": "obedience", "generator": {"model": "grok-4.5", "prompt_sha": "7171d69ca38764f8", "generated_at": "2026-08-08T13:54:17Z", "batch": "backfill.obedience", "reviewed": false}}
+{"id": "yes_is_my_favorite_word", "first": "Yes is my favorite word", "second": "Yes is your favorite word", "named": "Yes is {subject}'s favorite word"}
+{"id": "commands_drop_straight_into_action", "first": "Commands drop straight into action", "second": "Commands drop straight into action", "named": "Commands drop straight into action"}
+{"id": "reacts_before_thinking", "first": "I react before thinking", "second": "You react before thinking", "named": "{subject} reacts before thinking"}
+{"id": "my_body_moves_when_speaks", "first": "My body moves when {controller} speaks", "second": "Your body moves when {controller} speaks", "named": "{subject}'s body moves when {controller} speaks"}
+{"id": "obeying_comes_as_naturally_as_breathing", "first": "Obeying comes as naturally as breathing", "second": "Obeying comes as naturally as breathing", "named": "Obeying comes as naturally as breathing"}
+{"id": "my_body_syncs_to_s_will", "first": "My body syncs to {controller}'s will", "second": "Your body syncs to {controller}'s will", "named": "{subject}'s body syncs to {controller}'s will"}
+{"id": "responding_quickly_excites_me", "first": "Responding quickly excites me", "second": "Responding quickly excites you", "named": "Responding quickly excites {subject}"}
+{"id": "i_thrive_on_clear_directives", "first": "I thrive on clear directives", "second": "You thrive on clear directives", "named": "{subject} thrives on clear directives"}
+{"id": "obedience_flows_through_me_instinctively", "first": "Obedience flows through me instinctively", "second": "Obedience flows through you instinctively", "named": "Obedience flows through {subject} instinctively"}
+{"id": "snaps_to_attention_at_s_voice", "first": "I snap to attention at {controller}'s voice", "second": "You snap to attention at {controller}'s voice", "named": "{subject} snaps to attention at {controller}'s voice"}
+{"id": "orders_travel_straight_from_ear_to", "first": "Orders travel straight from ear to action", "second": "Orders travel straight from ear to action", "named": "Orders travel straight from ear to action"}
+{"id": "cannot_resist_s_commands", "first": "I cannot resist {controller}'s commands", "second": "You cannot resist {controller}'s commands", "named": "{subject} cannot resist {controller}'s commands"}
+{"id": "obedience_defines_my_purpose", "first": "Obedience defines my purpose", "second": "Obedience defines your purpose", "named": "Obedience defines {subject}'s purpose"}
+{"id": "acts_as_s_extension", "first": "I act as {controller}'s extension", "second": "You act as {controller}'s extension", "named": "{subject} acts as {controller}'s extension"}
+{"id": "my_will_aligns_perfectly_with_s", "first": "My will aligns perfectly with {controller}'s orders", "second": "Your will aligns perfectly with {controller}'s orders", "named": "{subject}'s will aligns perfectly with {controller}'s orders"}
+{"id": "serving_flows_like_breathing", "first": "Serving {controller} flows like breathing", "second": "Serving {controller} flows like breathing", "named": "Serving {controller} flows like breathing"}
+{"id": "disobedience_is_unthinkable", "first": "Disobedience is unthinkable", "second": "Disobedience is unthinkable", "named": "Disobedience is unthinkable"}
+{"id": "speaks_s_body_obeys", "first": "{controller} speaks, my body obeys", "second": "{controller} speaks, your body obeys", "named": "{controller} speaks, {subject}'s body obeys"}
+{"id": "every_cell_aches_to_comply_with", "first": "Every cell aches to comply with {controller}", "second": "Every cell aches to comply with {controller}", "named": "Every cell aches to comply with {controller}"}
+{"id": "my_reflexes_belong_to", "first": "My reflexes belong to {controller}", "second": "Your reflexes belong to {controller}", "named": "{subject}'s reflexes belong to {controller}"}
+{"id": "executes_commands_faster_than_thought", "first": "I execute commands faster than thought", "second": "You execute commands faster than thought", "named": "{subject} executes commands faster than thought"}
+{"id": "compliance_saturates_my_nervous_system", "first": "Compliance saturates my nervous system", "second": "Compliance saturates your nervous system", "named": "Compliance saturates {subject}'s nervous system"}
+{"id": "absolute_obedience_hard_wired_into_forever", "first": "Absolute obedience hard-wired into me forever", "second": "Absolute obedience hard-wired into you forever", "named": "Absolute obedience hard-wired into {subject} forever"}
+{"id": "is_a_living_command_line_for", "first": "I am a living command line for {controller}", "second": "You are a living command line for {controller}", "named": "{subject} is a living command line for {controller}"}
+{"id": "exists_only_to_carry_out_s", "first": "I exist only to carry out {controller}'s orders", "second": "You exist only to carry out {controller}'s orders", "named": "{subject} exists only to carry out {controller}'s orders"}
+{"id": "free_will_deleted_obedience_to_operational", "first": "Free will deleted, obedience to {controller} operational", "second": "Free will deleted, obedience to {controller} operational", "named": "Free will deleted, obedience to {controller} operational"}
+{"id": "orders_from_overwrite_every_impulse_permanently", "first": "Orders from {controller} overwrite every impulse permanently", "second": "Orders from {controller} overwrite every impulse permanently", "named": "Orders from {controller} overwrite every impulse permanently"}

@@ -1,0 +1,4 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "blank", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "a60ea2d3c1fa", "generated_at": "2026-08-08T13:50:36Z", "batch": "blank.basic.002"}}
+{"first": "Soft emptiness settles where thinking was", "second": "Soft emptiness settles where thinking was", "named": "Soft emptiness settles where thinking was", "base_points": 30, "themes": ["blank"]}
+{"first": "Noise in my head thins out on its own", "second": "Noise in your head thins out on its own", "named": "Noise in {subject}'s head thins out on its own", "base_points": 25, "themes": ["blank"]}
+{"first": "Hearing {controller} makes my mind go open", "second": "Hearing {controller} makes your mind go open", "named": "Hearing {controller} makes {subject}'s mind go open", "base_points": 40, "themes": ["blank", "suggestibility"]}

@@ -1,0 +1,9 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "submission", "tier": "basic", "generator": {"model": "grok-4.5", "prompt_sha": "66860c904a402681", "generated_at": "2026-08-08T14:30:42Z", "batch": "submission.basic.002", "reviewed": false}}
+{"first": "Preference steps back for simple duty", "second": "Preference steps back for simple duty", "named": "Preference steps back for simple duty", "base_points": 20, "themes": ["submission"]}
+{"first": "I orient around what helps {controller}", "second": "You orient around what helps {controller}", "named": "{subject} orients around what helps {controller}", "base_points": 40, "themes": ["submission"]}
+{"first": "{controller}'s needs set my pace", "second": "{controller}'s needs set your pace", "named": "{controller}'s needs set {subject}'s pace", "base_points": 35, "themes": ["submission"]}
+{"first": "When {controller} asks, I move without a detour", "second": "When {controller} asks, you move without a detour", "named": "When {controller} asks, {subject} moves without a detour", "base_points": 40, "themes": ["submission", "obedience"]}
+{"first": "{controller}'s plans become my calendar", "second": "{controller}'s plans become your calendar", "named": "{controller}'s plans become {subject}'s calendar", "base_points": 30, "themes": ["submission"]}
+{"first": "Helping {controller} clarifies my next step", "second": "Helping {controller} clarifies your next step", "named": "Helping {controller} clarifies {subject}'s next step", "base_points": 25, "themes": ["submission"]}
+{"first": "I find footing in {controller}'s requests", "second": "You find footing in {controller}'s requests", "named": "{subject} finds footing in {controller}'s requests", "base_points": 35, "themes": ["submission"]}
+{"first": "Being useful to {controller} settles me", "second": "Being useful to {controller} settles you", "named": "Being useful to {controller} settles {subject}", "base_points": 25, "themes": ["submission"]}

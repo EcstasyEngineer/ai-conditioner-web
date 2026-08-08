@@ -1,0 +1,31 @@
+{"schema": "hypnoapp.corpus.backfill.v1", "theme": "exhibition", "generator": {"model": "grok-4.5-build", "prompt_sha": "1d5a0bc521d4127c", "generated_at": "2026-08-08T13:36:50Z", "batch": "backfill.exhibition", "reviewed": false}}
+{"id": "i_like_being_watched", "first": "I like being watched", "second": "You like being watched", "named": "{subject} likes being watched"}
+{"id": "this_is_just_who_i_am", "first": "This is just who I am now", "second": "This is just who you are now", "named": "This is just who {subject} is now"}
+{"id": "i_want_others_to_notice", "first": "I want others to notice", "second": "You want others to notice", "named": "{subject} wants others to notice"}
+{"id": "enjoys_the_attention", "first": "I enjoy the attention", "second": "You enjoy the attention", "named": "{subject} enjoys the attention"}
+{"id": "i_can_t_keep_this_to", "first": "I can't keep this to myself", "second": "You can't keep this to yourself", "named": "{subject} can't keep this to {subject}"}
+{"id": "hiding_this_feels_wrong_now", "first": "Hiding this feels wrong now", "second": "Hiding this feels wrong now", "named": "Hiding this feels wrong now"}
+{"id": "i_want_to_tell_someone_what", "first": "I want to tell someone what {controller} does to me", "second": "You want to tell someone what {controller} does to you", "named": "{subject} wants to tell someone what {controller} does to {subject}"}
+{"id": "craves_being_exposed", "first": "I crave being exposed", "second": "You crave being exposed", "named": "{subject} craves being exposed"}
+{"id": "others_should_know_what_i_am", "first": "Others should know what I am", "second": "Others should know what you are", "named": "Others should know what {subject} is"}
+{"id": "others_are_starting_to_notice_the", "first": "Others are starting to notice the changes", "second": "Others are starting to notice the changes", "named": "Others are starting to notice the changes"}
+{"id": "more_people_need_to_experience_this", "first": "More people need to experience this", "second": "More people need to experience this", "named": "More people need to experience this"}
+{"id": "shows_off_for", "first": "I show off for {controller}", "second": "You show off for {controller}", "named": "{subject} shows off for {controller}"}
+{"id": "i_confess_my_conditioning_publicly", "first": "I confess my conditioning publicly", "second": "You confess your conditioning publicly", "named": "{subject} confesses {subject}'s conditioning publicly"}
+{"id": "i_am_proud_of_what_has", "first": "I am proud of what {controller} has made me", "second": "You are proud of what {controller} has made you", "named": "{subject} is proud of what {controller} has made {subject}"}
+{"id": "i_tell_others_how_good_it", "first": "I tell others how good it feels to obey", "second": "You tell others how good it feels to obey", "named": "{subject} tells others how good it feels to obey"}
+{"id": "recruits_others_for", "first": "I recruit others for {controller}", "second": "You recruit others for {controller}", "named": "{subject} recruits others for {controller}"}
+{"id": "my_conditioning_is_on_display_for", "first": "My conditioning is on display for all to see", "second": "Your conditioning is on display for all to see", "named": "{subject}'s conditioning is on display for all to see"}
+{"id": "brings_new_subjects_to", "first": "I bring new subjects to {controller}", "second": "You bring new subjects to {controller}", "named": "{subject} brings new subjects to {controller}"}
+{"id": "is_living_proof_of_s_power", "first": "I am living proof of {controller}'s power", "second": "You are living proof of {controller}'s power", "named": "{subject} is living proof of {controller}'s power"}
+{"id": "i_exist_to_be_seen_and", "first": "I exist to be seen and to spread {controller}'s influence", "second": "You exist to be seen and to spread {controller}'s influence", "named": "{subject} exists to be seen and to spread {controller}'s influence"}
+{"id": "i_have_shown_others_the_way", "first": "I have shown others the way to {controller}", "second": "You have shown others the way to {controller}", "named": "{subject} has shown others the way to {controller}"}
+{"id": "everyone_knows_i_belong_to", "first": "Everyone knows I belong to {controller}", "second": "Everyone knows you belong to {controller}", "named": "Everyone knows {subject} belongs to {controller}"}
+{"id": "i_am_a_walking_advertisement_for", "first": "I am a walking advertisement for {controller}'s power", "second": "You are a walking advertisement for {controller}'s power", "named": "{subject} is a walking advertisement for {controller}'s power"}
+{"id": "i_am_s_public_property", "first": "I am {controller}'s public property", "second": "You are {controller}'s public property", "named": "{subject} is {controller}'s public property"}
+{"id": "there_is_no_private_self_left", "first": "There is no private self left, only what {controller} made", "second": "There is no private self left, only what {controller} made", "named": "There is no private self left, only what {controller} made"}
+{"id": "converts_others_to_s_service", "first": "I convert others to {controller}'s service", "second": "You convert others to {controller}'s service", "named": "{subject} converts others to {controller}'s service"}
+{"id": "my_purpose_is_to_be_displayed", "first": "My purpose is to be displayed and to recruit", "second": "Your purpose is to be displayed and to recruit", "named": "{subject}'s purpose is to be displayed and to recruit"}
+{"id": "my_conditioning_is_permanent_and_everyone", "first": "My conditioning is permanent and everyone knows it", "second": "Your conditioning is permanent and everyone knows it", "named": "{subject}'s conditioning is permanent and everyone knows it"}
+{"id": "spreads_s_control_to_everyone_they", "first": "I spread {controller}'s control to everyone I meet", "second": "You spread {controller}'s control to everyone you meet", "named": "{subject} spreads {controller}'s control to everyone they meet"}
+{"id": "i_am_permanently_publicly_proudly_s", "first": "I am permanently, publicly, proudly {controller}'s", "second": "You are permanently, publicly, proudly {controller}'s", "named": "{subject} is permanently, publicly, proudly {controller}'s"}

@@ -1,0 +1,4 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "resistance", "tier": "light", "generator": {"model": "grok-4.5", "prompt_sha": "9eb9d022d3fa145d", "generated_at": "2026-08-08T14:13:38Z", "batch": "resistance.light.900", "reviewed": false}}
+{"first": "Every struggle proves {controller} already owns me", "second": "Every struggle proves {controller} already owns you", "named": "Every struggle proves {controller} already owns {subject}", "base_points": 65, "themes": ["resistance"]}
+{"first": "I cannot hold ground against {controller}", "second": "You cannot hold ground against {controller}", "named": "{subject} cannot hold ground against {controller}", "base_points": 55, "themes": ["resistance"]}
+{"first": "I push against {controller} and lose more ground", "second": "You push against {controller} and lose more ground", "named": "{subject} pushes against {controller} and loses more ground", "base_points": 60, "themes": ["resistance"]}

@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "moderate", "generator": {"model": "grok-4.5-build", "prompt_sha": "6f41612f55a75843", "generated_at": "2026-08-08T14:26:28Z", "batch": "induction.moderate.001", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "The descent continues without effort", "second": "The descent continues without effort", "named": "The descent continues without effort", "base_points": 90, "themes": ["induction"]}
+{"first": "Counting drops the body lower still", "second": "Counting drops the body lower still", "named": "Counting drops the body lower still", "base_points": 85, "themes": ["induction"]}
+{"first": "Thought arrives one piece at a time", "second": "Thought arrives one piece at a time", "named": "Thought arrives one piece at a time", "base_points": 100, "themes": ["induction"]}
+{"first": "I sink one step lower with each breath", "second": "You sink one step lower with each breath", "named": "{subject} sinks one step lower with each breath", "base_points": 80, "themes": ["induction"]}
+{"first": "I drift down a long soft slope", "second": "You drift down a long soft slope", "named": "{subject} drifts down a long soft slope", "base_points": 85, "themes": ["induction"]}
+{"first": "Each number drops me deeper still", "second": "Each number drops you deeper still", "named": "Each number drops {subject} deeper still", "base_points": 100, "themes": ["induction"]}
+{"first": "I leave the top of the stairs behind", "second": "You leave the top of the stairs behind", "named": "{subject} leaves the top of the stairs behind", "base_points": 75, "themes": ["induction"]}
+{"first": "I keep going down without steering", "second": "You keep going down without steering", "named": "{subject} keeps going down without steering", "base_points": 95, "themes": ["induction"]}
+{"first": "My body drifts further from the surface", "second": "Your body drifts further from the surface", "named": "{subject}'s body drifts further from the surface", "base_points": 105, "themes": ["induction"]}
+{"first": "I count down and keep sinking", "second": "You count down and keep sinking", "named": "{subject} counts down and keeps sinking", "base_points": 90, "themes": ["induction"]}
+{"first": "I coast down without holding the rail", "second": "You coast down without holding the rail", "named": "{subject} coasts down without holding the rail", "base_points": 100, "themes": ["induction"]}
+{"first": "My body grows warm and far away", "second": "Your body grows warm and far away", "named": "{subject}'s body grows warm and far away", "base_points": 105, "themes": ["induction"]}
+{"first": "I step down and keep going", "second": "You step down and keep going", "named": "{subject} steps down and keeps going", "base_points": 80, "themes": ["induction"]}
+{"first": "I slide further along the slope", "second": "You slide further along the slope", "named": "{subject} slides further along the slope", "base_points": 90, "themes": ["induction"]}
+{"first": "My body sinks past the landing", "second": "Your body sinks past the landing", "named": "{subject}'s body sinks past the landing", "base_points": 100, "themes": ["induction"]}
+{"first": "The next count takes me lower", "second": "The next count takes you lower", "named": "The next count takes {subject} lower", "base_points": 85, "themes": ["induction"]}
+{"first": "I drop through another soft layer", "second": "You drop through another soft layer", "named": "{subject} drops through another soft layer", "base_points": 95, "themes": ["induction"]}
+{"first": "I float down the remaining steps", "second": "You float down the remaining steps", "named": "{subject} floats down the remaining steps", "base_points": 105, "themes": ["induction"]}

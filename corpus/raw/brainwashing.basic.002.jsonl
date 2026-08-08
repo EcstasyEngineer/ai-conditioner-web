@@ -1,0 +1,5 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "brainwashing", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "a60ea2d3c1fa", "generated_at": "2026-08-08T13:53:04Z", "batch": "brainwashing.basic.002"}}
+{"first": "{controller}'s words rinse through my mind", "second": "{controller}'s words rinse through your mind", "named": "{controller}'s words rinse through {subject}'s mind", "base_points": 40, "themes": ["brainwashing", "suggestibility"]}
+{"first": "I feel old noise rinsing off", "second": "You feel old noise rinsing off", "named": "{subject} feels old noise rinsing off", "base_points": 25, "themes": ["brainwashing"]}
+{"first": "Another rinse sounds good to me", "second": "Another rinse sounds good to you", "named": "Another rinse sounds good to {subject}", "base_points": 20, "themes": ["brainwashing"]}
+{"first": "Bits of clutter rinse out of my mind", "second": "Bits of clutter rinse out of your mind", "named": "Bits of clutter rinse out of {subject}'s mind", "base_points": 25, "themes": ["brainwashing"]}

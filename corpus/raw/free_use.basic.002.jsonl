@@ -1,0 +1,3 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "free_use", "tier": "basic", "generator": {"model": "grok-4.5", "prompt_sha": "109642a7f5b459e1", "generated_at": "2026-08-08T14:10:36Z", "batch": "free_use.basic.002", "reviewed": false}}
+{"first": "Soft yes greets every request", "second": "Soft yes greets every request", "named": "Soft yes greets every request", "base_points": 20, "themes": ["free_use"]}
+{"first": "I answer yes before the ask finishes", "second": "You answer yes before the ask finishes", "named": "{subject} answers yes before the ask finishes", "base_points": 25, "themes": ["free_use"]}

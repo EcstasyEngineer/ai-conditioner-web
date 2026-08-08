@@ -1,0 +1,18 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "induction", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "066e9a2b6d75901b", "generated_at": "2026-08-08T14:23:32Z", "batch": "induction.basic.002", "reviewed": false}, "notes": "The crossing into trance: breath lengthening, the body settling heavier than it was, attention narrowing to one small thing until the edges of the room stop mattering"}
+{"first": "My fingers uncurl one by one", "second": "Your fingers uncurl one by one", "named": "{subject}'s fingers uncurl one by one", "base_points": 20, "themes": ["induction"]}
+{"first": "My brow smooths on its own", "second": "Your brow smooths on its own", "named": "{subject}'s brow smooths on its own", "base_points": 25, "themes": ["induction"]}
+{"first": "My neck softens and lengthens", "second": "Your neck softens and lengthens", "named": "{subject}'s neck softens and lengthens", "base_points": 30, "themes": ["induction"]}
+{"first": "My tongue rests loose and still", "second": "Your tongue rests loose and still", "named": "{subject}'s tongue rests loose and still", "base_points": 40, "themes": ["induction"]}
+{"first": "I drop the hold in my cheeks", "second": "You drop the hold in your cheeks", "named": "{subject} drops the hold in {subject}'s cheeks", "base_points": 20, "themes": ["induction"]}
+{"first": "My wrists hang open and loose", "second": "Your wrists hang open and loose", "named": "{subject}'s wrists hang open and loose", "base_points": 25, "themes": ["induction"]}
+{"first": "I stop bracing through my chest", "second": "You stop bracing through your chest", "named": "{subject} stops bracing through {subject}'s chest", "base_points": 30, "themes": ["induction"]}
+{"first": "My teeth part and stay apart", "second": "Your teeth part and stay apart", "named": "{subject}'s teeth part and stay apart", "base_points": 35, "themes": ["induction"]}
+{"first": "I let my face go slack", "second": "You let your face go slack", "named": "{subject} lets the face go slack", "base_points": 40, "themes": ["induction"]}
+{"first": "I open both palms upward", "second": "You open both palms upward", "named": "{subject} opens both palms upward", "base_points": 20, "themes": ["induction"]}
+{"first": "I release the grip in both hands", "second": "You release the grip in both hands", "named": "{subject} releases the grip in both hands", "base_points": 25, "themes": ["induction"]}
+{"first": "I let my mouth hang soft", "second": "You let your mouth hang soft", "named": "{subject} lets the mouth hang soft", "base_points": 30, "themes": ["induction"]}
+{"first": "I ease the hold from my neck", "second": "You ease the hold from your neck", "named": "{subject} eases the hold from the neck", "base_points": 35, "themes": ["induction"]}
+{"first": "I loosen the hold at my temples", "second": "You loosen the hold at your temples", "named": "{subject} loosens the hold at the temples", "base_points": 40, "themes": ["induction"]}
+{"first": "Tension leaves the face", "second": "Tension leaves the face", "named": "Tension leaves the face", "base_points": 25, "themes": ["induction"]}
+{"first": "The grip opens by itself", "second": "The grip opens by itself", "named": "The grip opens by itself", "base_points": 30, "themes": ["induction"]}
+{"first": "The face unclenches", "second": "The face unclenches", "named": "The face unclenches", "base_points": 35, "themes": ["induction"]}

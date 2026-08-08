@@ -1,0 +1,19 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "amnesia", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "07a28877af4b8c9f", "generated_at": "2026-08-08T13:55:49Z", "batch": "amnesia.basic.001"}}
+{"first": "Soft fog settles over distant days", "second": "Soft fog settles over distant days", "named": "Soft fog settles over distant days", "base_points": 20, "themes": ["amnesia"]}
+{"first": "Loose ends of the day untie into mist", "second": "Loose ends of the day untie into mist", "named": "Loose ends of the day untie into mist", "base_points": 25, "themes": ["amnesia"]}
+{"first": "Recent hours mute into cool gray", "second": "Recent hours mute into cool gray", "named": "Recent hours mute into cool gray", "base_points": 30, "themes": ["amnesia"]}
+{"first": "I let the week slip into gentle blur", "second": "You let the week slip into gentle blur", "named": "{subject} lets the week slip into gentle blur", "base_points": 25, "themes": ["amnesia"]}
+{"first": "Old faces blur when I try to hold them", "second": "Old faces blur when you try to hold them", "named": "Old faces blur when {subject} tries to hold them", "base_points": 30, "themes": ["amnesia"]}
+{"first": "My earlier hours grow quiet and distant", "second": "Your earlier hours grow quiet and distant", "named": "{subject}'s earlier hours grow quiet and distant", "base_points": 20, "themes": ["amnesia"]}
+{"first": "I set down a memory and walk on", "second": "You set down a memory and walk on", "named": "{subject} sets down a memory and walks on", "base_points": 30, "themes": ["amnesia", "acceptance"]}
+{"first": "I cannot pin down this morning", "second": "You cannot pin down this morning", "named": "{subject} cannot pin down this morning", "base_points": 25, "themes": ["amnesia"]}
+{"first": "Mist gathers where my afternoon went", "second": "Mist gathers where your afternoon went", "named": "Mist gathers where {subject}'s afternoon went", "base_points": 30, "themes": ["amnesia"]}
+{"first": "Looking for last night, I find only softness", "second": "Looking for last night, you find only softness", "named": "Looking for last night, {subject} finds only softness", "base_points": 35, "themes": ["amnesia"]}
+{"first": "I smile as old details fade into gray", "second": "You smile as old details fade into gray", "named": "{subject} smiles as old details fade into gray", "base_points": 25, "themes": ["amnesia", "acceptance"]}
+{"first": "I lose the trail of last Tuesday", "second": "You lose the trail of last Tuesday", "named": "{subject} loses the trail of last Tuesday", "base_points": 30, "themes": ["amnesia"]}
+{"first": "Half-formed days dissolve when I look back", "second": "Half-formed days dissolve when you look back", "named": "Half-formed days dissolve when {subject} looks back", "base_points": 30, "themes": ["amnesia"]}
+{"first": "I leave half-finished thoughts in the mist", "second": "You leave half-finished thoughts in the mist", "named": "{subject} leaves half-finished thoughts in the mist", "base_points": 35, "themes": ["amnesia"]}
+{"first": "I grow foggy and calm around {controller}", "second": "You grow foggy and calm around {controller}", "named": "{subject} grows foggy and calm around {controller}", "base_points": 40, "themes": ["amnesia"]}
+{"first": "When I rest, last week's edges go soft", "second": "When you rest, last week's edges go soft", "named": "When {subject} rests, last week's edges go soft", "base_points": 25, "themes": ["amnesia"]}
+{"first": "I brush past an hour and leave it lost", "second": "You brush past an hour and leave it lost", "named": "{subject} brushes past an hour and leaves it lost", "base_points": 35, "themes": ["amnesia"]}
+{"first": "Around {controller} my recent hours blur", "second": "Around {controller} your recent hours blur", "named": "Around {controller} {subject}'s recent hours blur", "base_points": 40, "themes": ["amnesia"]}

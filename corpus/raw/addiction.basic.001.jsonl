@@ -1,0 +1,21 @@
+{"schema": "hypnoapp.corpus.v1", "theme": "addiction", "tier": "basic", "generator": {"model": "grok-4.5-build", "prompt_sha": "bafd3d61fa767486", "generated_at": "2026-08-08T14:14:09Z", "batch": "addiction.basic.001", "reviewed": false}}
+{"first": "Hunger swells after each small fix", "second": "Hunger swells after each small fix", "named": "Hunger swells after each small fix", "base_points": 25, "themes": ["addiction"]}
+{"first": "Desire thickens in quiet moments", "second": "Desire thickens in quiet moments", "named": "Desire thickens in quiet moments", "base_points": 20, "themes": ["addiction"]}
+{"first": "My mind reaches for more control", "second": "Your mind reaches for more control", "named": "{subject}'s mind reaches for more control", "base_points": 25, "themes": ["addiction"]}
+{"first": "I ache for the next dose", "second": "You ache for the next dose", "named": "{subject} aches for the next dose", "base_points": 25, "themes": ["addiction"]}
+{"first": "Warm need tugs at my focus", "second": "Warm need tugs at your focus", "named": "Warm need tugs at {subject}'s focus", "base_points": 20, "themes": ["addiction"]}
+{"first": "I lean toward {controller}'s influence", "second": "You lean toward {controller}'s influence", "named": "{subject} leans toward {controller}'s influence", "base_points": 40, "themes": ["addiction"]}
+{"first": "Pleasure hooks me deeper still", "second": "Pleasure hooks you deeper still", "named": "Pleasure hooks {subject} deeper still", "base_points": 30, "themes": ["addiction"]}
+{"first": "Something in me seeks another hit", "second": "Something in you seeks another hit", "named": "Something in {subject} seeks another hit", "base_points": 25, "themes": ["addiction"]}
+{"first": "Empty spaces in me wait to be filled", "second": "Empty spaces in you wait to be filled", "named": "Empty spaces in {subject} wait to be filled", "base_points": 25, "themes": ["addiction"]}
+{"first": "Guidance calls and I answer", "second": "Guidance calls and you answer", "named": "Guidance calls and {subject} answers", "base_points": 25, "themes": ["addiction"]}
+{"first": "Appetite for direction stirs in me", "second": "Appetite for direction stirs in you", "named": "Appetite for direction stirs in {subject}", "base_points": 25, "themes": ["addiction"]}
+{"first": "Buzz of compliance pulls me closer", "second": "Buzz of compliance pulls you closer", "named": "Buzz of compliance pulls {subject} closer", "base_points": 30, "themes": ["addiction", "obedience"]}
+{"first": "{controller}'s voice leaves me wanting", "second": "{controller}'s voice leaves you wanting", "named": "{controller}'s voice leaves {subject} wanting", "base_points": 40, "themes": ["addiction"]}
+{"first": "Soft compulsion settles over me", "second": "Soft compulsion settles over you", "named": "Soft compulsion settles over {subject}", "base_points": 25, "themes": ["addiction"]}
+{"first": "My body learns to ask for more", "second": "Your body learns to ask for more", "named": "{subject}'s body learns to ask for more", "base_points": 25, "themes": ["addiction"]}
+{"first": "One hit of control and I want another", "second": "One hit of control and you want another", "named": "One hit of control and {subject} wants another", "base_points": 30, "themes": ["addiction"]}
+{"first": "Ache blooms behind my thoughts", "second": "Ache blooms behind your thoughts", "named": "Ache blooms behind {subject}'s thoughts", "base_points": 25, "themes": ["addiction"]}
+{"first": "I thirst for {controller}'s next word", "second": "You thirst for {controller}'s next word", "named": "{subject} thirsts for {controller}'s next word", "base_points": 40, "themes": ["addiction"]}
+{"first": "Craving hums low under the surface", "second": "Craving hums low under the surface", "named": "Craving hums low under the surface", "base_points": 25, "themes": ["addiction"]}
+{"first": "My pulse quickens at the thought of more", "second": "Your pulse quickens at the thought of more", "named": "{subject}'s pulse quickens at the thought of more", "base_points": 25, "themes": ["addiction"]}
