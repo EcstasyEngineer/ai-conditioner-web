@@ -9,7 +9,11 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "corpus:ingest": "node --experimental-strip-types tools/ingest/cli.ts ingest",
+    "corpus:report": "node --experimental-strip-types tools/ingest/cli.ts report",
+    "corpus:lint": "node --experimental-strip-types tools/ingest/cli.ts lint",
+    "corpus:test": "node --experimental-strip-types tools/ingest/selftest.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",

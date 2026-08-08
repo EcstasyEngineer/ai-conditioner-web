@@ -1,0 +1,21 @@
+{
+  "//": "Node-only toolchain (MODULES.json M5). Firewalled from the browser bundle: no DOM lib, and nothing under tools/ may be imported by src/ or lib/ at runtime.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "lib": ["ES2022"],
+    "types": ["node"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": ["tools"]
+}

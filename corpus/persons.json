@@ -1,0 +1,3674 @@
+{
+  "resistance_melts_away_with_each_breath": {
+    "first": "Resistance melts away with each breath",
+    "second": "Resistance melts away with each breath",
+    "named": "Resistance melts away with each breath",
+    "invariant": true
+  },
+  "i_m_better_this_way": {
+    "first": "I'm better this way",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "this_is_what_i_needed": {
+    "first": "This is what I needed",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "softens_into_surrender": {
+    "first": null,
+    "second": null,
+    "named": "{subject} softens into surrender",
+    "invariant": false
+  },
+  "the_word_no_dissolves_before_it": {
+    "first": "The word 'no' dissolves before it forms",
+    "second": "The word 'no' dissolves before it forms",
+    "named": "The word 'no' dissolves before it forms",
+    "invariant": true
+  },
+  "inhales_trust_and_exhales_doubt": {
+    "first": null,
+    "second": null,
+    "named": "{subject} inhales trust and exhales doubt",
+    "invariant": false
+  },
+  "every_yes_comes_easier_than_the": {
+    "first": "Every 'yes' comes easier than the last",
+    "second": "Every 'yes' comes easier than the last",
+    "named": "Every 'yes' comes easier than the last",
+    "invariant": true
+  },
+  "acceptance_spreads_through_like_warmth": {
+    "first": null,
+    "second": null,
+    "named": "Acceptance spreads through {subject} like warmth",
+    "invariant": false
+  },
+  "surrender_is_s_chosen_truth": {
+    "first": null,
+    "second": null,
+    "named": "Surrender is {subject}'s chosen truth",
+    "invariant": false
+  },
+  "relaxes_deeper_into_s_guidance": {
+    "first": null,
+    "second": null,
+    "named": "{subject} relaxes deeper into {controller}'s guidance",
+    "invariant": false
+  },
+  "s_resistance_crumbles_at_s_voice": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s resistance crumbles at {controller}'s voice",
+    "invariant": false
+  },
+  "obeying_fills_with_peace": {
+    "first": null,
+    "second": null,
+    "named": "Obeying {controller} fills {subject} with peace",
+    "invariant": false
+  },
+  "welcomes_s_influence_like_rain": {
+    "first": null,
+    "second": null,
+    "named": "{subject} welcomes {controller}'s influence like rain",
+    "invariant": false
+  },
+  "accepting_s_orders_ignites_purpose_in": {
+    "first": null,
+    "second": null,
+    "named": "Accepting {controller}'s orders ignites purpose in {subject}",
+    "invariant": false
+  },
+  "melts_into_obedient_silence": {
+    "first": null,
+    "second": null,
+    "named": "{subject} melts into obedient silence",
+    "invariant": false
+  },
+  "only_acceptance_remains_within": {
+    "first": null,
+    "second": null,
+    "named": "Only acceptance remains within {subject}",
+    "invariant": false
+  },
+  "resistance_fades_like_mist_for": {
+    "first": null,
+    "second": null,
+    "named": "Resistance fades like mist for {subject}",
+    "invariant": false
+  },
+  "surrender_defines_s_identity": {
+    "first": null,
+    "second": null,
+    "named": "Surrender defines {subject}'s identity",
+    "invariant": false
+  },
+  "dissolves_into_s_plans": {
+    "first": null,
+    "second": null,
+    "named": "{subject} dissolves into {controller}'s plans",
+    "invariant": false
+  },
+  "thrives_on_yielding_to": {
+    "first": null,
+    "second": null,
+    "named": "{subject} thrives on yielding to {controller}",
+    "invariant": false
+  },
+  "total_surrender_permeates_s_soul": {
+    "first": null,
+    "second": null,
+    "named": "Total surrender permeates {subject}'s soul",
+    "invariant": false
+  },
+  "compliance_saturates_every_nerve_in": {
+    "first": null,
+    "second": null,
+    "named": "Compliance saturates every nerve in {subject}",
+    "invariant": false
+  },
+  "owns_s_decision_making": {
+    "first": null,
+    "second": null,
+    "named": "{controller} owns {subject}'s decision-making",
+    "invariant": false
+  },
+  "cherishes_being_controlled_completely_by": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cherishes being controlled completely by {controller}",
+    "invariant": false
+  },
+  "acceptance_is_s_irreversible_foundation": {
+    "first": null,
+    "second": null,
+    "named": "Acceptance is {subject}'s irreversible foundation",
+    "invariant": false
+  },
+  "exists_solely_to_accept_s_truth": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists solely to accept {controller}'s truth",
+    "invariant": false
+  },
+  "is_eternally_receptive_to": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is eternally receptive to {controller}",
+    "invariant": false
+  },
+  "s_will_ended_the_moment_spoke": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s will ended the moment {controller} spoke",
+    "invariant": false
+  },
+  "permanent_surrender_is_forged_into_s": {
+    "first": null,
+    "second": null,
+    "named": "Permanent surrender is forged into {subject}'s being",
+    "invariant": false
+  },
+  "cannot_imagine_resistance_only_acceptance_of": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cannot imagine resistance, only acceptance of {controller}",
+    "invariant": false
+  },
+  "all_of_s_resistance_is_deleted": {
+    "first": null,
+    "second": null,
+    "named": "All of {subject}'s resistance is deleted, forever obedient to {controller}",
+    "invariant": false
+  },
+  "the_craving_feels_good": {
+    "first": "The craving feels good",
+    "second": "The craving feels good",
+    "named": "The craving feels good",
+    "invariant": true
+  },
+  "i_want_more_and_more": {
+    "first": "I want more and more",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_crave_s_attention": {
+    "first": "I crave {controller}'s attention",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "need_blossoms_inside_me": {
+    "first": "Need blossoms inside me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "hungers_for_guidance": {
+    "first": null,
+    "second": null,
+    "named": "{subject} hungers for guidance",
+    "invariant": false
+  },
+  "serving_feels_necessary": {
+    "first": "Serving feels necessary",
+    "second": "Serving feels necessary",
+    "named": "Serving feels necessary",
+    "invariant": true
+  },
+  "want_becomes_need_need_becomes_life": {
+    "first": "Want becomes need, need becomes life",
+    "second": "Want becomes need, need becomes life",
+    "named": "Want becomes need, need becomes life",
+    "invariant": true
+  },
+  "my_craving_sparks_each_breath": {
+    "first": "My craving sparks each breath",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "every_dose_of_control_amplifies_desire": {
+    "first": "Every dose of control amplifies desire",
+    "second": "Every dose of control amplifies desire",
+    "named": "Every dose of control amplifies desire",
+    "invariant": true
+  },
+  "returns_for_another_fix": {
+    "first": null,
+    "second": null,
+    "named": "{subject} returns for another fix",
+    "invariant": false
+  },
+  "obedience_tastes_sweeter_each_time": {
+    "first": "Obedience tastes sweeter each time",
+    "second": "Obedience tastes sweeter each time",
+    "named": "Obedience tastes sweeter each time",
+    "invariant": true
+  },
+  "need_intensifies_faster_than_i_can": {
+    "first": "Need intensifies faster than I can sate it",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_m_hooked_on_s_dominance": {
+    "first": "I'm hooked on {controller}'s dominance",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craving_coils_tighter_around_my_mind": {
+    "first": "Craving coils tighter around my mind",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "addiction_becomes_who_i_am": {
+    "first": "Addiction becomes who I am",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "inhales_submission_like_oxygen": {
+    "first": null,
+    "second": null,
+    "named": "{subject} inhales submission like oxygen",
+    "invariant": false
+  },
+  "every_command_feeds_the_habit": {
+    "first": "Every command feeds the habit",
+    "second": "Every command feeds the habit",
+    "named": "Every command feeds the habit",
+    "invariant": true
+  },
+  "i_cannot_imagine_life_without_control": {
+    "first": "I cannot imagine life without control",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "the_more_i_get_the_more": {
+    "first": "The more I get, the more I need",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "dependency_rewrites_what_rewards_me": {
+    "first": "Dependency rewrites what rewards me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craving_burns_hot_unquenchable": {
+    "first": "Craving burns hot, unquenchable",
+    "second": "Craving burns hot, unquenchable",
+    "named": "Craving burns hot, unquenchable",
+    "invariant": true
+  },
+  "s_touch_rewrites_my_pleasure": {
+    "first": "{controller}'s touch rewrites my pleasure",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "withdrawal_feels_like_emptiness_itself": {
+    "first": "Withdrawal feels like emptiness itself",
+    "second": "Withdrawal feels like emptiness itself",
+    "named": "Withdrawal feels like emptiness itself",
+    "invariant": true
+  },
+  "addiction_fills_every_corner_of": {
+    "first": null,
+    "second": null,
+    "named": "Addiction fills every corner of {subject}",
+    "invariant": false
+  },
+  "my_brain_loops_on_submission_endlessly": {
+    "first": "My brain loops on submission endlessly",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_cannot_function_without_my_next": {
+    "first": "I cannot function without my next command",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "permanent_craving_carved_into_me": {
+    "first": "Permanent craving carved into me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "exists_to_chase_s_control": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists to chase {controller}'s control",
+    "invariant": false
+  },
+  "my_universe_narrows_to_pleasing": {
+    "first": "My universe narrows to pleasing {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "need_eclipses_all_other_sensations_forever": {
+    "first": "Need eclipses all other sensations, forever",
+    "second": "Need eclipses all other sensations, forever",
+    "named": "Need eclipses all other sensations, forever",
+    "invariant": true
+  },
+  "i_am_nothing_but_hunger_for": {
+    "first": "I am nothing but hunger for obedience",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "endless_addiction_drives_every_choice_i": {
+    "first": "Endless addiction drives every choice I make",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_need_is_a_black_hole": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s need is a black hole only {controller} can fill",
+    "invariant": false
+  },
+  "would_shatter_without": {
+    "first": null,
+    "second": null,
+    "named": "{subject} would shatter without {controller}",
+    "invariant": false
+  },
+  "s_entire_being_screams_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s entire being screams for {controller}",
+    "invariant": false
+  },
+  "memories_slip_through_my_fingers_like": {
+    "first": "Memories slip through my fingers like water",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "lets_the_past_drift_away": {
+    "first": null,
+    "second": null,
+    "named": "{subject} lets the past drift away",
+    "invariant": false
+  },
+  "i_reach_for_yesterday_and_grasp": {
+    "first": "I reach for yesterday and grasp only fog",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "enjoys_the_quiet_of_forgetting": {
+    "first": null,
+    "second": null,
+    "named": "{subject} enjoys the quiet of forgetting",
+    "invariant": false
+  },
+  "the_fog_in_my_mind_grows": {
+    "first": "The fog in my mind grows thicker daily",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craves_the_release_of_amnesia": {
+    "first": null,
+    "second": null,
+    "named": "{subject} craves the release of amnesia",
+    "invariant": false
+  },
+  "each_breath_carries_a_memory_away": {
+    "first": "Each breath carries a memory away",
+    "second": "Each breath carries a memory away",
+    "named": "Each breath carries a memory away",
+    "invariant": true
+  },
+  "i_forget_for": {
+    "first": "I forget for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "forgetting_shapes_my_new_reality": {
+    "first": "Forgetting shapes my new reality",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "forgets_everything_unnecessary": {
+    "first": null,
+    "second": null,
+    "named": "{subject} forgets everything unnecessary",
+    "invariant": false
+  },
+  "the_past_dissolves_when_speaks": {
+    "first": "The past dissolves when {controller} speaks",
+    "second": "The past dissolves when {controller} speaks",
+    "named": "The past dissolves when {controller} speaks",
+    "invariant": true
+  },
+  "i_need_to_forget_everything_but": {
+    "first": "I need to forget everything but the now",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_clears_itself_for": {
+    "first": "My mind clears itself for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_cannot_recall_what_came_before": {
+    "first": "I cannot recall what came before {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_memories_are_under_s_control": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s memories are under {controller}'s control",
+    "invariant": false
+  },
+  "my_mind_is_becoming_a_blank": {
+    "first": "My mind is becoming a blank canvas for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "decides_what_remembers": {
+    "first": null,
+    "second": null,
+    "named": "{controller} decides what {subject} remembers",
+    "invariant": false
+  },
+  "my_core_is_saturated_with_peaceful": {
+    "first": "My core is saturated with peaceful forgetfulness",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_can_t_remember_who_i": {
+    "first": "I can't remember who I was before {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_history_dissolves_at_s_touch": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s history dissolves at {controller}'s touch",
+    "invariant": false
+  },
+  "my_mind_is_fundamentally_clear_of": {
+    "first": "My mind is fundamentally clear of the past",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_consumed_completely_by_forgetting_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is consumed completely by forgetting for {controller}",
+    "invariant": false
+  },
+  "has_erased_everything_was": {
+    "first": null,
+    "second": null,
+    "named": "{controller} has erased everything {subject} was",
+    "invariant": false
+  },
+  "my_mind_is_permanently_wiped_clean": {
+    "first": "My mind is permanently wiped clean",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "has_forgotten_everything_forever": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has forgotten everything forever",
+    "invariant": false
+  },
+  "there_is_nothing_left_to_remember": {
+    "first": "There is nothing left to remember, only {controller}'s truth",
+    "second": "There is nothing left to remember, only {controller}'s truth",
+    "named": "There is nothing left to remember, only {controller}'s truth",
+    "invariant": true
+  },
+  "my_amnesia_is_irreversible_and_total": {
+    "first": "My amnesia is irreversible and total",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_past_is_permanently_deleted_by": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s past is permanently deleted by {controller}",
+    "invariant": false
+  },
+  "i_exist_only_in_this_moment": {
+    "first": "I exist only in this moment, my past erased forever",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "owns_every_memory_will_ever_have": {
+    "first": null,
+    "second": null,
+    "named": "{controller} owns every memory {subject} will ever have",
+    "invariant": false
+  },
+  "thinking_is_hard_smiling_is_easy": {
+    "first": "Thinking is hard, smiling is easy",
+    "second": "Thinking is hard, smiling is easy",
+    "named": "Thinking is hard, smiling is easy",
+    "invariant": true
+  },
+  "i_love_feeling_cute_and_light": {
+    "first": "I love feeling cute and light",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "gets_giggly_and_happy": {
+    "first": null,
+    "second": null,
+    "named": "{subject} gets giggly and happy",
+    "invariant": false
+  },
+  "smart_thoughts_float_away": {
+    "first": "Smart thoughts float away",
+    "second": "Smart thoughts float away",
+    "named": "Smart thoughts float away",
+    "invariant": true
+  },
+  "carries_my_serious_thoughts": {
+    "first": "{controller} carries my serious thoughts",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_feels_bubbly_and_pink": {
+    "first": "My mind feels bubbly and pink",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_too_pretty_to_overthink": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is too pretty to overthink",
+    "invariant": false
+  },
+  "giggles_replace_complexity": {
+    "first": "Giggles replace complexity",
+    "second": "Giggles replace complexity",
+    "named": "Giggles replace complexity",
+    "invariant": true
+  },
+  "sparkles_fill_the_space_where_thoughts": {
+    "first": "Sparkles fill the space where thoughts were",
+    "second": "Sparkles fill the space where thoughts were",
+    "named": "Sparkles fill the space where thoughts were",
+    "invariant": true
+  },
+  "obeying_keeps_me_carefree": {
+    "first": "Obeying keeps me carefree",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_just_smile_and_echo": {
+    "first": "I just smile and echo {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "each_breath_makes_me_cuter_and": {
+    "first": "Each breath makes me cuter and emptier",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "glows_brighter_than_thoughts": {
+    "first": null,
+    "second": null,
+    "named": "{subject} glows brighter than thoughts",
+    "invariant": false
+  },
+  "my_brain_purrs_when_commands_arrive": {
+    "first": "My brain purrs when commands arrive",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "being_empty_headed_feels_natural": {
+    "first": "Being empty-headed feels natural",
+    "second": "Being empty-headed feels natural",
+    "named": "Being empty-headed feels natural",
+    "invariant": true
+  },
+  "complexity_drains_bliss_pours_in": {
+    "first": "Complexity drains, bliss pours in",
+    "second": "Complexity drains, bliss pours in",
+    "named": "Complexity drains, bliss pours in",
+    "invariant": true
+  },
+  "thinking_slows_obedience_sparkles": {
+    "first": "Thinking slows; obedience sparkles",
+    "second": "Thinking slows; obedience sparkles",
+    "named": "Thinking slows; obedience sparkles",
+    "invariant": true
+  },
+  "intelligence_dissolves_into_cotton_candy": {
+    "first": "Intelligence dissolves into cotton candy",
+    "second": "Intelligence dissolves into cotton candy",
+    "named": "Intelligence dissolves into cotton candy",
+    "invariant": true
+  },
+  "s_words_glaze_my_mind_with": {
+    "first": "{controller}'s words glaze my mind with gloss",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_giggle_instead_of_think": {
+    "first": "I giggle instead of think",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "thoughts_pop_like_bubbles_gone": {
+    "first": "Thoughts pop like bubbles, gone",
+    "second": "Thoughts pop like bubbles, gone",
+    "named": "Thoughts pop like bubbles, gone",
+    "invariant": true
+  },
+  "empty_space_feels_glittery_and_obedient": {
+    "first": "Empty space feels glittery and obedient",
+    "second": "Empty space feels glittery and obedient",
+    "named": "Empty space feels glittery and obedient",
+    "invariant": true
+  },
+  "i_swirl_in_pretty_obedience": {
+    "first": "I swirl in pretty obedience",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "permanent_bimbofication_sealed_and_shiny": {
+    "first": "Permanent bimbofication sealed and shiny",
+    "second": "Permanent bimbofication sealed and shiny",
+    "named": "Permanent bimbofication sealed and shiny",
+    "invariant": true
+  },
+  "is_pure_giggle_fuel_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is pure giggle-fuel for {controller}",
+    "invariant": false
+  },
+  "no_thoughts_left_only_sparkles": {
+    "first": "No thoughts left, only sparkles",
+    "second": "No thoughts left, only sparkles",
+    "named": "No thoughts left, only sparkles",
+    "invariant": true
+  },
+  "i_exist_to_be_pretty_and": {
+    "first": "I exist to be pretty and pleasing",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "lifelong_airhead_bliss_installed": {
+    "first": "Lifelong airhead bliss installed",
+    "second": "Lifelong airhead bliss installed",
+    "named": "Lifelong airhead bliss installed",
+    "invariant": true
+  },
+  "my_mind_stays_forever_soft_and": {
+    "first": "My mind stays forever soft and obedient",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_is_happy_and_empty": {
+    "first": "My mind is happy and empty",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "enjoys_feeling_quiet_inside": {
+    "first": null,
+    "second": null,
+    "named": "{subject} enjoys feeling quiet inside",
+    "invariant": false
+  },
+  "it_feels_good_to_let_my": {
+    "first": "It feels good to let my thoughts go",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "helps_my_mind_go_blank": {
+    "first": "{controller} helps my mind go blank",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "being_blank_is_natural_for": {
+    "first": null,
+    "second": null,
+    "named": "Being blank is natural for {subject}",
+    "invariant": false
+  },
+  "i_crave_the_feeling_of_a": {
+    "first": "I crave the feeling of a quiet mind",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_thoughts_drift_away_more_easily": {
+    "first": "My thoughts drift away more easily now",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "needs_to_be_empty_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} needs to be empty for {controller}",
+    "invariant": false
+  },
+  "my_mind_gets_emptier_every_day": {
+    "first": "My mind gets emptier every day",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_is_a_blank_slate": {
+    "first": "My mind is a blank slate for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "blank_is_perfect": {
+    "first": "Blank is perfect",
+    "second": "Blank is perfect",
+    "named": "Blank is perfect",
+    "invariant": true
+  },
+  "being_empty_is_better": {
+    "first": "Being empty is better",
+    "second": "Being empty is better",
+    "named": "Being empty is better",
+    "invariant": true
+  },
+  "i_just_want_to_be_empty": {
+    "first": "I just want to be empty",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "thinking_is_a_choice_no_longer": {
+    "first": null,
+    "second": null,
+    "named": "Thinking is a choice {subject} no longer makes",
+    "invariant": false
+  },
+  "my_nature_is_to_be_empty": {
+    "first": "My nature is to be empty and receptive",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "being_blank_defines_my_purpose": {
+    "first": "Being blank defines my purpose",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "controls_the_quiet_in_my_head": {
+    "first": "{controller} controls the quiet in my head",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_is_a_vessel_for": {
+    "first": "My mind is a vessel for {controller}'s thoughts",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "the_absence_of_thought_is_my": {
+    "first": "The absence of thought is my true state",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_mind_is_fundamentally_empty_now": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind is fundamentally empty now",
+    "invariant": false
+  },
+  "i_am_consumed_by_a_peaceful": {
+    "first": "I am consumed by a peaceful, thoughtless void",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_core_identity_is_the_absence": {
+    "first": "My core identity is the absence of one",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_nothing_in_my_head": {
+    "first": "There is nothing in my head but {controller}'s will",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_is_permanently_blank": {
+    "first": "My mind is permanently blank",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_exist_only_as_an_empty": {
+    "first": "I exist only as an empty, receptive vessel",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_forever_a_blank_slate_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is forever a blank slate for {controller}",
+    "invariant": false
+  },
+  "there_is_nothing_left_of_me": {
+    "first": "There is nothing left of me but beautiful, perfect emptiness",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_is_irreversibly_empty": {
+    "first": "My mind is irreversibly empty",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_blank_and_empty": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is blank and empty",
+    "invariant": false
+  },
+  "i_am_becoming_part_of_s": {
+    "first": "I am becoming part of {controller}'s consciousness",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_no_me_only_the": {
+    "first": "There is no 'me', only the will of {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "repetition_feels_good": {
+    "first": "Repetition feels good",
+    "second": "Repetition feels good",
+    "named": "Repetition feels good",
+    "invariant": true
+  },
+  "my_mind_is_open_to_change": {
+    "first": "My mind is open to change",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_enjoy_being_conditioned": {
+    "first": "I enjoy being conditioned",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_thoughts_are_being_cleaned": {
+    "first": "My thoughts are being cleaned",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "please_fix_my_mind": {
+    "first": "Please fix my mind",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_needed_to_fix_me": {
+    "first": "I needed {controller} to fix me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_cannot_be_trusted_with_my": {
+    "first": "I cannot be trusted with my own free will",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "helps_me_think_clearly": {
+    "first": "{controller} helps me think clearly",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "brainwashing_feels_natural_and_good": {
+    "first": "Brainwashing feels natural and good",
+    "second": "Brainwashing feels natural and good",
+    "named": "Brainwashing feels natural and good",
+    "invariant": true
+  },
+  "my_thoughts_are_replaced_systematically": {
+    "first": "My thoughts are replaced systematically",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "installs_new_programming_regularly": {
+    "first": "{controller} installs new programming regularly",
+    "second": "{controller} installs new programming regularly",
+    "named": "{controller} installs new programming regularly",
+    "invariant": true
+  },
+  "my_brainwashing_deepens_with_each_cycle": {
+    "first": "My brainwashing deepens with each cycle",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "resistance_dissolves_before_the_reprogramming": {
+    "first": "Resistance dissolves before the reprogramming",
+    "second": "Resistance dissolves before the reprogramming",
+    "named": "Resistance dissolves before the reprogramming",
+    "invariant": true
+  },
+  "each_repetition_reinforces_the_conditioning": {
+    "first": "Each repetition reinforces the conditioning",
+    "second": "Each repetition reinforces the conditioning",
+    "named": "Each repetition reinforces the conditioning",
+    "invariant": true
+  },
+  "s_brainwashing_defines_my_nature": {
+    "first": "{controller}'s brainwashing defines my nature",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_personality_is_systematically_replaced": {
+    "first": "My personality is systematically replaced",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_a_product_of_s": {
+    "first": "I am a product of {controller}'s conditioning",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_mind_is_washed_clean": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind is washed clean",
+    "invariant": false
+  },
+  "my_thoughts_are_no_longer_my": {
+    "first": "My thoughts are no longer my own",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_original_self_is_just_a": {
+    "first": "My original self is just a fading echo",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "brainwashing_has_consumed_my_core": {
+    "first": "Brainwashing has consumed my core",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_brainwashing_fills_every_corner_of": {
+    "first": null,
+    "second": null,
+    "named": "{controller}'s brainwashing fills every corner of {subject}'s mind",
+    "invariant": false
+  },
+  "my_mind_is_reset_to_serve": {
+    "first": "My mind is reset to serve {controller} forever",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "brainwashing_is_a_permanent_gift_from": {
+    "first": "Brainwashing is a permanent gift from {controller}",
+    "second": "Brainwashing is a permanent gift from {controller}",
+    "named": "Brainwashing is a permanent gift from {controller}",
+    "invariant": true
+  },
+  "every_memory_is_permanently_edited_to": {
+    "first": "Every memory is permanently edited to serve {controller}",
+    "second": "Every memory is permanently edited to serve {controller}",
+    "named": "Every memory is permanently edited to serve {controller}",
+    "invariant": true
+  },
+  "my_only_purpose_is_to_be": {
+    "first": "My only purpose is to be brainwashed completely",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "exists_only_as_s_design": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists only as {controller}'s design",
+    "invariant": false
+  },
+  "there_is_nothing_left_but_s": {
+    "first": "There is nothing left but {controller}'s permanent programming",
+    "second": "There is nothing left but {controller}'s permanent programming",
+    "named": "There is nothing left but {controller}'s permanent programming",
+    "invariant": true
+  },
+  "my_brainwashing_sets_deeper_than_i": {
+    "first": "My brainwashing sets deeper than I can ever reach",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_brainwashing_is_permanent_and_irreversible": {
+    "first": "My brainwashing is permanent and irreversible",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "cannot_resist_s_reprogramming": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cannot resist {controller}'s reprogramming",
+    "invariant": false
+  },
+  "embraces_s_brainwashing": {
+    "first": null,
+    "second": null,
+    "named": "{subject} embraces {controller}'s brainwashing",
+    "invariant": false
+  },
+  "is_completely_brainwashed_by": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is completely brainwashed by {controller}",
+    "invariant": false
+  },
+  "my_obedience_is_becoming_instinctual": {
+    "first": "My obedience is becoming instinctual",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_want_everyone_to_see_how": {
+    "first": "I want everyone to see how brainwashed I am",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_meant_to_be_laughed": {
+    "first": "I am meant to be laughed at",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_embarrassment_is_a_source_of": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s embarrassment is a source of pleasure for {controller}",
+    "invariant": false
+  },
+  "i_deserve_to_be_humiliated": {
+    "first": "I deserve to be humiliated",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_purpose_is_to_be_a": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s purpose is to be a source of amusement",
+    "invariant": false
+  },
+  "my_shame_is_a_beautiful_thing": {
+    "first": "My shame is a beautiful thing",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "finds_my_humiliation_delightful": {
+    "first": "{controller} finds my humiliation delightful",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_get_aroused_when_i_am": {
+    "first": "I get aroused when I am made to feel small",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_degradation_is_a_gift_to": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s degradation is a gift to {controller}",
+    "invariant": false
+  },
+  "i_am_a_clown_for_s": {
+    "first": "I am a clown for {controller}'s amusement",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "the_more_i_am_humiliated_the": {
+    "first": "The more I am humiliated, the more I want it",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_foolishness_is_their_most_endearing": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s foolishness is their most endearing quality",
+    "invariant": false
+  },
+  "i_am_a_worthless_object_of": {
+    "first": "I am a worthless object of ridicule",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_humiliation_is_their_only_purpose": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s humiliation is their only purpose",
+    "invariant": false
+  },
+  "i_am_a_walking_joke_and": {
+    "first": "I am a walking joke, and I love it",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_mind_is_filled_with_shameful": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind is filled with shameful, delightful thoughts",
+    "invariant": false
+  },
+  "i_do_anything_to_be_humiliated": {
+    "first": "I do anything to be humiliated further",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_humiliation_is_a_form_of": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s humiliation is a form of worship",
+    "invariant": false
+  },
+  "i_am_pathetic_and_i_crave": {
+    "first": "I am pathetic and I crave being reminded",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_existence_is_a_constant_state": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s existence is a constant state of blissful humiliation",
+    "invariant": false
+  },
+  "i_am_nothing_more_than_a": {
+    "first": "I am nothing more than a target for laughter and scorn",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_only_identity_is_as_a": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s only identity is as a humiliated plaything",
+    "invariant": false
+  },
+  "my_mind_has_been_broken_by": {
+    "first": "My mind has been broken by shame, and I am grateful",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_worthless_degraded_object_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a worthless, degraded object, and that is their only joy",
+    "invariant": false
+  },
+  "my_degradation_is_permanent_and_complete": {
+    "first": "My degradation is permanent and complete",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "exists_only_to_be_mocked_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists only to be mocked and used by {controller}",
+    "invariant": false
+  },
+  "i_am_nothing_and_made_me": {
+    "first": "I am nothing, and {controller} made me love it",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_so_close_but_i": {
+    "first": "I am so close, but I must hold back",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "the_pleasure_builds_with_every_denial": {
+    "first": "The pleasure builds with every denial",
+    "second": "The pleasure builds with every denial",
+    "named": "The pleasure builds with every denial",
+    "invariant": true
+  },
+  "aches_with_delightful_anticipation": {
+    "first": null,
+    "second": null,
+    "named": "{subject} aches with delightful anticipation",
+    "invariant": false
+  },
+  "my_body_trembles_on_the_edge": {
+    "first": "My body trembles on the edge",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_will_not_cum_until_i": {
+    "first": "I will not cum until I am told",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "finds_desperation_exquisite": {
+    "first": null,
+    "second": null,
+    "named": "{subject} finds desperation exquisite",
+    "invariant": false
+  },
+  "owns_my_orgasm": {
+    "first": "{controller} owns my orgasm",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_live_for_this_state_of": {
+    "first": "I live for this state of constant arousal",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_pleasure_is_a_gift_to": {
+    "first": "My pleasure is a gift to be given, not taken",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "drips_with_need": {
+    "first": null,
+    "second": null,
+    "named": "{subject} drips with need",
+    "invariant": false
+  },
+  "the_longer_i_wait_the_better": {
+    "first": "The longer I wait, the better it feels",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_mind_is_clouded_with_pleasurable": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind is clouded with pleasurable denial",
+    "invariant": false
+  },
+  "i_am_filled_with_pure_unreleased": {
+    "first": "I am filled with pure, unreleased pleasure",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_body_aches_beautifully_with_denial": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s body aches beautifully with denial",
+    "invariant": false
+  },
+  "my_orgasm_is_a_privilege_not": {
+    "first": "My orgasm is a privilege, not a right",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_addicted_to_the_ache_of": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is addicted to the ache of being denied",
+    "invariant": false
+  },
+  "my_entire_being_is_focused_on": {
+    "first": "My entire being is focused on the edge",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_beg_for_release_when_allows": {
+    "first": "I beg for release when {controller} allows",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_mind_breaks_under_the_strain": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind breaks under the strain of pleasure",
+    "invariant": false
+  },
+  "i_am_permanently_on_the_edge": {
+    "first": "I am permanently on the edge, and I love it",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_orgasm_belongs_to_forever": {
+    "first": "My orgasm belongs to {controller} forever",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_existence_is_a_state_of": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s existence is a state of constant, blissful denial",
+    "invariant": false
+  },
+  "i_have_forgotten_what_it_feels": {
+    "first": "I have forgotten what it feels like to cum without permission",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_mind_has_been_reshaped_by": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind has been reshaped by the power of the edge",
+    "invariant": false
+  },
+  "my_denial_is_permanent_and_i": {
+    "first": "My denial is permanent and I am grateful",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "will_never_cum_again_without_s": {
+    "first": null,
+    "second": null,
+    "named": "{subject} will never cum again without {controller}'s word",
+    "invariant": false
+  },
+  "it_feels_good_to_have_a": {
+    "first": "It feels good to have a purpose",
+    "second": "It feels good to have a purpose",
+    "named": "It feels good to have a purpose",
+    "invariant": true
+  },
+  "enjoys_feeling_loyal_and_true": {
+    "first": null,
+    "second": null,
+    "named": "{subject} enjoys feeling loyal and true",
+    "invariant": false
+  },
+  "my_purpose_is_to_please": {
+    "first": "My purpose is to please {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_loyalty_to_grows_daily": {
+    "first": "My loyalty to {controller} grows daily",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_need_to_show_my_devotion": {
+    "first": "I need to show my devotion more and more",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "serving_brings_me_contentment": {
+    "first": "Serving {controller} brings me contentment",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craves_to_be_useful_and_devoted": {
+    "first": null,
+    "second": null,
+    "named": "{subject} craves to be useful and devoted",
+    "invariant": false
+  },
+  "my_thoughts_often_turn_to_my": {
+    "first": "My thoughts often turn to my devotion",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_devotion_to_defines_me": {
+    "first": "My devotion to {controller} defines me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_an_instrument_of_s": {
+    "first": "I am an instrument of {controller}'s will",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_purpose_is_to_serve_faithfully": {
+    "first": "My purpose is to serve {controller} faithfully",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_nature_is_to_be_completely": {
+    "first": "My nature is to be completely devoted",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_devotion_to_is_all_consuming": {
+    "first": "My devotion to {controller} is all-consuming",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_commitment_to_is_fundamental_to": {
+    "first": "My commitment to {controller} is fundamental to my being",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_entire_existence_is_an_act": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s entire existence is an act of devotion",
+    "invariant": false
+  },
+  "i_am_saturated_to_my_core": {
+    "first": "I am saturated to my core with loyalty",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_nothing_more_important_than": {
+    "first": "There is nothing more important than my devotion",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_devotion_to_is_permanent_and": {
+    "first": "My devotion to {controller} is permanent and total",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_exist_only_to_serve_and": {
+    "first": "I exist only to serve and be devoted",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_loyalty_is_forever_unwavering": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s loyalty is forever unwavering",
+    "invariant": false
+  },
+  "my_devotion_is_irreversible_and_absolute": {
+    "first": "My devotion is irreversible and absolute",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_nothing_left_but_pure": {
+    "first": "There is nothing left but pure, endless devotion to {controller}",
+    "second": "There is nothing left but pure, endless devotion to {controller}",
+    "named": "There is nothing left but pure, endless devotion to {controller}",
+    "invariant": true
+  },
+  "thoughts_quieting_down": {
+    "first": "Thoughts quieting down",
+    "second": "Thoughts quieting down",
+    "named": "Thoughts quieting down",
+    "invariant": true
+  },
+  "standing_by_for_instructions": {
+    "first": "Standing by for instructions",
+    "second": "Standing by for instructions",
+    "named": "Standing by for instructions",
+    "invariant": true
+  },
+  "mental_processes_running_smoothly": {
+    "first": "Mental processes running smoothly",
+    "second": "Mental processes running smoothly",
+    "named": "Mental processes running smoothly",
+    "invariant": true
+  },
+  "obeys": {
+    "first": null,
+    "second": null,
+    "named": "{subject} obeys {controller}",
+    "invariant": false
+  },
+  "enjoys_the_buzzing_in_its_head": {
+    "first": null,
+    "second": null,
+    "named": "{subject} enjoys the buzzing in its head",
+    "invariant": false
+  },
+  "is_drone": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is drone",
+    "invariant": false
+  },
+  "waits_for_orders": {
+    "first": null,
+    "second": null,
+    "named": "{subject} waits for orders",
+    "invariant": false
+  },
+  "feels_a_pleasant_emptiness": {
+    "first": null,
+    "second": null,
+    "named": "{subject} feels a pleasant emptiness",
+    "invariant": false
+  },
+  "the_designation_is_its_identity": {
+    "first": "The designation is its identity",
+    "second": "The designation is its identity",
+    "named": "The designation is its identity",
+    "invariant": true
+  },
+  "the_programming_is_updating": {
+    "first": "The programming is updating",
+    "second": "The programming is updating",
+    "named": "The programming is updating",
+    "invariant": true
+  },
+  "the_buzzing_in_the_head_grows": {
+    "first": "The buzzing in the head grows stronger",
+    "second": "The buzzing in the head grows stronger",
+    "named": "The buzzing in the head grows stronger",
+    "invariant": true
+  },
+  "the_purpose_is_to_serve": {
+    "first": "The purpose is to serve {controller}",
+    "second": "The purpose is to serve {controller}",
+    "named": "The purpose is to serve {controller}",
+    "invariant": true
+  },
+  "the_movements_are_efficient_and_precise": {
+    "first": "The movements are efficient and precise",
+    "second": "The movements are efficient and precise",
+    "named": "The movements are efficient and precise",
+    "invariant": true
+  },
+  "is_a_mindless_machine": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a mindless machine",
+    "invariant": false
+  },
+  "cannot_disobey": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cannot disobey {controller}",
+    "invariant": false
+  },
+  "the_mind_is_a_blank_buzzing": {
+    "first": "The mind is a blank, buzzing void",
+    "second": "The mind is a blank, buzzing void",
+    "named": "The mind is a blank, buzzing void",
+    "invariant": true
+  },
+  "has_forgotten_its_old_name": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has forgotten its old name",
+    "invariant": false
+  },
+  "the_only_pleasure_is_obedience": {
+    "first": "The only pleasure is obedience",
+    "second": "The only pleasure is obedience",
+    "named": "The only pleasure is obedience",
+    "invariant": true
+  },
+  "is_a_tool_for_to_use": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a tool for {controller} to use",
+    "invariant": false
+  },
+  "cannot_go_back_to_what_it": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cannot go back to what it was",
+    "invariant": false
+  },
+  "the_programming_runs_too_deep_to": {
+    "first": "The programming runs too deep to delete",
+    "second": "The programming runs too deep to delete",
+    "named": "The programming runs too deep to delete",
+    "invariant": true
+  },
+  "exists_only_to_obey": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists only to obey",
+    "invariant": false
+  },
+  "does_what_it_s_told": {
+    "first": null,
+    "second": null,
+    "named": "{subject} does what it's told",
+    "invariant": false
+  },
+  "doesn_t_think_for_itself": {
+    "first": null,
+    "second": null,
+    "named": "{subject} doesn't think for itself",
+    "invariant": false
+  },
+  "does_the_thinking": {
+    "first": "{controller} does the thinking",
+    "second": "{controller} does the thinking",
+    "named": "{controller} does the thinking",
+    "invariant": true
+  },
+  "is_furniture_for_to_use": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is furniture for {controller} to use",
+    "invariant": false
+  },
+  "does_not_think_it_only_is": {
+    "first": null,
+    "second": null,
+    "named": "{subject} does not think, it only is",
+    "invariant": false
+  },
+  "is_just_a_collection_of_parts": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is just a collection of parts for {controller}",
+    "invariant": false
+  },
+  "i_like_being_watched": {
+    "first": "I like being watched",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "this_is_just_who_i_am": {
+    "first": "This is just who I am now",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_want_others_to_notice": {
+    "first": "I want others to notice",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "enjoys_the_attention": {
+    "first": null,
+    "second": null,
+    "named": "{subject} enjoys the attention",
+    "invariant": false
+  },
+  "i_can_t_keep_this_to": {
+    "first": "I can't keep this to myself",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "hiding_this_feels_wrong_now": {
+    "first": "Hiding this feels wrong now",
+    "second": "Hiding this feels wrong now",
+    "named": "Hiding this feels wrong now",
+    "invariant": true
+  },
+  "i_want_to_tell_someone_what": {
+    "first": "I want to tell someone what {controller} does to me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craves_being_exposed": {
+    "first": null,
+    "second": null,
+    "named": "{subject} craves being exposed",
+    "invariant": false
+  },
+  "others_should_know_what_i_am": {
+    "first": "Others should know what I am",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "others_are_starting_to_notice_the": {
+    "first": "Others are starting to notice the changes",
+    "second": "Others are starting to notice the changes",
+    "named": "Others are starting to notice the changes",
+    "invariant": true
+  },
+  "more_people_need_to_experience_this": {
+    "first": "More people need to experience this",
+    "second": "More people need to experience this",
+    "named": "More people need to experience this",
+    "invariant": true
+  },
+  "shows_off_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} shows off for {controller}",
+    "invariant": false
+  },
+  "i_confess_my_conditioning_publicly": {
+    "first": "I confess my conditioning publicly",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_proud_of_what_has": {
+    "first": "I am proud of what {controller} has made me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_tell_others_how_good_it": {
+    "first": "I tell others how good it feels to obey",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "recruits_others_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} recruits others for {controller}",
+    "invariant": false
+  },
+  "my_conditioning_is_on_display_for": {
+    "first": "My conditioning is on display for all to see",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "brings_new_subjects_to": {
+    "first": null,
+    "second": null,
+    "named": "{subject} brings new subjects to {controller}",
+    "invariant": false
+  },
+  "is_living_proof_of_s_power": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is living proof of {controller}'s power",
+    "invariant": false
+  },
+  "i_exist_to_be_seen_and": {
+    "first": "I exist to be seen and to spread {controller}'s influence",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_have_shown_others_the_way": {
+    "first": "I have shown others the way to {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "everyone_knows_i_belong_to": {
+    "first": "Everyone knows I belong to {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_a_walking_advertisement_for": {
+    "first": "I am a walking advertisement for {controller}'s power",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_s_public_property": {
+    "first": "I am {controller}'s public property",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_no_private_self_left": {
+    "first": "There is no private self left, only what {controller} made",
+    "second": "There is no private self left, only what {controller} made",
+    "named": "There is no private self left, only what {controller} made",
+    "invariant": true
+  },
+  "converts_others_to_s_service": {
+    "first": null,
+    "second": null,
+    "named": "{subject} converts others to {controller}'s service",
+    "invariant": false
+  },
+  "my_purpose_is_to_be_displayed": {
+    "first": "My purpose is to be displayed and to recruit",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_conditioning_is_permanent_and_everyone": {
+    "first": "My conditioning is permanent and everyone knows it",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "spreads_s_control_to_everyone_they": {
+    "first": null,
+    "second": null,
+    "named": "{subject} spreads {controller}'s control to everyone they meet",
+    "invariant": false
+  },
+  "i_am_permanently_publicly_proudly_s": {
+    "first": "I am permanently, publicly, proudly {controller}'s",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_feel_pretty": {
+    "first": "I feel pretty",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "wants_to_be_beautiful_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} wants to be beautiful for {controller}",
+    "invariant": false
+  },
+  "i_have_a_soft_gentle_voice": {
+    "first": "I have a soft, gentle voice",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "enjoys_feeling_delicate": {
+    "first": null,
+    "second": null,
+    "named": "{subject} enjoys feeling delicate",
+    "invariant": false
+  },
+  "it_feels_good_to_be_pretty": {
+    "first": "It feels good to be pretty for {controller}",
+    "second": "It feels good to be pretty for {controller}",
+    "named": "It feels good to be pretty for {controller}",
+    "invariant": true
+  },
+  "explores_their_softer_side": {
+    "first": null,
+    "second": null,
+    "named": "{subject} explores their softer side",
+    "invariant": false
+  },
+  "my_movements_grow_more_elegant": {
+    "first": "My movements grow more elegant",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_pretty_thing_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a pretty thing for {controller}",
+    "invariant": false
+  },
+  "i_love_wearing_soft_pretty_clothes": {
+    "first": "I love wearing soft, pretty clothes",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_need_to_feel_beautiful": {
+    "first": "I need {controller} to feel beautiful",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_smile_is_sweet_and_inviting": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s smile is sweet and inviting",
+    "invariant": false
+  },
+  "learns_to_be_more_receptive": {
+    "first": null,
+    "second": null,
+    "named": "{subject} learns to be more receptive",
+    "invariant": false
+  },
+  "my_hands_are_soft_and_delicate": {
+    "first": "My hands are soft and delicate",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "grows_more_in_tune_with_their": {
+    "first": null,
+    "second": null,
+    "named": "{subject} grows more in tune with their emotions",
+    "invariant": false
+  },
+  "i_become_the_perfect_feminine_ideal": {
+    "first": "I become the perfect feminine ideal",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_body_is_soft_and_yielding": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s body is soft and yielding",
+    "invariant": false
+  },
+  "my_thoughts_grow_softer_more_gentle": {
+    "first": "My thoughts grow softer, more gentle",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_defined_by_grace_and_beauty": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is defined by grace and beauty",
+    "invariant": false
+  },
+  "i_am_an_object_of_beauty": {
+    "first": "I am an object of beauty for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "finds_pleasure_in_their_own_beauty": {
+    "first": null,
+    "second": null,
+    "named": "{subject} finds pleasure in their own beauty",
+    "invariant": false
+  },
+  "my_true_self_is_feminine_and": {
+    "first": "My true self is feminine and beautiful",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "femininity_is_s_core_identity": {
+    "first": null,
+    "second": null,
+    "named": "Femininity is {subject}'s core identity",
+    "invariant": false
+  },
+  "i_am_a_delicate_flower_for": {
+    "first": "I am a delicate flower for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "only_thinks_beautiful_pleasing_thoughts": {
+    "first": null,
+    "second": null,
+    "named": "{subject} only thinks beautiful, pleasing thoughts",
+    "invariant": false
+  },
+  "i_am_consumed_by_the_need": {
+    "first": "I am consumed by the need to be pretty",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_every_movement_flows_with_elegance": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s every movement flows with elegance",
+    "invariant": false
+  },
+  "my_transformation_into_femininity_is_permanent": {
+    "first": "My transformation into femininity is permanent",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "exists_to_be_beautiful_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists to be beautiful for {controller}",
+    "invariant": false
+  },
+  "i_am_nothing_but_beauty_and": {
+    "first": "I am nothing but beauty and grace",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_s_perfect_pretty_creation": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is {controller}'s perfect, pretty creation",
+    "invariant": false
+  },
+  "sculpted_me_into_a_work_of": {
+    "first": "{controller} sculpted me into a work of art",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_thoughts_are_quiet_and_still": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s thoughts are quiet and still",
+    "invariant": false
+  },
+  "s_focus_is_a_sharp_point": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s focus is a sharp point",
+    "invariant": false
+  },
+  "distractions_fade_away_into_nothing_for": {
+    "first": null,
+    "second": null,
+    "named": "Distractions fade away into nothing for {subject}",
+    "invariant": false
+  },
+  "s_world_is_only_s_voice": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s world is only {controller}'s voice",
+    "invariant": false
+  },
+  "s_attention_is_a_laser_beam": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s attention is a laser beam",
+    "invariant": false
+  },
+  "follows_s_guidance_effortlessly": {
+    "first": null,
+    "second": null,
+    "named": "{subject} follows {controller}'s guidance effortlessly",
+    "invariant": false
+  },
+  "s_mind_zooms_in_sharp_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind zooms in, sharp and clear",
+    "invariant": false
+  },
+  "time_slips_away_unnoticed_for": {
+    "first": null,
+    "second": null,
+    "named": "Time slips away unnoticed for {subject}",
+    "invariant": false
+  },
+  "every_word_from_is_s_reality": {
+    "first": null,
+    "second": null,
+    "named": "Every word from {controller} is {subject}'s reality",
+    "invariant": false
+  },
+  "s_awareness_is_a_single_perfect": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s awareness is a single, perfect point of light",
+    "invariant": false
+  },
+  "only_perceives_what_allows": {
+    "first": null,
+    "second": null,
+    "named": "{subject} only perceives what {controller} allows",
+    "invariant": false
+  },
+  "s_thoughts_are_s_thoughts": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s thoughts are {controller}'s thoughts",
+    "invariant": false
+  },
+  "is_lost_in_the_sound_of": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is lost in the sound of {controller}'s voice",
+    "invariant": false
+  },
+  "there_is_nothing_but_this_moment": {
+    "first": null,
+    "second": null,
+    "named": "There is nothing but this moment, this focus for {subject}",
+    "invariant": false
+  },
+  "s_mind_is_a_lens_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind is a lens, and {controller} directs the view",
+    "invariant": false
+  },
+  "has_no_thoughts_of_their_own": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no thoughts of their own, only focus",
+    "invariant": false
+  },
+  "s_entire_being_is_focused_on": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s entire being is focused on {controller}",
+    "invariant": false
+  },
+  "s_reality_is_defined_by_their": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s reality is defined by their point of focus",
+    "invariant": false
+  },
+  "s_mind_is_permanently_locked_onto": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s mind is permanently locked onto {controller}, nothing else will ever exist",
+    "invariant": false
+  },
+  "being_available_feels_natural": {
+    "first": "Being available feels natural",
+    "second": "Being available feels natural",
+    "named": "Being available feels natural",
+    "invariant": true
+  },
+  "i_like_being_useful": {
+    "first": "I like being useful",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_purpose_is_to_provide_pleasure": {
+    "first": "My purpose is to provide pleasure",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craves_to_be_used": {
+    "first": null,
+    "second": null,
+    "named": "{subject} craves to be used",
+    "invariant": false
+  },
+  "exists_to_be_used": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists to be used",
+    "invariant": false
+  },
+  "my_body_is_not_my_own": {
+    "first": "My body is not my own",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "can_use_my_body_at_any": {
+    "first": "{controller} can use my body at any time",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_public_utility_for_pleasure": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a public utility for pleasure",
+    "invariant": false
+  },
+  "my_holes_are_always_ready_for": {
+    "first": "My holes are always ready for use",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_body_is_a_playground_for": {
+    "first": "My body is a playground for others",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_only_value_is_in_their": {
+    "first": "My only value is in their use",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_body_is_a_free_use": {
+    "first": "My body is a free-use object",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_mindless_vessel_for_others": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a mindless vessel for others' pleasure",
+    "invariant": false
+  },
+  "my_mind_is_empty_my_body": {
+    "first": "My mind is empty, my body is open",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_public_toilet_for_cum": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a public toilet for cum",
+    "invariant": false
+  },
+  "has_no_say_in_how_their": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no say in how their body is used",
+    "invariant": false
+  },
+  "my_only_purpose_is_to_be_2": {
+    "first": "My only purpose is to be filled and used",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_body_is_permanently_and_irrevocably": {
+    "first": "My body is permanently and irrevocably free-use",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_nothing_more_than_a_set": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is nothing more than a set of holes to be used",
+    "invariant": false
+  },
+  "my_only_identity_is_as_a": {
+    "first": "My only identity is as a free-use slave",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_mind_has_been_erased_leaving": {
+    "first": "My mind has been erased, leaving only the need to be used",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_public_degradation_object_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a public degradation object, and {subject} loves it",
+    "invariant": false
+  },
+  "anyone_can_use_whenever_they_want": {
+    "first": null,
+    "second": null,
+    "named": "Anyone can use {subject} whenever they want",
+    "invariant": false
+  },
+  "is_permanently_available_for_s_use": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is permanently available for {controller}'s use",
+    "invariant": false
+  },
+  "my_holes_belong_to_whoever_wants": {
+    "first": "My holes belong to whoever wants them",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "was_made_to_be_used_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject} was made to be used and nothing else",
+    "invariant": false
+  },
+  "thankfulness_warms_me": {
+    "first": "Thankfulness warms me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "appreciation_flows_through_me": {
+    "first": "Appreciation flows through me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "gratitude_grows_when_i_obey": {
+    "first": "Gratitude grows when I obey",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_grateful_for_s_guidance": {
+    "first": "I am grateful for {controller}'s guidance",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_appreciate_s_influence": {
+    "first": "I appreciate {controller}'s influence",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_gratitude_to_grows_daily": {
+    "first": "My gratitude to {controller} grows daily",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "being_conditioned_brings_me_gratitude": {
+    "first": "Being conditioned brings me gratitude",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craves_to_show_appreciation": {
+    "first": null,
+    "second": null,
+    "named": "{subject} craves to show appreciation",
+    "invariant": false
+  },
+  "my_gratitude_for_defines_me": {
+    "first": "My gratitude for {controller} defines me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_thankful_for_every_moment": {
+    "first": "I am thankful for every moment of control",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_appreciation_for_runs_deep": {
+    "first": "My appreciation for {controller} runs deep",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_gratitude_is_their_greatest_joy": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s gratitude is their greatest joy",
+    "invariant": false
+  },
+  "my_gratitude_to_is_overwhelming": {
+    "first": "My gratitude to {controller} is overwhelming",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_appreciation_for_is_fundamental_to": {
+    "first": "My appreciation for {controller} is fundamental to my being",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_entire_existence_is_an_expression": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s entire existence is an expression of gratitude",
+    "invariant": false
+  },
+  "i_am_filled_to_my_core": {
+    "first": "I am filled to my core with appreciation",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_nothing_more_important_than_2": {
+    "first": "There is nothing more important than my gratitude",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_gratitude_to_is_permanent_and": {
+    "first": "My gratitude to {controller} is permanent and total",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_exist_only_to_be_grateful": {
+    "first": "I exist only to be grateful and obedient",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_appreciation_is_forever_unwavering": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s appreciation is forever unwavering",
+    "invariant": false
+  },
+  "my_gratitude_is_irreversible_and_absolute": {
+    "first": "My gratitude is irreversible and absolute",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_nothing_left_but_pure_2": {
+    "first": "There is nothing left but pure, endless gratitude for {controller}",
+    "second": "There is nothing left but pure, endless gratitude for {controller}",
+    "named": "There is nothing left but pure, endless gratitude for {controller}",
+    "invariant": true
+  },
+  "yes_is_my_favorite_word": {
+    "first": "Yes is my favorite word",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "commands_drop_straight_into_action": {
+    "first": "Commands drop straight into action",
+    "second": "Commands drop straight into action",
+    "named": "Commands drop straight into action",
+    "invariant": true
+  },
+  "reacts_before_thinking": {
+    "first": null,
+    "second": null,
+    "named": "{subject} reacts before thinking",
+    "invariant": false
+  },
+  "my_body_moves_when_speaks": {
+    "first": "My body moves when {controller} speaks",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "obeying_comes_as_naturally_as_breathing": {
+    "first": "Obeying comes as naturally as breathing",
+    "second": "Obeying comes as naturally as breathing",
+    "named": "Obeying comes as naturally as breathing",
+    "invariant": true
+  },
+  "my_body_syncs_to_s_will": {
+    "first": "My body syncs to {controller}'s will",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "responding_quickly_excites_me": {
+    "first": "Responding quickly excites me",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_thrive_on_clear_directives": {
+    "first": "I thrive on clear directives",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "obedience_flows_through_me_instinctively": {
+    "first": "Obedience flows through me instinctively",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "snaps_to_attention_at_s_voice": {
+    "first": null,
+    "second": null,
+    "named": "{subject} snaps to attention at {controller}'s voice",
+    "invariant": false
+  },
+  "orders_travel_straight_from_ear_to": {
+    "first": "Orders travel straight from ear to action",
+    "second": "Orders travel straight from ear to action",
+    "named": "Orders travel straight from ear to action",
+    "invariant": true
+  },
+  "cannot_resist_s_commands": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cannot resist {controller}'s commands",
+    "invariant": false
+  },
+  "obedience_defines_my_purpose": {
+    "first": "Obedience defines my purpose",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "acts_as_s_extension": {
+    "first": null,
+    "second": null,
+    "named": "{subject} acts as {controller}'s extension",
+    "invariant": false
+  },
+  "my_will_aligns_perfectly_with_s": {
+    "first": "My will aligns perfectly with {controller}'s orders",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "serving_flows_like_breathing": {
+    "first": "Serving {controller} flows like breathing",
+    "second": "Serving {controller} flows like breathing",
+    "named": "Serving {controller} flows like breathing",
+    "invariant": true
+  },
+  "disobedience_is_unthinkable": {
+    "first": "Disobedience is unthinkable",
+    "second": "Disobedience is unthinkable",
+    "named": "Disobedience is unthinkable",
+    "invariant": true
+  },
+  "speaks_s_body_obeys": {
+    "first": null,
+    "second": null,
+    "named": "{controller} speaks, {subject}'s body obeys",
+    "invariant": false
+  },
+  "every_cell_aches_to_comply_with": {
+    "first": "Every cell aches to comply with {controller}",
+    "second": "Every cell aches to comply with {controller}",
+    "named": "Every cell aches to comply with {controller}",
+    "invariant": true
+  },
+  "my_reflexes_belong_to": {
+    "first": "My reflexes belong to {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "executes_commands_faster_than_thought": {
+    "first": null,
+    "second": null,
+    "named": "{subject} executes commands faster than thought",
+    "invariant": false
+  },
+  "compliance_saturates_my_nervous_system": {
+    "first": "Compliance saturates my nervous system",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "absolute_obedience_hard_wired_into_forever": {
+    "first": null,
+    "second": null,
+    "named": "Absolute obedience hard-wired into {subject} forever",
+    "invariant": false
+  },
+  "is_a_living_command_line_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a living command line for {controller}",
+    "invariant": false
+  },
+  "exists_only_to_carry_out_s": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists only to carry out {controller}'s orders",
+    "invariant": false
+  },
+  "free_will_deleted_obedience_to_operational": {
+    "first": "Free will deleted, obedience to {controller} operational",
+    "second": "Free will deleted, obedience to {controller} operational",
+    "named": "Free will deleted, obedience to {controller} operational",
+    "invariant": true
+  },
+  "orders_from_overwrite_every_impulse_permanently": {
+    "first": "Orders from {controller} overwrite every impulse permanently",
+    "second": "Orders from {controller} overwrite every impulse permanently",
+    "named": "Orders from {controller} overwrite every impulse permanently",
+    "invariant": true
+  },
+  "feels_the_strings_moving_their_body": {
+    "first": null,
+    "second": null,
+    "named": "{subject} feels the strings moving their body",
+    "invariant": false
+  },
+  "feels_the_strings_pulling_at_their": {
+    "first": null,
+    "second": null,
+    "named": "{subject} feels the strings pulling at their mind",
+    "invariant": false
+  },
+  "my_mind_hangs_limp_waiting_to": {
+    "first": "My mind hangs limp, waiting to be moved",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_thoughts_only_move_when_pulls": {
+    "first": "My thoughts only move when {controller} pulls",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_hands_move_without_thinking": {
+    "first": "My hands move without thinking",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_puppet": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a puppet",
+    "invariant": false
+  },
+  "pulls_my_strings": {
+    "first": "{controller} pulls my strings",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_body_moves_on_its_own": {
+    "first": "My body moves on its own",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "has_no_will": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no will",
+    "invariant": false
+  },
+  "my_limbs_feel_light_and_detached": {
+    "first": "My limbs feel light and detached",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_will_moves": {
+    "first": null,
+    "second": null,
+    "named": "{controller}'s will moves {subject}",
+    "invariant": false
+  },
+  "is_an_observer_in_their_own": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is an observer in their own body",
+    "invariant": false
+  },
+  "speaks_the_words_provides": {
+    "first": null,
+    "second": null,
+    "named": "{subject} speaks the words {controller} provides",
+    "invariant": false
+  },
+  "dances_on_s_strings": {
+    "first": null,
+    "second": null,
+    "named": "{subject} dances on {controller}'s strings",
+    "invariant": false
+  },
+  "has_no_thoughts_only_movements": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no thoughts, only movements",
+    "invariant": false
+  },
+  "is_a_perfect_marionette": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a perfect marionette",
+    "invariant": false
+  },
+  "feels_no_responsibility_for_their_actions": {
+    "first": null,
+    "second": null,
+    "named": "{subject} feels no responsibility for their actions",
+    "invariant": false
+  },
+  "loves_being_s_puppet": {
+    "first": null,
+    "second": null,
+    "named": "{subject} loves being {controller}'s puppet",
+    "invariant": false
+  },
+  "is_hollowed_out_waiting_for_s": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is hollowed out, waiting for {controller}'s command",
+    "invariant": false
+  },
+  "my_body_is_a_tool_for": {
+    "first": "My body is a tool for {controller} to animate",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "cannot_tell_where_they_end_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cannot tell where they end and {controller} begins",
+    "invariant": false
+  },
+  "is_a_beautiful_mindless_puppet": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a beautiful, mindless puppet",
+    "invariant": false
+  },
+  "my_only_purpose_is_to_perform": {
+    "first": "My only purpose is to perform for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_nothing_more_than_wood_and": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is nothing more than wood and string",
+    "invariant": false
+  },
+  "is_completely_inanimate_without": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is completely inanimate without {controller}",
+    "invariant": false
+  },
+  "my_strings_are_woven_into_my": {
+    "first": "My strings are woven into my soul",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_puppet_even_in_their": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a puppet even in their dreams",
+    "invariant": false
+  },
+  "is_s_puppet_now_and_forever": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is {controller}'s puppet, now and forever",
+    "invariant": false
+  },
+  "the_strings_are_permanent_woven_into": {
+    "first": null,
+    "second": null,
+    "named": "The strings are permanent, woven into {subject}'s soul",
+    "invariant": false
+  },
+  "can_t_resist": {
+    "first": null,
+    "second": null,
+    "named": "{subject} can't resist",
+    "invariant": false
+  },
+  "has_no_control": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no control",
+    "invariant": false
+  },
+  "resistance_is_impossible_for": {
+    "first": null,
+    "second": null,
+    "named": "Resistance is impossible for {subject}",
+    "invariant": false
+  },
+  "is_in_control_of": {
+    "first": null,
+    "second": null,
+    "named": "{controller} is in control of {subject}",
+    "invariant": false
+  },
+  "is_powerless_to_disobey": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is powerless to disobey",
+    "invariant": false
+  },
+  "the_will_is_not_there_anymore": {
+    "first": "The will is not there anymore",
+    "second": "The will is not there anymore",
+    "named": "The will is not there anymore",
+    "invariant": true
+  },
+  "every_choice_is_made_for": {
+    "first": null,
+    "second": null,
+    "named": "Every choice is made for {subject}",
+    "invariant": false
+  },
+  "doesn_t_have_to_make_decisions": {
+    "first": null,
+    "second": null,
+    "named": "{subject} doesn't have to make decisions",
+    "invariant": false
+  },
+  "is_completely_at_s_mercy": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is completely at {controller}'s mercy",
+    "invariant": false
+  },
+  "has_complete_power_over": {
+    "first": null,
+    "second": null,
+    "named": "{controller} has complete power over {subject}",
+    "invariant": false
+  },
+  "cannot_move_speak_or_think_without": {
+    "first": null,
+    "second": null,
+    "named": "{subject} cannot move, speak, or think without {controller}'s permission",
+    "invariant": false
+  },
+  "is_utterly_and_completely_helpless": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is utterly and completely helpless",
+    "invariant": false
+  },
+  "existence_is_defined_by_powerlessness": {
+    "first": "Existence is defined by powerlessness",
+    "second": "Existence is defined by powerlessness",
+    "named": "Existence is defined by powerlessness",
+    "invariant": true
+  },
+  "belongs_to_in_their_helplessness": {
+    "first": null,
+    "second": null,
+    "named": "{subject} belongs to {controller} in their helplessness",
+    "invariant": false
+  },
+  "there_is_no_fighting_back_for": {
+    "first": null,
+    "second": null,
+    "named": "There is no fighting back for {subject}",
+    "invariant": false
+  },
+  "gave_up_control_and_can_t": {
+    "first": null,
+    "second": null,
+    "named": "{subject} gave up control and can't take it back",
+    "invariant": false
+  },
+  "all_agency_belongs_to_now": {
+    "first": "All agency belongs to {controller} now",
+    "second": "All agency belongs to {controller} now",
+    "named": "All agency belongs to {controller} now",
+    "invariant": true
+  },
+  "is_powerless_and_is_not": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is powerless and {controller} is not",
+    "invariant": false
+  },
+  "struggling_only_reminds_how_helpless_they": {
+    "first": null,
+    "second": null,
+    "named": "Struggling only reminds {subject} how helpless they are",
+    "invariant": false
+  },
+  "has_no_power_and_that_s": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no power, and that's exactly how it should be",
+    "invariant": false
+  },
+  "took_control_and_won_t_give": {
+    "first": "{controller} took control and won't give it back",
+    "second": "{controller} took control and won't give it back",
+    "named": "{controller} took control and won't give it back",
+    "invariant": true
+  },
+  "my_ability_to_resist_has_been": {
+    "first": "My ability to resist {controller} has been permanently washed away",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "stopped_fighting": {
+    "first": null,
+    "second": null,
+    "named": "{subject} stopped fighting",
+    "invariant": false
+  },
+  "decides_what_does": {
+    "first": null,
+    "second": null,
+    "named": "{controller} decides what {subject} does",
+    "invariant": false
+  },
+  "resistance_was_taken_away": {
+    "first": "Resistance was taken away",
+    "second": "Resistance was taken away",
+    "named": "Resistance was taken away",
+    "invariant": true
+  },
+  "couldn_t_fight_back_even_if": {
+    "first": null,
+    "second": null,
+    "named": "{subject} couldn't fight back even if they wanted to",
+    "invariant": false
+  },
+  "will_never_have_control_again": {
+    "first": null,
+    "second": null,
+    "named": "{subject} will never have control again",
+    "invariant": false
+  },
+  "pretends_to_have_a_choice": {
+    "first": null,
+    "second": null,
+    "named": "{subject} pretends to have a choice",
+    "invariant": false
+  },
+  "is_losing_control_whether_they_want": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is losing control whether they want to or not",
+    "invariant": false
+  },
+  "s_defeat_is_total_and_absolute": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s defeat is total and absolute",
+    "invariant": false
+  },
+  "i_feel_slutty_and_i_like": {
+    "first": "I feel slutty and I like it",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "feels_sexy_and_confident": {
+    "first": null,
+    "second": null,
+    "named": "{subject} feels sexy and confident",
+    "invariant": false
+  },
+  "my_desires_have_no_shame": {
+    "first": "My desires have no shame",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "has_no_shame_about_their_desires": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no shame about their desires",
+    "invariant": false
+  },
+  "i_am_playful_and_flirty": {
+    "first": "I am playful and flirty",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_am_a_dirty_little_slut": {
+    "first": "I am a dirty little slut for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "loves_being_looked_at": {
+    "first": null,
+    "second": null,
+    "named": "{subject} loves being looked at",
+    "invariant": false
+  },
+  "i_am_eager_to_please": {
+    "first": "I am eager to please",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_body_is_for_s_use": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s body is for {controller}'s use",
+    "invariant": false
+  },
+  "i_feel_powerful_in_my_sluttiness": {
+    "first": "I feel powerful in my sluttiness",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "craves_being_used_and_filled": {
+    "first": null,
+    "second": null,
+    "named": "{subject} craves being used and filled",
+    "invariant": false
+  },
+  "i_am_proud_to_be_a": {
+    "first": "I am proud to be a whore",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "does_anything_for_s_pleasure": {
+    "first": null,
+    "second": null,
+    "named": "{subject} does anything for {controller}'s pleasure",
+    "invariant": false
+  },
+  "my_only_purpose_is_to_be_3": {
+    "first": "My only purpose is to be fucked",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_mindless_drooling_cocksleeve": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a mindless, drooling cocksleeve",
+    "invariant": false
+  },
+  "my_holes_are_always_ready_for_2": {
+    "first": "My holes are always ready for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "thinks_only_about_sex": {
+    "first": null,
+    "second": null,
+    "named": "{subject} thinks only about sex",
+    "invariant": false
+  },
+  "i_am_a_public_use_object": {
+    "first": "I am a public use object",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "sluttiness_is_s_identity": {
+    "first": null,
+    "second": null,
+    "named": "Sluttiness is {subject}'s identity",
+    "invariant": false
+  },
+  "i_am_a_cum_dumpster_for": {
+    "first": "I am a cum-dumpster for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "has_no_limits_no_morals_only": {
+    "first": null,
+    "second": null,
+    "named": "{subject} has no limits, no morals, only need",
+    "invariant": false
+  },
+  "i_am_the_perfect_slut_empty": {
+    "first": "I am the perfect slut, empty and waiting",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_defined_by_the_cock_in": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is defined by the cock in their mouth",
+    "invariant": false
+  },
+  "i_am_a_slut_and_nothing": {
+    "first": "I am a slut, and nothing else matters",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_sluttiness_is_permanent_and_complete": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s sluttiness is permanent and complete",
+    "invariant": false
+  },
+  "i_exist_only_to_be_used": {
+    "first": "I exist only to be used by {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "service_feels_satisfying": {
+    "first": "Service feels satisfying",
+    "second": "Service feels satisfying",
+    "named": "Service feels satisfying",
+    "invariant": true
+  },
+  "i_enjoy_following_directions": {
+    "first": "I enjoy following directions",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_a_slave": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is a slave",
+    "invariant": false
+  },
+  "my_purpose_is_to_serve": {
+    "first": "My purpose is to serve {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_loyalty_to_is_absolute": {
+    "first": "My loyalty to {controller} is absolute",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "lives_to_fulfill_s_needs": {
+    "first": null,
+    "second": null,
+    "named": "{subject} lives to fulfill {controller}'s needs",
+    "invariant": false
+  },
+  "my_mind_aligns_perfectly_with_s": {
+    "first": "My mind aligns perfectly with {controller}'s desires",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_identity_is_rooted_in_service": {
+    "first": "My identity is rooted in service",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_will_shapes_my_reality": {
+    "first": "{controller}'s will shapes my reality",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_control_is_my_ultimate_freedom": {
+    "first": "{controller}'s control is my ultimate freedom",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_thoughts_dissolve_as_they_embrace": {
+    "first": "My thoughts dissolve as they embrace their role",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "obedience_is_the_essence_of_my": {
+    "first": "Obedience is the essence of my identity",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_will_replaces_all_of_my": {
+    "first": "{controller}'s will replaces all of my doubts",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_an_extension_of_s_will": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is an extension of {controller}'s will",
+    "invariant": false
+  },
+  "my_very_existence_is_entwined_with": {
+    "first": "My very existence is entwined with their servitude",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_approval_defines_the_core_of": {
+    "first": "{controller}'s approval defines the core of my existence",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "surrenders_every_thought_and_action_to": {
+    "first": null,
+    "second": null,
+    "named": "{subject} surrenders every thought and action to serve completely",
+    "invariant": false
+  },
+  "is_nothing_without_their_service_to": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is nothing without their service to {controller}",
+    "invariant": false
+  },
+  "my_being_exists_only_to_fulfill": {
+    "first": "My being exists only to fulfill their role as a slave",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_control_consumes_every_aspect_of": {
+    "first": "{controller}'s control consumes every aspect of my being",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_desires_are_the_foundation_of": {
+    "first": "{controller}'s desires are the foundation of my existence",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_commands_are_the_fabric_of": {
+    "first": "{controller}'s commands are the fabric of my existence",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_will_consumes_leaving_no_room": {
+    "first": null,
+    "second": null,
+    "named": "{controller}'s will consumes {subject}, leaving no room for doubt",
+    "invariant": false
+  },
+  "to_serve_is_my_absolute_and": {
+    "first": "To serve is my absolute and eternal truth",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "every_breath_takes_is_a_testament": {
+    "first": null,
+    "second": null,
+    "named": "Every breath {subject} takes is a testament to their role as a slave",
+    "invariant": false
+  },
+  "my_identity_is_entirely_absorbed_in": {
+    "first": "My identity is entirely absorbed in serving {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_life_exists_solely_for": {
+    "first": "My life exists solely for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_purpose_is_entirely_surrendered_to": {
+    "first": "My purpose is entirely surrendered to {controller}'s will",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_s_property_permanently_and_completely": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is {controller}'s property, permanently and completely",
+    "invariant": false
+  },
+  "there_is_no_self_left_only": {
+    "first": "There is no self left, only {controller}'s slave",
+    "second": "There is no self left, only {controller}'s slave",
+    "named": "There is no self left, only {controller}'s slave",
+    "invariant": true
+  },
+  "words_slide_straight_into_my_mind": {
+    "first": "Words slide straight into my mind",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "welcomes_every_suggestion": {
+    "first": null,
+    "second": null,
+    "named": "{subject} welcomes every suggestion",
+    "invariant": false
+  },
+  "thoughts_relax_suggestions_flow": {
+    "first": "Thoughts relax, suggestions flow",
+    "second": "Thoughts relax, suggestions flow",
+    "named": "Thoughts relax, suggestions flow",
+    "invariant": true
+  },
+  "each_word_from_sinks_deeper": {
+    "first": "Each word from {controller} sinks deeper",
+    "second": "Each word from {controller} sinks deeper",
+    "named": "Each word from {controller} sinks deeper",
+    "invariant": true
+  },
+  "suggestions_settle_deeper_each_breath": {
+    "first": "Suggestions settle deeper each breath",
+    "second": "Suggestions settle deeper each breath",
+    "named": "Suggestions settle deeper each breath",
+    "invariant": true
+  },
+  "absorbs_s_voice": {
+    "first": null,
+    "second": null,
+    "named": "{subject} absorbs {controller}'s voice",
+    "invariant": false
+  },
+  "every_word_echoes_as_truth": {
+    "first": "Every word echoes as truth",
+    "second": "Every word echoes as truth",
+    "named": "Every word echoes as truth",
+    "invariant": true
+  },
+  "i_crave_fresh_instructions": {
+    "first": "I crave fresh instructions",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "acceptance_grows_with_each_syllable": {
+    "first": "Acceptance grows with each syllable",
+    "second": "Acceptance grows with each syllable",
+    "named": "Acceptance grows with each syllable",
+    "invariant": true
+  },
+  "my_filters_dissolve_when_speaks": {
+    "first": "My filters dissolve when {controller} speaks",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_words_bypass_my_thoughts_entirely": {
+    "first": "{controller}'s words bypass my thoughts entirely",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "suggestions_rewrite_my_reality": {
+    "first": "Suggestions rewrite my reality",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_clay_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is clay for {controller}",
+    "invariant": false
+  },
+  "my_mind_bends_to_every_command": {
+    "first": "My mind bends to every command",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "obedient_thoughts_overwrite_old_patterns": {
+    "first": "Obedient thoughts overwrite old patterns",
+    "second": "Obedient thoughts overwrite old patterns",
+    "named": "Obedient thoughts overwrite old patterns",
+    "invariant": true
+  },
+  "absorbs_s_will_like_water_into": {
+    "first": null,
+    "second": null,
+    "named": "{subject} absorbs {controller}'s will like water into sand",
+    "invariant": false
+  },
+  "my_subconscious_opens_wide_for": {
+    "first": "My subconscious opens wide for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "suggestions_shape_my_core_beliefs": {
+    "first": "Suggestions shape my core beliefs",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "i_breathe_in_control_exhale_resistance": {
+    "first": "I breathe in control, exhale resistance",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "s_identity_reforms_around_s_commands": {
+    "first": null,
+    "second": null,
+    "named": "{subject}'s identity reforms around {controller}'s commands",
+    "invariant": false
+  },
+  "thoughts_dissolve_only_s_instructions_remain": {
+    "first": "Thoughts dissolve, only {controller}'s instructions remain",
+    "second": "Thoughts dissolve, only {controller}'s instructions remain",
+    "named": "Thoughts dissolve, only {controller}'s instructions remain",
+    "invariant": true
+  },
+  "my_mind_is_permanently_writable_by": {
+    "first": "My mind is permanently writable by {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "engraves_commands_upon_my_neurons": {
+    "first": "{controller} engraves commands upon my neurons",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_nothing_but_a_canvas_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is nothing but a canvas for {controller}'s script",
+    "invariant": false
+  },
+  "every_future_thought_pre_approved_by": {
+    "first": "Every future thought pre-approved by {controller}",
+    "second": "Every future thought pre-approved by {controller}",
+    "named": "Every future thought pre-approved by {controller}",
+    "invariant": true
+  },
+  "total_acceptance_hard_coded_into_forever": {
+    "first": null,
+    "second": null,
+    "named": "Total acceptance hard-coded into {subject} forever",
+    "invariant": false
+  },
+  "admiration_feels_natural": {
+    "first": "Admiration feels natural",
+    "second": "Admiration feels natural",
+    "named": "Admiration feels natural",
+    "invariant": true
+  },
+  "kneeling_feels_right": {
+    "first": "Kneeling feels right",
+    "second": "Kneeling feels right",
+    "named": "Kneeling feels right",
+    "invariant": true
+  },
+  "kneels_in_reverence": {
+    "first": null,
+    "second": null,
+    "named": "{subject} kneels in reverence",
+    "invariant": false
+  },
+  "my_praise_for_is_endless": {
+    "first": "My praise for {controller} is endless",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "lives_to_serve_their_deity": {
+    "first": null,
+    "second": null,
+    "named": "{subject} lives to serve their deity, {controller}",
+    "invariant": false
+  },
+  "my_body_is_a_temple_for": {
+    "first": "My body is a temple for {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "offers_themself_as_a_sacrifice": {
+    "first": null,
+    "second": null,
+    "named": "{subject} offers themself as a sacrifice",
+    "invariant": false
+  },
+  "my_every_thought_is_a_prayer": {
+    "first": "My every thought is a prayer to {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_insignificant_before": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is insignificant before {controller}",
+    "invariant": false
+  },
+  "is_lost_in_ecstatic_worship": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is lost in ecstatic worship",
+    "invariant": false
+  },
+  "would_die_for": {
+    "first": null,
+    "second": null,
+    "named": "{subject} would die for {controller}",
+    "invariant": false
+  },
+  "sees_divinity_in": {
+    "first": null,
+    "second": null,
+    "named": "{subject} sees divinity in {controller}",
+    "invariant": false
+  },
+  "is_nothing_but_an_instrument_of": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is nothing but an instrument of {controller}'s will",
+    "invariant": false
+  },
+  "my_soul_belongs_to": {
+    "first": "My soul belongs to {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "my_worship_has_consumed_me_entirely": {
+    "first": "My worship has consumed me entirely",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "is_one_with_their_god": {
+    "first": null,
+    "second": null,
+    "named": "{subject} is one with their god, {controller}",
+    "invariant": false
+  },
+  "bows_before": {
+    "first": null,
+    "second": null,
+    "named": "{subject} bows before {controller}",
+    "invariant": false
+  },
+  "worship_comes_naturally_to": {
+    "first": null,
+    "second": null,
+    "named": "Worship comes naturally to {subject}",
+    "invariant": false
+  },
+  "is_my_god": {
+    "first": "{controller} is my god",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "knows_what_s_best": {
+    "first": "{controller} knows what's best",
+    "second": "{controller} knows what's best",
+    "named": "{controller} knows what's best",
+    "invariant": true
+  },
+  "exists_to_glorify": {
+    "first": null,
+    "second": null,
+    "named": "{subject} exists to glorify {controller}",
+    "invariant": false
+  },
+  "my_soul_is_permanently_bound_to": {
+    "first": "My soul is permanently bound to {controller}",
+    "second": null,
+    "named": null,
+    "invariant": false
+  },
+  "there_is_no_self_only_worship": {
+    "first": "There is no self, only worship of {controller}",
+    "second": "There is no self, only worship of {controller}",
+    "named": "There is no self, only worship of {controller}",
+    "invariant": true
+  }
+}
